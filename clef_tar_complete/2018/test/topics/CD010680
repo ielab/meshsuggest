@@ -1,0 +1,47 @@
+Ankle Brachial Index/
+Oscillometry/ [Methods]
+Blood Pressure Determination/
+Laser-Doppler Flowmetry/
+oscillometr$.ti,ab.
+(doppler adj2 (ultrasound or flow$ or method or device)).ti,ab.
+ABI.ti,ab.
+ABPI.ti,ab.
+AAI.ti,ab.
+(ankle adj4 index).ti,ab.
+(arm adj4 index).ti,ab.
+(brachial adj4 (index or pressure)).ti,ab.
+(systolic adj5 ratio).ti,ab.
+(pressure adj5 ratio).ti,ab.
+(BP adj5 ratio).ti,ab.
+(four and limbs and pressure).ti,ab.
+or/1-16
+(anterior tibial or dorsalis pedis or posterior tibial).ti,ab.
+(ankle or arm or elbow or calf ).ti,ab.
+(lower and upper and (extremit$ or limb)).ti,ab.
+or/18-20
+(systolic or pressure).ti,ab.
+21 and 22
+17 or 23
+exp Peripheral Vascular Diseases/di [Diagnosis]
+Arterial Occlusive Diseases/di [Diagnosis]
+exp Arteriosclerosis/di [Diagnosis]
+exp Atherosclerosis/di [Diagnosis]
+exp Peripheral Arterial Disease/di [Diagnosis]
+Intermittent Claudication/di [Diagnosis]
+(atherosclero* or arteriosclero* or PVD or PAOD or PAD).ti,ab.
+(arter$ adj4 ($occlus$ or steno$ or obstruct$ or lesio$ or block$ or obliter$)).ti,ab.
+(vascular adj4 (occlus* or steno* or obstruct* or lesio* or block* or obliter*)).ti,ab.
+(vein* adj4 (occlus* or steno* or obstruct* or lesio* or block* or obliter*)).ti,ab.
+(veno* adj4 (occlus* or steno* or obstruct* or lesio* or block* or obliter*)).ti,ab.
+(peripher* adj4 (occlus* or steno* or obstruct* or lesio* or block* or obliter*)).ti,ab.
+(peripheral adj3 dis*).ti,ab.
+arteriopathic.ti,ab.
+(claudic* or hinken* or IC).ti,ab.
+CLI.ti,ab.
+dysvascular*.ti,ab.
+(leg adj4 (obstruct* or occlus* or steno* or block* or obliter*)).ti,ab.
+(limb adj4 (obstruct* or occlus* or steno* or block* or obliter*)).ti,ab.
+(lower adj3 extrem* adj4 (obstruct* or occlus* or steno* or block* or obliter*)).ti,ab.
+or/25-44
+24 and 45
+limit 46 to ed=19460101-20130201 

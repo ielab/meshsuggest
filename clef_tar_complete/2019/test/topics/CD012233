@@ -1,0 +1,21 @@
+exp Gallbladder/ OR exp Gallbladder Neoplasm/ OR exp Gallbladder Diseases/
+Gallbladder*.tw
+Biliary.tw
+Billiary.tw
+Gall-bladder*.tw
+1 OR 2 OR 3 OR 4 OR 5
+exp Polyps/ OR exp Adenomatous Polyps/
+Polyps.tw or Polyp.tw
+Polypos*.tw
+polypoid*.tw
+Polypectom*.tw
+7 OR 8 OR 9 OR 10 OR 11
+Ultrasonography/ OR ultrasonography.fs
+Ultrasound*.tw OR Ultra-sound*.tw
+Ultrasonogra*.tw OR Ultra-sonogra*.tw
+Ultrasonic.tw OR Ultra-sonic.tw
+Echo*.tw OR Doppler*.tw OR Sonogra*.tw
+EUS.tw
+13 OR 14 OR 15 OR 16 OR 17 OR 18
+6 AND 12 AND 19
+limit 20 to ED=19460101-20180709 

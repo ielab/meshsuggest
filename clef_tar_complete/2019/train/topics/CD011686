@@ -1,0 +1,60 @@
+(NEXUS or CCR).mp.
+National Emergency X-Radiography.mp.
+(Canadian c-spine or Canadian cervical spine).mp.
+((Clinical or critical or treatment) adj3 (pathway* or protocol*)).mp.
+(algorithm* or guideline*).mp.
+(decision adj3 (tree* or rule* or tool*)).mp.
+(triage or protocol*).mp.
+or/1-7 [Triage tool keywords]
+exp Guideline/
+Guideline Adherence/
+exp guidelines as topic/
+exp algorithms/
+exp Clinical Protocols/ [includes antineoplastic protocols]
+Decision Trees/
+exp decision support techniques/ [includes data interpretation, statistical]
+Critical Pathways/
+triage/
+or/9-17 [Triage tool MeSH terms]
+8 or 18 [Triage tools]
+((neurolog* or physical* or clinical*) adj3 (exam* or assess* or sign*)).mp.
+MRI* .mp.
+(CT* or Computed Tomography or CAT scan*).mp.
+(X ray* or x-ray* or xray* or radiogra* or roentgenogra*).mp.
+Imaging.mp.
+or/20-24 [Reference standard keywords]
+exp physical examination/ or exp neurologic examination/
+exp trauma severity indices/ [includes Glasgow Coma Scale, Injury Severity Score, others]
+"Severity of Illness Index"/ [not exploded eave out Karnofsky Performance Status ancer ADL measure]
+X-Rays/
+Tomography/ or exp Tomography, Emission-Computed/ or exp Tomography, X-Ray/ [includes tomography, x-ray computed]
+exp Magnetic Resonance Imaging/
+Radiography/
+or/26-32 [Reference standard MeSH terms]
+25 or 33 [Reference standard]
+19 or 34 [Triage tools or reference standard]
+((Cervical spine or c-spine) adj5 clear*).mp.
+(cervical adj5 (trauma* or injur* or fracture* or sublux* or dislocat* or avuls* or instab*)).mp. [cervical spine injury, cervical spine trauma]
+(Spinal cord injury without radiographic abnormality or SCIWORA).mp.
+or/36-38 [cervical trauma keywords]
+exp Cervical Vertebrae/ [includes axis and atlas]
+exp Neck Injuries/ [includes whiplash injuries]
+exp Spinal Injuries/ [includes spinal fractures]
+exp Spinal Cord Injuries/ [includes spinal cord compression, others]
+spinal fractures/
+or/40-44 [cervial trauma MeSH terms]
+39 or 45 [cervical trauma terms]
+(Pediatric* or paediatric* or peadiatric*).mp.
+(Child* ).mp.
+(neonate* or newborn* or new-born*).mp.
+(infant* or baby or babies or toddler*).mp.
+(adolescen* or juvenile* or youth* or teen* or preteen*).mp.
+or/47-51 [pediatric keywords]
+exp Pediatrics/ [includes perinataology, neonatology]
+exp Child/ [includes child, preschool]
+exp Infant/ [includes infant, newborn]
+Adolescent/
+or/53-56 [pediatric MeSH terms]
+52 or 57 [Pediatric terms]
+35 and 46 and 58
+limit 59 to ed=19460101-20150228 

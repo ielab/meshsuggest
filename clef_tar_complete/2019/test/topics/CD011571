@@ -1,0 +1,22 @@
+psoria$.ti,ab. or exp PSORIASIS/
+Streptococcal Infections/
+exp Streptococcus/
+exp Streptococcal Vaccines/
+streptococc$.ti,ab.
+tonsillectomy.ti,ab.
+Tonsillectomy/
+exp Anti-Bacterial Agents/
+antibiotic$.ti,ab.
+or/2-9
+randomized controlled trial.pt.
+controlled clinical trial.pt.
+randomized.ab.
+placebo.ab.
+clinical trials as topic.sh.
+randomly.ab.
+trial.ti.
+11 or 12 or 13 or 14 or 15 or 16 or 17
+exp animals/ not humans.sh.
+18 not 19
+1 and 10 and 20
+limit 21 to ed="19480101-20190123" 

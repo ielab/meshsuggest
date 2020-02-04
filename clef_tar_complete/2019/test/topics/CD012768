@@ -1,0 +1,16 @@
+Mycobacterium tuberculosis/
+Tuberculosis/ or "Tuberculosis, Multidrug-Resistant"/ or Extensively Drug-Resistant Tuberculosis/
+(Tuberculosis or MDR-TB or XDR-TB or "Multidrug Resistant Tuberculosis" or "Extensively Drug Resistant Tuberculosis" or tuberculous).ti. ab .
+(extrapulmonary or extra-pulmonary or EPTB).ti. ab .
+(lymphadenitis or disseminated or miliary or pleur* or skeletal or spine or mening* or intracranial or intra-ocular or ocular or abdominal or splenic or genitourinary or pericardial).ti. ab .
+"Tuberculosis, Central Nervous System"/ or "Tuberculosis, Urogenital"/ or "Tuberculosis, Splenic"/ or "Tuberculosis, Spinal"/ or "Tuberculosis, Renal"/ or "Tuberculosis, Pleural"/ or "Tuberculosis, Osteoarticular"/ or "Tuberculosis, Oral"/ or "Tuberculosis, Ocular"/ or "Tuberculosis, Meningeal"/ or "Tuberculosis, Lymph Node"/ or "Tuberculosis, Laryngeal"/ or "Tuberculosis, Hepatic"/ or "Tuberculosis, Gastrointestinal"/ or "Tuberculosis, Female Genital"/ or "Tuberculosis, Endocrine"/ or "Tuberculosis, Cutaneous"/ or "Tuberculosis, Cardiovascular"/ or Tuberculosis, Miliary/ or Tuberculosis, Male Genital/
+1 or 2 or 3
+4 or 5
+7 and 8
+9 or 6
+Xpert*.ti. ab .
+(GeneXpert or cepheid).ti.ab .
+(near* patient or near-patient).ti.ab
+11 or 12 or 13
+10 and 14
+limit 15 to ED=19460101-20170807 

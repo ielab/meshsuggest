@@ -1,0 +1,9 @@
+oxygen.mp or exp oxygen/
+exp resuscitation/ or resuscitation.mp
+1 and 2
+exp infant, premature/ or preterm.mp
+premature.mp
+4 or 5
+3 and 6
+limit 7 to (humans and clinical trial/all)
+limit 8 to ed= "19480101-20171013" 

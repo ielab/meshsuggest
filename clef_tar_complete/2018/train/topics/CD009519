@@ -1,0 +1,14 @@
+exp Lung Neoplasms/
+((lung or lungs or pulmonary) adj3 (neoplasm$ or cancer$ or carcinoma$ or adenocarcinoma$ or angiosarcoma$ or chrondosarcoma$ or sarcoma$ or teratoma$ or lymphoma$ or blastoma$ or microcytic$ or tumour$ or tumor$)).ti,ab.
+NSCLC.ti,ab.
+or/1-3
+Tomography/
+Tomography, Emission-Computed/
+Positron-Emission Tomography/
+Tomography, Spiral Computed/
+Fluorodeoxyglucose F18/
+(FDG or Fludeoxyglucose or fluorodeoxyglucose or depreotide).tw.
+((positron or photon or scintillation) adj3 (emission or tomograph$)).tw.
+(CGC or PET or SPECT or NEOTECT or NEOSPECT or NEOTEC).tw.
+or/5-12
+4 and 13 

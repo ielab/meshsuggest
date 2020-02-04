@@ -1,0 +1,36 @@
+exp "Prostatitis"/
+prostatit*.ti,ab,kf
+prostatodyn*.ti,ab,kf
+1 OR 2 OR 3
+exp "Pelvic Pain"/
+pelvic pain.ti,ab,kf
+CPP*.ti,ab,kf
+5 OR 6 OR 7
+4 AND 8
+exp "Asymptomatic Diseases"/
+asymptom*.ti,ab,kf
+nonsymptom*.ti,ab,kf
+non symptom*.ti,ab,kf
+abacterial*.ti,ab,kf
+nonbacterial*.ti,ab,kf
+non bacterial*.ti,ab,kf
+aseptic*.ti,ab,kf
+nonseptic*.ti,ab,kf
+non septic*.ti,ab,kf
+10 OR 11 OR 12 OR 13 OR 14 OR 15 OR 16 OR 17 OR 18 OR 19
+4 AND 20
+"chronic prostatitis chronic pelvic pain syndrome".ti,ab,kf OR CP CPP*.ti,ab,kf
+9 OR 21 OR 22
+"Randomized Controlled Trial".pt
+"Controlled Clinical Trial".pt
+randomized.ti,ab,kf
+placebo.ti,ab,kf
+"drug therapy".fs
+randomly.ti,ab,kf
+trial.ti,ab,kf
+groups.ti,ab,kf
+24 OR 25 OR 26 OR 27 OR 28 OR 29 OR 30 OR 31
+exp "Animals"/ NOT "Humans"/
+32 NOT 33
+23 AND 34
+limit 35 to ed= "19480101-20170811" 

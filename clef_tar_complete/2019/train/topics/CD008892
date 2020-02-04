@@ -1,0 +1,24 @@
+typhoid fever/
+exp Salmonella enterica/
+exp paratyphoid fever/
+"typhoid fever".mp.
+"paratyphoid fever".mp.
+"enteric fever".mp.
+(typhi or paratyphi or "salmonella enterica").ab. or (typhi or paratyphi or "salmonella enterica").ti.
+1 or 2 or 3 or 4 or 5 or 6 or 7
+"rapid diagnostic test*".ab. or "rapid diagnostic test*".ti.
+RDT*.ab. or RDT*.ti.
+"serodiagnostic test*".ab. or "serodiagnostic test*".ti.
+(Widal or "DOT enzyme immunoassay" or typhiDOT or TUBEX).ab. or (Widal or "DOT enzyme immunoassay" or typhiDOT or TUBEX).ti.
+("solid-phase" or "DOT blot").ab. or ("solid-phase" or "DOT blot").ti.
+serodiagnosis/
+immunoblotting/
+"immunochromatographic lateral flow assay*".ab. or "immunochromatographic lateral flow assay*".ti.
+(typhirapid or "latex agglutination" or "test-it-typhoid" or enterocheck or "SD bioline" or "dip-s-tick" or panbio or "mega salmonella" or naats or "nucleid acid amplication test*").ab. or (typhirapid or "latex agglutination" or "test-it-typhoid" or enterocheck or "SD bioline" or "dip-s-tick" or panbio or "mega salmonella" or naats or "nucleid acid amplication test*").ti.
+("antigen detection" or "antibody detection").ab. or ("antigen detection" or "antibody detection").ti.
+("blood culture*" or "bone marrow culture*").ab. or ("blood culture*" or "bone marrow culture*").ti.
+Reagent Kits, Diagnostic/
+Serologic Tests/
+9 or 10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20 or 21
+8 and 22
+limit 23 to ed=19660101-20160301 

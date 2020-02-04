@@ -1,0 +1,20 @@
+exp Helicobacter pylori/ or Helicobacter/
+(pylori or pyloridis).mp.
+Helicobacter.mp.
+HP.mp.
+Campylobacter.mp.
+1 or 2 or 3 or 4 or 5
+exp Breath Tests/
+(breath adj3 test).mp.
+exp Enzyme-Linked Immunosorbent Assay/
+(Enzyme-Linked Immunosorbent Assay or ELISA).mp.
+exp Blotting, Western/
+(Western adj1 (blot or blotting or immunoblot or immunoblotting)).mp.
+Latex Fixation Tests/
+("latex agglutination test" or "latex fixation test" or LAT).mp.
+((stool or "stool antigen" or feces or faeces or fecal or faecal) adj3 test).mp.
+7 or 8 or 9 or 10 or 11 or 12 or 13 or 14 or 15
+6 and 16
+exp animals/ not humans.sh.
+17 not 18
+limit 19 to ED=19460101-20160304 

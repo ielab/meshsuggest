@@ -1,0 +1,10 @@
+exp Ultrasonography/
+(ultrason* or ultrasound* or echotomograph* or echo tomograph* or echograph* or sonograph* or ultra sound or acoustic).ti,ab,kw.
+1 or 2
+exp Intubation, Gastrointestinal/
+((stomach or gastric or gastro* or nasogastric or feeding or fine bore or Ryles) adj3 (tube* or intubat*)).ti,ab,kw.
+4 or 5
+3 and 6
+animals/ not human/s
+7 not 8
+limit 9 to ed=19460101-20160228 

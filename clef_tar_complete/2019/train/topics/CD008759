@@ -1,0 +1,11 @@
+exp Platelet Count/
+(((platelet* or thrombocyt*) adj (count or distribution or volume)) or PLT or PDW or MPV).mp.
+1 or 2
+exp Splenomegaly/
+(((splenic* or spleen*) adj3 (enlarg* or hypertroph or length or palpable or size or diamet* or index or examin*)) or splenomegal*).mp.
+4 or 5
+(Esophageal and Gastric Varices).mp.
+((esophag* or oesophag*) adj3 (varic* or varix*)).mp.
+7 or 8
+(3 or 6) and 9
+limit 10 to ed=19460101-20160630 

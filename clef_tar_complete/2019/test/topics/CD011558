@@ -1,0 +1,46 @@
+parturition/ 
+delivery, obstetric/ 
+labor, obstetric/ 
+Live birth/ 
+Natural childbirth/ 
+Term Birth/ 
+Maternal health services/ 
+Maternal mortality/ 
+Perinatal care/ 
+Postnatal care/ or Postpartum Period/ 
+Prenatal care/ 
+Birthing Centers/ 
+(birth$ or childbirth? or child birth$ or deliver or deliveries or delivery or labor or labour or lying in or accouchement or parturition? or obstetric? or gynecolog* or gynaecolog* or perinatal or prenatal or "pre natal" or antenatal or "ante natal" or postnatal or "post natal" or "maternal health" or "maternal mortality" or post-partum or "post partum" or postpartum or eclampsia or pre-eclampsia or preeclampsia or "hellp syndrome" or intrapartum or intra-partum or "intra partum").tw. 
+Obstetrics/ or exp Obstetric Labor Complications/ 
+hypertension, pregnancy-induced/ or eclampsia/ or hellp syndrome/ or pre-eclampsia/ 
+exp Home Childbirth/ 
+(((home* or noninstitutional or non-institutional or domicile* or village* or domestic or community) adj3 (deliver* or birth* or childbirth* or child birth*)) or "place of delivery" or "place of birth*" or "place of childbirth*").tw. 
+or/1-17 
+exp Physicians/ 
+exp Nurses/ 
+Midwifery/ 
+Obstetrical Nursing/ 
+Professional practice/ or Clinical competence/ 
+(doctor* or obstetrician* or nurse or nurses or midwi* or physician* or "skilled health provider*" or "skilled attend*" or "skilled birth attend*" or "skilled health" or " skilled assistan*" or "skilled care" or "skilled manpower" or " skilled delivery" or "skilled staff").tw. 
+or/19-24 
+Developing Countries.sh,kf. 
+exp Africa/ or exp Asia/ or exp Caribbean/ or exp West Indies/ or exp South America/ or exp Latin America/ or exp Central America/ 
+(Africa or Asia or Caribbean or West Indies or South America or Latin America or Central America).tw. 
+exp Russia/ or (Afghanistan or Albania or Algeria or Angola or Antigua or Barbuda or Argentina or Armenia or Armenian or Azerbaijan or Bangladesh or Barbados or Benin or Byelarus or Byelorussian or Belarus or Belorussian or Belorussia or Belize or Bhutan or Bolivia or Bosnia or Herzegovina or Hercegovina or Botswana or Brazil or Bulgaria or Burkina Faso or Burkina Fasso or Upper Volta or Burundi or Urundi or Cambodia or Khmer Republic or Kampuchea or Cameroon or Cameroons or Cameron or Camerons or Cape Verde or Central African Republic or Chad or Chile or China or Colombia or Comoros or Comoro Islands or Comores or Mayotte or Congo or Zaire or Costa Rica or Cote d'Ivoire or Ivory Coast or Croatia or Cuba or Djibouti or French Somaliland or Dominica or Dominican Republic or East Timor or East Timur or Timor Leste or Ecuador or Egypt or United Arab Republic or El Salvador or Eritrea or Ethiopia or Fiji or Gabon or Gabonese Republic or Gambia or Gaza or Georgia Republic or Georgian Republic or Ghana or Gold Coast or Grenada or Guatemala or Guinea or Guam or Guiana or Guyana or Haiti or Honduras or India or Maldives or Indonesia or Iran or Iraq or Jamaica or Jordan or Kazakhstan or Kazakh or Kenya or Kiribati or Korea or Kosovo or Kyrgyzstan or Kirghizia or Kyrgyz Republic or Kirghiz or Kirgizstan or Lao PDR or Laos or Latvia or Lebanon or Lesotho or Basutoland or Liberia or Libya or Lithuania or Macedonia or Madagascar or Malagasy Republic or Malaysia or Malaya or Malay or Sabah or Sarawak or Malawi or Nyasaland or Mali or Marshall Islands or Mauritania or Mauritius or Agalega Islands or Mexico or Micronesia or Middle East or Moldova or Moldovia or Moldovian or Mongolia or Montenegro or Morocco or Ifni or Mozambique or Myanmar or Myanma or Burma or Namibia or Nepal or Netherlands Antilles or New Caledonia or Nicaragua or Niger or Nigeria or Northern Mariana Islands or Oman or Muscat or Pakistan or Palau or Palestine or Panama or Paraguay or Peru or Philippines or Philipines or Phillipines or Phillippines or Papua New Guinea or Portugal or Romania or Rumania or Roumania or Russia or Russian or Rwanda or Ruanda or Saint Lucia or St Lucia or Saint Vincent or St Vincent or Grenadines or Samoa or Samoan Islands or Navigator Island or Navigator Islands or Sao Tome or Senegal or Serbia or Montenegro or Seychelles or Sierra Leone or Sri Lanka or Ceylon or Solomon Islands or Somalia or Sudan or Suriname or Surinam or Swaziland or South Africa or Syria or Tajikistan or Tadzhikistan or Tadjikistan or Tadzhik or Tanzania or Thailand or Togo or Togolese Republic or Tonga or Trinidad or Tobago or Tunisia or Turkey or Turkmenistan or Turkmen or Uganda or Ukraine or Uruguay or USSR or Soviet Union or Union of Soviet Socialist Republics or Uzbekistan or Uzbek or Vanuatu or New Hebrides or Venezuela or Vietnam or Viet Nam or West Bank or Yemen or Yugoslavia or Zambia or Zimbabwe).tw. 
+((developing or less* developed or under developed or underdeveloped or middle income or low* income or underserved or under served or deprived or poor*) adj (countr* or nation? or population? or world or state*)).ti,ab. 
+((developing or less* developed or under developed or underdeveloped or middle income or low* income) adj (economy or economies)).ti,ab. 
+(low* adj (gdp or gnp or gross domestic or gross national)).tw. 
+(low adj3 middle adj3 countr*).tw. 
+(lmic or lmics or third world or lami countr*).tw. 
+transitional countr*.tw. 
+or/26-35 
+qualitative research/ 
+(qualitative or ethno$ or emic or etic or phenomenolog$ or hermeneutic$ or heidegger$ or husserl$ or colaizzi$ or giorgi$ or glaser or strauss or van kaam$ or van manen or constant compar$).ti,ab. 
+Focus groups/ or Interview/ or Interviews as Topic/ or Health services administration/ or Questionnaires/ or Self-report/ 
+(focus group$ or grounded theory or narrative analys$ or lived experience$ or life experience$ or theoretical sampl$ or purposive sampl$ or ricoeur or spiegelberg$ or merleau or metasynthes$ or meta-synthes$ or metasummar$ or meta-summar$ or metastud$ or meta-stud$ or maximum variation or snowball).ti,ab. 
+((thematic$ adj3 analys$) or (content analy$ or field note$ or fieldnote$ or field record$ or field stud$) or (participant$ adj3 observ$) or (nonparticipant$ adj3 observ$) or (non participant$ adj3 observ$)).ti,ab. 
+(semi-structured or semistructured or structured categor$ or unstructured categor$ or action research or (audiorecord$ or taperecord$ or videorecord$ or videotap$) or ((audio or tape or video$) adj5 record$) or interview* or quasi-experiment* or (case adj stud*)).ti,ab. 
+(collaborat* or consultat* or experience or involve* or narrative* or opinion* or participat* or partner* or perspective* or story or stories or "social science*" or view* or voice*).ti,ab. 
+37 or 38 or 39 or 40 or 41 or 42 or 43 
+18 and 25 and 36 and 44 
+limit 45 to yr="2013 -2016" 
