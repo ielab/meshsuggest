@@ -1,0 +1,54 @@
+exp Aortic Aneurysm/
+Aorta, Abdominal/su [Surgery]
+(abdom* adj3 aneurysm?).tw,kf.
+(aort* adj3 aneurysm?).tw,kf.
+(abdom* adj3 aort*).tw,kf.
+(aort* adj3 morphol*).tw,kf.
+(EVAR or TEVAR or EVRAR).tw,kf.
+AAA*.tw,kf.
+1 or 2 or 3 or 4 or 5 or 6 or 7 or 8
+Blood Vessel Prosthesis/
+Blood Vessel Prosthesis Implantation/
+Endovascular Procedures/
+endovascular.tw,kf.
+endoluminal*.tw,kf.
+endoprosthe*.tw,kf.
+exp stents/
+stent*.tw,kf.
+graft*.tw,kf.
+endograft*.tw,kf.
+prosthe*.tw,kf.
+10 or 11 or 12 or 13 or 14 or 15 or 16 or 17 or 18 or 19 or 20
+(aort* or abdominal).tw,kf.
+21 and 22
+9 or 23
+postoperative complications/ or anastomotic leak/ or prosthesis failure/
+(endoleak* or endotension).tw,kf.
+perigraft leak*.tw,kf.
+perigraft flow.tw,kf.
+follow-up.tw,kf.
+surveillance.tw,kf.
+postoperative.tw,kf.
+outcome.tw,kf.
+evaluat*.tw,kf.
+effecti*.tw,kf.
+25 or 26 or 27 or 28 or 29 or 30 or 31 or 32 or 33 or 34
+us.fs.
+ultrasonics/
+ultrasonography/
+ultrasonography, Doppler/
+ultrasonography, Doppler, color/
+ultrasonography, Doppler, duplex/
+ultrasonography, Doppler, pulsed/
+ultrasound.tw,kf.
+ultrasonic imaging.tw,kf.
+ultrasonogra*.tw,kf.
+echograph*.tw,kf.
+(USS or DUS or CDUS or CEUS).tw,kf.
+(doppler or duplex).tw,kf.
+sonograph*.tw,kf.
+sonogram*.tw,kf.
+(contrast adj4 US).tw,kf.
+36 or 37 or 38 or 39 or 40 or 41 or 42 or 43 or 44 or 45 or 46 or 47 or 48 or 49 or 50 or 51
+24 and 35 and 52
+limit 53 to ed=19460101-20160701 

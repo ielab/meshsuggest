@@ -1,0 +1,35 @@
+cradle cap.ti,ab.
+crusta lactea.ti,ab.
+milk crust.ti,ab.
+honeycomb disease.ti,ab.
+or/1-4
+pityriasis capitis.ti,ab.
+seborrhea.ti,ab.
+Dermatitis, Seborrheic/
+seborrh$ dermatitis.ti,ab.
+scalp dermatos$.ti,ab.
+Scalp Dermatoses/
+scalp dermatitis.ti,ab.
+scalp eczema.ti,ab.
+seborrh$ eczema.ti,ab.
+or/6-14
+neonat$.mp.
+child$.ti,ab.
+infant$.mp.
+exp Infant/
+Child, Preschool/
+16 or 17 or 18 or 19 or 20
+15 and 21
+5 or 22
+randomized controlled trial.pt.
+controlled clinical trial.pt.
+randomized.ab.
+placebo.ab.
+clinical trials as topic.sh.
+randomly.ab.
+trial.ti.
+24 or 25 or 26 or 27 or 28 or 29 or 30
+exp animals/ not humans.sh.
+31 not 32
+23 and 33
+limit 34 to ED=19460101-20180522 

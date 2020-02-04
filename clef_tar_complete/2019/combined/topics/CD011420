@@ -1,0 +1,3 @@
+(test[tiab] OR assay[tiab] OR antigen[tiab] OR Ag[tiab] OR lateral flow assay*[tiab] OR urine antigen[tiab] OR point of care[tiab])
+AND	(LAM[tiab] OR "lipoarabinomannan"[Supplementary Concept] OR lipoarabinomannan[tiab])
+AND (Tuberculosis[Mesh] OR Mycobacterium tuberculosis[Mesh] OR tuberculosis[tiab] Or TB[tiab]) AND 1940/01/01:2015/02/28[crdt] 

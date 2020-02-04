@@ -1,0 +1,21 @@
+Heparin/
+Heparin.tw
+Heparin, Low-Molecular-Weight/
+(LMWH OR low molecular weight heparin OR nadroparin OR fraxiparin OR enoxaparin OR clexane OR lovenox OR dalteparin OR fragmin OR ardeparin OR normiflo OR tinzaparin OR logiparin OR innohep OR certoparin OR sandoparin OR reviparin OR clivarin OR danaproid OR orgaran).tw
+1 OR 2 OR 3 OR 4
+Coumarins/
+Warfarin/
+(warfarin OR coumadin OR acenocumarol OR phenprocumon OR 4-hydroxicoumarins OR oral anticoagulant OR vitamin K antagonist OR VKA).tw
+6 OR 7 OR 8
+(fondaparinux OR Arixtra).tw
+(ximelagatran OR Exanta).tw
+(Pradaxa or Dabigatran or rivaroxaban or Xarelto or apixaban).tw.
+5 OR 9 OR 10 OR 11 OR 12
+Neoplasms/
+(malignan$ OR neoplasm$ OR cancer OR carcinoma$ OR adenocarcinoma OR tumor OR tumor).tw
+14 OR 15
+clinical trial.pt. OR random:.tw. OR tu.xs.
+animals/ NOT human/
+17 NOT 18
+13 AND 16 AND 19
+limit 20 to ed="19480101-20180514" 

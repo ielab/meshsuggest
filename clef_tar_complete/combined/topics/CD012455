@@ -1,0 +1,5 @@
+Critical Illness/ or Critical Care/ or exp Intensive Care Units/ or (ICU or ((intensive or critical) adj3 (care or unit*)) or (critical* adj3 ill*)).mp. or Respiration, Artificial/ or (mechanical* adj3 ventilat*).mp. or (artificial* adj3 respiration*).mp.
+exp "Hypnotics and Sedatives"/ or Melatonin/ or sleep/ or (sleep* or hypnotic* or sedat* or melatonin).mp.
+((randomized controlled trial or controlled clinical trial).pt. or randomi*.ab. or placebo.ab. or clinical trials as topic.sh. or randomly.ab. or trial.ti.) not (animals not (humans and animals)).sh.
+1 and 2 and 3
+limit 4 to ed="19480101-20170926" 

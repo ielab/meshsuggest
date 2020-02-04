@@ -1,0 +1,54 @@
+exp Mouth/
+Cheek/
+or/1-2
+exp Carcinoma, squamous cell/di
+exp Precancerous conditions/di
+(tumor$ or tumour$ or cancer$ or carcinoma$ or carcinogen$ or neoplas$ or malignan$ or metasta$ or dysplas$ or lesion$ or ulcer$).tw,ot.
+(pre-cancer$ or precancer$ or premalignan$ or precursor$ or "lichen planus" or leukoplakia or "submucous fibrosis" or (actinic adj2 keratosis) or candidiasis or erythroplakia or erythroplas$ or erythroleukoplakia or hyperplas$ or hyperkeratos$).tw,ot.
+or/4-7
+3 and 8
+exp Mouth neoplasms/di
+Lichen Planus, Oral/di
+Oral submucous fibrosis/di
+Oral candidiasis/di
+((oral$ or mouth$ or bucca$ or "oral cavit$" or (oral adj mucosa$) or (mouth adj mucosa$) or lip or lips or tongue$ or gingiv$ or palat$ or cheek$ or "intra oral$" or intraoral$ or gum or gums or labial$) adj3 (tumor$ or tumour$ or cancer$ or carcinoma$ or carcinogen$ or neoplas$ or malignan$ or metasta$ or dysplas$ or lesion$ or ulcer$ or pre-cancer$ or precancer$ or premalignan$ or precursor$ or "lichen planus" or leukoplakia or "submucous fibrosis" or (actinic adj2 keratosis) or candidiasis or erythroplakia or erythroplas$ or erythroleukoplakia or hyperplas$ or hyperkerato$)).tw,ot.
+or/10-14
+9 or 15
+Cytodiagnosis/
+Cytological techniques/
+Cytophotometry/
+(brush adj3 biops$).tw,ot.
+("oral cdx" or oralcdx).tw,ot.
+("modified liquid based cytology" or (exfoliat$ adj3 cytolog$)).tw,ot.
+(brush$ and (cytodiagnosis or cytopathology)).tw,ot.
+Tolonium chloride/du
+Coloring agents/du
+("tolonium chloride" or "tolu?dine blue" or "tolu?dine b" or tblue or t-blue).tw,ot.
+(tolu?dine adj6 (dye$ or rins$ or stain$ or wash$)).tw,ot.
+exp Luminescence/du
+Fluorescence/
+Spectrometry, fluorescence/
+exp Luminescent Agents/du
+Light/du
+Tomography, Optical Coherence/
+(visual$ adj5 ("light emitting diode" or "blue spectrum" or LED or luminous$)).tw,ot.
+(visuali?ation adj3 adjunct$).tw,ot.
+(vizilite or microlux$ or orascoptic or velscope).tw,ot.
+lumenoscop$.tw,ot.
+((tumor$ or tumour$ or cancer$ or carcinoma$ or neoplas$ or carcinogen$ or malignan$ or metata$ or lesion$ or ulcer$) adj5 (fluorescen$ or autofluorescen$ or luminescen$ or chemiluminescen$)).tw,ot.
+(tissue adj3 reflect$).tw,ot.
+Spectrophotometry/
+Acetic acid/du
+(acetic acid adj3 (wash$ or rins$)).tw,ot.
+acetowhite.tw,ot.
+Saliva/an, ch
+Tumor Markers, Biological/an
+(("tumo?r marker$" or "neoplas$ marker$") adj3 (blood or saliva)).tw,ot.
+((analy$ or screen$ or test$ or examin$) adj3 (blood or saliva)).tw,ot.
+Diagnosis, Oral/
+Mass screening/
+Physical examination/
+((oral$ or mouth$) adj5 (exam$ or histolog$ or check$ or inspect$)).tw,ot.
+(visual$ adj3 (exam$ or inspect$ or screen$)).tw,ot.
+or/17-52
+16 and 53 

@@ -1,0 +1,27 @@
+exp CONTRACEPTION/
+CONTRACEPTIVE/
+CONTRACEPTIVE AGENT/
+CONTRACEPTIVE BEHAVIOUR/
+CONTRACEPTIVE DEVICE
+FAMILY PLANNING/
+Contracept*
+Condom*
+Contraceptive agent
+Barrier contracepti*
+Family planning
+Emergency contracept*
+Intrauterine contracept* device*
+Postcoital contracept*
+OR 1-14
+SOCIAL NETWORK/
+SOCIAL MEDIA/
+Social Media
+Social network*
+Facebook
+Twitter
+Instagram
+Snapchat
+Myspace
+OR 16-24
+15 AND 25
+limit 26 to ED=19460101-20180115 

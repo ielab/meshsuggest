@@ -1,0 +1,5 @@
+Lidocaine/ or (lidocain* or Lignocain* or Xylocain*).mp.
+exp Pain, Postoperative/ or exp Postoperative Care/ or Postoperative Complications/ or Pain/ or ((post operative or postoperative) adj6 (pain* or recovery)).ti,ab.
+((randomised controlled trial or controlled clinical trial).pt. or randomized.ab. or placebo.ab. or clinical trials as topic.sh. or randomly.ab. or trial.ti.) not (animals not (humans and animals)).sh.
+1 and 2 and 3
+limit 4 to ed ="19480101-20170125" 

@@ -1,0 +1,26 @@
+exp Papillomavirus Infections/
+exp Papillomaviridae/
+HPV*.mp.
+human papillomavirus*.mp.
+human papilloma virus*.mp.
+or/1-5
+exp Papillomavirus Vaccines/
+gardasil.mp.
+cervarix.mp.
+vaccin*.mp.
+immuni*.mp.
+or/7-11
+6 and 12
+randomised controlled trial.pt.
+controlled clinical trial.pt.
+randomized.ab.
+placebo.ab.
+drug therapy.fs.
+randomly.ab.
+trial.ab.
+groups.ab.
+or/14-21
+13 and 22
+(animals not (humans and animals)).sh.
+23 not 24
+limit 25 to ed ="19480101-20170615" 

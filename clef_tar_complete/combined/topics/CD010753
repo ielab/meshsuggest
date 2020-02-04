@@ -1,0 +1,30 @@
+exp "SLEEP INITIATION AND MAINTENANCE DISORDERS"/
+insomni*.tw.
+SLEEP/de
+exp SLEEP STAGES/de
+WAKEFULNESS/de
+(sleep impact scale or sleep questionnaire or sleep scale or sleep evaluation questionnaire or sleep quality index or PSQI or sleep impairment index or sleepiness scale or sleep log or sleep diar*).tw.
+(sleep adj3 (initiation or onset or maintenance)).tw.
+(nocturnal adj (wake* or awake*)).tw.
+or/1-8
+exp ANTIDEPRESSIVE AGENTS/
+exp MONOAMINE OXIDASE INHIBITORS/
+exp NEUROTRANSMITTER UPTAKE INHIBITORS/
+(antidepress* or anti depress* or MAOI* or RIMA* or monoamine oxidase inhibit* or ((serotonin or norepinephrine or noradrenaline or neurotransmitter* or dopamin*) and (uptake or reuptake or re uptake)) or noradrenerg* or antiadrenergic or anti adrenergic or SSRI* or SNRI* or NARI* or SARI* or NDRI* or TCA* or tricyclic* or tetracyclic* or heterocyclic or pharmacotherap* or psychotropic).mp.
+(Agomelatine or Amoxapine or Amineptine or Amitriptylin* or Amitriptylinoxide or Atomoxetine or Befloxatone or Benactyzine or Brofaromin* or (Bupropion or Amfebutamone) or Butriptylin* or Caroxazone or Cianopramin* or Cilobamin* or Cimoxatone or Citalopram or (Chlorimipramin* or Clomipramin* or Chlomipramin* or Clomipramine) or Clorgyline or Clovoxamin* or (CX157 or Tyrima or Tririma) or Demexiptilin* or Deprenyl or (Desipramin* or Pertofrane) or Desvenlafaxine or Dibenzepin or Diclofensin* or Dimetacrin* or Dosulepin or Dothiepin or Doxepin or Duloxetine or Desvenlafaxine or DVS-233 or Escitalopram or Etoperidone or Femoxetin* or Fluotracen or Fluoxetine or Fluvoxamin* or (Hyperforin or Hypericum or St John*) or Imipramin* or Iprindole or Iproniazid* or Ipsapirone or Isocarboxazid* or Levomilnacipran or Lofepramin* or (Lu AA21004 or Vortioxetine) or (Lu AA24530 or Tedatioxetine) or (LY2216684 or Edivoxetine) or Maprotilin* or Medifoxamin* or Melitracen or Metapramin* or Mianserin or Milnacipran or Minaprin* or Mirtazapin* or Moclobemide or Nefazodone or Nialamide or Nitroxazepine or Nomifensin* or Norfenfluramin* or Nortriptylin* or Noxiptilin* or Opipramol or Paroxetine or Phenelzine or Pheniprazine or Pipofezine or Pirlindole or Pivagabine or Pizotyline or Propizepine or Protriptylin* or Quinupramine or Reboxetine or Rolipram or Scopolamine or Selegiline or Sertraline or Setiptiline or Teciptiline or Thozalinone or Tianeptin* or Toloxatone or Tranylcypromin* or Trazodone or Trimipramin* or Tryptophan* or Venlafaxine or Viloxazine or Vilazodone or Viqualine or Zalospirone).mp.
+or/10-14
+randomized controlled trial.pt.
+controlled clinical trial.pt.
+randomi#ed.ti,ab.
+randomly.ab.
+placebo.ab.
+trial.ab.
+groups.ab.
+(control* adj3 (trial or study)).ab,ti.
+((singl* or doubl* or tripl* or trebl*) adj3 (blind* or mask* or dummy)).mp.
+exp "SLEEP INITIATION AND MAINTENANCE DISORDERS"/dt
+(animals not (humans and animals)).sh.
+or/16-25
+27 not 26
+(9 and 15 and 28)
+limit 29 to ed = "19460101-20181201" 

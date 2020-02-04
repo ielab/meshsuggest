@@ -1,0 +1,18 @@
+Dental cavity liners/ 
+((dental or cavit$) adj3 (liner$ or lining$)).ti,ab.       
+("cavity lining varnish$" or "cavity varnish$").ti,ab.                    
+((liner$ or lining$ or base$) adj3 ("zinc oxide-eugenol" or "zinc oxide eugenol" or "zinc phosphate" or polycarboxylate or "glass ionomer" or glassionomer or  glass-ionomer or "calcium hydroxide")).ti,ab.             
+or/1-4
+randomized controlled trial.pt.
+controlled clinical trial.pt.
+randomized.ab.
+placebo.ab.
+drug therapy.fs.
+randomly.ab.
+trial.ab.
+groups.ab.
+or/6-13
+exp animals/ not humans.sh.
+14 not 15
+5 AND 16
+limit 17 to ED=19460101-20181112 

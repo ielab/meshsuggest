@@ -1,0 +1,23 @@
+exp Muscular Atrophy, Spinal/ 
+muscular disorders, atrophic/ 
+spinal muscular atroph$.mp. 
+(Kugelberg adj Welander).mp. 
+or/1-4 
+((aerobic or endurance or physical or strength or strengthening) adj5 (exercise or program or programme or training)).mp. 
+((aerobic or anaerobic) adj5 conditioning).mp. 
+((aquatic or functional or kinesio*) adj5 therapy).mp. 
+((cardio or excessive or exercise or muscle or power) adj5 training).mp. 
+(exercise adj5 (program or programme or therap*)).mp. 
+((home or therapeutic) adj5 (exercise*1 or program or programme)).mp. 
+((isokinetic or isometric or muscle or resistance) adj5 strength training).mp. 
+((muscle or resistance or resistive) adj5 exercise).mp. 
+(cycle ergometer or cycling or exercising or hydrotherapy or running or sports or swimming or treadmill).mp. 
+(weight adj5 (training or lifting)).mp. 
+whole body vibration.mp. 
+(strengthen*3 adj5 therap*).mp.
+resistance training.mp. 
+exp exercise/
+exp physical therapy modalities/ 
+or/6-20 
+5 and 21
+limit 22 to ED=19460101-20180508 

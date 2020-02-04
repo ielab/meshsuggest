@@ -1,0 +1,20 @@
+(ampulla vateri or ampullovateric or papilla vateri or vater papilla or vater ampulla or periampull* or peri-ampull* or choledoch* or alcholedoch* or bile duct* or biliary or cholangio* or gall duct or duoden* or small bowel or small intestin* or enter* or pancrea*).ti,ab.
+exp "Ampulla of Vater"/ or exp Pancreas/ or exp Bile Ducts/ or exp Duodenum/
+1 or 2
+(surger* or surgical* or operat* or resection*).ti,ab.
+3 and 4
+(pancreatect* or pancreaticojejunost* or pancreaticogastros* or pancreaticoduodenect* or duodenopancreatectom*).ti,ab.
+exp Pancreatectomy/
+exp Pancreaticojejunostomy/
+exp Pancreaticoduodenectomy/
+5 or 6 or 7 or 8 or 9
+(amylase or amylases).ti,ab.
+exp Amylases/
+11 or 12
+(drain* or leak or fistula).ti,ab.
+exp Drainage/
+exp Anastomotic Leak/
+exp Pancreatic Fistula/
+14 or 15 or 16 or 17
+10 and 13 and 18
+limit 19 to ed=19460101-20170228 

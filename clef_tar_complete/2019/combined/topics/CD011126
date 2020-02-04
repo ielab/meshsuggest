@@ -1,0 +1,124 @@
+(uter$ adj2 abnormal$).tw.
+abnormal vagina$ bleeding.tw.
+(intrauter$ adj2 abnormal$).tw.
+(endometri$ adj2 abnormal$).tw.
+(uterine adj2 anomal$).tw.
+(endometri$ adj2 anomal$).tw.
+(intrauterine adj2 anomal$).tw.
+(uterine adj2 anomal$).tw.
+abnormal uter$ bleeding.tw.
+dysfunctional uter$ bleeding.tw.
+DUB.tw.
+heavy menstrual bleeding.tw.
+(postmenopaus$ adj2 bleed$).tw.
+(perimenopaus$ adj2 bleed$).tw.
+exp uterine hemorrhage/
+uter$ haemorrhag$.tw.
+uter$ hemorrhag$.tw.
+menorrhagi$.tw.
+metrorrhagi$.tw.
+(endometri$ adj2 lesion$).tw.
+(endometri$ adj2 adhesion$).tw.
+(uter$ adj2 lesion$).tw.
+(uter$ adj2 adhesion$).tw.
+(ovar$ adj2 adhesion$).tw.
+(intrauter$ adj2 adhesion$).tw.
+(intrauter$ adj2 lesion$).tw.
+polyp$.tw.
+endometrio$.tw.
+adnexal mass$.tw.
+adenomyosis.tw.
+exp leiomyoma/ or exp myoma/
+infertil$.tw.
+subfertil$.tw.
+myoma$.tw.
+leiomyoma$.tw.
+fibroid$.tw.
+(septate adj2 uterus).tw.
+arcuate uter$.tw.
+(endometri$ adj2 thick$).tw.
+(uter$ adj2 malformation$).tw.
+(bicornuate adj2 uterus).tw.
+intracavity abnormal$.tw.
+(uter$ adj2 contour).tw.
+(uter$ adj3 sept$).tw.
+endometri$ atroph$.tw.
+(endometri$ adj2 tumor$).tw.
+(endometri$ adj2 tumour$).tw.
+((uter$ adj2 malignan$) or (uter$ adj2 cancer$)).tw.
+((endometri$ adj2 malignan$) or (endometri$ adj2 cancer$)).tw.
+((ovar$ adj2 malignan$) or (ovar$ adj2 cancer$)).tw.
+(uterus adj2 disorder$).tw.
+(uterine adj2 disorder$).tw.
+(uterus adj2 disease$).tw.
+(uterine adj2 disease$).tw.
+(endometri$ adj2 neoplasm$).tw.
+(uterine adj2 neoplasm$).tw.
+(uterus adj2 neoplasm$).tw.
+(uterine adj2 patholog$).tw.
+(uterus adj2 patholog$).tw.
+(endometri$ adj2 patholog$).tw.
+Adenomyoma/
+Adenomyo$.tw.
+fibroma.tw.
+fibromyoma$.tw.
+Infertility, Female/
+exp endometriosis/ or exp uterine diseases/
+Polyps/
+Endometrial Hyperplasia/
+(Endometri$ adj3 Hyperplasia).tw.
+exp Ovarian Diseases/
+(ovar$ adj2 mass$).tw.
+(ovar$ adj2 tumo?r).tw.
+(ovar$ adj2 cyst$).tw.
+Gynecology/
+(gynecolog$ or gynaecolog$).tw.
+uter$ cavit$.tw.
+endometrial cavity.tw.
+intracav$ lesion$.tw.
+intracav$ abnormal$.tw.
+(uter$ adj2 volume).tw.
+(ovar$ adj2 volume$).tw.
+(intrauter$ adj2 patholog$).tw.
+or/1-82
+Imaging, Three-Dimensional/
+(Three-Dimensional and imag$).tw.
+(3D and imag$).tw.
+(3 D and imag$).tw.
+(Three-Dimensional and sonogra$).tw.
+(3D and sonogra$).tw.
+(3 D and sonogra$).tw.
+3dus.tw.
+3 dus.tw.
+(Three-Dimensional and ultraso$).tw.
+(3D and ultraso$).tw.
+(3 D and ultraso$).tw.
+3D US.tw.
+three dimension.tw.
+3 dimension.tw.
+(3d and multiplanar).tw.
+(3 dimension$ and multiplanar).tw.
+(three dimension$ and multiplanar).tw.
+(three dimensional or 3d or 3 d).ti,ab,hw. and us.fs.
+or/84-102
+Ultrasonography/
+limit 104 to yr="1990 -Current"
+103 or 105
+(3D and hystero$).tw.
+(3 D and hystero$).tw.
+(Three-Dimensional and sonohysterogra$).tw.
+(3D and sonohysterogra$).tw.
+(3 D and sonohysterogra$).tw.
+(Three-Dimensional and SIS).tw.
+(3D and SIS).tw.
+(3 D and SIS).tw.
+(Three-Dimensional and hystero$).tw.
+(3d and hycosy).tw.
+(3 d and hycosy).tw.
+(three dimension$ and hycosy).tw.
+or/107-118
+83 and 106
+119 or 120
+exp animals/ not humans.sh.
+121 not 122
+limit 123 to ed=19400101-20160330 

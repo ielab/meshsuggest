@@ -1,0 +1,20 @@
+Florbetapir.ti,ab,nm.
+(AMYViD or amyvid*).ti,ab,nm.
+"florbetapir-fluorine-18".ti,ab,nm.
+"18F-AV-45" or "(18)F-AV-45" or "[18F]AV-45" or "[(18)F]AV-45".ti,ab.
+"[18F]Florbetapir".ti,ab,nm.
+"florbetapir-PET".ti,ab,nm.
+or/1-6
+Fluorine Radioisotopes/du
+Aniline Compounds/du
+Ethylene Glycols/du
+Stilbenes/du
+Radioligand Assay/
+radioligand*.ti,ab.
+or/8-13
+Alzheimer Disease/ri [Radionuclide Imaging]
+Plaque, Amyloid/ri [Radionuclide Imaging]
+or/15-16
+14 and 17
+7 or 18
+limit 19 to ed=19460101-20170501 

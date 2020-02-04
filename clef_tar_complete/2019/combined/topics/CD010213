@@ -1,0 +1,28 @@
+exp Pancreas/
+exp Pancreatic Neoplasms/di [Diagnosis]
+exp Pancreatitis, Chronic/di [Diagnosis]
+exp Pancreatic Cyst/di [Diagnosis]
+(pancreas or pancreatic).ti,ab.
+1 or 2 or 3 or 4 or 5
+(sensitiv: or diagnos:).mp. or di.fs.
+6 and 7
+(CT or tomodensitometry or PET or MRI or NMRI or zeugmatogra* or ((computed or computerised or computerized or emission or positron or magneti* or MR or NMR or proton or acoustic or ARFI) and (tomogra* or scan or scans or imaging))).ti,ab.
+exp Tomography, X-Ray Computed/ or Positron-Emission Tomography/ or exp Magnetic Resonance Imaging/
+9 or 10
+exp Endosonography/
+(endosonogra* or EUS).ti,ab.
+12 or 13
+exp Ultrasonography/
+(echogra* or ultrason* or ultrasound).ti,ab.
+15 or 16
+exp Endoscopy, Gastrointestinal/
+endoscop*.ti,ab.
+18 or 19
+17 and 20
+14 or 21
+exp Elasticity Imaging Techniques/
+(elastogr* or sonoelastogr* or acoustogra*).ti,ab.
+23 or 24
+11 or 22 or 25
+8 and 26
+limit 27 to ed=19460101-20160719 

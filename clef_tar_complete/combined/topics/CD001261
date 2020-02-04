@@ -1,0 +1,12 @@
+typhoid*.ti,ab,kw
+"typhoid fever".ti,ab,kw
+exp "Typhoid Fever"/
+salmonell*.ti,ab,kw
+1 or 2 or 3 or 4
+vaccin*.ti,ab,kw
+5 and 6
+exp "Typhoid-Paratyphoid Vaccines"/
+7 or 8
+((randomized controlled trial or controlled clinical trial).pt. or drug therapy.fs. or (randomized or randomised or placebo or randomly or trial or groups).ab.) not (exp animals/ not humans/)
+9 and 10
+limit 11 to ed = "19480101-20180214" 

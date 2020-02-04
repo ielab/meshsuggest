@@ -1,0 +1,32 @@
+Tomography, Emission-Computed, Single-Photon/ or Tomography, Emission-Computed/
+SPECT.ti,ab.
+SPET.ti,ab.
+single photon emission tomography.ti,ab.
+single photon emission computed tomography.ti,ab.
+"SPECT/CT".ti,ab.
+or/1-6
+exp Dementia/
+Delirium/
+Delirium, Dementia, Amnestic, Cognitive Disorders/
+dement*.ti,ab.
+alzheimer*.ti,ab.
+(lewy* adj2 bod*).ti,ab.
+(chronic adj2 cerebrovascular).ti,ab.
+("organic brain disease" or "organic brain syndrome").ti,ab.
+"benign senescent forgetfulness".ti,ab.
+(cerebr* adj2 deteriorat*).ti,ab.
+(cerebral* adj2 insufficient*).ti,ab.
+(pick* adj2 disease).ti,ab.
+"Frontotemporal lobar degeneration".ti,ab.
+"progressive non-fluent aphasia".ti,ab.
+"primary progressive aphasia".ti,ab.
+(FTD or FTLD).ti,ab.
+Frontotemporal Lobar Degeneration/
+Primary Progressive Nonfluent Aphasia/
+Aphasia, Primary Progressive/
+or/8-26
+7 and 27
+(animals not (humans and animals)).sh.
+28 not 29
+(2012* or 2013*).ed.
+30 and 31 

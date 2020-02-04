@@ -1,0 +1,57 @@
+exp Prenatal Diagnosis/
+nuchal translucency.mp.
+exp Pregnancy-Associated Plasma Protein-A/
+pregnancy associated plasma protein a.mp.
+papp-a.mp.
+exp Chorionic Gonadotropin, beta Subunit, Human/
+(b-hcg or bhcg).mp.
+human chorionic gonadotropin.mp.
+exp alpha-Fetoproteins/
+alphafetoprotein$.mp.
+alpha-fetoprotein$.mp.
+afp.mp.
+(unconjugated estriol or unconjugated oestriol).mp.
+ue3.mp.
+exp INHIBINS/
+inhibin a.mp.
+ultrasound.mp.
+amniocentesis/
+chorion$ vill$ sampling.mp.
+Chorionic Villi-Sampling/
+nasal bone.mp.
+tricuspid regurgitation.mp.
+ductus venosus.mp
+marker$.mp.
+screen$.mp.
+detect$.mp.
+accura$.mp.
+predict$.mp.
+ROC.mp.
+ROC curve/
+AUC.mp.
+Area under curve/
+exp false negative reactions/ or exp false positive reactions/
+(false positive$ or false negative$).mp.
+likelihood ratio$.mp.
+sensitiv$.mp.
+specific$.mp.
+diagnos$.ti,ab.
+"reproducibility of results".mp.
+reference value$.mp.
+reference standard$.mp.
+exp Down Syndrome/
+downs syndrome.mp.
+down syndrome.mp.
+trisomy 21.mp.
+Aneuploidy/
+aneuploidy.mp.
+Mosaicism/
+mosaicism.mp.
+or/1-41
+or/42-49
+50 and 51
+(antenatal$ or prenatal$ or trimester$ or pregnan$ or fetus or foetus or fetal or foetal).mp.
+52 and 53
+animal/ not (humans/ and animal/)
+54 not 55
+limit 56 to ed=19800101-20110825 
