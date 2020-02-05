@@ -1,0 +1,11 @@
+exp macular degeneration/
+exp retinal degeneration/
+exp retinal neovascularization/
+exp choroidal neovascularization/
+exp macula lutea/
+maculopath$.tw.
+((macul$ or retina$ or choroid$) adj3 degener$).tw.
+((macul$ or retina$ or choroid$) adj3 neovasc$).tw.
+(macula$ adj2 lutea).tw.
+(AMD or ARMD or CNV).tw.
+or/1-10

@@ -1,0 +1,24 @@
+Iodine/ 
+Iodine$.ti,ab. 
+Iodides/ 
+Iodide$.ti,ab. 
+Potassium Iodide/ 
+exp Thyroid Hormones/ 
+(thyroid adj2 hormone$).ti,ab. 
+exp dextrothyroxine/
+exp diiodotyrosine/
+exp monoiodotyrosine/
+exp "thyroid (usp)"/
+exp thyronines/
+exp thyroxine/
+triiodothyronine/ 
+dextrothyroxine$.ti,ab. 
+diiodotyrosine$.ti,ab. 
+monoiodotyrosine$.ti,ab. 
+(thyroid adj2 usp).ti,ab. 
+thyronine$.ti,ab. 
+thyroxine$.ti,ab. 
+L-thyroxine therap$.ti,ab. 
+hypothyroxin$.ti,ab. 
+triiodothyronine$.ti,ab. 
+or/1-23

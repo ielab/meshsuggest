@@ -1,0 +1,15 @@
+letter/
+editorial/
+news/
+exp historical article/
+Anecdotes as topic/
+comment/
+case report/
+(letter or comment*).ti.
+exp animals/ not humans/
+exp Animals, Laboratory/
+exp Animal Experimentation/ not (exp human experimentation/ or humans/)
+exp Models, Animal/
+exp rodentia/
+(rat or rats or mouse or mice or rodent*).ti.
+or/1-14

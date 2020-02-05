@@ -1,0 +1,19 @@
+exp OUTPATIENTS/ 
+exp Patient Care/ 
+exp Ambulatory Care/ 
+exp Home Nursing/ 
+exp Outpatient Clinics, Hospital/ 
+in-patient.ti,ab. 
+inpatient.ti,ab. 
+bed-ridden.ti,ab. 
+exp INPATIENTS/ 
+Home Nursing/ 
+Outpatient Clinics, Hospital/ 
+in-patient.ti,ab. 
+Inpatient*.ti,ab. 
+bed-ridden.ti,ab. 
+out-patient.ti,ab. 
+outpatient.ti,ab. 
+ambulatory*.ti,ab. 
+domicil*.ti,ab. 
+or/1-18

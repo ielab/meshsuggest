@@ -1,0 +1,5 @@
+exp Ovarian Failure, Premature/
+(ovar* and (failure or function or damage)).mp.
+exp Fertility/
+fertility.mp.
+or/1-4

@@ -1,4 +1,4 @@
- exp Platelet Count/
+exp Platelet Count/
 (((platelet* or thrombocyt*) adj (count or distribution or volume)) or PLT or PDW or MPV).mp.
 1 or 2
 exp Splenomegaly/

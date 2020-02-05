@@ -1,0 +1,5 @@
+exp Pneumonectomy/
+lung resection*.ti,ab,kf
+lobectom*.ti,ab,kf
+pneumonectom*.ti,ab,kf
+or/1-4

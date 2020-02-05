@@ -1,0 +1,7 @@
+exp glaucoma/
+glaucom*.tw.
+exp intraocular pressure/
+((intra?ocular or ocular) adj3 (hypertension* or tension* or pressur*)).tw.
+Ocular Hypertension/
+IOP.tw.
+or/1-6

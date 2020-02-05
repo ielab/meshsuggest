@@ -1,0 +1,5 @@
+exp Chondrosarcoma/
+chondrosarcoma*.mp.
+exp Chondroma/
+(enchondroma* or chondroma*).mp.
+or/1-4

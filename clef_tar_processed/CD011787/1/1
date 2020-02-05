@@ -1,0 +1,17 @@
+Child/
+Child, Preschool/
+Infant/
+exp Infant, Newborn/
+Child Care/
+Infant Care/
+Child Welfare/
+Mothers/
+Pregnant Women/
+Fathers/
+Parents/
+(child* or infant* or newborn* or new born* or neonat* or baby or babies or toddler*).ti,ab.
+(mother* or pregnant women or father* or parent*).ti,ab.
+Parenting/
+Maternal Behavior/
+Paternal Behavior/
+or/1-16
