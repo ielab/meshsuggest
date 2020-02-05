@@ -1,1 +1,3 @@
-exp ULTRASONOGRAPHY/ or ((ultrasound* or ultrasonog*) adj10 (guid* or assess* or assist*)).mp.
+exp ULTRASONOGRAPHY/
+((ultrasound* or ultrasonog*) adj10 (guid* or assess* or assist*)).mp.
+or/1-2

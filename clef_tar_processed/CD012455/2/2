@@ -1,1 +1,5 @@
-exp "Hypnotics and Sedatives"/ or Melatonin/ or sleep/ or (sleep* or hypnotic* or sedat* or melatonin).mp.
+exp "Hypnotics and Sedatives"/
+Melatonin/
+sleep/
+(sleep* or hypnotic* or sedat* or melatonin).mp.
+or/1-4

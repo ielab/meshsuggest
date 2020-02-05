@@ -1,1 +1,6 @@
-exp Nerve Block/ or exp Anesthesia, Local/ or exp Anesthesia, Spinal/ or (nerv* adj5 block*).mp. or (regional adj5 (an?est* or techniq*or block*)).mp.
+exp Nerve Block/
+exp Anesthesia, Local/
+exp Anesthesia, Spinal/
+(nerv* adj5 block*).mp.
+(regional adj5 (an?est* or techniq*or block*)).mp.
+or/1-5
