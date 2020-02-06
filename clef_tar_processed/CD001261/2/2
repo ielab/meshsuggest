@@ -1,9 +1,0 @@
-typhoid*.ti,ab,kw
-"typhoid fever".ti,ab,kw
-exp "Typhoid Fever"/
-salmonell*.ti,ab,kw
-or/1-4
-vaccin*.ti,ab,kw
-5 and 6
-exp "Typhoid-Paratyphoid Vaccines"/
-or/7-8

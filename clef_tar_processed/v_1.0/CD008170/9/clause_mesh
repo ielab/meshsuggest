@@ -1,0 +1,1 @@
+(hypertension[mesh:noexp] OR hypertens*[All Fields] OR (blood pressure[All Fields] AND (high[All Fields] OR elevat*[All Fields] OR rais*[All Fields])))
