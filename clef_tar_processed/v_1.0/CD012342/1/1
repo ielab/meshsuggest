@@ -3,7 +3,7 @@ Hematologic Diseases/
 exp Leukemia/
 Preleukemia/
 exp Bone Marrow Diseases/
-Bone Marrow/pa
+Bone Marrow/
 exp Thrombocytopenia/
 (bone marrow adj3 (fail* or disease* or disorder* or aplasia or hypoplasia or dysplasia)).tw,kf.
 (thrombocytop?eni* or thrombop?en* or leuk?emi* or myeloproliferat* or shwachman diamond or (dyskeratosis adj1 congenita*) or AML).tw,kf.

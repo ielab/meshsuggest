@@ -1,4 +1,6 @@
-postoperative complications/ or anastomotic leak/ or prosthesis failure/
+postoperative complications/
+anastomotic leak/
+prosthesis failure/
 (endoleak* or endotension).tw,kf.
 perigraft leak*.tw,kf.
 perigraft flow.tw,kf.
@@ -8,4 +10,4 @@ postoperative.tw,kf.
 outcome.tw,kf.
 evaluat*.tw,kf.
 effecti*.tw,kf.
-or/1-10
+or/1-12

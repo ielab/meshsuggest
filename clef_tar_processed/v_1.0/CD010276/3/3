@@ -22,7 +22,7 @@ lumenoscop$.tw,ot.
 ((tumor$ or tumour$ or cancer$ or carcinoma$ or neoplas$ or carcinogen$ or malignan$ or metata$ or lesion$ or ulcer$) adj5 (fluorescen$ or autofluorescen$ or luminescen$ or chemiluminescen$)).tw,ot.
 (tissue adj3 reflect$).tw,ot.
 Spectrophotometry/
-Acetic acid/du
+Acetic acid/
 (acetic acid adj3 (wash$ or rins$)).tw,ot.
 acetowhite.tw,ot.
 Saliva/

@@ -1,8 +1,8 @@
-exp "clinical trial [publication type]"/
-(randomised or randomised).ab,.
-placebo.ab,ti.
+exp "clinical trials as topic"/
+(randomised or randomized).ti,ab.
+placebo.ti,ab.
 dt.fs.
-randomly.ab,ti.
-trial.ab,ti.
-groups.ab,ti.
+randomly.ti,ab.
+trial.ti,ab.
+groups.ti,ab.
 or/1-7

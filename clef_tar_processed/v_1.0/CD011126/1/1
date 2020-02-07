@@ -28,7 +28,8 @@ polyp$.tw.
 endometrio$.tw.
 adnexal mass$.tw.
 adenomyosis.tw.
-exp leiomyoma/ or exp myoma/
+exp leiomyoma/
+exp myoma/
 infertil$.tw.
 subfertil$.tw.
 myoma$.tw.
@@ -63,7 +64,8 @@ Adenomyo$.tw.
 fibroma.tw.
 fibromyoma$.tw.
 Infertility, Female/
-exp endometriosis/ or exp uterine diseases/
+exp endometriosis/
+exp uterine diseases/
 Polyps/
 Endometrial Hyperplasia/
 (Endometri$ adj3 Hyperplasia).tw.
@@ -80,4 +82,4 @@ intracav$ abnormal$.tw.
 (uter$ adj2 volume).tw.
 (ovar$ adj2 volume$).tw.
 (intrauter$ adj2 patholog$).tw.
-or/1-82
+or/1-84

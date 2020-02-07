@@ -1,9 +1,9 @@
 Randomized Controlled Trial.pt.
 Controlled Clinical Trial.pt.
-(randomized or randomised).ab,ti.
-placebo.ab,ti.
+(randomized or randomised).ti,ab.
+placebo.ti,ab.
 drug therapy.fs.
-randomly.ab,ti.
-trial.ab,ti.
-groups.ab,ti.
+randomly.ti,ab.
+trial.ti,ab.
+groups.ti,ab.
 or/1-8

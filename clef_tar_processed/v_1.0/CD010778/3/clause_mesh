@@ -1,0 +1,1 @@
+(surgery[mesh:noexp] OR Amputation[mesh:noexp] OR resect*[All Fields] OR surgery[All Fields] OR amputat*[All Fields])

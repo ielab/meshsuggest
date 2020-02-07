@@ -1,6 +1,8 @@
-exp Gallbladder/ OR exp Gallbladder Neoplasm/ OR exp Gallbladder Diseases/
-Gallbladder*.tw
-Biliary.tw
-Billiary.tw
-Gall-bladder*.tw
-or/1-5
+exp Gallbladder/
+exp Gallbladder Neoplasm/
+exp Gallbladder Diseases/
+Gallbladder*.tw.
+Biliary.tw.
+Billiary.tw.
+Gall-bladder*.tw.
+or/1-7

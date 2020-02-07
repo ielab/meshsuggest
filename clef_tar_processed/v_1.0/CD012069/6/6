@@ -2,7 +2,8 @@ exp mood disorders/
 (depression or depressive).ti,ab.
 exp psychotic disorders/
 (psychosis or (psychotic adj4 symptom*)).ti,ab.
-exp Body Weight/ or anorexia/
+exp Body Weight/
+anorexia/
 ((loss or lose or losing or reduc*) adj3 (weight or appetite)).ti,ab.
 ((reduc* or retard* or inhibit* or deficit*) adj4 growth).ti,ab.
 exp Hypertension/

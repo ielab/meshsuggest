@@ -1,0 +1,2 @@
+
+((thromb*[Title/Abstract] AND (vein*[Title/Abstract] OR ven*[Title/Abstract])) OR (blood[Title/Abstract] AND clot*[Title/Abstract]) OR (PE[Title/Abstract] OR DVT[Title/Abstract] OR VTE[Title/Abstract]) OR (thrombus*[Title/Abstract] OR thrombotic*[Title/Abstract] OR thrombolic*[Title/Abstract] OR thromboemboli*[Title/Abstract] OR thrombos*[Title/Abstract] OR embol*[Title/Abstract]))

@@ -1,3 +1,4 @@
 (surger* or surgical* or operat* or resection* or preoperative).ti,ab.
-exp Surgical Procedures, Operative/ or General Surgery/
-or/1-2
+exp Surgical Procedures, Operative/
+General Surgery/
+or/1-3

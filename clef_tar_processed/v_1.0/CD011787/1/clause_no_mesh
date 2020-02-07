@@ -1,0 +1,1 @@
+((child*[Title/Abstract] OR infant*[Title/Abstract] OR newborn*[Title/Abstract] OR new born*[Title/Abstract] OR neonat*[Title/Abstract] OR baby[Title/Abstract] OR babies[Title/Abstract] OR toddler*[Title/Abstract]) OR (mother*[Title/Abstract] OR pregnant women[Title/Abstract] OR father*[Title/Abstract] OR parent*[Title/Abstract]))

@@ -1,0 +1,1 @@
+(mortality[mesh] OR prognosis[mesh:noexp] OR models, statistical[mesh] OR incidence[mesh:noexp] OR follow-up studies[mesh:noexp] OR predictor*[Text Word] OR death[Text Word] OR prognos*[Text Word] OR course*[Text Word] OR diagnosed[Text Word] OR cohort*[All Fields] OR predict*[Text Word])

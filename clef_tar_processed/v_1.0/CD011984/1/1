@@ -30,7 +30,8 @@ ROC.mp.
 ROC curve/
 AUC.mp.
 Area under curve/
-exp false negative reactions/ or exp false positive reactions/
+exp false negative reactions/
+exp false positive reactions/
 (false positive$ or false negative$).mp.
 likelihood ratio$.mp.
 sensitiv$.mp.
@@ -39,4 +40,4 @@ diagnos$.ti,ab.
 "reproducibility of results".mp.
 reference value$.mp.
 reference standard$.mp.
-or/1-41
+or/1-42

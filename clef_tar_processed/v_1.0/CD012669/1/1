@@ -11,7 +11,9 @@ hemothorax/
 *"Wounds and Injuries"/
 "Wounds and Injuries"/
 Wounds, Nonpenetrating/
-rupture/ or exp splenic rupture/ or stomach rupture/
+rupture/
+exp splenic rupture/
+stomach rupture/
 ((injur* or ruptur* or bleed* or trauma* or lacerat* or tear? or contusion*) adj3 (spleen* or splenic or hepatic or visceral or liver* or kidney* or pancrea* or renal* or lungs or heart)).ti,ab,kf.
 ((blunt* or non-penetrat* or nonpenetrat*) adj trauma*).ti,ab,kf.
 (polytrauma* or poly trauma* or multiple trauma* or mass casualt*).ti,ab,kf,hw.
