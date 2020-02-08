@@ -1,0 +1,5 @@
+exp adrenergic alpha antagonists/
+(alfuzosin or bunazosin or doxazosin or metazosin or neldazosin or prazosin or silodosin or tamsulosin or terazosin or tiodazosin or trimazosin).tw,kf.
+(adrenergic adj2 (alpha or antagonist?)).tw,kf.
+((adrenergic or alpha or receptor?) adj2 block$).tw,kf.
+or/1-4

@@ -1,0 +1,12 @@
+exp Infant, Newborn/ 
+Premature Birth/ 
+(neonat$ or neo nat$).ti,ab. 
+(newborn$ or new born$ or newly born$).ti,ab. 
+(preterm or preterms or pre term or pre terms).ti,ab. 
+(preemie$ or premie or premies).ti,ab. 
+(prematur$ adj3 (birth$ or born or deliver$)).ti,ab. 
+(low adj3 (birthweight$ or birth weight$)).ti,ab. 
+(lbw or vlbw or elbw).ti,ab. 
+infan$.ti,ab. 
+(baby or babies).ti,ab.
+or/1-11

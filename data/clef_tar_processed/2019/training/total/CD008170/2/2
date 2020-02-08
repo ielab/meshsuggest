@@ -1,0 +1,5 @@
+exp Angiotensin Receptor Antagonists/
+(angiotensin adj3 (receptor antagon$ or receptor block$)).tw,kf.
+(arb or arbs).tw,kf.
+(abitesartan or azilsartan or candesartan or elisartan or embusartan or eprosartan or forasartan or irbesartan or KT3-671 or losartan or milfasartan or olmesartan or saprisartan or tasosartan or telmisartan or valsartan or zolasartan).tw,kf.
+or/1-4

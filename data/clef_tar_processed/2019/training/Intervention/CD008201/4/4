@@ -1,0 +1,10 @@
+exp Inpatients/
+exp Hospitalization/
+exp Hospitals/
+(inpatient* or "in?patient*").tw.
+exp Adolescent, Hospitalized/
+exp Child, Hospitalized/
+(hospitali?e* or hospitali?ation).tw.
+(admitted adj3 (hospital or patient*)).tw.
+("high risk" or "at risk").tw.
+or/1-9

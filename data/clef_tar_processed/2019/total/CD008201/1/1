@@ -1,0 +1,7 @@
+exp Thrombosis/
+exp Embolism/
+(thrombosis or thrombotic or thrombus or thrombi or thromboembol*).tw.
+(emboli* or embolus).tw.
+clot?.tw.
+(DVT or VTE or PE).tw.
+or/1-6

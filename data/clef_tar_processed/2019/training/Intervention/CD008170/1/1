@@ -1,0 +1,6 @@
+exp Angiotensin-Converting Enzyme Inhibitors/
+((angiotensin$ or dipeptidyl$ or kininase ii) adj3 (convert$ or enzyme or inhibit$ or recept$ or block$)).tw,kf.
+(ace adj2 inhibit$).tw,kf.
+acei.tw,kf.
+(alacepril or altiopril or ancovenin or benazepril or captopril or ceranapril or ceronapril or cilazapril or deacetylalacepril or delapril or derapril or enalapril or enalaprilat or epicaptopril or fasidotril or fosinopril or foroxymithine or gemopatrilat or idapril or imidapril or indolapril or libenzapril or lisinopril or moexipril or moveltipril or omapatrilat or pentopril$ or perindopril$ or pivopril or quinapril$ or ramipril$ or rentiapril or saralasin or s nitrosocaptopril or spirapril$ or temocapril$ or teprotide or trandolapril$ or utibapril$ or zabicipril$ or zofenopril$ or Aceon or Accupril or Altace or Capoten or Lotensin or Mavik or Monopril or Prinivil or Univas or Vasotec or Zestril).tw,kf.
+or/1-5

@@ -1,0 +1,1 @@
+(Thrombosis[mesh] OR Embolism[mesh] OR clot*[Text Word] OR (thrombosis[Text Word] OR thrombotic[Text Word] OR thrombus[Text Word] OR thrombi[Text Word] OR thromboembol*[Text Word]) OR (emboli*[Text Word] OR embolus[Text Word]) OR (DVT[Text Word] OR VTE[Text Word] OR PE[Text Word]))

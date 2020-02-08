@@ -1,0 +1,7 @@
+(intra-lesion* or intralesion*).mp.
+exp Curettage/
+curettage.mp.
+(phenol* or ethanol or bone cement).mp.
+Cryotherapy/
+cryotherapy.mp.
+or/1-6

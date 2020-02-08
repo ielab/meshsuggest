@@ -1,0 +1,8 @@
+exp "clinical trials as topic"/
+(randomised or randomized).ti,ab.
+placebo.ti,ab.
+dt.fs.
+randomly.ti,ab.
+trial.ti,ab.
+groups.ti,ab.
+or/1-7

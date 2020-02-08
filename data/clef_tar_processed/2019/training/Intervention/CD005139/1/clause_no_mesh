@@ -1,0 +1,1 @@
+(maculopath*[Text Word] OR (neovasc*[Text Word] AND (macul*[Text Word] OR retina*[Text Word] OR choroid*[Text Word])) OR (macula*[Text Word] AND lutea[Text Word]) OR (AMD[Text Word] OR ARMD[Text Word] OR CNV[Text Word]) OR (degener*[Text Word] AND (macul*[Text Word] OR retina*[Text Word] OR choroid*[Text Word])))

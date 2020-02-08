@@ -1,0 +1,4 @@
+exp child/
+exp infant/
+(child* or neonat* or preschool* or adolescen* or infant* or p?ediatric*).af.
+or/1-3

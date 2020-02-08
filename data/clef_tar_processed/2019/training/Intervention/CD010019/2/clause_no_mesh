@@ -1,0 +1,1 @@
+(inpatient[Title/Abstract] OR bed-ridden[Title/Abstract] OR out-patient[Title/Abstract] OR bed-ridden[Title/Abstract] OR in-patient[Title/Abstract] OR outpatient[Title/Abstract] OR domicil*[Title/Abstract] OR in-patient[Title/Abstract] OR Inpatient*[Title/Abstract] OR ambulatory*[Title/Abstract])

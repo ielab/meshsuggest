@@ -1,8 +1,0 @@
-exp Ultrasonography/
-(ultrason* or ultrasound* or echograph* or echotomograph* or doppler* or B-mode or B-scan or grey*scale).mp.
-1 or 2
-exp Liver Cirrhosis/
-((hepatic or liver) and (fibrosis or cirrhosis)).mp.
-4 or 5
-3 and 6
-limit 7 to ed=19460101-20150131 

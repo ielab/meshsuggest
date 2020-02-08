@@ -1,0 +1,9 @@
+(photocoagulat* or cyclocoagulat*).tw.
+(coagulat* or argon* or diode*).tw.
+((ND* adj1 YAG) or (Neodymium* adj1 YAG) or ND*YAG or Neodymium*YAG or YAG*ND or YAG*Neodymium).tw.
+(cyclophotocoagulat* or cyclodestruct* or cycloablat* or endocyclophotocoagulat* or cryotherap*).tw.
+(ciliary adj3 (destruct* or ablat*)).tw.
+exp diathermy/
+exp electrolysis/
+(diatherm* or ultrasonic* or electrolys* or beta irradiat*).tw.
+or/1-8

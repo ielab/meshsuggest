@@ -1,0 +1,10 @@
+Lung Diseases, Obstructive/
+exp Pulmonary Disease, Chronic Obstructive/
+emphysema$.mp.
+(chronic$ adj3 bronchiti$).mp.
+(obstruct$ adj3 (pulmonary or lung$ or airway$ or airflow$ or bronch$ or respirat$)).mp.
+COPD.mp.
+COAD.mp.
+COBD.mp.
+AECB.mp.
+or/1-9

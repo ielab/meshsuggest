@@ -1,0 +1,6 @@
+exp thiazides/
+exp sodium potassium chloride symporter inhibitors/
+((loop or ceiling) adj diuretic?).tw,kf.
+(amiloride or benzothiadiazine or bendroflumethiazide or bumetanide or chlorothiazide or cyclopenthiazide or furosemide or hydrochlorothiazide or hydroflumethiazide or methyclothiazide or metolazone or polythiazide or trichlormethiazide or veratide or thiazide?).tw,kf.
+(chlorthalidone or chlortalidone or phthalamudine or chlorphthalidolone or oxodoline or thalitone or hygroton or indapamide or metindamide).tw,kf.
+or/1-5

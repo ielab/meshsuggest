@@ -1,6 +1,0 @@
-((airway* adj3 (test* or physical status or assess* or examinat*)) or ((distance or gap* or test* or length) adj5 (interdental or sternomental or thyromental or interincisor* or incisor*)) or Wilson risk score or upper lip bite test or physical examin* test* or (length adj3 upper incisor*) or (relat* and (maxillary or mandibular) and incisor*) or (visibility adj3 uvula) or (shape adj3 palate) or ((submandibular or mandibular) adj3 space) or (neck adj3 (length or thickness or diameter)) or (range and (motion or movement or flexion or extension) and (head or neck))).mp. or mouth opening.af.
-exp Laryngoscopy/ or exp Intubation, Intratracheal/ or exp Bronchoscopy/ or exp Laryngeal Masks/ or Anesthesia/ or Laryngoscopes/ or (difficult* adj5 (airway or face mask or ventilation or laryngoscopy or intubation or tracheal)).mp. or (intubat* adj5 (fiberoptic or stylet* or retrograde or failed)).mp. or (laryngeal mask* or airway access).ti,ab. or ((styletted or unstyletted) adj3 tube*).ti,ab. or ((laryngoscope* or Macintosh) adj3 blade*).ti,ab. or airway management.ti,ab.
-1 and 2
-mallampati*.af. or (difficult adj3 intubation).ti.
-3 or 4
-limit 5 to ED=19460101-20161216 

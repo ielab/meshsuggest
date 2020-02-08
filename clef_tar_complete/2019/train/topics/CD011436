@@ -1,6 +1,0 @@
-exp ULTRASONOGRAPHY/ or ((ultrasound* or ultrasonog*) adj10 (guid* or assess* or assist*)).mp.
-exp Nerve Block/ or exp Anesthesia, Local/ or exp Anesthesia, Spinal/ or (nerv* adj5 block*).mp. or (regional adj5 (an?est* or techniq*or block*)).mp.
-exp child/ or exp infant/ or (child* or neonat* or preschool* or adolescen* or infant* or p?ediatric*).af.
-((randomized controlled trial or controlled clinical trial).pt. or randomized.ab. or placebo.ab. or drug therapy.fs. or randomly.ab. or trial.ab. or groups.ab. or (meta?analysis or review or systematic review).mp.) not (animals not (humans and animals)).sh.
-1 and 2 and 3 and 4
-limit 5 to ED=19460101-20180307 

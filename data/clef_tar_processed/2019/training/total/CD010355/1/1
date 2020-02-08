@@ -1,0 +1,9 @@
+exp Positive-Pressure Respiration/
+positive pressure ventilation.ti,ab,kf.
+pressure support ventilation.ti,ab,kf.
+noninvasive ventilatory support.ti,ab,kf.
+non invasive ventilatory support.ti,ab,kf.
+NIVS.ti,ab,kf.
+NPPV.ti,ab,kf.
+NIPSV.ti,ab,kf.
+or/1-8

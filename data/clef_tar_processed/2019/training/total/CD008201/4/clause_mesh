@@ -1,0 +1,1 @@
+(Inpatients[mesh] OR Hospitalization[mesh] OR Hospitals[mesh] OR Adolescent, Hospitalized[mesh] OR Child, Hospitalized[mesh] OR (inpatient*[Text Word] OR "in*"[Text Word]) OR (hospitali*[Text Word] OR hospitali*[Text Word]) OR (admitted[Text Word] AND (hospital[Text Word] OR patient*[Text Word])) OR ("high risk"[Text Word] OR "at risk"[Text Word]))

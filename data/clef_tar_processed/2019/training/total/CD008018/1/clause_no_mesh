@@ -1,0 +1,1 @@
+(fertility[All Fields] OR (ovar*[All Fields] AND (failure[All Fields] OR function[All Fields] OR damage[All Fields])))

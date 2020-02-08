@@ -1,0 +1,23 @@
+exp Medical Order Entry Systems/
+exp Reminder Systems/
+exp Drug Therapy, Computer-Assisted/
+(("computeri?ed physician" or system) adj5 "order entry").tw.
+CPOE.tw.
+((computeri?ed or automat* or medicat* or electronic*) adj5 (alert* or reminder*)).tw.
+sticker?.tw.
+prescription aid?.tw.
+exp Decision Support Systems, Clinical/
+decision support.tw.
+CDS.tw.
+e-iatrogenesis.tw.
+alert fatigue.tw.
+electronic tool?.tw.
+exp Guideline/
+exp Guidelines as Topic/
+exp Guideline Adherence/
+exp Clinical Protocols/
+protocol*.tw.
+guideline*.tw.
+adhere*.tw.
+(comply or compliance).tw.
+or/1-22

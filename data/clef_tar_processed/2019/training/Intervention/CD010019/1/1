@@ -1,0 +1,10 @@
+THROMBOSIS/ 
+THROMBOEMBOLISM/ 
+Venous Thromboembolism/ 
+exp Venous Thrombosis/ 
+(thrombus* or thrombotic* or thrombolic* or thromboemboli* or thrombos* or embol*).ti,ab. 
+exp Pulmonary Embolism/ 
+(PE or DVT or VTE).ti,ab. 
+((vein* or ven*) adj thromb*).ti,ab. 
+(blood adj3 clot*).ti,ab. 
+or/1-9
