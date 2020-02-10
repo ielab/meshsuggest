@@ -1,10 +1,10 @@
 inpatient
-bed-ridden
-out-patient
-bed-ridden
-in-patient
+bed ridden
+out patient
+bed ridden
+in patient
 outpatient
-domicil*
-in-patient
-Inpatient*
-ambulatory*
+domicil
+in patient
+Inpatient
+ambulatory

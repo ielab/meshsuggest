@@ -1,28 +1,27 @@
 thermal
-temperature*
-regulat*
-control*
-blood flow*
+temperature
+regulat
+control
+blood flow
 skin
-epiderm*
 dermal
-clinical*
+clinical
 physical
-sign*
-symptom*
-exam*
-finding*
-assess*
+sign
+symptom
+exam
+finding
+assess
 weak
 weakness
-arm*
-upper limb*
-upper extremit*
-fluid*
+arm
+upper limb
+upper extremitates
+fluid
 water
 balance
-chart*
-record*
+chart
+record
 diary
 diaries
 weight
@@ -32,21 +31,21 @@ loss
 lost
 lose
 losing
-fall*
-reduc*
-chang*
-capillar*
-refill*
-epiderm*
-skin*
-transepiderm*
-transderm*
-water*
-fluid*
+fall
+reduc
+chang
+capillar
+refill
+epiderm
+skin
+transepidermal
+transderm
+water
+fluid
 temperature
-thermoregulat*
+thermoregulatable
 thermogenesis
 sweating
-impedance*
+impedance
 bioimpedance
 BIA

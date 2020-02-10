@@ -1,4 +1,4 @@
-h*
+h
 elisa
 albuminuria
 dipstick
@@ -9,13 +9,12 @@ leukocyturia
 proteinuria
 haemastix
 eia
-"schistosoma haematobium"
+schistosoma haematobium
 urinalysis
-"schistosoma mansoni"
+schistosoma mansoni
 reagent
-strip*
+strip
 test
 anodic
-antigen*
+antigen
 cathodic
-antigen*

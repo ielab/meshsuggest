@@ -1,14 +1,14 @@
 dialysis
 kidney
 pancreas
-transplant*
-graft*
+transplant
+graft
 endstage kidney
 endstage renal
 hemodialysis
 haemodialysis
-hemodiafilt*
-haemodiafilt*
+hemodiafiltaration
+haemodiafilter
 PD
 CAPD
 CCPD
@@ -21,5 +21,5 @@ ESRF
 ESKF
 end stage kidney
 end stage renal
-hemofilt*
-haemofilt*
+hemofiltation
+haemofilte

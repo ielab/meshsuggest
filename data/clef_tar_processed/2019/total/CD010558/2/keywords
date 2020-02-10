@@ -1,28 +1,25 @@
 randomized controlled trial
 trial
-double-blind*
+double blind
 controlled clinical trial
 cluster
-crossover*
-cross-over*
-random*
+crossover
+cross over
+random
 trial
 study
-control*
-group*
+control
+group
 placebo
 sham
 mock
 fake
 dummy
-control*
-group*
 RCT
-randomi#ed
+randomi
 at random
-random*
-assign*
-allocat*
-divide*
+assign
+allocatability
+divide
 division
-number*
+number
