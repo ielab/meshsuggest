@@ -1,10 +1,10 @@
-anticoagulant*
+anticoagulant
 hydroxycoumarins
 acenocoumarol
-acenocoumar*
+acenocoumaria
 minisintrom
 nicoumalone
-s*
+s
 sintrom
 ancrod
 ancrod
@@ -13,19 +13,19 @@ venacil
 agkistrodon
 arwinor
 blood
-coagulat*
-inhibit*
-"citric acid"
+coagulata
+inhibit
+citric acid
 uralyt
 dalteparin
 tedelparin
-fr-860
+fr 860
 fr860
 dalteparin
 kabi2165
-kabi-2165
-fragmin*
-"dermatan sulfate"
+kabi 2165
+fragmin
+dermatan sulfate
 chondroitin
 dextran
 dextrans
@@ -41,7 +41,7 @@ infukoll
 rheopolyglucin
 rheoisodex
 rondex
-dic*
+dic
 dicoumarin
 bishydroxycoumarin
 edetic
@@ -57,15 +57,15 @@ coprin
 edathamil
 versene
 dinitrilotetraacetate
-"chelaton 3"
-enoxaparin*
+chelaton 3
+enoxaparin
 pk10169
-"pk 10169"
-emt-967
-emt96*
+pk 10169
+emt 967
+emt96
 clexane
 lovenox
-emt-966
+emt 966
 ethyl
 biscoumacetate
 ethyldicoumarol
@@ -74,39 +74,37 @@ tromexan
 carbethoxydicoumarol
 foy
 gabexate
-heparin*
-at*
+heparin
+at
 liquaemin
-nadroparin*
-fraxiparin*
-cy-216
+nadroparin
+fraxiparin
+cy 216
 cy216
-"pentosan sulfuric polyester"
-"pentosan sulphuric polyester"
+pentosan sulfuric polyester
+pentosan sulphuric polyester
 polysulfate
 polysulphate
 sodium
-pentosan*
+pentosan
 sulfuric
 sulphuric
 polyester
-pentosan*
 fibrocid
 hoe
 bay
-hoe-bay
-"946"
-pentosan*
+hoe bay
+946
 polypentose
 xylan
 sulphate
 sulfate
 sp54
-sp-54
-polysulfate*
-polysulphate*
+sp 54
+polysulfate
+polysulphate
 pz68
-pz-68
+pz 68
 elmiron
 hemoclar
 phenindione
@@ -124,33 +122,33 @@ phenylpropylhydroxycumarinum
 phenprocoumarol
 liquamar
 marcoumar
-"protein c"
-"protein s"
+protein c
+protein s
 warfarin marevan
-coumadin*
+coumadin
 warfant
 aldocumar
 tedicumar
-"beta 2-glycoprotein i"
-apo-h
+beta 2 glycoprotein i
+apo h
 anticardiolipin
-"apoliprotein h"
-ec-vmfa
-"endothelial cell viability maintaining factor"
-"beta(2)gpi"
-compression*
-thromboembolism-deterrent
-anti-embolism
+apoliprotein h
+ec vmfa
+endothelial cell viability maintaining factor
+beta(2)gpi
+compression
+thromboembolism deterrent
+anti embolism
 TED
-stocking*
+stocking
 hose
 hosiery
-device*
+device
 prophylaxis
 prophylactic
-prevent*
+prevent
 reduce
 reduction
 diminish
-decrease*
-inhibit*
+decrease
+inhibit
