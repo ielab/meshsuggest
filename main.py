@@ -37,11 +37,11 @@ def main():
                 for dd in innerD:
                     print(d)
                     print(dd)
-                    mesh_f = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
-                    print(path + "/" + d + "/" + dd + "/" + "mesh")
-                    readFile(mesh_f)
-                    clause_no_mesh_f = open(path + "/" + d + "/" + dd + "/" + "clause_no_mesh", "r")
-                    print(path + "/" + d + "/" + dd + "/" + "clause_no_mesh")
+                    # mesh_f = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
+                    # print(path + "/" + d + "/" + dd + "/" + "mesh")
+                    # readFile(mesh_f)
+                    clause_no_mesh_f = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
+                    print(path + "/" + d + "/" + dd + "/" + "clean_clause")
                     readFile(clause_no_mesh_f)
 
 
