@@ -101,7 +101,7 @@ def main():
                         # lineSeperator("-")
                         writeFile(path, "atm_progress", "---------------------------------------------------------\n")
                     writeFile(path + "/" + d, "atm_result_query", fullNewATMQuery)
-                    writeFile(path + "/" + d, "original_full_query", fullNewATMQuery)
+                    writeFile(path + "/" + d, "original_full_query", fullOriginalQuery)
             # lineSeperator("-")
             writeFile(path, "atm_progress", "---------------------------------------------------------\n")
             writeFile(path, "atm_result", "---------------------------------------------------------\n")
