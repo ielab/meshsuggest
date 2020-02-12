@@ -1,5 +1,4 @@
 import shutil
-
 import requests
 import json
 
@@ -30,7 +29,9 @@ def readFile(path, mode, file):
 
 
 def requestForSearchDetails(path, query):
-    url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=" + query
+    configF = open("config.json", "r")
+    config = json.loads(configF.read())
+    url = config["url"] + "?db=pubmed&api_key=" + config["key"] + "&retmode=json&term=" + query
     response = requests.get(url, params=None)
     res = json.loads(response.content)
     translationStack = res["esearchresult"]["translationstack"]
@@ -80,18 +81,6 @@ def writeFile(path, filename, data):
 
 # From https://gist.github.com/greenstick/b23e475d2bfdc3a82e34eaa1f6781ee4
 def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', autosize=False):
-    """
-    Call in a loop to create terminal progress bar
-    @params:
-        iteration   - Required  : current iteration (Int)
-        total       - Required  : total iterations (Int)
-        prefix      - Optional  : prefix string (Str)
-        suffix      - Optional  : suffix string (Str)
-        decimals    - Optional  : positive number of decimals in percent complete (Int)
-        length      - Optional  : character length of bar (Int)
-        fill        - Optional  : bar fill character (Str)
-        autosize    - Optional  : automatically resize the length of the progress bar to the terminal window (Bool)
-    """
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))
     styling = '%s |%s| %s%% %s' % (prefix, fill, percent, suffix)
     if autosize:
@@ -100,7 +89,6 @@ def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=
     filledLength = int(length * iteration // total)
     bar = fill * filledLength + '-' * (length - filledLength)
     print('\r%s' % styling.replace(fill, bar), end='\r')
-    # Print New Line on Complete
     if iteration == total:
         print()
 
