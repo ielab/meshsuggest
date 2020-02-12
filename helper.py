@@ -1,6 +1,7 @@
 import shutil
 import requests
 import json
+import time
 
 symbols = ['*', '"', '[MeSH Terms]']
 
@@ -32,7 +33,7 @@ def requestForSearchDetails(path, query):
     configF = open("config.json", "r")
     config = json.loads(configF.read())
     url = config["url"] + "?db=pubmed&api_key=" + config["key"] + "&retmode=json&term=" + query
-    response = requests.get(url, params=None)
+    response = timeoutReq(url)
     res = json.loads(response.content)
     translationStack = res["esearchresult"]["translationstack"]
     # generatedQuery = res["esearchresult"]["querytranslation"]
@@ -47,6 +48,12 @@ def requestForSearchDetails(path, query):
         #     print(mesh)
         writeFile(path, "atm_progress", mesh + "\n")
     return generatedMesh
+
+
+def timeoutReq(url):
+    time.sleep(1)
+    response = requests.get(url, params=None)
+    return response
 
 
 def cleanTerms(bucket):
