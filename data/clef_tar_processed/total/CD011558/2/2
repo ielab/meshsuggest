@@ -1,8 +1,0 @@
-exp Physicians/ 
-exp Nurses/ 
-Midwifery/ 
-Obstetrical Nursing/ 
-Professional practice/
-Clinical competence/ 
-(doctor* or obstetrician* or nurse or nurses or midwi* or physician* or "skilled health provider*" or "skilled attend*" or "skilled birth attend*" or "skilled health" or " skilled assistan*" or "skilled care" or "skilled manpower" or " skilled delivery" or "skilled staff").tw. 
-or/1-7
