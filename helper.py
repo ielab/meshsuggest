@@ -10,7 +10,7 @@ def readFile(path, mode, file):
     if mode is "c":
         queryContent = file.read()
         # lineSeperator("-")
-        writeFile(path, "atm_progress", "*********************************************************\n")
+        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
         # print("Sub-Clause Content: " + queryContent)
         writeFile(path, "atm_progress", "Sub-Clause Content: \n" + queryContent + "\n")
         generatedMesh = requestForSearchDetails(path, queryContent)
@@ -20,7 +20,7 @@ def readFile(path, mode, file):
         meshs = meshContent.split("\n")
         cleanedMeshs = cleanTerms(meshs)
         # lineSeperator("-")
-        writeFile(path, "atm_progress", "*********************************************************\n")
+        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
         # print("Original MeSH Terms: ")
         writeFile(path, "atm_progress", "Original MeSH Terms: \n")
         for mesh in cleanedMeshs:
@@ -41,7 +41,7 @@ def requestForSearchDetails(path, query):
     # print("Generated Query: " + generatedQuery)
     # writeFile(path, "progress", "Generated Query: \n" + generatedQuery + "\n")
     # lineSeperator("-")
-    writeFile(path, "atm_progress", "*********************************************************\n")
+    writeFile(path, "atm_progress", "---------------------------------------------------------\n")
     # print("Generated MeSH Terms: ")
     writeFile(path, "atm_progress", "Generated MeSH Terms: \n")
     for mesh in generatedMesh:

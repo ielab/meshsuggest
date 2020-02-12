@@ -35,9 +35,9 @@ def main():
     option = input("Select the experiment to run (1. ATM; 2. MetaMap and QuickUMLS): ")
     if option is "1":
         for path in PATHS:
-            lineSeperator("#")
-            writeFile(path, "atm_progress", "#########################################################\n")
-            writeFile(path, "atm_result", "#########################################################\n")
+            lineSeperator("=")
+            writeFile(path, "atm_progress", "=========================================================\n")
+            writeFile(path, "atm_result", "=========================================================\n")
             print("Dataset: " + path)
             writeFile(path, "atm_progress", path + "\n")
             writeFile(path, "atm_result", path + "\n")
@@ -56,7 +56,7 @@ def main():
                         count += len(innerD)
                     for dd in innerD:
                         # lineSeperator("-")
-                        writeFile(path, "atm_progress", "*********************************************************\n")
+                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
                         # print("Topic: " + d)
                         writeFile(path, "atm_progress", "Topic: " + d + "\n")
                         # print("Sub-Clause Number: " + dd)
@@ -74,7 +74,7 @@ def main():
                         totalGen += len(generatedMesh)
                         totalHits += len(hits)
                         # lineSeperator("-")
-                        writeFile(path, "atm_progress", "*********************************************************\n")
+                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
                         # print("Number of Original MeSH Terms: " + str(len(originalMesh)))
                         writeFile(path, "atm_progress", "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
                         # print("Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)))
@@ -89,11 +89,11 @@ def main():
                             pre = (round(len(hits) / len(generatedMesh), 4)) * 100
                         # print("Precision: " + str(pre) + "%")
                         writeFile(path, "atm_progress", "Precision: " + str(pre) + "%" + "\n")
-                        # lineSeperator("*")
-                        writeFile(path, "atm_progress", "*********************************************************\n")
+                        # lineSeperator("-")
+                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
             # lineSeperator("-")
-            writeFile(path, "atm_progress", "*********************************************************\n")
-            writeFile(path, "atm_result", "*********************************************************\n")
+            writeFile(path, "atm_progress", "---------------------------------------------------------\n")
+            writeFile(path, "atm_result", "---------------------------------------------------------\n")
             print("Total Sub-Clauses: " + str(count))
             writeFile(path, "atm_progress", "Total Sub-Clauses: " + str(count) + "\n")
             writeFile(path, "atm_result", "Total Sub-Clauses: " + str(count) + "\n")
@@ -116,9 +116,9 @@ def main():
             print("Overall Precision: " + str(opre) + "%")
             writeFile(path, "atm_progress", "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
             writeFile(path, "atm_result", "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_progress", "#########################################################\n")
-            writeFile(path, "atm_result", "#########################################################\n")
-            lineSeperator("#")
+            writeFile(path, "atm_progress", "=========================================================\n")
+            writeFile(path, "atm_result", "=========================================================\n")
+            lineSeperator("=")
     elif option is "2":
         pass
     else:
