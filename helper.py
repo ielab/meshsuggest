@@ -6,25 +6,30 @@ import json
 symbols = ['*', '"', '[MeSH Terms]']
 
 
-def readFile(mode, file):
+def readFile(path, mode, file):
     if mode is "c":
         queryContent = file.read()
         # lineSeperator("-")
+        writeFile(path, "atm_progress", "*********************************************************\n")
         # print("Sub-Clause Content: " + queryContent)
-        generatedMesh = requestForSearchDetails(queryContent)
+        writeFile(path, "atm_progress", "Sub-Clause Content: \n" + queryContent + "\n")
+        generatedMesh = requestForSearchDetails(path, queryContent)
         return generatedMesh
     else:
         meshContent = file.read()
         meshs = meshContent.split("\n")
         cleanedMeshs = cleanTerms(meshs)
         # lineSeperator("-")
+        writeFile(path, "atm_progress", "*********************************************************\n")
         # print("Original MeSH Terms: ")
-        # for mesh in cleanedMeshs:
-        #     print(mesh)
+        writeFile(path, "atm_progress", "Original MeSH Terms: \n")
+        for mesh in cleanedMeshs:
+            #     print(mesh)
+            writeFile(path, "atm_progress", mesh + "\n")
         return cleanedMeshs
 
 
-def requestForSearchDetails(query):
+def requestForSearchDetails(path, query):
     url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&retmode=json&term=" + query
     response = requests.get(url, params=None)
     res = json.loads(response.content)
@@ -32,10 +37,14 @@ def requestForSearchDetails(query):
     # generatedQuery = res["esearchresult"]["querytranslation"]
     generatedMesh = getATMMeSHTerms(translationStack)
     # print("Generated Query: " + generatedQuery)
+    # writeFile(path, "progress", "Generated Query: \n" + generatedQuery)
     # lineSeperator("-")
+    writeFile(path, "atm_progress", "*********************************************************\n")
     # print("Generated MeSH Terms: ")
-    # for mesh in generatedMesh:
-    #     print(mesh)
+    writeFile(path, "atm_progress", "Generated MeSH Terms: \n")
+    for mesh in generatedMesh:
+        #     print(mesh)
+        writeFile(path, "atm_progress", mesh + "\n")
     return generatedMesh
 
 
@@ -64,7 +73,7 @@ def findMatch(original, generated):
 
 
 def writeFile(path, filename, data):
-    f = open(path + "/" + filename, "w+")
+    f = open(path + "/" + filename, "a+")
     f.write(data)
     return
 
