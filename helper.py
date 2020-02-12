@@ -38,7 +38,7 @@ def requestForSearchDetails(path, query):
     # generatedQuery = res["esearchresult"]["querytranslation"]
     generatedMesh = getATMMeSHTerms(translationStack)
     # print("Generated Query: " + generatedQuery)
-    # writeFile(path, "progress", "Generated Query: \n" + generatedQuery)
+    # writeFile(path, "progress", "Generated Query: \n" + generatedQuery + "\n")
     # lineSeperator("-")
     writeFile(path, "atm_progress", "*********************************************************\n")
     # print("Generated MeSH Terms: ")
