@@ -86,6 +86,24 @@ def writeFile(path, filename, data):
     return
 
 
+def getOriginalQuery(path):
+    meshQF = open(path + "/" + "clause_mesh", "r")
+    meshQContent = meshQF.read()
+    return meshQContent
+
+
+def generateNewQuery(path, meshs):
+    noMeshQF = open(path + "/" + "clause_no_mesh", "r")
+    noMeshContent = noMeshQF.read()
+    if len(meshs) > 0:
+        meshQuery = "[mesh] OR ".join(meshs)
+        meshQuery = meshQuery + "[mesh]"
+        newQuery = "(" + meshQuery + " OR " + noMeshContent[1:]
+        return newQuery
+    else:
+        return noMeshContent
+
+
 # From https://gist.github.com/greenstick/b23e475d2bfdc3a82e34eaa1f6781ee4
 def printProgressBar(iteration, total, prefix='', suffix='', decimals=1, length=100, fill='█', autosize=False):
     percent = ("{0:." + str(decimals) + "f}").format(100 * (iteration / float(total)))

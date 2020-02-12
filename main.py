@@ -23,9 +23,11 @@ TOTAL_FOLDER_2019 = "data/clef_tar_processed/2019/total"
 # TOTAL DATASET
 TOTAL_DATASET = "data/clef_tar_processed/total"
 
-PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018, TEST_DTA_FOLDER_2019,
-         TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019, TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019,
-         TOTAL_TRAIN_FOLDER_2019, TOTAL_FOLDER_2017, TOTAL_FOLDER_2018, TOTAL_FOLDER_2019, TOTAL_DATASET]
+# PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018, TEST_DTA_FOLDER_2019,
+#          TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019, TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019,
+#          TOTAL_TRAIN_FOLDER_2019, TOTAL_FOLDER_2017, TOTAL_FOLDER_2018, TOTAL_FOLDER_2019, TOTAL_DATASET]
+
+PATHS = ["test"]
 
 
 def main():
@@ -50,7 +52,9 @@ def main():
                     innerD = os.listdir(path + "/" + d)
                     if ".DS_Store" in innerD:
                         innerD.remove(".DS_Store")
-                        count += len(innerD)
+                    count += len(innerD)
+                    fullNewATMQuery = ""
+                    fullOriginalQuery = ""
                     for dd in innerD:
                         # lineSeperator("-")
                         writeFile(path, "atm_progress", "---------------------------------------------------------\n")
@@ -66,6 +70,16 @@ def main():
                         clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
                         originalMesh = readFile(path, "m", meshF)
                         generatedMesh = readFile(path, "c", clauseNoMeshF)
+                        newQuery = generateNewQuery(path + "/" + d + "/" + dd, generatedMesh)
+                        if fullNewATMQuery is "":
+                            fullNewATMQuery = newQuery
+                        else:
+                            fullNewATMQuery = fullNewATMQuery + " AND " + newQuery
+                        originalQuery = getOriginalQuery(path + "/" + d + "/" + dd)
+                        if fullOriginalQuery is "":
+                            fullOriginalQuery = originalQuery
+                        else:
+                            fullOriginalQuery = fullOriginalQuery + " AND " + originalQuery
                         hits = findMatch(originalMesh, generatedMesh)
                         totalMeSHs += len(originalMesh)
                         totalGen += len(generatedMesh)
@@ -88,6 +102,8 @@ def main():
                         writeFile(path, "atm_progress", "Precision: " + str(pre) + "%" + "\n")
                         # lineSeperator("-")
                         writeFile(path, "atm_progress", "---------------------------------------------------------\n")
+                    writeFile(path + "/" + d, "atm_result_query", fullNewATMQuery)
+                    writeFile(path + "/" + d, "original_full_query", fullNewATMQuery)
             # lineSeperator("-")
             writeFile(path, "atm_progress", "---------------------------------------------------------\n")
             writeFile(path, "atm_result", "---------------------------------------------------------\n")

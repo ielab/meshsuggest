@@ -131,36 +131,3 @@ dmypy.json
 # Editor
 .idea/
 .vscode/
-
-# Config
-config.json
-
-# Results
-data/clef_tar_processed/2017/testing/atm_progress
-data/clef_tar_processed/2017/testing/atm_result
-data/clef_tar_processed/2017/training/atm_progress
-data/clef_tar_processed/2017/training/atm_result
-data/clef_tar_processed/2017/total/atm_progress
-data/clef_tar_processed/2017/total/atm_result
-data/clef_tar_processed/2018/testing/atm_progress
-data/clef_tar_processed/2018/testing/atm_result
-data/clef_tar_processed/2018/training/atm_progress
-data/clef_tar_processed/2018/training/atm_result
-data/clef_tar_processed/2018/total/atm_progress
-data/clef_tar_processed/2018/total/atm_result
-data/clef_tar_processed/2019/testing/DTA/atm_progress
-data/clef_tar_processed/2019/testing/DTA/atm_result
-data/clef_tar_processed/2019/testing/Intervention/atm_progress
-data/clef_tar_processed/2019/testing/Intervention/atm_result
-data/clef_tar_processed/2019/training/DTA/atm_progress
-data/clef_tar_processed/2019/training/DTA/atm_result
-data/clef_tar_processed/2019/training/Intervention/atm_progress
-data/clef_tar_processed/2019/training/Intervention/atm_result
-data/clef_tar_processed/2019/testing/total/atm_progress
-data/clef_tar_processed/2019/testing/total/atm_result
-data/clef_tar_processed/2019/training/total/atm_progress
-data/clef_tar_processed/2019/training/total/atm_result
-data/clef_tar_processed/2019/total/atm_progress
-data/clef_tar_processed/2019/total/atm_result
-data/clef_tar_processed/total/atm_progress
-data/clef_tar_processed/total/atm_result
