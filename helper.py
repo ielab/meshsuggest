@@ -13,8 +13,8 @@ def readFile(path, mode, file):
         writeFile(path, "atm_progress", "---------------------------------------------------------\n")
         # print("Sub-Clause Content: " + queryContent)
         writeFile(path, "atm_progress", "Sub-Clause Content: \n" + queryContent + "\n")
-        generatedMesh = requestForSearchDetails(path, queryContent)
-        return generatedMesh
+        generatedMesh, cleaned = requestForSearchDetails(path, queryContent)
+        return generatedMesh, cleaned
     else:
         meshContent = file.read()
         meshs = meshContent.split("\n")
@@ -37,7 +37,7 @@ def requestForSearchDetails(path, query):
     res = json.loads(response.content)
     translationStack = res["esearchresult"]["translationstack"]
     # generatedQuery = res["esearchresult"]["querytranslation"]
-    generatedMesh = getATMMeSHTerms(translationStack)
+    generatedMesh, cleaned = getATMMeSHTerms(translationStack)
     # print("Generated Query: " + generatedQuery)
     # writeFile(path, "progress", "Generated Query: \n" + generatedQuery + "\n")
     # lineSeperator("-")
@@ -47,7 +47,7 @@ def requestForSearchDetails(path, query):
     for mesh in generatedMesh:
         #     print(mesh)
         writeFile(path, "atm_progress", mesh + "\n")
-    return generatedMesh
+    return generatedMesh, cleaned
 
 
 def timeoutReq(url):
@@ -68,11 +68,29 @@ def cleanTerms(bucket):
 
 def getATMMeSHTerms(translationstack):
     mesh = []
+    cleanedMesh = []
+    res = []
+    seen_term = set()
+    noDupMesh = []
     for item in translationstack:
         if type(item) is not str and item["field"] == "MeSH Terms":
-            mesh.append(item["term"])
-    res = cleanTerms(mesh)
-    return res
+            term = {
+                "term": item["term"],
+                "explode": item["explode"]
+            }
+            mesh.append(term)
+    for t in mesh:
+        for char in symbols:
+            t["term"] = t["term"].replace(char, "")
+        t["term"] = t["term"].lower()
+        cleanedMesh.append(t)
+        res.append(t["term"])
+    for d in cleanedMesh:
+        if d["term"] not in seen_term:
+            noDupMesh.append(d)
+            seen_term.add(d["term"])
+    res = cleanTerms(res)
+    return res, noDupMesh
 
 
 def findMatch(original, generated):
@@ -96,8 +114,15 @@ def generateNewQuery(path, meshs):
     noMeshQF = open(path + "/" + "clause_no_mesh", "r")
     noMeshContent = noMeshQF.read()
     if len(meshs) > 0:
-        meshQuery = "[mesh] OR ".join(meshs)
-        meshQuery = meshQuery + "[mesh]"
+        allMesh = []
+        for t in meshs:
+            if t["explode"] is "Y":
+                t["term"] = t["term"] + "[mesh]"
+            else:
+                t["term"] = t["term"] + "[mesh:noexp]"
+        for m in meshs:
+            allMesh.append(m["term"])
+        meshQuery = " OR ".join(allMesh)
         newQuery = "(" + meshQuery + " OR " + noMeshContent[1:]
         return newQuery
     else:
