@@ -43,6 +43,8 @@ def requestForSearchDetails(path, query):
 def timeoutReq(url):
     time.sleep(1)
     response = requests.get(url, params=None)
+    while response.content is None:
+        response = requests.get(url, params=None)
     return response
 
 
