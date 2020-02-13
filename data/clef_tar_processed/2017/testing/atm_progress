@@ -1,0 +1,1962 @@
+=========================================================
+data/clef_tar_processed/2017/testing
+---------------------------------------------------------
+Topic: CD010653
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010653/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010653/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+international classification of diseases
+diagnostic and statistical manual of mental disorders
+sensitivity and specificity
+diagnosis
+---------------------------------------------------------
+Sub-Clause Content: 
+(Research Diagnostic Criteria OR present state examination OR PSE OR RDC OR bleuler OR international pilot study of schizophrenia OR IPSS OR new haven schizophrenia index OR NHSI OR operational criteria OR ICD OR schneider OR kraepelin OR Feighner OR DSM OR (operation AND criteri))
+---------------------------------------------------------
+Generated MeSH Terms: 
+research
+diagnosis
+physical examination
+pilot projects
+schizophrenia
+abstracting and indexing
+surgical procedures, operative
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of ATM Generated MeSH Terms: 7
+Number of Terms Matched: 1
+Recall: 25.0%
+Precision: 14.29%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010653
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010653/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010653/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+schizophrenia
+---------------------------------------------------------
+Sub-Clause Content: 
+(schizophren)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009925
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009925/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009925/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+prenatal diagnosis
+pregnancy-associated plasma protein-a
+chorionic gonadotropin, beta subunit, human
+alpha-fetoproteins
+inhibins
+amniocentesis
+chorionic villi-sampling
+roc curve
+area under curve
+false negative reactions
+false positive reactions
+---------------------------------------------------------
+Sub-Clause Content: 
+(papp a OR human chorionic gonadotropin OR inhibin a OR diagnos OR accura OR AUC OR ultrasound OR marker OR tricuspid regurgitation OR specific OR reproducibility of results OR predict OR sensitiv OR reference standard OR afp OR screen OR detect OR reference value OR pregnancy associated plasma protein a OR ue3 OR chorion vill sampling OR ROC OR nuchal translucency OR ductus venosus OR likelihood ratio OR alphafetoprotein OR alpha fetoprotein OR nasal bone OR (b hcg OR bhcg) OR (unconjugated estriol OR unconjugated oestriol) OR (false positive OR false negative))
+---------------------------------------------------------
+Generated MeSH Terms: 
+pregnancy-associated plasma protein-a
+chorionic gonadotropin
+ultrasonography
+ultrasonics
+biomarkers
+tricuspid valve insufficiency
+reproducibility of results
+reference standards
+mass screening
+early detection of cancer
+reference values
+chorion
+nuchal translucency measurement
+probability
+alpha-fetoproteins
+nasal bone
+estriol
+---------------------------------------------------------
+Number of Original MeSH Terms: 11
+Number of ATM Generated MeSH Terms: 17
+Number of Terms Matched: 2
+Recall: 18.18%
+Precision: 11.76%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009925
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009925/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009925/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+down syndrome
+aneuploidy
+mosaicism
+---------------------------------------------------------
+Sub-Clause Content: 
+(down syndrome OR trisomy 21 OR aneuploidy OR mosaicism OR downs syndrome)
+---------------------------------------------------------
+Generated MeSH Terms: 
+down syndrome
+aneuploidy
+mosaicism
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 3
+Recall: 100.0%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008803
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008803/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008803/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+glaucoma
+ocular hypertension
+intraocular pressure
+optic nerve diseases
+optic disk
+retinal ganglion cells
+---------------------------------------------------------
+Sub-Clause Content: 
+(glaucoma OR RNFL OR optic dis OR retinal ganglion cell OR ONH OR (retinal AND nerve AND fiber AND layer) OR (pressure AND ((increas OR elevat OR high OR raise) AND (ocular OR intraocular OR intra ocular))) OR (retinal AND nerve AND fibre AND layer) OR (optic AND nerve AND head) OR (OHT OR IOP))
+---------------------------------------------------------
+Generated MeSH Terms: 
+glaucoma
+eye
+retinal ganglion cells
+retinaldehyde
+retina
+dietary fiber
+pressure
+head
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of ATM Generated MeSH Terms: 8
+Number of Terms Matched: 2
+Recall: 33.33%
+Precision: 25.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008803
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008803/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008803/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+ophthalmoscopy
+lasers
+tomography, optical coherence
+tomography, optical
+---------------------------------------------------------
+Sub-Clause Content: 
+(enhanced corneal compensation OR variable corneal compensation OR OCT OR GDx OR HRT OR SLP OR VCC OR (optical AND coherence AND interferomet) OR (Heidelberg AND Retina AND Tomograph) OR (scan AND laser AND polarimetry) OR (confocal AND scan AND laser AND ophthalm) OR (optical AND coherence AND tomograph))
+---------------------------------------------------------
+Generated MeSH Terms: 
+cornea
+compensation and redress
+retina
+radionuclide imaging
+lasers
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of ATM Generated MeSH Terms: 5
+Number of Terms Matched: 1
+Recall: 25.0%
+Precision: 20.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009519
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009519/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009519/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+lung neoplasms
+---------------------------------------------------------
+Sub-Clause Content: 
+(NSCLC OR ((lung OR lungs OR pulmonary) AND (neoplasm OR cancer OR carcinoma OR adenocarcinoma OR angiosarcoma OR chrondosarcoma OR sarcoma OR teratoma OR lymphoma OR blastoma OR microcytic OR tumour OR tumor)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+carcinoma, non-small-cell lung
+lung
+neoplasms
+carcinoma
+adenocarcinoma
+hemangiosarcoma
+sarcoma
+teratoma
+lymphoma
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 9
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009519
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009519/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009519/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography
+tomography, emission-computed
+positron-emission tomography
+tomography, spiral computed
+fluorodeoxyglucose f18
+---------------------------------------------------------
+Sub-Clause Content: 
+(FDG OR Fludeoxyglucose OR fluorodeoxyglucose OR depreotide OR ((positron OR photon OR scintillation) AND (emission OR tomograph)) OR CGC OR PET OR SPECT OR NEOTECT OR NEOSPECT OR NEOTEC)
+---------------------------------------------------------
+Generated MeSH Terms: 
+fluorodeoxyglucose f18
+electrons
+photons
+tomography, emission-computed, single-photon
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 1
+Recall: 20.0%
+Precision: 25.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010896
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010896/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010896/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography, emission-computed, single-photon
+tomography, emission-computed
+---------------------------------------------------------
+Sub-Clause Content: 
+(SPECT OR SPET OR single photon emission tomography OR single photon emission computed tomography OR SPECT/CT)
+---------------------------------------------------------
+Generated MeSH Terms: 
+tomography, emission-computed, single-photon
+single photon emission computed tomography computed tomography
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 50.0%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010896
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010896/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010896/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+dementia
+delirium
+delirium, dementia, amnestic, cognitive disorders
+frontotemporal lobar degeneration
+primary progressive nonfluent aphasia
+aphasia, primary progressive
+---------------------------------------------------------
+Sub-Clause Content: 
+(dement OR benign senescent forgetfulness OR alzheimer OR primary progressive aphasia OR Frontotemporal lobar degeneration OR progressive non fluent aphasia OR (chronic AND cerebrovascular) OR (organic brain disease OR organic brain syndrome) OR (cerebr AND deteriorat) OR (cerebral AND insufficient) OR (pick AND disease) OR (lewy AND bod) OR (FTD OR FTLD))
+---------------------------------------------------------
+Generated MeSH Terms: 
+alzheimer disease
+aphasia, primary progressive
+frontotemporal lobar degeneration
+primary progressive nonfluent aphasia
+brain diseases
+cerebrum
+brain
+disease
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of ATM Generated MeSH Terms: 8
+Number of Terms Matched: 3
+Recall: 50.0%
+Precision: 37.5%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008782
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008782/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008782/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+dementia
+cognition disorders
+neurofibrils
+neurofilament proteins
+senile plaques
+neuropil threads
+---------------------------------------------------------
+Sub-Clause Content: 
+(MCI OR SMC OR LCD OR AACD OR MCD OR ACMI OR ARCD OR AAMI OR MD OR MNCD OR CIND OR QD OR BSF OR (alzheimer OR dement) OR ((cognit OR memory OR cerebr OR mental) AND (declin OR impair OR los OR deteriorate OR degenerat OR complain OR disturb OR disorder)) OR (neurofilament AND protein) OR (plaque AND (senile OR amyloid OR neuritic)) OR (neuropil AND thread) OR (forgetful OR confused OR confusion) OR (neurofibril AND tangle))
+---------------------------------------------------------
+Generated MeSH Terms: 
+alzheimer disease
+memory
+disease
+intermediate filaments
+proteins
+plaque, amyloid
+dental plaque
+amyloid
+neuropil
+confusion
+neurofibrils
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of ATM Generated MeSH Terms: 11
+Number of Terms Matched: 1
+Recall: 16.669999999999998%
+Precision: 9.09%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008782
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008782/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008782/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+cerebrospinal fluid
+blood-brain barrier
+---------------------------------------------------------
+Sub-Clause Content: 
+((cerebrospinal fluid OR csf OR spinal fluid) OR (blood OR plasma))
+---------------------------------------------------------
+Generated MeSH Terms: 
+cerebrospinal fluid
+blood
+plasma
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 1
+Recall: 50.0%
+Precision: 33.33%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008782
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008782/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008782/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+amyloid beta-protein
+peptide fragments
+---------------------------------------------------------
+Sub-Clause Content: 
+(ABPP OR APP OR beta OR Abeta OR amyloid OR (beta AND A4) OR (amyloidogenic AND (peptide OR protein)) OR (Innotest OR Inno bia OR Alzbio3))
+---------------------------------------------------------
+Generated MeSH Terms: 
+amyloid
+peptides
+proteins
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010386
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010386/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010386/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+positron-emission tomography
+---------------------------------------------------------
+Sub-Clause Content: 
+(C Pittsburgh OR amyloid deposition OR [11C]PIB OR Pittsburgh compound B OR amyloid ligand OR (PiB OR PIB) OR (PIB PET OR PET PIB) OR (positron emission tomography OR (PET AND (scan OR image))))
+---------------------------------------------------------
+Generated MeSH Terms: 
+amyloid
+ligands
+positron-emission tomography
+radionuclide imaging
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 25.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010386
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010386/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010386/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+dementia
+---------------------------------------------------------
+Sub-Clause Content: 
+(LCD OR MNCD OR MCI OR CIND OR AAMI OR MCD OR ARCD OR BSF OR QD OR AACD OR ACMI OR SMC OR (CDR 0.5 OR clinical dementia rating scale 0.5 OR 0.5 CDR) OR (nMCI OR aMCI OR mMCI) OR (GDS 3 OR 3 GDS) OR ((cognit OR memory OR cerebr OR mental) AND (declin OR impair OR los OR deteriorate OR degenerat OR complain OR disturb OR disorder)) OR (N MCI OR A MCI OR M MCI) OR (alzheimer OR dement OR AD OR lewy OR DLB OR LBD) OR (global deterioration scale AND stage 3))
+---------------------------------------------------------
+Generated MeSH Terms: 
+mental status and dementia tests
+memory
+disease
+alzheimer disease
+weights and measures
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 5
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010705
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010705/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010705/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tuberculosis, pulmonary
+tuberculosis, multidrug-resistant
+mycobacterium tuberculosis
+---------------------------------------------------------
+Sub-Clause Content: 
+(TB OR tuberculosis OR MDR TB OR XDR TB)
+---------------------------------------------------------
+Generated MeSH Terms: 
+tuberculosis
+tuberculosis, multidrug-resistant
+extensively drug-resistant tuberculosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 1
+Recall: 33.33%
+Precision: 33.33%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010276
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010276/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010276/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+carcinoma, squamous cell
+precancerous conditions
+---------------------------------------------------------
+Sub-Clause Content: 
+(tumor OR tumour OR cancer OR carcinoma OR carcinogen OR neoplas OR malignan OR metasta OR dysplas OR lesion OR ulcer OR pre cancer OR precancer OR premalignanacies OR precursor OR lichen planus OR leukoplakia OR submucous fibrosis OR candidiasis OR erythroplakia OR erythroplasia OR erythroleukoplakia OR hyperplas OR hyperkeratose OR (actinic AND keratosis))
+---------------------------------------------------------
+Generated MeSH Terms: 
+neoplasms
+carcinoma
+carcinogens
+ulcer
+lichen planus
+leukoplakia
+fibrosis
+candidiasis
+erythroplasia
+keratosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 10
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010276
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010276/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010276/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+physical examination
+fluorescence
+spectrophotometry
+mass screening
+coloring agents
+spectrometry, fluorescence
+tumor markers, biological
+cytological techniques
+tolonium chloride
+luminescence
+cytophotometry
+diagnosis, oral
+tomography, optical coherence
+acetic acid
+light
+luminescent agents
+saliva
+cytodiagnosis
+---------------------------------------------------------
+Sub-Clause Content: 
+(lumenoscopy OR acetowhite OR (visual AND (light emitting diode OR blue spectrum OR LED OR luminous)) OR ((analy OR screen OR test OR examin) AND (blood OR saliva)) OR (brush AND (cytodiagnosis OR cytopathology)) OR (tissue AND reflect) OR (brush AND biops) OR (visual AND (exam OR inspect OR screen)) OR (modified liquid based cytology OR (exfoliata AND cytolog)) OR (tolonium chloride OR tolu blue OR tolu b OR tblue OR t blue) OR ((tumor OR tumour OR cancer OR carcinoma OR neoplas OR carcinogen OR malignan OR metata OR lesion OR ulcer) AND (fluorescen OR autofluorescen OR luminescen OR chemiluminescen)) OR (acetic acid AND (wash OR rins)) OR ((tumo marker OR neoplas marker) AND (blood OR saliva)) OR ((oral OR mouth) AND (exam OR histolog OR check OR inspect)) OR (visualiation AND adjunct) OR (vizilite OR microlux OR orascoptic OR velscope) OR (oral cdx OR oralcdx) OR (tolu AND (dye OR rins OR stain OR wash)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+light
+mass screening
+early detection of cancer
+research design
+blood
+saliva
+cytodiagnosis
+pathology
+tissues
+cytological techniques
+cell biology
+tolonium chloride
+neoplasms
+carcinoma
+carcinogens
+ulcer
+acetic acid
+acetates
+biomarkers
+mouth
+coloring agents
+staining and labeling
+---------------------------------------------------------
+Number of Original MeSH Terms: 18
+Number of ATM Generated MeSH Terms: 22
+Number of Terms Matched: 8
+Recall: 44.440000000000005%
+Precision: 36.36%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010276
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010276/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010276/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+mouth neoplasms
+lichen planus, oral
+oral submucous fibrosis
+oral candidiasis
+---------------------------------------------------------
+Sub-Clause Content: 
+((oral OR mouth OR bucca OR oral cavities OR lip OR lips OR tongue OR gingiva OR palat OR cheek OR intra oral OR intraoral OR gum OR gums OR labial OR (oral AND mucosa) OR (mouth AND mucosa)) AND (tumor OR tumour OR cancer OR carcinoma OR carcinogen OR neoplas OR malignan OR metasta OR dysplas OR lesion OR ulcer OR pre cancer OR precancer OR premalignanacies OR precursor OR lichen planus OR leukoplakia OR submucous fibrosis OR candidiasis OR erythroplakia OR erythroplasia OR erythroleukoplakia OR hyperplas OR hyperkeratocytes OR (actinic AND keratosis)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+mouth
+cheek
+dental caries
+lip
+tongue
+gingiva
+mucous membrane
+neoplasms
+carcinoma
+carcinogens
+ulcer
+lichen planus
+leukoplakia
+fibrosis
+candidiasis
+erythroplasia
+keratosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of ATM Generated MeSH Terms: 17
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 7
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/7/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/7/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+back
+spine
+sacroiliac-joint
+---------------------------------------------------------
+Sub-Clause Content: 
+(back OR lowback OR lumbar OR lumbal OR lumbo OR sciatic OR spine OR spinal OR radicular OR nerve root OR nerve roots OR disk OR disc OR disks OR discs OR vertebra OR intervertebra OR sacroilia)
+---------------------------------------------------------
+Generated MeSH Terms: 
+back
+lumbosacral region
+spine
+plant roots
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 2
+Recall: 66.67%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 6
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/6/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/6/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+pain
+---------------------------------------------------------
+Sub-Clause Content: 
+(pain OR ache OR aching OR complaint OR dysfunction OR disabil OR neuralgia)
+---------------------------------------------------------
+Generated MeSH Terms: 
+pain
+neuralgia
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+reflex, stretch
+---------------------------------------------------------
+Sub-Clause Content: 
+(straight leg raising OR lasegue OR bell test OR hyperextension test OR femoral nerve stretch test OR slump)
+---------------------------------------------------------
+Generated MeSH Terms: 
+heterosexuality
+leg
+research design
+femoral nerve
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/4/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/4/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+intervertebral disk displacement
+polyradiculopathy
+---------------------------------------------------------
+Sub-Clause Content: 
+(radiculopathia OR radiculitic)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+back pain
+sciatica
+---------------------------------------------------------
+Sub-Clause Content: 
+(back ache OR backache OR back pain OR dorsalgia OR lumbago OR sciatica OR ischias OR ischialgia OR lumboischialgia OR radiculalgia)
+---------------------------------------------------------
+Generated MeSH Terms: 
+back pain
+low back pain
+sciatica
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 2
+Recall: 100.0%
+Precision: 66.67%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+physical examination
+---------------------------------------------------------
+Sub-Clause Content: 
+(physical examination OR function test OR physical test)
+---------------------------------------------------------
+Generated MeSH Terms: 
+physical examination
+physiology
+research design
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 33.33%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007431
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD007431/5/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD007431/5/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+diagnostic errors
+diagnosis, differential
+reproducibility of results
+reference standards
+sensitivity and specificity
+evaluation studies as topic
+longitudinal studies
+reference values
+---------------------------------------------------------
+Sub-Clause Content: 
+(Comparative study OR Evaluation studies OR sensitivit OR specificit OR accura OR likelihood ratio OR predict OR index test OR reference test OR pretest OR pre test OR posttest OR post test OR gold standard OR roc OR odds OR validity OR validation OR validate OR validation studies OR verif OR evaluat OR value OR cutoff OR cut off OR repeatability OR reproducibility OR efficacy OR reliability OR error OR suitability OR utility)
+---------------------------------------------------------
+Generated MeSH Terms: 
+evaluation studies as topic
+probability
+abstracting and indexing
+research design
+gold
+validation studies as topic
+---------------------------------------------------------
+Number of Original MeSH Terms: 8
+Number of ATM Generated MeSH Terms: 6
+Number of Terms Matched: 1
+Recall: 12.5%
+Precision: 16.669999999999998%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009551
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009551/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009551/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+aspergillosis
+pulmonary aspergillosis
+aspergillus
+---------------------------------------------------------
+Sub-Clause Content: 
+(aspergillosis OR aspergillus OR aspergilloma OR A.fumigatus OR A. flavus OR A. clavatus OR A. terreus OR A. niger)
+---------------------------------------------------------
+Generated MeSH Terms: 
+aspergillosis
+aspergillus
+niger
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 2
+Recall: 66.67%
+Precision: 66.67%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009551
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009551/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009551/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+nucleic acid amplification techniques
+---------------------------------------------------------
+Sub-Clause Content: 
+(pcr OR polymerase chain reaction)
+---------------------------------------------------------
+Generated MeSH Terms: 
+polymerase chain reaction
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 1
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009135
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009135/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009135/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+leishmaniasis, visceral
+leishmania donovani
+leishmania infantum
+---------------------------------------------------------
+Sub-Clause Content: 
+(Leishmania chagasi OR Visceral leishmania OR kala azar)
+---------------------------------------------------------
+Generated MeSH Terms: 
+leishmania infantum
+leishmania
+leishmaniasis, visceral
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 2
+Recall: 66.67%
+Precision: 66.67%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009135
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009135/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009135/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+immunoblotting
+latex fixation tests
+serological tests
+enzyme-linked immunosorbent assay
+reagent kits, diagnostic
+---------------------------------------------------------
+Sub-Clause Content: 
+(Serodiagnostic test OR ELISA OR K39 antigen, Leishmania OR K39 Or rK39 OR RDT OR Antigen OR Lateral flow test OR Strip test OR Rapid diagnostic test OR Antibod OR Direct agglutination test OR Dipstick OR K26 antigen, Leishmania)
+---------------------------------------------------------
+Generated MeSH Terms: 
+research design
+enzyme-linked immunosorbent assay
+antigens
+diagnostic tests, routine
+agglutination tests
+leishmania
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of ATM Generated MeSH Terms: 6
+Number of Terms Matched: 1
+Recall: 20.0%
+Precision: 16.669999999999998%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009185
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009185/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009185/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+c-reactive protein
+---------------------------------------------------------
+Sub-Clause Content: 
+(c reactive protein OR CRP)
+---------------------------------------------------------
+Generated MeSH Terms: 
+c-reactive protein
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 1
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009185
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009185/4/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009185/4/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+urinary tract infections
+pyelonephritis
+---------------------------------------------------------
+Sub-Clause Content: 
+(urinary tract infection OR pyelonephritis OR UTI OR UTIs)
+---------------------------------------------------------
+Generated MeSH Terms: 
+urinary tract infections
+pyelonephritis
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 2
+Recall: 100.0%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009185
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009185/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009185/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+technetium tc 99m dimercaptosuccinic acid
+radionuclide imaging
+succimer
+kidney
+---------------------------------------------------------
+Sub-Clause Content: 
+(DMSA OR dimercaptosuccinamide OR scintigra)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009185
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009185/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009185/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+blood sedimentation
+---------------------------------------------------------
+Sub-Clause Content: 
+(ESR OR blood sedimentation OR erythrocyte sedimentation rate)
+---------------------------------------------------------
+Generated MeSH Terms: 
+blood sedimentation
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 1
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009372
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009372/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009372/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+magnetic resonance angiography
+angiography
+cerebral angiography
+magnetic resonance imaging
+tomography, x-ray computed
+---------------------------------------------------------
+Sub-Clause Content: 
+(MRA AND ((magnetic resonance OR MR OR MRI OR NMR) AND (angiogra OR arteriografia)) AND ((Compute OR CT OR CAT) AND (angiogra OR arteriografia)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+magnetic resonance spectroscopy
+magnetic resonance imaging
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 20.0%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009372
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009372/4/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009372/4/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+sensitivity and specificity
+diagnostic errors
+likelihood function
+---------------------------------------------------------
+Sub-Clause Content: 
+(sensitiv OR specificity OR (predictive AND value) OR ((false AND positive) OR (false AND negative)) OR (observer AND variation) OR (roc AND curve) OR (likelihood AND ratio))
+---------------------------------------------------------
+Generated MeSH Terms: 
+sensitivity and specificity
+probability
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 33.33%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009372
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009372/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009372/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+angiography, digital subtraction
+angiography
+subtraction technique
+---------------------------------------------------------
+Sub-Clause Content: 
+(subtraction OR ((digital subtracted OR catheter OR cerebral OR brain) AND (angiogra OR arteriografia)) OR DSA OR IADSA)
+---------------------------------------------------------
+Generated MeSH Terms: 
+catheters
+cerebrum
+brain
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009372
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009372/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009372/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+basal ganglia hemorrhage
+intracranial hemorrhages
+cerebral hemorrhage
+intracranial hemorrhage, hypertensive
+cerebrovascular disorders
+---------------------------------------------------------
+Sub-Clause Content: 
+(ICH OR ((brain OR cerebr OR cerebell OR intracerebral OR intracran OR parenchymal OR intraparenchymal OR intraventricular OR infratentorial OR supratentorial OR basal ganglia OR putaminal OR putamen OR posterior fossa OR hemispher OR stroke OR apoplex) AND (h OR bleed)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+brain
+basal ganglia
+putamen
+stroke
+hemorrhage
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of ATM Generated MeSH Terms: 5
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009579
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009579/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009579/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+antigens, helminth
+glycoproteins
+helminth proteins
+reagent strips
+schistosoma haematobium
+enzyme-linked immunosorbent assay
+antibodies, monoclonal
+hematuria
+proteinuria
+immunoenzyme techniques
+schistosoma mansoni
+---------------------------------------------------------
+Sub-Clause Content: 
+(h OR elisa OR albuminuria OR dipstick OR CCA OR leucocyturia OR CAA OR leukocyturia OR proteinuria OR haemastix OR eia OR schistosoma haematobium OR urinalysis OR schistosoma mansoni OR (reagent AND strip) OR (test AND strip) OR (anodic AND antigen) OR (cathodic AND antigen))
+---------------------------------------------------------
+Generated MeSH Terms: 
+enzyme-linked immunosorbent assay
+albuminuria
+proteinuria
+schistosoma haematobium
+urinalysis
+schistosoma mansoni
+indicators and reagents
+research design
+antigens
+---------------------------------------------------------
+Number of Original MeSH Terms: 11
+Number of ATM Generated MeSH Terms: 9
+Number of Terms Matched: 4
+Recall: 36.36%
+Precision: 44.440000000000005%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009579
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009579/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009579/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+schistosomiasis
+schistosomiasis haematobia
+schistosomiasis mansoni
+---------------------------------------------------------
+Sub-Clause Content: 
+(schistosomiasis OR bilharzia)
+---------------------------------------------------------
+Generated MeSH Terms: 
+schistosomiasis
+schistosoma
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 33.33%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010633
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010633/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010633/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+lewy bodies
+lewy body disease
+---------------------------------------------------------
+Sub-Clause Content: 
+(dement OR (LDB OR DLB OR LBD) OR (lewy AND bod))
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010633
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010633/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010633/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography, emission-computed, single-photon
+dopamine plasma membrane transport proteins
+dopaminergic neurons
+---------------------------------------------------------
+Sub-Clause Content: 
+([11C]cocaine OR SPET OR single photon emission tomography OR FP CIT OR 123I FP CIT OR SPECT OR [99mTc]TRODAT 1 OR [123I]PE2I OR [123I]altropane OR [3H]WIN OR [11C]dMP OR DAT scan OR [11C]FE CIT OR dopamine transporter OR DaTSCAN OR [11C]altropane OR single photon emission computed tomography OR (123I β CIT OR [123I]β CIT OR [123I]beta CIT) OR ([11C]/[18F]beta CFT OR [11C]/[18F]β CFT))
+---------------------------------------------------------
+Generated MeSH Terms: 
+cocaine
+tomography, emission-computed, single-photon
+radionuclide imaging
+dopamine plasma membrane transport proteins
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 2
+Recall: 66.67%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009786
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009786/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009786/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+ovarian neoplasms
+fallopian tube neoplasms
+---------------------------------------------------------
+Sub-Clause Content: 
+(((ovar OR fallopian tube) AND (cancer OR tumor OR tumour OR adenocarcinoma OR carcino OR cystadenocarcinoma OR choriocarcinoma OR malignan OR neoplas OR metasta OR mass OR masses)) OR thecoma OR luteoma)
+---------------------------------------------------------
+Generated MeSH Terms: 
+fallopian tubes
+neoplasms
+adenocarcinoma
+cystadenocarcinoma
+choriocarcinoma
+molecular weight
+thecoma
+luteoma
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 8
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009786
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009786/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009786/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+laparoscopy
+---------------------------------------------------------
+Sub-Clause Content: 
+(laparoscop OR celioscopia OR peritoneoscop OR abdominoscope)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010542
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010542/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010542/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+elasticity imaging techniques
+---------------------------------------------------------
+Sub-Clause Content: 
+(transient elastography OR fibroscan)
+---------------------------------------------------------
+Generated MeSH Terms: 
+transients and migrants
+elasticity imaging techniques
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010542
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010542/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010542/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+biopsy, needle
+---------------------------------------------------------
+Sub-Clause Content: 
+(liver biopsied)
+---------------------------------------------------------
+Generated MeSH Terms: 
+liver
+biopsy
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010542
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010542/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010542/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+liver cirrhosis
+---------------------------------------------------------
+Sub-Clause Content: 
+((hepatic OR liver) AND (fibrosis OR cirrhosis))
+---------------------------------------------------------
+Generated MeSH Terms: 
+liver
+fibrosis
+liver cirrhosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 33.33%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010173
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010173/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010173/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+carcinoma, squamous cell
+precancerous conditions
+---------------------------------------------------------
+Sub-Clause Content: 
+(tumor OR tumour OR cancer OR carcinoma OR carcinogen OR neoplas OR malignan OR metasta OR dysplas OR lesion OR ulcer) OR (pre cancer OR precancer OR premalignanacies OR precursor OR lichen planus OR leukoplakia OR submucous fibrosis OR candidiasis OR erythroplakia OR erythroplasia OR erythroleukoplakia OR hyperplas OR hyperkeratose OR (actinic AND keratosis))
+---------------------------------------------------------
+Generated MeSH Terms: 
+neoplasms
+carcinoma
+carcinogens
+ulcer
+lichen planus
+leukoplakia
+fibrosis
+candidiasis
+erythroplasia
+keratosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of ATM Generated MeSH Terms: 10
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010173
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010173/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010173/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+physical examination
+fluorescence
+spectrophotometry
+mass screening
+coloring agents
+spectrometry, fluorescence
+tumor markers, biological
+cytological techniques
+tolonium chloride
+luminescence
+cytophotometry
+diagnosis, oral
+tomography, optical coherence
+acetic acid
+light
+luminescent agents
+saliva
+cytodiagnosis
+---------------------------------------------------------
+Sub-Clause Content: 
+(lumenoscopy OR acetowhite OR (visual AND (light emitting diode OR blue spectrum OR LED OR luminous)) OR ((analy OR screen OR test OR examin) AND (blood OR saliva)) OR (brush AND (cytodiagnosis OR cytopathology)) OR (tissue AND reflect) OR (brush AND biops) OR (visual AND (exam OR inspect OR screen)) OR (modified liquid based cytology OR (exfoliata AND cytolog)) OR (tolonium chloride OR tolu blue OR tolu b OR tblue OR t blue) OR ((tumor OR tumour OR cancer OR carcinoma OR neoplas OR carcinogen OR malignan OR metata OR lesion OR ulcer) AND (fluorescen OR autofluorescen OR luminescen OR chemiluminescen)) OR (acetic acid AND (wash OR rins)) OR ((tumo marker OR neoplas marker) AND (blood OR saliva)) OR ((oral OR mouth) AND (exam OR histolog OR check OR inspect)) OR (visualiation AND adjunct) OR (vizilite OR microlux OR orascoptic OR velscope) OR (oral cdx OR oralcdx) OR (tolu AND (dye OR rins OR stain OR wash)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+light
+mass screening
+early detection of cancer
+research design
+blood
+saliva
+cytodiagnosis
+pathology
+tissues
+cytological techniques
+cell biology
+tolonium chloride
+neoplasms
+carcinoma
+carcinogens
+ulcer
+acetic acid
+acetates
+biomarkers
+mouth
+coloring agents
+staining and labeling
+---------------------------------------------------------
+Number of Original MeSH Terms: 18
+Number of ATM Generated MeSH Terms: 22
+Number of Terms Matched: 8
+Recall: 44.440000000000005%
+Precision: 36.36%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010173
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010173/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010173/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+mouth neoplasms
+lichen planus, oral
+oral submucous fibrosis
+oral candidiasis
+---------------------------------------------------------
+Sub-Clause Content: 
+((oral OR mouth OR bucca OR oral cavities OR lip OR lips OR tongue OR gingiva OR palat OR cheek OR intra oral OR intraoral OR gum OR gums OR labial OR (oral AND mucosa) OR (mouth AND mucosa)) AND (tumor OR tumour OR cancer OR carcinoma OR carcinogen OR neoplas OR malignan OR metasta OR dysplas OR lesion OR ulcer OR pre cancer OR precancer OR premalignanacies OR precursor OR lichen planus OR leukoplakia OR submucous fibrosis OR candidiasis OR erythroplakia OR erythroplasia OR erythroleukoplakia OR hyperplas OR hyperkeratocytes OR (actinic AND keratosis)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+mouth
+cheek
+dental caries
+lip
+tongue
+gingiva
+mucous membrane
+neoplasms
+carcinoma
+carcinogens
+ulcer
+lichen planus
+leukoplakia
+fibrosis
+candidiasis
+erythroplasia
+keratosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of ATM Generated MeSH Terms: 17
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012019
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD012019/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD012019/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+luteinizing hormone
+progesterone
+matrix metalloproteinase 1
+matrix metalloproteinase 2
+matrix metalloproteinase 3
+matrix metalloproteinase 9
+tissue inhibitor of metalloproteinase-1
+tissue inhibitor of metalloproteinase-2
+glycoproteins
+follistatin
+intercellular adhesion molecule-1
+selectins
+t-lymphocytes
+natural killer t-cells
+antibodies, antiphospholipid
+hla antigens
+hla-a1 antigen
+hla-a2 antigen
+integrins
+cysteine-rich protein 61
+vascular endothelial growth factor a
+vitamin d-binding protein
+cytokines
+interleukins
+interleukin-1
+interleukin-6
+interleukin-8
+interleukin-12
+interleukin-13
+epidermal growth factor
+fibroblast growth factors
+platelet-derived growth factor
+keratin-19
+clinical laboratory techniques
+---------------------------------------------------------
+Sub-Clause Content: 
+(Cadherin OR urinary peptide OR serum placental protein OR Fas ligand OR estrogen receptor OR MMP OR Soluble adhesion molecule OR neural marker OR cell adhesion molecule OR soluble intercellular adhesion OR leptin OR interleukin OR Total complement level OR urinary marker OR serum marker OR inflammatory marker OR cyr61 OR Follistatin OR Laboratory Test OR cytokine OR Anti LDL OR proteomic OR cysteine rich heparin binding protein OR cell surface marker OR genomic OR Anti laminin 1 OR Selectin OR TIMP OR Anti Thomsen Friedenreich antigen OR microRNA OR Immune cells alteration OR Anti transferrin OR CAMs OR sICAM OR scatter factor OR Osteopontin OR Antiphospholipid OR progesterone receptor OR MTMMP OR Anti thyroid OR cytokeratin 19 OR Proteolytic enzyme OR Aromatase P450 OR microarray OR VDBP Cr OR hepatocyte growth factor OR matrix metalloproteinase OR urinary VDBP corrected for creatinine expression OR Autoantibodies OR Integrin OR growth factor OR sVCAM OR Anti endometrial OR Endometrial marker OR (PP 14 OR PP14) OR (Anti 2HSG OR Heremans Schmidt glycoprotein) OR (biomarker OR marker) OR (T helper OR T supressor OR T helper) OR (VDBP OR vitamin D binding protein) OR (TGF b OR transforming growth factor beta OR TGFb) OR (endometri AND biops) OR (MCP I OR monocyte chemoattractant protein I) OR (VEGF OR vascular endothelial growth factor) OR (Ca 19 9 OR Ca19 9 OR cancer antigen 19 9) OR (HLA OR human leucocyte antigen) OR (EGF OR epidermal growth factor) OR (Ca 125 OR Ca125 OR cancer antigen 125) OR (FGF OR fibroblast growth factor) OR (IGF I OR insulin like growth factor OR IGF1) OR (sEselectin OR soluble E selectin) OR (ANXA 1 OR ANXA1) OR (TNF a OR tumour necrosis factor) OR (PDGF OR platelet derived growth factor) OR (Annexin 1 OR Annexin1) OR (EGFR OR epidermal growth factor receptor) OR (TGF a OR transforming growth factor alfa OR TGFa) OR (sEcadherin OR soluble E cadherin) OR (PGP 9 OR PGP9 OR protein gene product) OR (Luteinizing Hormone OR LH) OR (MIF OR migration inhibitory factor))
+---------------------------------------------------------
+Generated MeSH Terms: 
+cadherins
+urinary tract
+peptides
+serum
+pregnancy proteins
+fas ligand protein
+receptors, estrogen
+cell adhesion molecules
+biomarkers
+leptin
+interleukins
+complement system proteins
+follistatin
+laboratories
+research design
+cytokines
+proteomics
+cysteine
+cells
+genomics
+genome
+selectins
+tissue inhibitor of metalloproteinases
+micrornas
+transferrin
+hepatocyte growth factor
+osteopontin
+receptors, progesterone
+thyroid gland
+thyroid (usp)
+keratin-19
+peptide hydrolases
+aromatase
+matrix metalloproteinases
+creatinine
+gene expression
+autoantibodies
+integrins
+intercellular signaling peptides and proteins
+glycoproteins
+vitamin d-binding protein
+transforming growth factor beta
+monocyte chemoattractant proteins
+vascular endothelial growth factor a
+vascular endothelial growth factors
+ca-19-9 antigen
+hla antigens
+epidermal growth factor
+ca-125 antigen
+fibroblast growth factors
+insulin-like growth factor i
+somatomedins
+e-selectin
+tumor necrosis factor-alpha
+platelet-derived growth factor
+annexins
+erbb receptors
+transforming growth factors
+proteins
+luteinizing hormone
+macrophage migration-inhibitory factors
+---------------------------------------------------------
+Number of Original MeSH Terms: 34
+Number of ATM Generated MeSH Terms: 61
+Number of Terms Matched: 14
+Recall: 41.18%
+Precision: 22.95%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012019
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD012019/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD012019/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+endometriosis
+---------------------------------------------------------
+Sub-Clause Content: 
+(Endometrio)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010339
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010339/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010339/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+choledocholithiasis
+common bile duct calculi
+cholelithiasis
+---------------------------------------------------------
+Sub-Clause Content: 
+(choledocholithiasis OR cholelithiasis)
+---------------------------------------------------------
+Generated MeSH Terms: 
+choledocholithiasis
+cholelithiasis
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 2
+Recall: 66.67%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010339
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010339/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010339/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography, x-ray computed
+magnetic resonance imaging
+ultrasonography
+endosonography
+cholangiography
+cholangiopancreatography, magnetic resonance
+liver function tests
+---------------------------------------------------------
+Sub-Clause Content: 
+(CT OR tomodensitometry OR MRI OR NMRI OR zeugmatogram OR echogra OR ultrason OR ultrasound OR EUS OR cholangiografe OR cholangio OR cholangioscoopy OR choledochoscope OR ERCP OR MRCP OR liver function test OR liver function tests OR ((computed OR computerised OR computerized OR magneti OR MR OR NMR OR proton) AND (tomogra OR scan OR scans OR imaging OR cholangiografe)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+tomography, x-ray computed
+magnetic resonance imaging
+ultrasonography
+ultrasonics
+cholangiopancreatography, endoscopic retrograde
+liver function tests
+protons
+radionuclide imaging
+---------------------------------------------------------
+Number of Original MeSH Terms: 7
+Number of ATM Generated MeSH Terms: 8
+Number of Terms Matched: 4
+Recall: 57.14%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008760
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008760/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008760/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+esophageal and gastric varices
+---------------------------------------------------------
+Sub-Clause Content: 
+(esophagaeal varic OR esophagaeal varix OR esophago gastric varic OR esophago gastric varix OR gastro esophagaeal varic OR gastro esophagaeal varix OR gastro oesophag varic OR gastro oesophag varix OR gastroesophagal varic OR gastroesophagal varix OR gastrooesophagal varic OR gastrooesophagal varix OR oesophag varic OR oesophag varix OR oesophago gastric varic OR oesophago gastric varix OR paraesophagal varic OR paraesophagal varix OR paraoesophageal varic OR paraoesophageal varix OR periesophagastric varic OR periesophagastric varix OR perioesophagal varic OR perioesophagal varix)
+---------------------------------------------------------
+Generated MeSH Terms: 
+varicose veins
+stomach
+esophageal and gastric varices
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 3
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 33.33%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 6
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/6/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/6/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+extremity
+arm
+muscle weakness
+body weight changes
+weight loss
+electric impedance
+plethysmography, impedance
+physical examination
+water loss, insensible
+body temperature regulation
+sweating
+thermogenesis
+skin temperature
+---------------------------------------------------------
+Sub-Clause Content: 
+(((thermal OR temperature) AND (regulat OR control)) OR (blood flow AND (skin OR epiderm OR dermal)) OR ((clinical OR physical) AND (sign OR symptom OR exam OR finding OR assess)) OR ((weak OR weakness) AND (arm OR upper limb OR upper extremitates)) OR ((fluid OR water) AND (balance OR chart OR record OR diary OR diaries)) OR ((weight OR BMI OR body mass index) AND (loss OR lost OR lose OR losing OR fall OR reduc OR chang)) OR (capillar AND refill) OR ((epiderm OR skin OR transepidermal OR transderm) AND (water OR fluid OR temperature)) OR (thermoregulatable OR thermogenesis OR sweating) OR (impedance OR bioimpedance OR BIA))
+---------------------------------------------------------
+Generated MeSH Terms: 
+temperature
+body temperature
+control groups
+blood
+skin
+physical examination
+signs and symptoms
+frailty
+asthenia
+arm
+upper extremity
+water
+drinking water
+records
+weights and measures
+body weight
+body mass index
+thermogenesis
+sweating
+electric impedance
+---------------------------------------------------------
+Number of Original MeSH Terms: 13
+Number of ATM Generated MeSH Terms: 20
+Number of Terms Matched: 5
+Recall: 38.46%
+Precision: 25.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+aged
+---------------------------------------------------------
+Sub-Clause Content: 
+(65 and over OR sixty five years OR nursing home OR care home OR aged OR elder OR sixty five and over OR old age OR geriatric OR geriatrics OR senile OR senility OR older adult OR older people OR older person OR older patient OR older women OR older men)
+---------------------------------------------------------
+Generated MeSH Terms: 
+nursing homes
+aged
+sambucus
+geriatrics
+persons
+patients
+women
+men
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 8
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 12.5%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/4/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/4/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+eye
+---------------------------------------------------------
+Sub-Clause Content: 
+(eye OR eyes)
+---------------------------------------------------------
+Generated MeSH Terms: 
+eye
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 1
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tongue
+axilla
+skin
+mucous membrane
+mouth mucosa
+respiratory mucosa
+nasal mucosa
+---------------------------------------------------------
+Sub-Clause Content: 
+(tongue OR axilla OR armpit OR skin OR mucous membrane OR mucosal tissue OR mucosa)
+---------------------------------------------------------
+Generated MeSH Terms: 
+tongue
+axilla
+skin
+mucous membrane
+---------------------------------------------------------
+Number of Original MeSH Terms: 7
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 4
+Recall: 57.14%
+Precision: 100.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+dehydration
+water-electrolyte imbalance
+water-electrolyte balance
+hyperkalemia
+hypokalemia
+hypernatremia
+hyponatremia
+osmolar concentration
+hypovolemia
+---------------------------------------------------------
+Sub-Clause Content: 
+(h OR osmolalita OR hypovol OR dehydratable OR hydrat OR ((fluid OR water) AND (balance OR imbalance OR status OR body OR extracellular OR intracellular)) OR (plasma AND (tonicita OR hypertonic OR hypotonic)) OR hypokal OR hyperkal OR hyponatr OR hypernatraemia)
+---------------------------------------------------------
+Generated MeSH Terms: 
+water
+drinking water
+human body
+cytoplasm
+plasma
+hypernatremia
+---------------------------------------------------------
+Number of Original MeSH Terms: 9
+Number of ATM Generated MeSH Terms: 6
+Number of Terms Matched: 1
+Recall: 11.110000000000001%
+Precision: 16.669999999999998%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009647
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD009647/5/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD009647/5/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+heart rate
+pulse
+urine
+blood pressure
+dizziness
+---------------------------------------------------------
+Sub-Clause Content: 
+(((pulse OR heart) AND (rapid OR change OR fast)) OR (urin AND (volume OR colo OR dark OR gravit OR concentration)) OR (pressure AND (systolic OR diastolic)) OR dizzell OR lightheaded OR orthostasis)
+---------------------------------------------------------
+Generated MeSH Terms: 
+pulse
+heart rate
+heart
+fasting
+colon
+attention
+pressure
+systole
+diastole
+dizziness
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of ATM Generated MeSH Terms: 10
+Number of Terms Matched: 3
+Recall: 60.0%
+Precision: 30.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010023
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010023/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010023/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+magnetic resonance imaging
+---------------------------------------------------------
+Sub-Clause Content: 
+(MRI OR MRIs OR NMRI OR diffusion weighted image OR DWI OR T2 weighted image OR ((magnetic resonance OR MR OR NMR) AND (image OR tomograph OR scan)))
+---------------------------------------------------------
+Generated MeSH Terms: 
+magnetic resonance imaging
+diffusion
+magnetic resonance spectroscopy
+radionuclide imaging
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 4
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 25.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010023
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010023/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010023/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+radionuclide imaging
+---------------------------------------------------------
+Sub-Clause Content: 
+(scintiscan OR scintigra OR radioscintigrafiche OR (bone AND scan))
+---------------------------------------------------------
+Generated MeSH Terms: 
+bone and bones
+radionuclide imaging
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 1
+Recall: 100.0%
+Precision: 50.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010023
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD010023/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD010023/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography, x-ray computed
+---------------------------------------------------------
+Sub-Clause Content: 
+(micro computed tomographic OR (comput AND tomograph) OR CT OR CAT)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008081
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008081/1/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008081/1/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+tomography
+tomography, optical coherence
+ophthalmoscopy
+---------------------------------------------------------
+Sub-Clause Content: 
+(OCT OR (optical AND coherence AND tomograph))
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008081
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008081/3/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008081/3/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+diabetes mellitus
+diabetic retinopathy
+diabetes complications
+---------------------------------------------------------
+Sub-Clause Content: 
+(diabet OR retinopath)
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of ATM Generated MeSH Terms: 0
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0%
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008081
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2017/testing/CD008081/2/mesh
+Cleaned Query Path: data/clef_tar_processed/2017/testing/CD008081/2/clean_clause
+---------------------------------------------------------
+Original MeSH Terms: 
+macular edema
+---------------------------------------------------------
+Sub-Clause Content: 
+(maculopathia OR CME OR CSME OR CMO OR CSMO OR DMO OR DME OR (macula AND oedema) OR (macula AND edema))
+---------------------------------------------------------
+Generated MeSH Terms: 
+macula lutea
+edema
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of ATM Generated MeSH Terms: 2
+Number of Terms Matched: 0
+Recall: 0.0%
+Precision: 0.0%
+---------------------------------------------------------
+---------------------------------------------------------
+Total Sub-Clauses: 67
+Total Original MeSH Terms: 277
+Total Generated MeSH Terms: 402
+Total Matched MeSH Terms: 99
+Overall Recall: 35.74%
+Overall Precision: 24.63%
+=========================================================

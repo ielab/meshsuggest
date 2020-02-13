@@ -1,0 +1,10 @@
+=========================================================
+data/clef_tar_processed/2018/training
+---------------------------------------------------------
+Total Sub-Clauses: 106
+Total Original MeSH Terms: 443
+Total Generated MeSH Terms: 577
+Total Matched MeSH Terms: 151
+Overall Recall: 34.089999999999996%
+Overall Precision: 26.169999999999998%
+=========================================================

@@ -3,15 +3,14 @@ import requests
 import json
 import time
 
-symbols = ['*', '"', '[MeSH Terms]']
+SYMBOLS = ['*', '"', '[MeSH Terms]']
+LINEBREAK = "---------------------------------------------------------\n"
 
 
 def readFile(path, mode, file):
     if mode is "c":
         queryContent = file.read()
-        # lineSeperator("-")
-        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-        # print("Sub-Clause Content: " + queryContent)
+        writeFile(path, "atm_progress", LINEBREAK)
         writeFile(path, "atm_progress", "Sub-Clause Content: \n" + queryContent + "\n")
         generatedMesh, cleaned = requestForSearchDetails(path, queryContent)
         return generatedMesh, cleaned
@@ -19,12 +18,9 @@ def readFile(path, mode, file):
         meshContent = file.read()
         meshs = meshContent.split("\n")
         cleanedMeshs = cleanTerms(meshs)
-        # lineSeperator("-")
-        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-        # print("Original MeSH Terms: ")
+        writeFile(path, "atm_progress", LINEBREAK)
         writeFile(path, "atm_progress", "Original MeSH Terms: \n")
         for mesh in cleanedMeshs:
-            #     print(mesh)
             writeFile(path, "atm_progress", mesh + "\n")
         return cleanedMeshs
 
@@ -36,22 +32,16 @@ def requestForSearchDetails(path, query):
     response = timeoutReq(url)
     res = json.loads(response.content)
     translationStack = res["esearchresult"]["translationstack"]
-    # generatedQuery = res["esearchresult"]["querytranslation"]
     generatedMesh, cleaned = getATMMeSHTerms(translationStack)
-    # print("Generated Query: " + generatedQuery)
-    # writeFile(path, "progress", "Generated Query: \n" + generatedQuery + "\n")
-    # lineSeperator("-")
-    writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-    # print("Generated MeSH Terms: ")
+    writeFile(path, "atm_progress", LINEBREAK)
     writeFile(path, "atm_progress", "Generated MeSH Terms: \n")
     for mesh in generatedMesh:
-        #     print(mesh)
         writeFile(path, "atm_progress", mesh + "\n")
     return generatedMesh, cleaned
 
 
 def timeoutReq(url):
-    time.sleep(0.4)
+    time.sleep(1)
     response = requests.get(url, params=None)
     return response
 
@@ -59,7 +49,7 @@ def timeoutReq(url):
 def cleanTerms(bucket):
     res = []
     for item in bucket:
-        for char in symbols:
+        for char in SYMBOLS:
             item = item.replace(char, "")
         res.append(item.lower())
     res = list(dict.fromkeys(res))
@@ -80,7 +70,7 @@ def getATMMeSHTerms(translationstack):
             }
             mesh.append(term)
     for t in mesh:
-        for char in symbols:
+        for char in SYMBOLS:
             t["term"] = t["term"].replace(char, "")
         t["term"] = t["term"].lower()
         cleanedMesh.append(t)

@@ -1,4 +1,4 @@
-from helper import *
+from atm_helper import *
 import os
 
 # 2017 DATASET
@@ -23,25 +23,26 @@ TOTAL_FOLDER_2019 = "data/clef_tar_processed/2019/total"
 # TOTAL DATASET
 TOTAL_DATASET = "data/clef_tar_processed/total"
 
-PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
-         TOTAL_FOLDER_2017,
-         TEST_FOLDER_2018, TRAIN_FOLDER_2018,
-         TOTAL_FOLDER_2018,
-         TEST_INTERVENTION_FOLDER_2019, TEST_DTA_FOLDER_2019,
-         TOTAL_TEST_FOLDER_2019,
-         TRAIN_INTERVENTION_FOLDER_2019, TRAIN_DTA_FOLDER_2019,
-         TOTAL_TRAIN_FOLDER_2019,
-         TOTAL_FOLDER_2019,
-         TOTAL_DATASET]
+ENDBLOCK = "=========================================================\n"
+
+PATHS1 = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
+          TOTAL_FOLDER_2017]
+
+PATHS2 = [TEST_FOLDER_2018, TRAIN_FOLDER_2018,
+          TOTAL_FOLDER_2018]
+
+PATHS3 = [TOTAL_FOLDER_2019]
+
+PATHS4 = [TOTAL_DATASET]
 
 
 def main():
-    option = input("Select the experiment to run (1. ATM; 2. MetaMap and QuickUMLS): ")
+    option = input("Select the experiment to run (1. ATM; 2. MetaMap and QuickUMLS; 3. Entity Retrieval): ")
     if option is "1":
-        for path in PATHS:
+        for path in PATHS3:
             lineSeperator("=")
-            writeFile(path, "atm_progress", "=========================================================\n")
-            writeFile(path, "atm_result", "=========================================================\n")
+            writeFile(path, "atm_progress", ENDBLOCK)
+            writeFile(path, "atm_result", ENDBLOCK)
             print("Dataset: " + path)
             writeFile(path, "atm_progress", path + "\n")
             writeFile(path, "atm_result", path + "\n")
@@ -61,16 +62,13 @@ def main():
                     fullNewATMQuery = ""
                     fullOriginalQuery = ""
                     for dd in innerD:
-                        # lineSeperator("-")
-                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-                        # print("Topic: " + d)
+                        writeFile(path, "atm_progress", LINEBREAK)
                         writeFile(path, "atm_progress", "Topic: " + d + "\n")
-                        # print("Sub-Clause Number: " + dd)
                         writeFile(path, "atm_progress", "Sub-Clause: " + dd + "\n")
-                        # print("Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh")
-                        writeFile(path, "atm_progress", "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
-                        # print("Query Path: " + path + "/" + d + "/" + dd + "/" + "clean_clause")
-                        writeFile(path, "atm_progress", "Cleaned Query Path: " + path + "/" + d + "/" + dd + "/" + "clean_clause" + "\n")
+                        writeFile(path, "atm_progress",
+                                  "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
+                        writeFile(path, "atm_progress",
+                                  "Cleaned Query Path: " + path + "/" + d + "/" + dd + "/" + "clean_clause" + "\n")
                         meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
                         clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
                         originalMesh = readFile(path, "m", meshF)
@@ -89,29 +87,24 @@ def main():
                         totalMeSHs += len(originalMesh)
                         totalGen += len(generatedMesh)
                         totalHits += len(hits)
-                        # lineSeperator("-")
-                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-                        # print("Number of Original MeSH Terms: " + str(len(originalMesh)))
-                        writeFile(path, "atm_progress", "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
-                        # print("Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)))
-                        writeFile(path, "atm_progress", "Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)) + "\n")
-                        # print("Number of Terms Matched: " + str(len(hits)))
+                        writeFile(path, "atm_progress", LINEBREAK)
+                        writeFile(path, "atm_progress",
+                                  "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
+                        writeFile(path, "atm_progress",
+                                  "Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)) + "\n")
                         writeFile(path, "atm_progress", "Number of Terms Matched: " + str(len(hits)) + "\n")
-                        # print("Recall: " + str((round(len(hits) / len(originalMesh), 4)) * 100) + "%")
-                        writeFile(path, "atm_progress", "Recall: " + str((round(len(hits) / len(originalMesh), 4)) * 100) + "%" + "\n")
+                        writeFile(path, "atm_progress",
+                                  "Recall: " + str((round(len(hits) / len(originalMesh), 4)) * 100) + "%" + "\n")
                         if len(generatedMesh) is 0:
                             pre = 0
                         else:
                             pre = (round(len(hits) / len(generatedMesh), 4)) * 100
-                        # print("Precision: " + str(pre) + "%")
                         writeFile(path, "atm_progress", "Precision: " + str(pre) + "%" + "\n")
-                        # lineSeperator("-")
-                        writeFile(path, "atm_progress", "---------------------------------------------------------\n")
+                        writeFile(path, "atm_progress", LINEBREAK)
                     writeFile(path + "/" + d, "atm_result_query", fullNewATMQuery)
                     writeFile(path + "/" + d, "original_full_query", fullOriginalQuery)
-            # lineSeperator("-")
-            writeFile(path, "atm_progress", "---------------------------------------------------------\n")
-            writeFile(path, "atm_result", "---------------------------------------------------------\n")
+            writeFile(path, "atm_progress", LINEBREAK)
+            writeFile(path, "atm_result", LINEBREAK)
             print("Total Sub-Clauses: " + str(count))
             writeFile(path, "atm_progress", "Total Sub-Clauses: " + str(count) + "\n")
             writeFile(path, "atm_result", "Total Sub-Clauses: " + str(count) + "\n")
@@ -125,19 +118,25 @@ def main():
             writeFile(path, "atm_progress", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
             writeFile(path, "atm_result", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
             print("Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%")
-            writeFile(path, "atm_progress", "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_result", "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
+            writeFile(path, "atm_progress",
+                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
+            writeFile(path, "atm_result",
+                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
             if totalGen is 0:
                 opre = 0
             else:
                 opre = (round(totalHits / totalGen, 4)) * 100
             print("Overall Precision: " + str(opre) + "%")
-            writeFile(path, "atm_progress", "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_result", "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_progress", "=========================================================\n")
-            writeFile(path, "atm_result", "=========================================================\n")
+            writeFile(path, "atm_progress",
+                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
+            writeFile(path, "atm_result",
+                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
+            writeFile(path, "atm_progress", ENDBLOCK)
+            writeFile(path, "atm_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "2":
+        pass
+    elif option is "3":
         pass
     else:
         print("Invalid Selection.")
