@@ -25,13 +25,14 @@ TOTAL_DATASET = "data/clef_tar_processed/total"
 
 ENDBLOCK = "=========================================================\n"
 
-PATHS1 = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
-          TOTAL_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018,
-          TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
-          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
-          TOTAL_FOLDER_2019]
+PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
+         TOTAL_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018,
+         TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
+         TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
+         TOTAL_FOLDER_2019,
+         TOTAL_DATASET]
 
-PATHS2 = [TOTAL_DATASET]
+TEST = ["test"]
 
 
 def main():
@@ -44,7 +45,7 @@ def main():
     print("7. Entity Retrieval")
     option = input("Selection: ")
     if option is "1":
-        for path in PATHS2:
+        for path in PATHS:
             lineSeperator("=")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
@@ -144,7 +145,23 @@ def main():
     elif option is "3":
         pass
     elif option is "4":
-        pass
+        for path in PATHS:
+            lineSeperator("=")
+            print("Path: " + path)
+            dirs = os.listdir(path)
+            printProgressBar(0, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
+            count = 1
+            for i, d in enumerate(dirs):
+                printProgressBar(i + 1, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
+                if d is not ".DS_Store" and os.path.isdir(path + "/" + d):
+                    innerD = os.listdir(path + "/" + d)
+                    if ".DS_Store" in innerD:
+                        innerD.remove(".DS_Store")
+                    for dd in innerD:
+                        if dd is not ".DS_Store" and os.path.isdir(path + "/" + d + "/" + dd):
+                            createQrelsFile(path, d, dd)
+                            count = createResFile(path, d, dd, count)
+            lineSeperator("=")
     elif option is "5":
         pass
     elif option is "6":

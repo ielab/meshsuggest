@@ -6,6 +6,17 @@ import time
 SYMBOLS = ['*', '"', '[MeSH Terms]']
 LINEBREAK = "---------------------------------------------------------\n"
 
+print("---------------------------------------------------------")
+print("Loading Config And MeSH Info...")
+CONFIGF = open("config.json", "r")
+CONFIG = json.loads(CONFIGF.read())
+CONFIGF.close()
+MESHINFOF = open("mesh.json", "r")
+MESHINFO = json.loads(MESHINFOF.read())
+MESHINFOF.close()
+print("Loaded.")
+print("---------------------------------------------------------")
+
 
 def readFile(path, mode, file):
     if mode is "c":
@@ -26,9 +37,7 @@ def readFile(path, mode, file):
 
 
 def requestForSearchDetails(path, query):
-    configF = open("config.json", "r")
-    config = json.loads(configF.read())
-    url = config["url"] + "?db=pubmed&api_key=" + config["key"] + "&retmode=json&term=" + query
+    url = CONFIG["url"] + "?db=pubmed&api_key=" + CONFIG["key"] + "&retmode=json&term=" + query
     response = timeoutReq(url)
     res = json.loads(response.content)
     translationStack = res["esearchresult"]["translationstack"]
@@ -43,7 +52,7 @@ def requestForSearchDetails(path, query):
 def timeoutReq(url):
     time.sleep(1)
     response = requests.get(url, params=None)
-    while response.content is None:
+    while response.content is None or response.status_code is not 200:
         response = requests.get(url, params=None)
     return response
 
@@ -142,3 +151,33 @@ def lineSeperator(fill='#', length=100):
     bar = fill * length
     print('\r%s' % styling.replace(fill, bar), end='\r')
     print()
+
+
+def createResFile(path, d, dd, count):
+    resFile = open(path + "/" + "atm.res", "a+")
+    clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
+    query = clauseNoMeshF.read()
+    url = CONFIG["url"] + "?db=pubmed&api_key=" + CONFIG["key"] + "&retmode=json&term=" + query
+    response = timeoutReq(url)
+    res = json.loads(response.content)
+    translationStack = res["esearchresult"]["translationstack"]
+    generatedMesh, _ = getATMMeSHTerms(translationStack)
+    for mesh in generatedMesh:
+        obj = next((x for x in MESHINFO if x["term"] == mesh), None)
+        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
+        resFile.write(line)
+        count += 1
+    return count
+
+
+def createQrelsFile(path, d, dd):
+    qrelsFile = open(path + "/" + "data.qrels", "a+")
+    meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
+    meshContent = meshF.read()
+    meshs = meshContent.split("\n")
+    cleanedMeshs = cleanTerms(meshs)
+    for mesh in cleanedMeshs:
+        obj = next((x for x in MESHINFO if x["term"] == mesh), None)
+        if obj is not None:
+            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + "1" + "\n"
+            qrelsFile.write(line)
