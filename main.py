@@ -26,20 +26,25 @@ TOTAL_DATASET = "data/clef_tar_processed/total"
 ENDBLOCK = "=========================================================\n"
 
 PATHS1 = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
-          TOTAL_FOLDER_2017]
+          TOTAL_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018,
+          TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
+          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
+          TOTAL_FOLDER_2019]
 
-PATHS2 = [TEST_FOLDER_2018, TRAIN_FOLDER_2018,
-          TOTAL_FOLDER_2018]
-
-PATHS3 = [TOTAL_FOLDER_2019]
-
-PATHS4 = [TOTAL_DATASET]
+PATHS2 = [TOTAL_DATASET]
 
 
 def main():
-    option = input("Select the experiment to run (1. ATM; 2. MetaMap and QuickUMLS; 3. Entity Retrieval): ")
+    print("1. ATM")
+    print("2. MetaMap")
+    print("3. UMLS")
+    print("4. Generate qrels and result file for ATM")
+    print("5. Generate res file for MetaMap")
+    print("6. Generate res file for UMLS")
+    print("7. Entity Retrieval")
+    option = input("Selection: ")
     if option is "1":
-        for path in PATHS3:
+        for path in PATHS2:
             lineSeperator("=")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
@@ -137,6 +142,14 @@ def main():
     elif option is "2":
         pass
     elif option is "3":
+        pass
+    elif option is "4":
+        pass
+    elif option is "5":
+        pass
+    elif option is "6":
+        pass
+    elif option is "7":
         pass
     else:
         print("Invalid Selection.")
