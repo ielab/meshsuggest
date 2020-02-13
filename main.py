@@ -32,8 +32,6 @@ PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
          TOTAL_FOLDER_2019,
          TOTAL_DATASET]
 
-TEST = ["test"]
-
 
 def main():
     print("1. ATM")

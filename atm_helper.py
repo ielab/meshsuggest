@@ -164,10 +164,11 @@ def createResFile(path, d, dd, count):
     generatedMesh, _ = getATMMeSHTerms(translationStack)
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh), None)
-        if obj is not None:
-            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
-            resFile.write(line)
-            count += 1
+        if obj is None:
+            print(mesh)
+        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
+        resFile.write(line)
+        count += 1
     return count
 
 
