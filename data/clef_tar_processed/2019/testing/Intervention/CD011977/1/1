@@ -1,9 +1,9 @@
 exp cataract/
 cataract extraction/
 cataract$.tw.
-exp lens crystalline/
-exp lenses intraocular/
-lens implantation intraocular/
+exp Lens, Crystalline/
+exp Lenses, Intraocular/
+Lens Implantation, Intraocular/
 (intraocular lens$ or intra ocular lens$ or IOL$).tw.
 phacoemulsification/
 pha?oemulsif$.tw.

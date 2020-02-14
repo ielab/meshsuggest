@@ -22,7 +22,7 @@ Streptococcus pyogenes/
 or/1-16
 Immunoassay/
 exp Immunoenzyme Techniques/
-(enzyme adj2 (immunoassay* or immuno-assay* or immunosorbent)).tw.
+(enzyme adj2 (immunoassay* or immuno-assay* or Immunosorbents)).tw.
 Immunochromatography/
 immunochromatograph*.tw.
 Immunosorbent Techniques/

@@ -164,11 +164,21 @@ def createResFile(path, d, dd, count):
     generatedMesh, _ = getATMMeSHTerms(translationStack)
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh), None)
-        if obj is None:
-            print(mesh)
-        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
-        resFile.write(line)
-        count += 1
+        if obj is not None:
+            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
+            resFile.write(line)
+            count += 1
+        elif obj is None:
+            uid = None
+            for item in MESHINFO:
+                if mesh in item["entry_list"]:
+                    uid = item["uid"]
+            if uid is not None:
+                line = d + "_" + dd + "    " + "0" + "    " + uid + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
+                resFile.write(line)
+                count += 1
+            elif uid is None:
+                print(mesh)
     return count
 
 
@@ -183,3 +193,13 @@ def createQrelsFile(path, d, dd):
         if obj is not None:
             line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + "1" + "\n"
             qrelsFile.write(line)
+        elif obj is None:
+            uid = None
+            for item in MESHINFO:
+                if mesh in item["entry_list"]:
+                    uid = item["uid"]
+            if uid is not None:
+                line = d + "_" + dd + "    " + "0" + "    " + uid + "    " + "1" + "\n"
+                qrelsFile.write(line)
+            elif uid is None:
+                print(mesh)

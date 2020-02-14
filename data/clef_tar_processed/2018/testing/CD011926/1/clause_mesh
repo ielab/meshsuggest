@@ -1,1 +1,1 @@
-("Sepsis/blood"[mesh] OR "Sepsis/cerebrospinal fluid"[mesh] OR "Sepsis/diagnosis"[mesh] OR neonatal sepsis[All Fields] OR neonatal bacteremia[All Fields] OR neonatal infections[All Fields])
+("sepsis"[mesh] OR neonatal sepsis[All Fields] OR neonatal bacteremia[All Fields] OR neonatal infections[All Fields])

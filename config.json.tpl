@@ -3,5 +3,6 @@
   "key": "",
   "umls_url": "https://ielab-sysrev1.uqcloud.net/_search?pretty&q=",
   "username": "",
-  "secret": ""
+  "secret": "",
+  "metamap_url": ""
 }
