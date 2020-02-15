@@ -156,15 +156,8 @@ def lineSeperator(fill='#', length=100):
     print()
 
 
-def createResFile(path, d, dd, count):
+def createResFile(path, d, dd, generatedMesh, count):
     resFile = open(path + "/" + "atm.res", "a+")
-    clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
-    query = clauseNoMeshF.read()
-    url = CONFIG["url"] + "?db=pubmed&api_key=" + CONFIG["key"] + "&retmode=json&term=" + query
-    response = timeoutReq(url)
-    res = json.loads(response.content)
-    translationStack = res["esearchresult"]["translationstack"]
-    generatedMesh, _ = getATMMeSHTerms(translationStack)
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         if obj is not None:

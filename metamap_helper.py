@@ -46,7 +46,7 @@ def parseMetaResponse(response):
             sources = item["Sources"]
             if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                 generatedMeshs.append(item["CandidatePreferred"])
-        if len(generatedMeshs) is not 0:
+        if len(generatedMeshs) > 0:
             ret = []
             cleanMesh = cleanTerms(generatedMeshs)
             for mesh in cleanMesh:
@@ -79,23 +79,26 @@ def generateNewMetaQuery(path, meshs):
 
 
 def createMetaResFile(path, d, dd, generatedMesh, count):
+    seen = set()
     resFile = open(path + "/" + "meta.res", "a+")
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         if obj is not None:
-            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
-                count) + "    " + "0.00" + "    " + path + "\n"
-            resFile.write(line)
-            count += 1
+            if obj["uid"] not in seen:
+                line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
+                    count) + "    " + "0.00" + "    " + path + "\n"
+                resFile.write(line)
+                count += 1
+                seen.add(obj["uid"])
         else:
             suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
             if suppobj is not None:
                 ids = suppobj["ids"]
                 for n in ids:
-                    line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
-                        count) + "    " + "0.00" + "    " + path + "\n"
-                    resFile.write(line)
-                    count += 1
-            else:
-                print(mesh)
+                    if n not in seen:
+                        line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
+                            count) + "    " + "0.00" + "    " + path + "\n"
+                        resFile.write(line)
+                        count += 1
+                        seen.add(n)
     return count

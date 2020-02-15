@@ -37,15 +37,15 @@ TEST = ["test"]
 
 
 def main():
-    print("1. Run ATM Method")
-    print("2. Run MetaMap Method And Generate Res File")
-    print("3. Run UMLS Method And Generate Res File")
-    print("4. Generate qrels and result file for ATM")
-    print("5. Entity Retrieval")
+    print("1. Run ATM Method And Generate Res Files")
+    print("2. Run MetaMap Method And Generate Res Files")
+    print("3. Run UMLS Method And Generate Res Files")
+    print("4. Run Entity Retrieval Method And Generate Res Files")
+    print("5. Generate Qrels Files")
     print("6. Clean All Generated Files")
     option = input("Selection: ")
     if option is "1":
-        for path in PATHS:
+        for path in TEST:
             lineSeperator("=")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
@@ -57,6 +57,7 @@ def main():
             totalMeSHs = 0
             totalGen = 0
             count = 0
+            rank = 1
             printProgressBar(0, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
             for i, d in enumerate(dirs):
                 printProgressBar(i + 1, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
@@ -79,6 +80,7 @@ def main():
                         clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
                         originalMesh = readFile(path, "m", meshF)
                         generatedMesh, cleaned = readFile(path, "c", clauseNoMeshF)
+                        rank = createResFile(path, d, dd, generatedMesh, rank)
                         newQuery = generateNewQuery(path + "/" + d + "/" + dd, cleaned)
                         if fullNewATMQuery is "":
                             fullNewATMQuery = newQuery
@@ -120,7 +122,7 @@ def main():
             writeFile(path, "atm_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "2":
-        for path in PATHS:
+        for path in TEST:
             lineSeperator("=")
             writeFile(path, "meta_progress", ENDBLOCK)
             writeFile(path, "meta_result", ENDBLOCK)
@@ -258,12 +260,13 @@ def main():
             writeFile(path, "umls_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "4":
-        for path in PATHS:
+        print("Method Not Implemented Yet!")
+    elif option is "5":
+        for path in TEST:
             lineSeperator("=")
             print("Path: " + path)
             dirs = os.listdir(path)
             printProgressBar(0, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
-            count = 1
             for i, d in enumerate(dirs):
                 printProgressBar(i + 1, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
                 if d is not ".DS_Store" and os.path.isdir(path + "/" + d):
@@ -273,12 +276,9 @@ def main():
                     for dd in innerD:
                         if dd is not ".DS_Store" and os.path.isdir(path + "/" + d + "/" + dd):
                             createQrelsFile(path, d, dd)
-                            count = createResFile(path, d, dd, count)
             lineSeperator("=")
-    elif option is "5":
-        pass
     elif option is "6":
-        for path in PATHS:
+        for path in TEST:
             dirs = os.listdir(path)
             if os.path.isfile(path + "/" + "data.qrels"):
                 os.remove(path + "/" + "data.qrels")

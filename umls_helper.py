@@ -53,38 +53,44 @@ def parseUMLSResponse(response):
                     if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
                         meshs.append(each["MRCONSO_STR"])
     meshs = cleanTerms(meshs)
+    res = []
     if len(meshs) > 0:
         for mesh in meshs:
             obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
-            if obj is None:
+            if obj is not None:
+                res.append(mesh)
+            else:
                 suppObj = next((x for x in SUPPINFO if mesh in x["names"]), None)
-                if suppObj is None:
-                    meshs.remove(mesh)
-        return meshs
+                if suppObj is not None:
+                    res.append(mesh)
+        return res
     else:
-        return meshs
+        return []
 
 
 def createUMLSResFile(path, d, dd, generatedMesh, count):
+    seen = set()
     resFile = open(path + "/" + "umls.res", "a+")
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         if obj is not None:
-            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
-                count) + "    " + "0.00" + "    " + path + "\n"
-            resFile.write(line)
-            count += 1
+            if obj["uid"] not in seen:
+                line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
+                    count) + "    " + "0.00" + "    " + path + "\n"
+                resFile.write(line)
+                count += 1
+                seen.add(obj["uid"])
         else:
             suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
             if suppobj is not None:
                 ids = suppobj["ids"]
                 for n in ids:
-                    line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
-                        count) + "    " + "0.00" + "    " + path + "\n"
-                    resFile.write(line)
-                    count += 1
-            else:
-                print(mesh)
+                    if n not in seen:
+                        line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
+                            count) + "    " + "0.00" + "    " + path + "\n"
+                        resFile.write(line)
+                        count += 1
+                        seen.add(n)
     return count
 
 
