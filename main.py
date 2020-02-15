@@ -1,4 +1,5 @@
 from metamap_helper import *
+from umls_helper import *
 import os
 
 # 2017 DATASET
@@ -30,7 +31,7 @@ PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
          TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
          TOTAL_FOLDER_2019,
-         TOTAL_DATASET, "test"]
+         TOTAL_DATASET]
 
 TEST = ["test"]
 
@@ -44,7 +45,7 @@ def main():
     print("6. Clean All Generated Files")
     option = input("Selection: ")
     if option is "1":
-        for path in TEST:
+        for path in PATHS:
             lineSeperator("=")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
@@ -98,13 +99,6 @@ def main():
                         writeFile(path, "atm_progress",
                                   "Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)) + "\n")
                         writeFile(path, "atm_progress", "Number of Terms Matched: " + str(len(hits)) + "\n")
-                        writeFile(path, "atm_progress",
-                                  "Recall: " + str((round(len(hits) / len(originalMesh), 4)) * 100) + "%" + "\n")
-                        if len(generatedMesh) is 0:
-                            pre = 0
-                        else:
-                            pre = (round(len(hits) / len(generatedMesh), 4)) * 100
-                        writeFile(path, "atm_progress", "Precision: " + str(pre) + "%" + "\n")
                         writeFile(path, "atm_progress", LINEBREAK)
                     writeFile(path + "/" + d, "atm_result_query", fullNewATMQuery)
                     writeFile(path + "/" + d, "original_full_query", fullOriginalQuery)
@@ -126,7 +120,7 @@ def main():
             writeFile(path, "atm_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "2":
-        for path in TEST:
+        for path in PATHS:
             lineSeperator("=")
             writeFile(path, "meta_progress", ENDBLOCK)
             writeFile(path, "meta_result", ENDBLOCK)
@@ -175,13 +169,6 @@ def main():
                             writeFile(path, "meta_progress",
                                       "Number of MetaMap Generated MeSH Terms: " + str(len(generatedMeshs)) + "\n")
                             writeFile(path, "meta_progress", "Number of Terms Matched: " + str(len(hits)) + "\n")
-                            writeFile(path, "meta_progress",
-                                      "Recall: " + str((round(len(hits) / len(cleanedOriMeshs), 4)) * 100) + "%" + "\n")
-                            if len(generatedMeshs) is 0:
-                                pre = 0
-                            else:
-                                pre = (round(len(hits) / len(generatedMeshs), 4)) * 100
-                            writeFile(path, "meta_progress", "Precision: " + str(pre) + "%" + "\n")
                             writeFile(path, "meta_progress", LINEBREAK)
                     writeFile(path + "/" + d, "meta_result_query", fullNewMetaQuery)
             writeFile(path, "meta_progress", LINEBREAK)
@@ -203,9 +190,75 @@ def main():
             lineSeperator("=")
     elif option is "3":
         for path in TEST:
-            pass
+            lineSeperator("=")
+            writeFile(path, "umls_progress", ENDBLOCK)
+            writeFile(path, "umls_result", ENDBLOCK)
+            print("Dataset: " + path)
+            writeFile(path, "umls_progress", path + "\n")
+            writeFile(path, "umls_result", path + "\n")
+            dirs = os.listdir(path)
+            totalHits = 0
+            totalMeSHs = 0
+            totalGen = 0
+            count = 0
+            rank = 1
+            printProgressBar(0, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
+            for i, d in enumerate(dirs):
+                printProgressBar(i + 1, len(dirs), prefix='Progress', suffix='Complete', autosize=True)
+                if d is not ".DS_Store" and os.path.isdir(path + "/" + d):
+                    innerD = os.listdir(path + "/" + d)
+                    if ".DS_Store" in innerD:
+                        innerD.remove(".DS_Store")
+                    count += len(innerD)
+                    fullNewUMLSQuery = ""
+                    for dd in innerD:
+                        if dd is not ".DS_Store" and os.path.isdir(path + "/" + d + "/" + dd):
+                            writeFile(path, "umls_progress", LINEBREAK)
+                            writeFile(path, "umls_progress", "Topic: " + d + "\n")
+                            writeFile(path, "umls_progress", "Sub-Clause: " + dd + "\n")
+                            writeFile(path, "umls_progress",
+                                      "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
+                            writeFile(path, "umls_progress",
+                                      "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
+                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords")
+                            meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
+                            generatedMeshs, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF)
+                            rank = createUMLSResFile(path, d, dd, generatedMeshs, rank)
+                            newQuery = generateNewUMLSQuery(path + "/" + d + "/" + dd, generatedMeshs)
+                            if fullNewUMLSQuery is "":
+                                fullNewUMLSQuery = newQuery
+                            else:
+                                fullNewUMLSQuery = fullNewUMLSQuery + " AND " + newQuery
+                            hits = findMatch(cleanedOriMeshs, generatedMeshs)
+                            totalMeSHs += len(cleanedOriMeshs)
+                            totalGen += len(generatedMeshs)
+                            totalHits += len(hits)
+                            writeFile(path, "umls_progress",
+                                      "Number of Original MeSH Terms: " + str(len(cleanedOriMeshs)) + "\n")
+                            writeFile(path, "umls_progress",
+                                      "Number of UMLS Generated MeSH Terms: " + str(len(generatedMeshs)) + "\n")
+                            writeFile(path, "umls_progress", "Number of Terms Matched: " + str(len(hits)) + "\n")
+                            writeFile(path, "umls_progress", LINEBREAK)
+                    writeFile(path + "/" + d, "umls_result_query", fullNewUMLSQuery)
+            writeFile(path, "umls_progress", LINEBREAK)
+            writeFile(path, "umls_result", LINEBREAK)
+            print("Total Sub-Clauses: " + str(count))
+            writeFile(path, "umls_progress", "Total Sub-Clauses: " + str(count) + "\n")
+            writeFile(path, "umls_result", "Total Sub-Clauses: " + str(count) + "\n")
+            print("Total Original MeSH Terms: " + str(totalMeSHs))
+            writeFile(path, "umls_progress", "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
+            writeFile(path, "umls_result", "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
+            print("Total Generated MeSH Terms: " + str(totalGen))
+            writeFile(path, "umls_progress", "Total Generated MeSH Terms: " + str(totalGen) + "\n")
+            writeFile(path, "umls_result", "Total Generated MeSH Terms: " + str(totalGen) + "\n")
+            print("Total Matched MeSH Terms: " + str(totalHits))
+            writeFile(path, "umls_progress", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
+            writeFile(path, "umls_result", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
+            writeFile(path, "umls_progress", ENDBLOCK)
+            writeFile(path, "umls_result", ENDBLOCK)
+            lineSeperator("=")
     elif option is "4":
-        for path in TEST:
+        for path in PATHS:
             lineSeperator("=")
             print("Path: " + path)
             dirs = os.listdir(path)
