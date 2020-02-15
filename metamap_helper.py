@@ -27,6 +27,7 @@ def getMetaMeshTerms(path, keywordsF, meshF):
 def requestMetaMeshs(keywords):
     meshs = []
     for k in keywords:
+        time.sleep(0.1)
         response = requests.post(CONFIG["metamap_url"], data=k)
         while response.content is None or response.status_code is not 200:
             response = requests.post(CONFIG["metamap_url"], data=k)
@@ -46,7 +47,20 @@ def parseMetaResponse(response):
             if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                 generatedMeshs.append(item["CandidatePreferred"])
         if len(generatedMeshs) is not 0:
-            return cleanTerms(generatedMeshs)
+            ret = []
+            cleanMesh = cleanTerms(generatedMeshs)
+            for mesh in cleanMesh:
+                meshobj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
+                if meshobj is not None:
+                    ret.append(mesh)
+                else:
+                    suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
+                    if suppobj is not None:
+                        ret.append(mesh)
+            if len(ret) > 0:
+                return cleanTerms(ret)
+            else:
+                return []
         else:
             return generatedMeshs
     else:
@@ -56,30 +70,32 @@ def parseMetaResponse(response):
 def generateNewMetaQuery(path, meshs):
     noMeshQF = open(path + "/" + "clause_no_mesh", "r")
     noMeshContent = noMeshQF.read()
-    meshQuery = "[mesh] OR ".join(meshs)
-    newQuery = "(" + meshQuery + "[mesh] OR " + noMeshContent[1:]
+    if len(meshs) > 0:
+        meshQuery = "[mesh] OR ".join(meshs)
+        newQuery = "(" + meshQuery + "[mesh] OR " + noMeshContent[1:]
+    else:
+        newQuery = noMeshContent
     return newQuery
 
 
 def createMetaResFile(path, d, dd, generatedMesh, count):
     resFile = open(path + "/" + "meta.res", "a+")
     for mesh in generatedMesh:
-        obj = next((x for x in MESHINFO if x["term"] == mesh), None)
+        obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         if obj is not None:
             line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
                 count) + "    " + "0.00" + "    " + path + "\n"
             resFile.write(line)
             count += 1
-        elif obj is None:
-            uid = None
-            for item in MESHINFO:
-                if mesh in item["entry_list"]:
-                    uid = item["uid"]
-            if uid is not None:
-                line = d + "_" + dd + "    " + "0" + "    " + uid + "    " + str(
-                    count) + "    " + "0.00" + "    " + path + "\n"
-                resFile.write(line)
-                count += 1
-            elif uid is None:
+        else:
+            suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
+            if suppobj is not None:
+                ids = suppobj["ids"]
+                for n in ids:
+                    line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
+                        count) + "    " + "0.00" + "    " + path + "\n"
+                    resFile.write(line)
+                    count += 1
+            else:
                 print(mesh)
     return count

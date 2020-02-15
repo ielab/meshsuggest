@@ -30,7 +30,7 @@ PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
          TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
          TOTAL_FOLDER_2019,
-         TOTAL_DATASET]
+         TOTAL_DATASET, "test"]
 
 TEST = ["test"]
 
@@ -122,20 +122,6 @@ def main():
             print("Total Matched MeSH Terms: " + str(totalHits))
             writeFile(path, "atm_progress", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
             writeFile(path, "atm_result", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
-            print("Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%")
-            writeFile(path, "atm_progress",
-                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_result",
-                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
-            if totalGen is 0:
-                opre = 0
-            else:
-                opre = (round(totalHits / totalGen, 4)) * 100
-            print("Overall Precision: " + str(opre) + "%")
-            writeFile(path, "atm_progress",
-                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
-            writeFile(path, "atm_result",
-                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
             lineSeperator("=")
@@ -212,20 +198,6 @@ def main():
             print("Total Matched MeSH Terms: " + str(totalHits))
             writeFile(path, "meta_progress", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
             writeFile(path, "meta_result", "Total Matched MeSH Terms: " + str(totalHits) + "\n")
-            print("Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%")
-            writeFile(path, "meta_progress",
-                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
-            writeFile(path, "meta_result",
-                      "Overall Recall: " + str((round(totalHits / totalMeSHs, 4)) * 100) + "%" + "\n")
-            if totalGen is 0:
-                opre = 0
-            else:
-                opre = (round(totalHits / totalGen, 4)) * 100
-            print("Overall Precision: " + str(opre) + "%")
-            writeFile(path, "meta_progress",
-                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
-            writeFile(path, "meta_result",
-                      "Overall Precision: " + str((round(totalHits / totalGen, 4)) * 100) + "%" + "\n")
             writeFile(path, "meta_progress", ENDBLOCK)
             writeFile(path, "meta_result", ENDBLOCK)
             lineSeperator("=")
@@ -233,7 +205,7 @@ def main():
         for path in TEST:
             pass
     elif option is "4":
-        for path in PATHS:
+        for path in TEST:
             lineSeperator("=")
             print("Path: " + path)
             dirs = os.listdir(path)
