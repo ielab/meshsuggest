@@ -1,4 +1,3 @@
-from metamap_helper import *
 from umls_helper import *
 import os
 
