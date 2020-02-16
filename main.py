@@ -37,6 +37,9 @@ TEST = ["test"]
 
 
 def main():
+    print("1. Run On Smaller Test Set")
+    print("2. Run On Actual Datasets")
+    dataset = input("Selection: ")
     print("1. Run ATM Method And Generate Res Files")
     print("2. Run MetaMap Method And Generate Res Files")
     print("3. Run UMLS Method And Generate Res Files")
@@ -44,8 +47,12 @@ def main():
     print("5. Generate Qrels Files")
     print("6. Clean All Generated Files")
     option = input("Selection: ")
+    if dataset is "2":
+        selectedPath = PATHS
+    else:
+        selectedPath = TEST
     if option is "1":
-        for path in TEST:
+        for path in selectedPath:
             lineSeperator("=")
             writeFile(path, "atm_progress", ENDBLOCK)
             writeFile(path, "atm_result", ENDBLOCK)
@@ -53,7 +60,6 @@ def main():
             writeFile(path, "atm_progress", path + "\n")
             writeFile(path, "atm_result", path + "\n")
             dirs = os.listdir(path)
-            totalHits = 0
             totalMeSHs = 0
             totalGen = 0
             count = 0
@@ -116,7 +122,7 @@ def main():
             writeFile(path, "atm_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "2":
-        for path in TEST:
+        for path in selectedPath:
             lineSeperator("=")
             writeFile(path, "meta_progress", ENDBLOCK)
             writeFile(path, "meta_result", ENDBLOCK)
@@ -124,7 +130,6 @@ def main():
             writeFile(path, "meta_progress", path + "\n")
             writeFile(path, "meta_result", path + "\n")
             dirs = os.listdir(path)
-            totalHits = 0
             totalMeSHs = 0
             totalGen = 0
             count = 0
@@ -179,7 +184,7 @@ def main():
             writeFile(path, "meta_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "3":
-        for path in TEST:
+        for path in selectedPath:
             lineSeperator("=")
             writeFile(path, "umls_progress", ENDBLOCK)
             writeFile(path, "umls_result", ENDBLOCK)
@@ -187,7 +192,6 @@ def main():
             writeFile(path, "umls_progress", path + "\n")
             writeFile(path, "umls_result", path + "\n")
             dirs = os.listdir(path)
-            totalHits = 0
             totalMeSHs = 0
             totalGen = 0
             count = 0
@@ -244,7 +248,7 @@ def main():
     elif option is "4":
         print("Method Not Implemented Yet!")
     elif option is "5":
-        for path in TEST:
+        for path in selectedPath:
             lineSeperator("=")
             print("Path: " + path)
             dirs = os.listdir(path)
@@ -260,7 +264,7 @@ def main():
                             createQrelsFile(path, d, dd)
             lineSeperator("=")
     elif option is "6":
-        for path in TEST:
+        for path in selectedPath:
             dirs = os.listdir(path)
             if os.path.isfile(path + "/" + "data.qrels"):
                 os.remove(path + "/" + "data.qrels")
