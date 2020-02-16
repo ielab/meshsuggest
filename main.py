@@ -75,36 +75,37 @@ def main():
                     fullNewATMQuery = ""
                     fullOriginalQuery = ""
                     for dd in innerD:
-                        writeFile(path, "atm_progress", LINEBREAK)
-                        writeFile(path, "atm_progress", "Topic: " + d + "\n")
-                        writeFile(path, "atm_progress", "Sub-Clause: " + dd + "\n")
-                        writeFile(path, "atm_progress",
-                                  "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
-                        writeFile(path, "atm_progress",
-                                  "Cleaned Query Path: " + path + "/" + d + "/" + dd + "/" + "clean_clause" + "\n")
-                        meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
-                        clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
-                        originalMesh = readFile(path, "m", meshF)
-                        generatedMesh, cleaned = readFile(path, "c", clauseNoMeshF)
-                        rank = createResFile(path, d, dd, generatedMesh, rank)
-                        newQuery = generateNewQuery(path + "/" + d + "/" + dd, cleaned)
-                        if fullNewATMQuery is "":
-                            fullNewATMQuery = newQuery
-                        else:
-                            fullNewATMQuery = fullNewATMQuery + " AND " + newQuery
-                        originalQuery = getOriginalQuery(path + "/" + d + "/" + dd)
-                        if fullOriginalQuery is "":
-                            fullOriginalQuery = originalQuery
-                        else:
-                            fullOriginalQuery = fullOriginalQuery + " AND " + originalQuery
-                        totalMeSHs += len(originalMesh)
-                        totalGen += len(generatedMesh)
-                        writeFile(path, "atm_progress", LINEBREAK)
-                        writeFile(path, "atm_progress",
-                                  "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
-                        writeFile(path, "atm_progress",
-                                  "Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)) + "\n")
-                        writeFile(path, "atm_progress", LINEBREAK)
+                        if os.path.isdir(path + "/" + d + "/" + dd):
+                            writeFile(path, "atm_progress", LINEBREAK)
+                            writeFile(path, "atm_progress", "Topic: " + d + "\n")
+                            writeFile(path, "atm_progress", "Sub-Clause: " + dd + "\n")
+                            writeFile(path, "atm_progress",
+                                      "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
+                            writeFile(path, "atm_progress",
+                                      "Cleaned Query Path: " + path + "/" + d + "/" + dd + "/" + "clean_clause" + "\n")
+                            meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
+                            clauseNoMeshF = open(path + "/" + d + "/" + dd + "/" + "clean_clause", "r")
+                            originalMesh = readFile(path, "m", meshF)
+                            generatedMesh, cleaned = readFile(path, "c", clauseNoMeshF)
+                            rank = createResFile(path, d, dd, generatedMesh, rank)
+                            newQuery = generateNewQuery(path + "/" + d + "/" + dd, cleaned)
+                            if fullNewATMQuery is "":
+                                fullNewATMQuery = newQuery
+                            else:
+                                fullNewATMQuery = fullNewATMQuery + " AND " + newQuery
+                            originalQuery = getOriginalQuery(path + "/" + d + "/" + dd)
+                            if fullOriginalQuery is "":
+                                fullOriginalQuery = originalQuery
+                            else:
+                                fullOriginalQuery = fullOriginalQuery + " AND " + originalQuery
+                            totalMeSHs += len(originalMesh)
+                            totalGen += len(generatedMesh)
+                            writeFile(path, "atm_progress", LINEBREAK)
+                            writeFile(path, "atm_progress",
+                                      "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
+                            writeFile(path, "atm_progress",
+                                      "Number of ATM Generated MeSH Terms: " + str(len(generatedMesh)) + "\n")
+                            writeFile(path, "atm_progress", LINEBREAK)
                     writeFile(path + "/" + d, "atm_result_query", fullNewATMQuery)
                     writeFile(path + "/" + d, "original_full_query", fullOriginalQuery)
             writeFile(path, "atm_progress", LINEBREAK)

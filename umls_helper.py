@@ -50,6 +50,7 @@ def requestUMLSMeshs(keywords):
         }
         response = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
         while response.content is None or response.status_code is not 200:
+            time.sleep(0.1)
             response = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
         generatedMeshs, objRet, seen = parseUMLSResponse(response, seen)
         if len(generatedMeshs) is not 0:

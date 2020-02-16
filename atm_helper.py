@@ -72,6 +72,7 @@ def timeoutReq(url):
     time.sleep(1)
     response = requests.get(url, params=None)
     while response.content is None or response.status_code is not 200:
+        time.sleep(1)
         response = requests.get(url, params=None)
     return response
 
