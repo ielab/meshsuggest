@@ -91,10 +91,8 @@ def main():
                             fullOriginalQuery = originalQuery
                         else:
                             fullOriginalQuery = fullOriginalQuery + " AND " + originalQuery
-                        hits = findMatch(originalMesh, generatedMesh)
                         totalMeSHs += len(originalMesh)
                         totalGen += len(generatedMesh)
-                        totalHits += len(hits)
                         writeFile(path, "atm_progress", LINEBREAK)
                         writeFile(path, "atm_progress",
                                   "Number of Original MeSH Terms: " + str(len(originalMesh)) + "\n")
@@ -158,10 +156,8 @@ def main():
                                 fullNewMetaQuery = newQuery
                             else:
                                 fullNewMetaQuery = fullNewMetaQuery + " AND " + newQuery
-                            hits = findMatch(cleanedOriMeshs, generatedMeshs)
                             totalMeSHs += len(cleanedOriMeshs)
                             totalGen += len(generatedMeshs)
-                            totalHits += len(hits)
                             writeFile(path, "meta_progress",
                                       "Number of Original MeSH Terms: " + str(len(cleanedOriMeshs)) + "\n")
                             writeFile(path, "meta_progress",
@@ -223,10 +219,8 @@ def main():
                                 fullNewUMLSQuery = newQuery
                             else:
                                 fullNewUMLSQuery = fullNewUMLSQuery + " AND " + newQuery
-                            hits = findMatch(cleanedOriMeshs, generatedMeshs)
                             totalMeSHs += len(cleanedOriMeshs)
                             totalGen += len(generatedMeshs)
-                            totalHits += len(hits)
                             writeFile(path, "umls_progress",
                                       "Number of Original MeSH Terms: " + str(len(cleanedOriMeshs)) + "\n")
                             writeFile(path, "umls_progress",

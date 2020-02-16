@@ -34,9 +34,25 @@ def readFile(path, mode, file):
         cleanedMeshs = cleanTerms(meshs)
         writeFile(path, "atm_progress", LINEBREAK)
         writeFile(path, "atm_progress", "Original MeSH Terms: \n")
+        seen = set()
+        res = []
         for mesh in cleanedMeshs:
-            writeFile(path, "atm_progress", mesh + "\n")
-        return cleanedMeshs
+            obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
+            if obj is not None:
+                if obj["uid"] not in seen:
+                    writeFile(path, "atm_progress", obj["uid"] + " - " + obj["term"] + "\n")
+                    seen.add(obj["uid"])
+                    res.append(obj["term"])
+            else:
+                suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
+                if suppobj is not None:
+                    for y in suppobj["ids"]:
+                        if y not in seen:
+                            obj = next((x for x in MESHINFO if x["uid"] == y), None)
+                            if obj is not None:
+                                writeFile(path, "atm_progress", obj["uid"] + " - " + obj["term"] + "\n")
+                                res.append(obj["term"])
+        return res
 
 
 def requestForSearchDetails(path, query):
@@ -47,8 +63,8 @@ def requestForSearchDetails(path, query):
     generatedMesh, cleaned = getATMMeSHTerms(translationStack)
     writeFile(path, "atm_progress", LINEBREAK)
     writeFile(path, "atm_progress", "Generated MeSH Terms: \n")
-    for mesh in generatedMesh:
-        writeFile(path, "atm_progress", mesh + "\n")
+    for mesh in cleaned:
+        writeFile(path, "atm_progress", mesh["uid"] + " - " + mesh["term"] + "\n")
     return generatedMesh, cleaned
 
 
@@ -74,32 +90,53 @@ def getATMMeSHTerms(translationstack):
     mesh = []
     cleanedMesh = []
     res = []
-    seen_term = set()
-    noDupMesh = []
+    seen = set()
     for item in translationstack:
+        term = None
         if type(item) is not str and item["field"] == "MeSH Terms":
-            term = {
-                "term": item["term"],
-                "explode": item["explode"]
-            }
+            tempterm = item["term"]
+            for char in SYMBOLS:
+                tempterm = tempterm.replace(char, "")
+            tempterm = tempterm.lower()
+            obj = next((x for x in MESHINFO if x["term"] == tempterm or tempterm in x["entry_list"]), None)
+            if obj is not None:
+                if obj["uid"] not in seen:
+                    term = {
+                        "uid": obj["uid"],
+                        "term": tempterm,
+                        "explode": item["explode"]
+                    }
+                    seen.add(obj["uid"])
+            else:
+                suppobj = next((x for x in SUPPINFO if item["term"] in x["names"]), None)
+                if suppobj is not None:
+                    for uid in suppobj["ids"]:
+                        if uid not in seen:
+                            obj = next(
+                                (x for x in MESHINFO if x["uid"] == uid),
+                                None)
+                            if obj is not None:
+                                term = {
+                                    "uid": uid,
+                                    "term": obj["term"],
+                                    "explode": item["explode"]
+                                }
+                                seen.add(uid)
+        if term is not None:
             mesh.append(term)
     for t in mesh:
+        tempterm = t["term"].lower()
         for char in SYMBOLS:
-            t["term"] = t["term"].replace(char, "")
-        t["term"] = t["term"].lower()
-        cleanedMesh.append(t)
+            tempterm = tempterm.replace(char, "")
+        temp = {
+            "uid": t["uid"],
+            "term": tempterm,
+            "explode": t["explode"]
+        }
+        cleanedMesh.append(temp)
         res.append(t["term"])
-    for d in cleanedMesh:
-        if d["term"] not in seen_term:
-            noDupMesh.append(d)
-            seen_term.add(d["term"])
     res = cleanTerms(res)
-    return res, noDupMesh
-
-
-def findMatch(original, generated):
-    hitMesh = set(original) & set(generated)
-    return hitMesh
+    return res, cleanedMesh
 
 
 def writeFile(path, filename, data):
@@ -160,20 +197,9 @@ def createResFile(path, d, dd, generatedMesh, count):
     resFile = open(path + "/" + "atm.res", "a+")
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
-        if obj is not None:
-            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
-            resFile.write(line)
-            count += 1
-        else:
-            suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
-            if suppobj is not None:
-                for n in suppobj["ids"]:
-                    line = d + "_" + dd + "    " + "0" + "    " + n + "    " + str(
-                        count) + "    " + "0.00" + "    " + path + "\n"
-                    resFile.write(line)
-                    count += 1
-            else:
-                print(mesh)
+        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
+        resFile.write(line)
+        count += 1
     return count
 
 
@@ -183,16 +209,19 @@ def createQrelsFile(path, d, dd):
     meshContent = meshF.read()
     meshs = meshContent.split("\n")
     cleanedMeshs = cleanTerms(meshs)
+    seen = set()
     for mesh in cleanedMeshs:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         if obj is not None:
-            line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + "1" + "\n"
-            qrelsFile.write(line)
+            if obj["uid"] not in seen:
+                line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + "1" + "\n"
+                qrelsFile.write(line)
+                seen.add(obj["uid"])
         else:
             suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
             if suppobj is not None:
                 for n in suppobj["ids"]:
-                    line = d + "_" + dd + "    " + "0" + "    " + n + "    " + "1" + "\n"
-                    qrelsFile.write(line)
-            else:
-                print(mesh)
+                    if n not in seen:
+                        line = d + "_" + dd + "    " + "0" + "    " + n + "    " + "1" + "\n"
+                        qrelsFile.write(line)
+                        seen.add(n)
