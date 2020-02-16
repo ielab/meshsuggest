@@ -45,6 +45,7 @@ def requestMetaMeshs(keywords):
     objs = []
     seen = set()
     for k in keywords:
+        k = processK(k)
         response = requests.post(CONFIG["metamap_url"], data=k)
         while response.content is None or response.status_code is not 200:
             time.sleep(0.1)
@@ -57,6 +58,16 @@ def requestMetaMeshs(keywords):
             for i in objRet:
                 objs.append(i)
     return meshs, objs
+
+
+def processK(k):
+    k = k.replace("/", " ")
+    k = k.replace("β", "beta")
+    k = k.replace("[", " ")
+    k = k.replace("]", " ")
+    k = k.replace("-", " ")
+    k = k.replace("*", "")
+    return k
 
 
 def parseMetaResponse(response, seen):

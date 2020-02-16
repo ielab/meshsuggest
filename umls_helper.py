@@ -1,4 +1,4 @@
-from atm_helper import *
+from metamap_helper import *
 
 
 def getUMLSMeshTerms(path, keywordf, meshf):
@@ -45,6 +45,7 @@ def requestUMLSMeshs(keywords):
     objs = []
     seen = set()
     for k in keywords:
+        k = processK(k)
         param = {
             "q": k
         }
