@@ -45,7 +45,7 @@ def requestUMLSMeshs(keywords):
     objs = []
     seen = set()
     for k in keywords:
-        k = processK(k)
+        k = UMLSProcessK(k)
         param = {
             "q": k
         }
@@ -61,6 +61,13 @@ def requestUMLSMeshs(keywords):
             for i in objRet:
                 objs.append(i)
     return meshs, objs
+
+
+def UMLSProcessK(k):
+    k = k.replace("/", "\/")
+    k = k.replace("[", "")
+    k = k.replace("]", " ")
+    return k
 
 
 def parseUMLSResponse(response, seen):
