@@ -25,12 +25,11 @@ TOTAL_DATASET = "data/clef_tar_processed/total"
 
 ENDBLOCK = "=========================================================\n"
 
-PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017,
-         TOTAL_FOLDER_2017, TEST_FOLDER_2018, TRAIN_FOLDER_2018,
-         TOTAL_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
+PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017, TOTAL_FOLDER_2017,
+         TEST_FOLDER_2018, TRAIN_FOLDER_2018, TOTAL_FOLDER_2018,
+         TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019, TOTAL_TEST_FOLDER_2019,
          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
-         TOTAL_FOLDER_2019,
-         TOTAL_DATASET]
+         TOTAL_FOLDER_2019, TOTAL_DATASET]
 
 TEST = ["test"]
 
@@ -44,7 +43,7 @@ def main():
     print("3. Run UMLS Method And Generate Res Files")
     print("4. Run Entity Retrieval Method And Generate Res Files")
     print("5. Generate Qrels Files")
-    print("6. Clean All Generated Files")
+    print("6. Clean All Generated Files (Be Careful to Use This)")
     option = input("Selection: ")
     if dataset is "2":
         selectedPath = PATHS

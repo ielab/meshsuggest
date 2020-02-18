@@ -76,6 +76,7 @@ def parseUMLSResponse(response, seen):
     if resContent is not None:
         hits = resContent["hits"]["hits"]
         for hit in hits:
+            # score = hit["_score"]
             thesaurus = hit["_source"]["thesaurus"]
             for each in thesaurus:
                 if each["MRCONSO_LAT"] == "ENG":

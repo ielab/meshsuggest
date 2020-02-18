@@ -69,12 +69,15 @@ def requestForSearchDetails(path, query):
 
 
 def timeoutReq(url):
-    time.sleep(1)
-    response = requests.get(url, params=None)
-    while response.content is None or response.status_code is not 200:
-        time.sleep(1)
-        response = requests.get(url, params=None)
-    return response
+    time.sleep(0.3)
+    while True:
+        try:
+            response = requests.get(url, params=None)
+            while response.status_code != 200:
+                response = requests.get(url, params=None)
+            return response
+        except:
+            time.sleep(4)
 
 
 def cleanTerms(bucket):
