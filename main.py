@@ -183,13 +183,16 @@ def main():
             writeFile(path, "meta_result", ENDBLOCK)
             lineSeperator("=")
     elif option is "3":
+        print("Use How Many Scores: ")
+        print("(0: Use All)")
+        num = input("Input: ")
         for path in selectedPath:
             lineSeperator("=")
-            writeFile(path, "umls_progress", ENDBLOCK)
-            writeFile(path, "umls_result", ENDBLOCK)
+            writeFile(path, "umls_progress_" + num, ENDBLOCK)
+            writeFile(path, "umls_result_" + num, ENDBLOCK)
             print("Dataset: " + path)
-            writeFile(path, "umls_progress", path + "\n")
-            writeFile(path, "umls_result", path + "\n")
+            writeFile(path, "umls_progress_" + num, path + "\n")
+            writeFile(path, "umls_result_" + num, path + "\n")
             dirs = os.listdir(path)
             totalMeSHs = 0
             totalGen = 0
@@ -206,17 +209,17 @@ def main():
                     fullNewUMLSQuery = ""
                     for dd in innerD:
                         if dd is not ".DS_Store" and os.path.isdir(path + "/" + d + "/" + dd):
-                            writeFile(path, "umls_progress", LINEBREAK)
-                            writeFile(path, "umls_progress", "Topic: " + d + "\n")
-                            writeFile(path, "umls_progress", "Sub-Clause: " + dd + "\n")
-                            writeFile(path, "umls_progress",
+                            writeFile(path, "umls_progress_" + num, LINEBREAK)
+                            writeFile(path, "umls_progress_" + num, "Topic: " + d + "\n")
+                            writeFile(path, "umls_progress_" + num, "Sub-Clause: " + dd + "\n")
+                            writeFile(path, "umls_progress_" + num,
                                       "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
-                            writeFile(path, "umls_progress",
+                            writeFile(path, "umls_progress_" + num,
                                       "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
                             keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords")
                             meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
-                            generatedMeshs, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF)
-                            rank = createUMLSResFile(path, d, dd, generatedMeshs, rank)
+                            generatedMeshs, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF, num)
+                            rank = createUMLSResFile(path, d, dd, generatedMeshs, rank, num)
                             newQuery = generateNewUMLSQuery(path + "/" + d + "/" + dd, generatedMeshs)
                             if fullNewUMLSQuery is "":
                                 fullNewUMLSQuery = newQuery
@@ -224,25 +227,25 @@ def main():
                                 fullNewUMLSQuery = fullNewUMLSQuery + " AND " + newQuery
                             totalMeSHs += len(cleanedOriMeshs)
                             totalGen += len(generatedMeshs)
-                            writeFile(path, "umls_progress",
+                            writeFile(path, "umls_progress_" + num,
                                       "Number of Original MeSH Terms: " + str(len(cleanedOriMeshs)) + "\n")
-                            writeFile(path, "umls_progress",
+                            writeFile(path, "umls_progress_" + num,
                                       "Number of UMLS Generated MeSH Terms: " + str(len(generatedMeshs)) + "\n")
-                            writeFile(path, "umls_progress", LINEBREAK)
-                    writeFile(path + "/" + d, "umls_result_query", fullNewUMLSQuery)
-            writeFile(path, "umls_progress", LINEBREAK)
-            writeFile(path, "umls_result", LINEBREAK)
+                            writeFile(path, "umls_progress_" + num, LINEBREAK)
+                    writeFile(path + "/" + d, "umls_" + num + "_result_query", fullNewUMLSQuery)
+            writeFile(path, "umls_progress_" + num, LINEBREAK)
+            writeFile(path, "umls_result_" + num, LINEBREAK)
             print("Total Sub-Clauses: " + str(count))
-            writeFile(path, "umls_progress", "Total Sub-Clauses: " + str(count) + "\n")
-            writeFile(path, "umls_result", "Total Sub-Clauses: " + str(count) + "\n")
+            writeFile(path, "umls_progress_" + num, "Total Sub-Clauses: " + str(count) + "\n")
+            writeFile(path, "umls_result_" + num, "Total Sub-Clauses: " + str(count) + "\n")
             print("Total Original MeSH Terms: " + str(totalMeSHs))
-            writeFile(path, "umls_progress", "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
-            writeFile(path, "umls_result", "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
+            writeFile(path, "umls_progress_" + num, "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
+            writeFile(path, "umls_result_" + num, "Total Original MeSH Terms: " + str(totalMeSHs) + "\n")
             print("Total Generated MeSH Terms: " + str(totalGen))
-            writeFile(path, "umls_progress", "Total Generated MeSH Terms: " + str(totalGen) + "\n")
-            writeFile(path, "umls_result", "Total Generated MeSH Terms: " + str(totalGen) + "\n")
-            writeFile(path, "umls_progress", ENDBLOCK)
-            writeFile(path, "umls_result", ENDBLOCK)
+            writeFile(path, "umls_progress_" + num, "Total Generated MeSH Terms: " + str(totalGen) + "\n")
+            writeFile(path, "umls_result_" + num, "Total Generated MeSH Terms: " + str(totalGen) + "\n")
+            writeFile(path, "umls_progress_" + num, ENDBLOCK)
+            writeFile(path, "umls_result_" + num, ENDBLOCK)
             lineSeperator("=")
     elif option is "4":
         print("Method Not Implemented Yet!")
@@ -263,6 +266,9 @@ def main():
                             createQrelsFile(path, d, dd)
             lineSeperator("=")
     elif option is "6":
+        print("Used How Many Scores In UMLS: ")
+        print("(0: Used All)")
+        num = input("Input: ")
         for path in selectedPath:
             dirs = os.listdir(path)
             if os.path.isfile(path + "/" + "data.qrels"):
@@ -279,6 +285,12 @@ def main():
                 os.remove(path + "/" + "meta_progress")
             if os.path.isfile(path + "/" + "meta_result"):
                 os.remove(path + "/" + "meta_result")
+            if os.path.isfile(path + "/" + "umls_" + num + ".res"):
+                os.remove(path + "/" + "umls_" + num + ".res")
+            if os.path.isfile(path + "/" + "umls_result_" + num):
+                os.remove(path + "/" + "umls_result_" + num)
+            if os.path.isfile(path + "/" + "umls_progress_" + num):
+                os.remove(path + "/" + "umls_progress_" + num)
             if os.path.isfile(path + "/" + "umls.res"):
                 os.remove(path + "/" + "umls.res")
             if os.path.isfile(path + "/" + "umls_result"):
@@ -294,6 +306,8 @@ def main():
                     os.remove(path + "/" + d + "/" + "meta_result_query")
                 if os.path.isfile(path + "/" + d + "/" + "umls_result_query"):
                     os.remove(path + "/" + d + "/" + "umls_result_query")
+                if os.path.isfile(path + "/" + d + "/" + "umls_" + num + "_result_query"):
+                    os.remove(path + "/" + d + "/" + "umls_" + num + "_result_query")
         print("Done")
     else:
         print("Invalid Selection.")

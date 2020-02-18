@@ -1,26 +1,26 @@
 from metamap_helper import *
 
 
-def getUMLSMeshTerms(path, keywordf, meshf):
+def getUMLSMeshTerms(path, keywordf, meshf, num):
     keywordsContent = keywordf.read()
     meshContent = meshf.read()
     oriMeshs = meshContent.split("\n")
     cleanedOriMeshs = cleanTerms(oriMeshs)
     keywords = keywordsContent.split("\n")
-    generatedMeshs, objRet = requestUMLSMeshs(keywords)
+    generatedMeshs, objRet = requestUMLSMeshs(keywords, num)
     generatedMeshs = cleanTerms(generatedMeshs)
-    writeFile(path, "umls_progress", LINEBREAK)
-    writeFile(path, "umls_progress", "Keywords: \n")
+    writeFile(path, "umls_progress_" + num, LINEBREAK)
+    writeFile(path, "umls_progress_" + num, "Keywords: \n")
     for k in keywords:
-        writeFile(path, "umls_progress", k + "\n")
-    writeFile(path, "umls_progress", LINEBREAK)
-    writeFile(path, "umls_progress", "Original Mesh Terms: \n")
+        writeFile(path, "umls_progress_" + num, k + "\n")
+    writeFile(path, "umls_progress_" + num, LINEBREAK)
+    writeFile(path, "umls_progress_" + num, "Original Mesh Terms: \n")
     res = []
     seen = set()
     for oriMesh in cleanedOriMeshs:
         obj = next((x for x in MESHINFO if x["term"] == oriMesh or oriMesh in x["entry_list"]), None)
         if obj is not None:
-            writeFile(path, "umls_progress", obj["uid"] + " - " + obj["term"] + "\n")
+            writeFile(path, "umls_progress_" + num, obj["uid"] + " - " + obj["term"] + "\n")
             seen.add(obj["uid"])
             res.append(obj["term"])
         else:
@@ -30,17 +30,17 @@ def getUMLSMeshTerms(path, keywordf, meshf):
                     if y not in seen:
                         obj = next((x for x in MESHINFO if x["uid"] == y), None)
                         if obj is not None:
-                            writeFile(path, "umls_progress", obj["uid"] + " - " + obj["term"] + "\n")
+                            writeFile(path, "umls_progress_" + num, obj["uid"] + " - " + obj["term"] + "\n")
                             res.append(obj["term"])
-    writeFile(path, "umls_progress", LINEBREAK)
-    writeFile(path, "umls_progress", "Generated MeSH Terms: \n")
+    writeFile(path, "umls_progress_" + num, LINEBREAK)
+    writeFile(path, "umls_progress_" + num, "Generated MeSH Terms: \n")
     for i in objRet:
-        writeFile(path, "umls_progress", i["uid"] + " - " + i["term"] + "\n")
-    writeFile(path, "umls_progress", LINEBREAK)
+        writeFile(path, "umls_progress_" + num, i["uid"] + " - " + i["term"] + "\n")
+    writeFile(path, "umls_progress_" + num, LINEBREAK)
     return generatedMeshs, res
 
 
-def requestUMLSMeshs(keywords):
+def requestUMLSMeshs(keywords, num):
     meshs = []
     objs = []
     seen = set()
@@ -53,7 +53,7 @@ def requestUMLSMeshs(keywords):
         while response.content is None or response.status_code is not 200:
             time.sleep(0.1)
             response = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
-        generatedMeshs, objRet, seen = parseUMLSResponse(response, seen)
+        generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:
                 meshs.append(g)
@@ -70,19 +70,39 @@ def UMLSProcessK(k):
     return k
 
 
-def parseUMLSResponse(response, seen):
+def parseUMLSResponse(response, seen, num):
     generatedMeshs = []
     resContent = json.loads(response.content)
     if resContent is not None:
-        hits = resContent["hits"]["hits"]
-        for hit in hits:
-            # score = hit["_score"]
-            thesaurus = hit["_source"]["thesaurus"]
-            for each in thesaurus:
-                if each["MRCONSO_LAT"] == "ENG":
-                    if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
-                        if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
-                            generatedMeshs.append(each["MRCONSO_STR"])
+        if num == "0":
+            hits = resContent["hits"]["hits"]
+            for hit in hits:
+                thesaurus = hit["_source"]["thesaurus"]
+                for each in thesaurus:
+                    if each["MRCONSO_LAT"] == "ENG":
+                        if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                            if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                generatedMeshs.append(each["MRCONSO_STR"])
+        else:
+            scores = []
+            hits = resContent["hits"]["hits"]
+            for hit in hits:
+                scores.append(hit["_score"])
+            scores.sort(reverse=True)
+            number = int(num)
+            if number > len(scores):
+                selectedScores = scores
+            else:
+                selectedScores = scores[:number]
+            for hit in hits:
+                score = hit["_score"]
+                if score in selectedScores:
+                    thesaurus = hit["_source"]["thesaurus"]
+                    for each in thesaurus:
+                        if each["MRCONSO_LAT"] == "ENG":
+                            if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                                if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                    generatedMeshs.append(each["MRCONSO_STR"])
         if len(generatedMeshs) > 0:
             ret = []
             objRet = []
@@ -122,8 +142,8 @@ def parseUMLSResponse(response, seen):
         return [], [], seen
 
 
-def createUMLSResFile(path, d, dd, generatedMesh, count):
-    resFile = open(path + "/" + "umls.res", "a+")
+def createUMLSResFile(path, d, dd, generatedMesh, count, num):
+    resFile = open(path + "/" + "umls_" + num + ".res", "a+")
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
