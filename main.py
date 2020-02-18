@@ -275,7 +275,7 @@ def main():
     elif option is "5":
         for path in selectedPath:
             dirs = os.listdir(path)
-            for i, d in enumerate(dirs):
+            for d in dirs:
                 if os.path.isdir(path + "/" + d):
                     innerD = os.listdir(path + "/" + d)
                     for x in innerD:
