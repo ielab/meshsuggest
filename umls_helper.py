@@ -83,20 +83,37 @@ def parseUMLSResponse(response, seen, num):
                         if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
                             if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
                                 generatedMeshs.append(each["MRCONSO_STR"])
-        else:
+        elif num == "1":
             scores = []
             hits = resContent["hits"]["hits"]
             for hit in hits:
                 scores.append(hit["_score"])
+            scores = list(dict.fromkeys(scores))
             scores.sort(reverse=True)
-            number = int(num)
-            if number > len(scores):
-                selectedScores = scores
-            else:
-                selectedScores = scores[:number]
+            selectedScores = scores[0]
             for hit in hits:
                 score = hit["_score"]
                 if score in selectedScores:
+                    thesaurus = hit["_source"]["thesaurus"]
+                    for each in thesaurus:
+                        if each["MRCONSO_LAT"] == "ENG":
+                            if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                                if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                    generatedMeshs.append(each["MRCONSO_STR"])
+        else:
+            scores = [float]
+            hits = resContent["hits"]["hits"]
+            for hit in hits:
+                scores.append(float(hit["_score"]))
+            scores = list(dict.fromkeys(scores))
+            scores.sort(reverse=True)
+            totalScore = sum(scores)
+            number = float(num)
+            percentage = float(number / 100.00)
+            for hit in hits:
+                score = float(hit["_score"])
+                p = float(score / totalScore)
+                if p > percentage:
                     thesaurus = hit["_source"]["thesaurus"]
                     for each in thesaurus:
                         if each["MRCONSO_LAT"] == "ENG":
@@ -142,15 +159,15 @@ def parseUMLSResponse(response, seen, num):
         return [], [], seen
 
 
-def createUMLSResFile(path, d, dd, generatedMesh, count, num):
+def createUMLSResFile(path, d, dd, generatedMesh, num):
     resFile = open(path + "/" + "umls_" + num + ".res", "a+")
+    count = 1
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
             count) + "    " + "0.00" + "    " + path + "\n"
         resFile.write(line)
         count += 1
-    return count
 
 
 def generateNewUMLSQuery(path, meshs):

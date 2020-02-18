@@ -197,14 +197,14 @@ def lineSeperator(fill='#', length=100):
     print()
 
 
-def createResFile(path, d, dd, generatedMesh, count):
+def createResFile(path, d, dd, generatedMesh):
     resFile = open(path + "/" + "atm.res", "a+")
+    count = 1
     for mesh in generatedMesh:
         obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
         line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(count) + "    " + "0.00" + "    " + path + "\n"
         resFile.write(line)
         count += 1
-    return count
 
 
 def createQrelsFile(path, d, dd):

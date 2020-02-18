@@ -1,26 +1,26 @@
 from atm_helper import *
 
 
-def getMetaMeshTerms(path, keywordsF, meshF):
+def getMetaMeshTerms(path, keywordsF, meshF, num):
     keywordsContent = keywordsF.read()
     meshContent = meshF.read()
     oriMeshs = meshContent.split("\n")
     cleanedOriMeshs = cleanTerms(oriMeshs)
     keywords = keywordsContent.split("\n")
-    generatedMeshs, objRet = requestMetaMeshs(keywords)
+    generatedMeshs, objRet = requestMetaMeshs(keywords, num)
     generatedMeshs = cleanTerms(generatedMeshs)
-    writeFile(path, "meta_progress", LINEBREAK)
-    writeFile(path, "meta_progress", "Keywords: \n")
+    writeFile(path, "meta_progress_" + num, LINEBREAK)
+    writeFile(path, "meta_progress_" + num, "Keywords: \n")
     for k in keywords:
-        writeFile(path, "meta_progress", k + "\n")
-    writeFile(path, "meta_progress", LINEBREAK)
-    writeFile(path, "meta_progress", "Original Mesh Terms: \n")
+        writeFile(path, "meta_progress_" + num, k + "\n")
+    writeFile(path, "meta_progress_" + num, LINEBREAK)
+    writeFile(path, "meta_progress_" + num, "Original Mesh Terms: \n")
     res = []
     seen = set()
     for oriMesh in cleanedOriMeshs:
         obj = next((x for x in MESHINFO if x["term"] == oriMesh or oriMesh in x["entry_list"]), None)
         if obj is not None:
-            writeFile(path, "meta_progress", obj["uid"] + " - " + obj["term"] + "\n")
+            writeFile(path, "meta_progress_" + num, obj["uid"] + " - " + obj["term"] + "\n")
             seen.add(obj["uid"])
             res.append(obj["term"])
         else:
@@ -30,17 +30,17 @@ def getMetaMeshTerms(path, keywordsF, meshF):
                     if y not in seen:
                         obj = next((x for x in MESHINFO if x["uid"] == y), None)
                         if obj is not None:
-                            writeFile(path, "meta_progress", obj["uid"] + " - " + obj["term"] + "\n")
+                            writeFile(path, "meta_progress_" + num, obj["uid"] + " - " + obj["term"] + "\n")
                             res.append(obj["term"])
-    writeFile(path, "meta_progress", LINEBREAK)
-    writeFile(path, "meta_progress", "Generated MeSH Terms: \n")
+    writeFile(path, "meta_progress_" + num, LINEBREAK)
+    writeFile(path, "meta_progress_" + num, "Generated MeSH Terms: \n")
     for i in objRet:
-        writeFile(path, "meta_progress", i["uid"] + " - " + i["term"] + "\n")
-    writeFile(path, "meta_progress", LINEBREAK)
+        writeFile(path, "meta_progress_" + num, i["uid"] + " - " + i["term"] + "\n")
+    writeFile(path, "meta_progress_" + num, LINEBREAK)
     return generatedMeshs, res
 
 
-def requestMetaMeshs(keywords):
+def requestMetaMeshs(keywords, num):
     meshs = []
     objs = []
     seen = set()
@@ -50,7 +50,7 @@ def requestMetaMeshs(keywords):
         while response.content is None or response.status_code is not 200:
             time.sleep(0.1)
             response = requests.post(CONFIG["metamap_url"], data=k)
-        generatedMeshs, objRet, seen = parseMetaResponse(response, seen)
+        generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:
                 meshs.append(g)
@@ -65,14 +65,43 @@ def MetaMapProcessK(k):
     return k
 
 
-def parseMetaResponse(response, seen):
+def parseMetaResponse(response, seen, num):
     generatedMeshs = []
     res = json.loads(response.content)
     if res is not None:
-        for item in res:
-            sources = item["Sources"]
-            if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
-                generatedMeshs.append(item["CandidatePreferred"])
+        if num == "0":
+            for item in res:
+                sources = item["Sources"]
+                if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                    generatedMeshs.append(item["CandidatePreferred"])
+        elif num == "1":
+            scores = [float]
+            for item in res:
+                scores.append(float(item["CandidateScore"]))
+            scores = list(dict.fromkeys(scores))
+            scores.sort()
+            selectedScores = scores[0]
+            for item in res:
+                score = item["CandidateScore"]
+                if score in selectedScores:
+                    sources = item["Sources"]
+                    if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                        generatedMeshs.append(item["CandidatePreferred"])
+        else:
+            scores = [float]
+            for item in res:
+                scores.append(float(item["CandidateScore"]))
+            scores = list(dict.fromkeys(scores))
+            totalScore = sum(scores)
+            number = float(num)
+            percentage = float(number / 100.00)
+            for item in res:
+                score = float(item["CandidateScore"])
+                p = float(score / totalScore)
+                if p > percentage:
+                    sources = item["Sources"]
+                    if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                        generatedMeshs.append(item["CandidatePreferred"])
         if len(generatedMeshs) > 0:
             ret = []
             objRet = []
@@ -112,6 +141,17 @@ def parseMetaResponse(response, seen):
         return [], [], seen
 
 
+def createMetaResFile(path, d, dd, generatedMesh, num):
+    resFile = open(path + "/" + "meta_" + num + ".res", "a+")
+    count = 1
+    for mesh in generatedMesh:
+        obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
+        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
+            count) + "    " + "0.00" + "    " + path + "\n"
+        resFile.write(line)
+        count += 1
+
+
 def generateNewMetaQuery(path, meshs):
     noMeshQF = open(path + "/" + "clause_no_mesh", "r")
     noMeshContent = noMeshQF.read()
@@ -121,14 +161,3 @@ def generateNewMetaQuery(path, meshs):
     else:
         newQuery = noMeshContent
     return newQuery
-
-
-def createMetaResFile(path, d, dd, generatedMesh, count):
-    resFile = open(path + "/" + "meta.res", "a+")
-    for mesh in generatedMesh:
-        obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
-        line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
-            count) + "    " + "0.00" + "    " + path + "\n"
-        resFile.write(line)
-        count += 1
-    return count
