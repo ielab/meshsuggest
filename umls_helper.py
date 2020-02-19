@@ -47,15 +47,7 @@ def requestUMLSMeshs(keywords, num):
     for k in keywords:
         hashK = hash(k)
         responseF = open("umls_responses/" + str(hashK))
-        responseContent = responseF.read()
-        response = json.loads(responseContent)
-        # param = {
-        #     "q": k
-        # }
-        # response = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
-        # while response.content is None or response.status_code is not 200:
-        #     time.sleep(0.1)
-        #     response = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
+        response = responseF.read()
         generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:
@@ -75,7 +67,7 @@ def UMLSProcessK(k):
 
 def parseUMLSResponse(response, seen, num):
     generatedMeshs = []
-    resContent = json.loads(response.content)
+    resContent = json.loads(response)
     if resContent is not None:
         if num == "0":
             hits = resContent["hits"]["hits"]
