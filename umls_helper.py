@@ -44,12 +44,21 @@ def requestUMLSMeshs(keywords, num):
     meshs = []
     objs = []
     seen = set()
-    for k in keywords:
-        hashK = hashlib.md5(k.encode())
-        hashKRes = hashK.hexdigest()
-        responseF = open("umls_responses/" + hashKRes, "r")
-        response = responseF.read()
-        generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
+    if num == "one" or num == "all":
+        for k in keywords:
+            hashK = hashlib.md5(k.encode())
+            hashKRes = hashK.hexdigest()
+            responseF = open("umls_responses/" + hashKRes, "r")
+            response = responseF.read()
+            generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
+            if len(generatedMeshs) is not 0:
+                for g in generatedMeshs:
+                    meshs.append(g)
+            if len(objRet) is not 0:
+                for i in objRet:
+                    objs.append(i)
+    else:
+        generatedMeshs, objRet = processCutoffMeshs(keywords, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:
                 meshs.append(g)
@@ -59,11 +68,150 @@ def requestUMLSMeshs(keywords, num):
     return meshs, objs
 
 
+def processCutoffMeshs(keywords, num):
+    runList = []
+    for key in keywords:
+        seen = set()
+        scores = []
+        generatedObj = []
+        finalObjs = []
+        noDupObjs = []
+        hashK = hashlib.md5(key.encode())
+        hashKRes = hashK.hexdigest()
+        responseF = open("umls_responses/" + hashKRes, "r")
+        response = responseF.read()
+        resContent = json.loads(response)
+        if resContent is not None:
+            hits = resContent["hits"]["hits"]
+            if len(hits) > 0:
+                for hit in hits:
+                    thesaurus = hit["_source"]["thesaurus"]
+                    for each in thesaurus:
+                        if each["MRCONSO_LAT"] == "ENG":
+                            if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                                if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                    temp1 = {
+                                        "score": hit["_score"],
+                                        "term": each["MRCONSO_STR"].lower()
+                                    }
+                                    generatedObj.append(temp1)
+        if len(generatedObj) > 0:
+            for obj in generatedObj:
+                found = checkTermExistence(obj["term"])
+                if len(found) > 0:
+                    for f in found:
+                        if f["uid"] not in seen:
+                            temp2 = {
+                                "score": obj["score"],
+                                "uid": f["uid"],
+                                "term": f["term"].lower()
+                            }
+                            scores.append(obj["score"])
+                            seen.add(f["uid"])
+                            finalObjs.append(temp2)
+        if len(finalObjs) > 0:
+            maxScore = max(scores)
+            minScore = min(scores)
+            for o in finalObjs:
+                if maxScore != minScore:
+                    t = {
+                        "uid": o["uid"],
+                        "term": o["term"],
+                        "score": (o["score"] - minScore) / (maxScore - minScore)
+                    }
+                else:
+                    t = {
+                        "uid": o["uid"],
+                        "term": o["term"],
+                        "score": 1
+                    }
+                noDupObjs.append(t)
+        if len(noDupObjs) > 0:
+            runList.append(noDupObjs)
+    fusedList = performCombMNZ(runList)
+    totalScore = 0
+    for t in fusedList:
+        totalScore += float(t["score"])
+    cutoffList = []
+    mh = []
+    cutoff = float(num) / 100.00
+    for z in fusedList:
+        p = float(z["score"]) / totalScore
+        if p >= cutoff:
+            cutoffList.append(z)
+    for each in cutoffList:
+        mh.append(each["term"])
+    return mh, cutoffList
+
+
+def performCombMNZ(runList):
+    if len(runList) == 1:
+        return runList[0]
+    elif len(runList) > 1:
+        finalRes = []
+        uidList = []
+        grouped = []
+        seenUID = set()
+        for run in runList:
+            for k in run:
+                if k["uid"] not in seenUID:
+                    uidList.append(k["uid"])
+                    seenUID.add(k["uid"])
+        for uniqueID in uidList:
+            single = []
+            for run in runList:
+                for item in run:
+                    if item["uid"] == uniqueID:
+                        single.append(item)
+            grouped.append(single)
+        for each in grouped:
+            if len(each) == 1:
+                finalRes.append(each[0])
+            else:
+                score = 0
+                for e in each:
+                    score += e["score"]
+                score = score * len(each)
+                line = {
+                    "term": each[0]["term"],
+                    "uid": each[0]["uid"],
+                    "score": score
+                }
+                finalRes.append(line)
+        finalRes.sort(key=lambda x: x["score"], reverse=True)
+        return finalRes
+    else:
+        return []
+
+
+def checkTermExistence(term):
+    found = []
+    meshobj = next((x for x in MESHINFO if x["term"] == term or term in x["entry_list"]), None)
+    if meshobj is not None:
+        temp1 = {
+            "uid": meshobj["uid"],
+            "term": meshobj["term"]
+        }
+        found.append(temp1)
+    else:
+        suppobj = next((x for x in SUPPINFO if term in x["names"]), None)
+        if suppobj is not None:
+            for i in suppobj["ids"]:
+                obj = next((x for x in MESHINFO if x["uid"] == i), None)
+                if obj is not None:
+                    temp2 = {
+                        "uid": obj["uid"],
+                        "term": obj["term"]
+                    }
+                    found.append(temp2)
+    return found
+
+
 def parseUMLSResponse(response, seen, num):
     generatedMeshs = []
     resContent = json.loads(response)
     if resContent is not None:
-        if num == "100":
+        if num == "all":
             hits = resContent["hits"]["hits"]
             for hit in hits:
                 thesaurus = hit["_source"]["thesaurus"]
@@ -72,7 +220,7 @@ def parseUMLSResponse(response, seen, num):
                         if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
                             if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
                                 generatedMeshs.append(each["MRCONSO_STR"])
-        elif num == "1":
+        elif num == "one":
             scores = []
             hits = resContent["hits"]["hits"]
             for hit in hits:
@@ -84,29 +232,6 @@ def parseUMLSResponse(response, seen, num):
                 for hit in hits:
                     score = float(hit["_score"])
                     if score == selectedScores:
-                        thesaurus = hit["_source"]["thesaurus"]
-                        for each in thesaurus:
-                            if each["MRCONSO_LAT"] == "ENG":
-                                if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
-                                    if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
-                                        generatedMeshs.append(each["MRCONSO_STR"])
-            else:
-                generatedMeshs = []
-        else:
-            scores = []
-            hits = resContent["hits"]["hits"]
-            for hit in hits:
-                scores.append(float(hit["_score"]))
-            if len(scores) > 0:
-                scores = list(dict.fromkeys(scores))
-                scores.sort(reverse=True)
-                totalScore = sum(scores)
-                number = float(num)
-                percentage = float(number / 100.00)
-                for hit in hits:
-                    score = float(hit["_score"])
-                    p = float(score / totalScore)
-                    if p > percentage:
                         thesaurus = hit["_source"]["thesaurus"]
                         for each in thesaurus:
                             if each["MRCONSO_LAT"] == "ENG":

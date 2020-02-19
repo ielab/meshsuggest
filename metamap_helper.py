@@ -45,12 +45,21 @@ def requestMetaMeshs(keywords, num):
     meshs = []
     objs = []
     seen = set()
-    for k in keywords:
-        hashK = hashlib.md5(k.encode())
-        hashKRes = hashK.hexdigest()
-        responseF = open("metamap_responses/" + hashKRes, "r")
-        response = responseF.read()
-        generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
+    if num == "one" or num == "all":
+        for k in keywords:
+            hashK = hashlib.md5(k.encode())
+            hashKRes = hashK.hexdigest()
+            responseF = open("metamap_responses/" + hashKRes, "r")
+            response = responseF.read()
+            generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
+            if len(generatedMeshs) is not 0:
+                for g in generatedMeshs:
+                    meshs.append(g)
+            if len(objRet) is not 0:
+                for i in objRet:
+                    objs.append(i)
+    else:
+        generatedMeshs, objRet = processCutoffMeshs(keywords, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:
                 meshs.append(g)
@@ -60,16 +69,152 @@ def requestMetaMeshs(keywords, num):
     return meshs, objs
 
 
+def processCutoffMeshs(keywords, num):
+    runList = []
+    for key in keywords:
+        seen = set()
+        scores = []
+        generatedObj = []
+        finalObjs = []
+        noDupObjs = []
+        hashK = hashlib.md5(key.encode())
+        hashKRes = hashK.hexdigest()
+        responseF = open("metamap_responses/" + hashKRes, "r")
+        response = responseF.read()
+        resContent = json.loads(response)
+        if resContent is not None:
+            if len(resContent) > 0:
+                for item in resContent:
+                    score = item["CandidateScore"]
+                    sources = item["Sources"]
+                    if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                        temp1 = {
+                            "score": float(score),
+                            "term": item["CandidatePreferred"].lower()
+                        }
+                        generatedObj.append(temp1)
+        if len(generatedObj) > 0:
+            for obj in generatedObj:
+                found = checkTermExistence(obj["term"])
+                if len(found) > 0:
+                    for f in found:
+                        if f["uid"] not in seen:
+                            temp2 = {
+                                "score": obj["score"],
+                                "uid": f["uid"],
+                                "term": f["term"].lower()
+                            }
+                            scores.append(obj["score"])
+                            seen.add(f["uid"])
+                            finalObjs.append(temp2)
+        if len(finalObjs) > 0:
+            maxScore = max(scores)
+            minScore = min(scores)
+            for o in finalObjs:
+                if maxScore != minScore:
+                    t = {
+                        "uid": o["uid"],
+                        "term": o["term"],
+                        "score": (o["score"] - minScore) / (maxScore - minScore)
+                    }
+                else:
+                    t = {
+                        "uid": o["uid"],
+                        "term": o["term"],
+                        "score": 1
+                    }
+                noDupObjs.append(t)
+        if len(noDupObjs) > 0:
+            runList.append(noDupObjs)
+    fusedList = performCombMNZ(runList)
+    totalScore = 0
+    for t in fusedList:
+        totalScore += float(t["score"])
+    cutoffList = []
+    mh = []
+    cutoff = float(num) / 100.00
+    for z in fusedList:
+        p = float(z["score"]) / totalScore
+        if p >= cutoff:
+            cutoffList.append(z)
+    for each in cutoffList:
+        mh.append(each["term"])
+    return mh, cutoffList
+
+
+def performCombMNZ(runList):
+    if len(runList) == 1:
+        return runList[0]
+    elif len(runList) > 1:
+        finalRes = []
+        uidList = []
+        grouped = []
+        seenUID = set()
+        for run in runList:
+            for k in run:
+                if k["uid"] not in seenUID:
+                    uidList.append(k["uid"])
+                    seenUID.add(k["uid"])
+        for uniqueID in uidList:
+            single = []
+            for run in runList:
+                for item in run:
+                    if item["uid"] == uniqueID:
+                        single.append(item)
+            grouped.append(single)
+        for each in grouped:
+            if len(each) == 1:
+                finalRes.append(each[0])
+            else:
+                score = 0
+                for e in each:
+                    score += e["score"]
+                score = score * len(each)
+                line = {
+                    "term": each[0]["term"],
+                    "uid": each[0]["uid"],
+                    "score": score
+                }
+                finalRes.append(line)
+        finalRes.sort(key=lambda x: x["score"], reverse=False)
+        return finalRes
+    else:
+        return []
+
+
+def checkTermExistence(term):
+    found = []
+    meshobj = next((x for x in MESHINFO if x["term"] == term or term in x["entry_list"]), None)
+    if meshobj is not None:
+        temp1 = {
+            "uid": meshobj["uid"],
+            "term": meshobj["term"]
+        }
+        found.append(temp1)
+    else:
+        suppobj = next((x for x in SUPPINFO if term in x["names"]), None)
+        if suppobj is not None:
+            for i in suppobj["ids"]:
+                obj = next((x for x in MESHINFO if x["uid"] == i), None)
+                if obj is not None:
+                    temp2 = {
+                        "uid": obj["uid"],
+                        "term": obj["term"]
+                    }
+                    found.append(temp2)
+    return found
+
+
 def parseMetaResponse(response, seen, num):
     generatedMeshs = []
     res = json.loads(response)
     if res is not None:
-        if num == "100":
+        if num == "all":
             for item in res:
                 sources = item["Sources"]
                 if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                     generatedMeshs.append(item["CandidatePreferred"])
-        elif num == "1":
+        elif num == "one":
             scores = []
             for item in res:
                 scores.append(float(item["CandidateScore"]))
@@ -80,24 +225,6 @@ def parseMetaResponse(response, seen, num):
                 for item in res:
                     score = float(item["CandidateScore"])
                     if score == selectedScores:
-                        sources = item["Sources"]
-                        if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
-                            generatedMeshs.append(item["CandidatePreferred"])
-            else:
-                generatedMeshs = []
-        else:
-            scores = []
-            for item in res:
-                scores.append(float(item["CandidateScore"]))
-            if len(scores) > 0:
-                scores = list(dict.fromkeys(scores))
-                totalScore = sum(scores)
-                number = float(num)
-                percentage = float(number / 100.00)
-                for item in res:
-                    score = float(item["CandidateScore"])
-                    p = float(score / totalScore)
-                    if p > percentage:
                         sources = item["Sources"]
                         if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                             generatedMeshs.append(item["CandidatePreferred"])
