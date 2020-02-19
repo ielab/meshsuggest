@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0015671", "CandidateMatched": "Father", "CandidatePreferred": "Father (person)", "SemTypes": ["famg"], "Sources": ["AOD", "CHV", "CSP", "HL7V3.0", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["father"]}]

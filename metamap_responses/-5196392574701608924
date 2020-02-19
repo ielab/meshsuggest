@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0035359", "CandidateMatched": "Retroperitoneal", "CandidatePreferred": "Retroperitoneal Space", "SemTypes": ["bsoj"], "Sources": ["CHV", "FMA", "HL7V2.5", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["retroperitoneal"]}]

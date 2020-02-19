@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0205100", "CandidateMatched": "PERIPHERAL", "CandidatePreferred": "Peripheral", "SemTypes": ["spco"], "Sources": ["CHV", "HPO", "LNC", "NCI", "NCI_CDISC", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["peripheral"]}]

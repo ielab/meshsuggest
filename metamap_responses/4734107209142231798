@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C3714552", "CandidateMatched": "WEAKNESS", "CandidatePreferred": "Weakness", "SemTypes": ["sosy"], "Sources": ["CHV", "COSTAR", "CST", "DXP", "ICD10CM", "ICD9CM", "LNC", "MTH", "NCI", "NCI_FDA", "NCI_NICHD", "NLMSubSyn", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["weakness"]}]

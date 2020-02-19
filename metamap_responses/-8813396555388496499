@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0007131", "CandidateMatched": "NSCLC", "CandidatePreferred": "Non-Small Cell Lung Carcinoma", "SemTypes": ["neop"], "Sources": ["CHV", "CSP", "HPO", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_CTEP-SDC", "NCI_CTRP", "NCI_NCI-GLOSS", "NDFRT", "NLMSubSyn", "OMIM", "PDQ", "SNOMEDCT_US"], "MatchedWords": ["nsclc"]}]

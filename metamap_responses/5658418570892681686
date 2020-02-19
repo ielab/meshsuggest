@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0028840", "CandidateMatched": "Ocular Hypertension", "CandidatePreferred": "Ocular Hypertension", "SemTypes": ["dsyn"], "Sources": ["CHV", "COSTAR", "ICD10CM", "ICD9CM", "MSH", "NCI", "NCI_NICHD", "NDFRT", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["ocular", "hypertension"]}]

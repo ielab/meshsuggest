@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0016129", "CandidateMatched": "FINGER", "CandidatePreferred": "Fingers", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["finger"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0028005", "CandidateMatched": "NICARDIPINE", "CandidatePreferred": "Nicardipine", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "CSP", "DRUGBANK", "LNC", "MSH", "MTHSPL", "NCI", "NCI_FDA", "NDFRT", "RXNORM", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["nicardipine"]}]

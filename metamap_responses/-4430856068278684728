@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0039003", "CandidateMatched": "SWIMMING", "CandidatePreferred": "Swimming", "SemTypes": ["dora"], "Sources": ["AOD", "CHV", "CSP", "DXP", "GO", "ICD10CM", "ICD9CM", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "MTHICD9", "NCI", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["swimming"]}]

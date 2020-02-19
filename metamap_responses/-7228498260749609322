@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0029921", "CandidateMatched": "Out-patient", "CandidatePreferred": "Outpatients", "SemTypes": ["podg"], "Sources": ["AOD", "CHV", "LNC", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "SNOMEDCT_US"], "MatchedWords": ["out", "patient"]}]

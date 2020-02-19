@@ -1,0 +1,1 @@
+[{"CandidateScore": "-694", "CandidateCUI": "C0018787", "CandidateMatched": "coronary", "CandidatePreferred": "Heart", "SemTypes": ["bpoc"], "Sources": ["AIR", "AOD", "CHV", "CSP", "FMA", "HL7V2.5", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "OMIM", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["coronary"]}]

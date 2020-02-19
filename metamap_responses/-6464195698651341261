@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0022860", "CandidateMatched": "LABETALOL", "CandidatePreferred": "Labetalol", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "DRUGBANK", "LCH", "LCH_NW", "LNC", "MSH", "MTHSPL", "NCI", "NCI_DCP", "NCI_FDA", "NDFRT", "NLMSubSyn", "RXNORM", "SNMI", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["labetalol"]}]

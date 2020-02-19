@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0543467", "CandidateMatched": "Surg", "CandidatePreferred": "Operative Surgical Procedures", "SemTypes": ["topp"], "Sources": ["AOD", "CHV", "CSP", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NCI_NICHD", "NLMSubSyn", "PDQ", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["surg"]}]

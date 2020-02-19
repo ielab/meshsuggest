@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0003320", "CandidateMatched": "Antigen", "CandidatePreferred": "Antigens", "SemTypes": ["imft"], "Sources": ["AOD", "CHV", "CSP", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NDFRT", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["antigen"]}]

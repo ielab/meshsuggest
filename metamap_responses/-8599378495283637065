@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0015385", "CandidateMatched": "Limbs", "CandidatePreferred": "Limb structure", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "OMIM", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["limbs"]}]

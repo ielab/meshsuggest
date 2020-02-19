@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0005612", "CandidateMatched": "birthweight", "CandidatePreferred": "Birth Weight", "SemTypes": ["orga"], "Sources": ["AOD", "CHV", "LCH", "LCH_NW", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_NICHD", "NDFRT", "NLMSubSyn", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["birthweight"]}]

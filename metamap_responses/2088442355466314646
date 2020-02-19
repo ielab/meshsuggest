@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0030274", "CandidateMatched": "Pancreatic", "CandidatePreferred": "Pancreas", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "MTHMST", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "OMIM", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["pancreatic"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0023901", "CandidateMatched": "Liver Function Tests", "CandidatePreferred": "Liver Function Tests", "SemTypes": ["lbpr"], "Sources": ["AOD", "CHV", "LCH", "LCH_NW", "MEDLINEPLUS", "MSH", "MTH", "MTHMST", "NCI", "NCI_NCI-GLOSS", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["liver", "function", "tests"]}]

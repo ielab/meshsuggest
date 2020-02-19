@@ -45,11 +45,14 @@ def requestMetaMeshs(keywords, num):
     objs = []
     seen = set()
     for k in keywords:
-        k = MetaMapProcessK(k)
-        response = requests.post(CONFIG["metamap_url"], data=k)
-        while response.content is None or response.status_code is not 200:
-            time.sleep(0.1)
-            response = requests.post(CONFIG["metamap_url"], data=k)
+        hashK = hash(k)
+        responseF = open("metamap_responses/" + str(hashK))
+        responseContent = responseF.read()
+        response = json.loads(responseContent)
+        # response = requests.post(CONFIG["metamap_url"], data=k)
+        # while response.content is None or response.status_code is not 200:
+        #     time.sleep(0.1)
+        #     response = requests.post(CONFIG["metamap_url"], data=k)
         generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
             for g in generatedMeshs:

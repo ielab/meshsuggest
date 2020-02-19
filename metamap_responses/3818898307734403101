@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0023764", "CandidateMatched": "LIPASE", "CandidatePreferred": "Lipase", "SemTypes": ["aapp", "enzy", "phsu"], "Sources": ["AOD", "CHV", "CSP", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NDFRT", "RXNORM", "SNM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["lipase"]}]

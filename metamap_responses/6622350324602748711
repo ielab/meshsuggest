@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0018810", "CandidateMatched": "Heart Rate", "CandidatePreferred": "heart rate", "SemTypes": ["clna"], "Sources": ["AOD", "CHV", "CSP", "ICF", "ICF-CY", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCPDP", "NCI_NICHD", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["heart", "rate"]}]

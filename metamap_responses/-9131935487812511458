@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0042449", "CandidateMatched": "VEIN", "CandidatePreferred": "Veins", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["vein"]}]

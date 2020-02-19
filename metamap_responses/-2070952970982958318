@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0028688", "CandidateMatched": "NURSING HOME", "CandidatePreferred": "Nursing Homes", "SemTypes": ["hcro", "mnob"], "Sources": ["AOD", "CHV", "CSP", "HL7V3.0", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "NLMSubSyn", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["nursing", "home"]}]

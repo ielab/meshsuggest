@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0042580", "CandidateMatched": "Vesico-Ureteral Reflux", "CandidatePreferred": "Vesico-Ureteral Reflux", "SemTypes": ["dsyn"], "Sources": ["CHV", "COSTAR", "DXP", "HPO", "ICD10CM", "ICD9CM", "LCH", "LCH_NW", "MSH", "NCI", "NCI_NICHD", "NDFRT", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["vesico", "ureteral", "reflux"]}]

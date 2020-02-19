@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0002712", "CandidateMatched": "AMYLASE", "CandidatePreferred": "Amylases", "SemTypes": ["aapp", "enzy", "phsu"], "Sources": ["AOD", "ATC", "CHV", "CSP", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NDFRT", "RXNORM", "SNM", "SNOMEDCT_US", "SPN", "VANDF"], "MatchedWords": ["amylase"]}]

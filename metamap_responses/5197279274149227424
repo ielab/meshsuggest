@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0001546", "CandidateMatched": "ADJUSTMENT DISORDER", "CandidatePreferred": "Adjustment Disorders", "SemTypes": ["mobd"], "Sources": ["AOD", "CCS_10", "CHV", "COSTAR", "ICD10CM", "LCH_NW", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NDFRT", "NLMSubSyn", "PDQ", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["adjustment", "disorder"]}]

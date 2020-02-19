@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0008520", "CandidateMatched": "CHOROID", "CandidatePreferred": "Choroid", "SemTypes": ["bpoc"], "Sources": ["CHV", "FMA", "LCH", "LCH_NW", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["choroid"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0015772", "CandidateMatched": "FELODIPINE", "CandidatePreferred": "Felodipine", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "DRUGBANK", "MSH", "MTHSPL", "NCI", "NCI_DCP", "NCI_FDA", "NDFRT", "RXNORM", "SNOMEDCT_US", "USP", "USPMG", "VANDF"], "MatchedWords": ["felodipine"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0003469", "CandidateMatched": "Anxiety Disorder", "CandidatePreferred": "Anxiety Disorders", "SemTypes": ["mobd"], "Sources": ["AOD", "CCS_10", "CHV", "CSP", "ICD10CM", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CTCAE", "NCI_NICHD", "NDFRT", "NLMSubSyn", "OMIM", "PDQ", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["anxiety", "disorder"]}]

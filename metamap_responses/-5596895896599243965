@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0303611", "CandidateMatched": "Tc 99m", "CandidatePreferred": "Technetium 99m", "SemTypes": ["irda"], "Sources": ["CHV", "LNC", "MSH", "MTH", "MTHSPL", "NCI", "NCI_FDA", "NDFRT", "RXNORM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["tc", "99m"]}]

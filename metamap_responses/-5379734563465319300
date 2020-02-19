@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0205191", "CandidateMatched": "CHRONIC", "CandidatePreferred": "chronic", "SemTypes": ["tmco"], "Sources": ["CHV", "DXP", "HPO", "LNC", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["chronic"]}]

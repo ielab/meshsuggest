@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0036375", "CandidateMatched": "SCHOOL", "CandidatePreferred": "School", "SemTypes": ["mnob", "orgt"], "Sources": ["AOD", "CHV", "CSP", "HL7V3.0", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_FDA", "SNOMEDCT_US"], "MatchedWords": ["school"]}]

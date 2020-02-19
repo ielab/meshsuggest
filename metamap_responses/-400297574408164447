@@ -1,0 +1,1 @@
+[{"CandidateScore": "-966", "CandidateCUI": "C0034196", "CandidateMatched": "Pylorus", "CandidatePreferred": "Pylorus", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "FMA", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "MTHMST", "NCI", "NCI_CDISC", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["pylorus"]}]

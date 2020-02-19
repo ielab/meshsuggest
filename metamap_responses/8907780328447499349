@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0027804", "CandidateMatched": "NEURASTHENIA", "CandidatePreferred": "Neurasthenia", "SemTypes": ["mobd"], "Sources": ["AOD", "CHV", "COSTAR", "CSP", "CST", "DXP", "ICD10CM", "ICD9CM", "LCH", "LCH_NW", "MSH", "MTH", "MTHICD9", "NCI", "NDFRT", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["neurasthenia"]}]
