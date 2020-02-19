@@ -85,7 +85,7 @@ def processCutoffMeshs(keywords, num):
         if resContent is not None:
             if len(resContent) > 0:
                 for item in resContent:
-                    score = item["CandidateScore"]
+                    score = float(item["CandidateScore"])
                     sources = item["Sources"]
                     if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                         temp1 = {
@@ -100,11 +100,11 @@ def processCutoffMeshs(keywords, num):
                     for f in found:
                         if f["uid"] not in seen:
                             temp2 = {
-                                "score": obj["score"],
+                                "score": float(obj["score"]),
                                 "uid": f["uid"],
                                 "term": f["term"].lower()
                             }
-                            scores.append(obj["score"])
+                            scores.append(float(obj["score"]))
                             seen.add(f["uid"])
                             finalObjs.append(temp2)
         if len(finalObjs) > 0:
@@ -115,13 +115,13 @@ def processCutoffMeshs(keywords, num):
                     t = {
                         "uid": o["uid"],
                         "term": o["term"],
-                        "score": (o["score"] - minScore) / (maxScore - minScore)
+                        "score": float((o["score"] - minScore) / (maxScore - minScore))
                     }
                 else:
                     t = {
                         "uid": o["uid"],
                         "term": o["term"],
-                        "score": 1
+                        "score": 1.00
                     }
                 noDupObjs.append(t)
         if len(noDupObjs) > 0:
@@ -168,12 +168,12 @@ def performCombMNZ(runList):
             else:
                 score = 0
                 for e in each:
-                    score += e["score"]
+                    score += float(e["score"])
                 score = score * len(each)
                 line = {
-                    "term": each[0]["term"],
-                    "uid": each[0]["uid"],
-                    "score": score
+                    "term": str(each[0]["term"]),
+                    "uid": str(each[0]["uid"]),
+                    "score": float(score)
                 }
                 finalRes.append(line)
         finalRes.sort(key=lambda x: x["score"], reverse=False)
