@@ -93,7 +93,7 @@ def parseMetaResponse(response, seen, num):
                 scores = list(dict.fromkeys(scores))
                 totalScore = sum(scores)
                 number = float(num)
-                percentage = number / 100.00
+                percentage = float(number / 100.00)
                 for item in res:
                     score = float(item["CandidateScore"])
                     p = float(score / totalScore)
