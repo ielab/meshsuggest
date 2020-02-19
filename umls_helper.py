@@ -58,13 +58,6 @@ def requestUMLSMeshs(keywords, num):
     return meshs, objs
 
 
-def UMLSProcessK(k):
-    k = k.replace("/", "\/")
-    k = k.replace("[", "")
-    k = k.replace("]", " ")
-    return k
-
-
 def parseUMLSResponse(response, seen, num):
     generatedMeshs = []
     resContent = json.loads(response)

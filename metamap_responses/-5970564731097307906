@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0012634", "CandidateMatched": "Disease", "CandidatePreferred": "Disease", "SemTypes": ["dsyn"], "Sources": ["CHV", "CSP", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC-GLOSS", "NCI_CTRP", "NCI_NCI-GLOSS", "NCI_NICHD", "NDFRT", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["disease"]}]

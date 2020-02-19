@@ -58,11 +58,6 @@ def requestMetaMeshs(keywords, num):
     return meshs, objs
 
 
-def MetaMapProcessK(k):
-    k = k.replace("β", "beta")
-    return k
-
-
 def parseMetaResponse(response, seen, num):
     generatedMeshs = []
     res = json.loads(response)

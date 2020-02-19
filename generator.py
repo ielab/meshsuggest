@@ -8,9 +8,8 @@ from atm_helper import CONFIG
 def writeUMLSAndMetaResponse(keywordsF):
     keywordsContent = keywordsF.read()
     keywords = keywordsContent.split("\n")
-    metaDir = os.listdir("metamap_responses")
-    umlsDir = os.listdir("umls_responses")
     for keyword in keywords:
+        metaDir = os.listdir("metamap_responses")
         metaHashKey = hash(keyword)
         if str(metaHashKey) not in metaDir:
             k = MetaMapProcessK(keyword)
@@ -24,6 +23,7 @@ def writeUMLSAndMetaResponse(keywordsF):
                 json.dump(json.loads(response.content), f)
     for key in keywords:
         umlsHashKey = hash(key)
+        umlsDir = os.listdir("umls_responses")
         if str(umlsHashKey) not in umlsDir:
             umlsk = UMLSProcessK(key)
             param = {
