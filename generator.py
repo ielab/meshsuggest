@@ -10,6 +10,7 @@ def writeUMLSAndMetaResponse(keywordsF):
     keywords = keywordsContent.split("\n")
     for keyword in keywords:
         metaDir = os.listdir("metamap_responses")
+        print(metaDir)
         metaHashKey = hash(keyword)
         if str(metaHashKey) not in metaDir:
             k = MetaMapProcessK(keyword)
@@ -24,6 +25,7 @@ def writeUMLSAndMetaResponse(keywordsF):
     for key in keywords:
         umlsHashKey = hash(key)
         umlsDir = os.listdir("umls_responses")
+        print(umlsDir)
         if str(umlsHashKey) not in umlsDir:
             umlsk = UMLSProcessK(key)
             param = {

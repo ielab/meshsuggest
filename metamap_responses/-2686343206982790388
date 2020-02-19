@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0033684", "CandidateMatched": "PROTEIN", "CandidatePreferred": "Proteins", "SemTypes": ["aapp", "bacs"], "Sources": ["AOD", "CHV", "CSP", "FMA", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_DCP", "NCI_NCI-GLOSS", "NDFRT", "RXNORM", "SNM", "SNMI", "SNOMEDCT_US", "UWDA", "VANDF"], "MatchedWords": ["protein"]}]
