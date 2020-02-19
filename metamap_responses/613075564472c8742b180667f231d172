@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0051696", "CandidateMatched": "AMLODIPINE", "CandidatePreferred": "Amlodipine", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "CSP", "DRUGBANK", "LCH_NW", "LNC", "MSH", "MTHSPL", "NCI", "NCI_DCP", "NCI_FDA", "NDFRT", "RXNORM", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["amlodipine"]}]

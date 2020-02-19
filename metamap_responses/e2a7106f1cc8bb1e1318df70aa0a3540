@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C1522196", "CandidateMatched": "ENTER", "CandidatePreferred": "Enteral Route of Drug Administration", "SemTypes": ["ftcn"], "Sources": ["HL7V3.0", "MTH", "NCI", "NCI_CDISC", "NCI_FDA", "NLMSubSyn", "SNOMEDCT_US"], "MatchedWords": ["enter"]}]

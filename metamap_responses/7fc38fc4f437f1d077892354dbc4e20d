@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0005400", "CandidateMatched": "BILE DUCT", "CandidatePreferred": "Bile duct structure", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNMI", "SNOMEDCT_US", "SNOMEDCT_VET", "UWDA"], "MatchedWords": ["bile", "duct"]}]

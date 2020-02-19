@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0023115", "CandidateMatched": "LATEX", "CandidatePreferred": "Latex", "SemTypes": ["bodm", "orch"], "Sources": ["CHV", "CSP", "HL7V3.0", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NDFRT", "RXNORM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["latex"]}]

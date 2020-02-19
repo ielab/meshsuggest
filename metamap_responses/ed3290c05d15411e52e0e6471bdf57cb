@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0032790", "CandidateMatched": "Postoperative", "CandidatePreferred": "Postoperative Period", "SemTypes": ["tmco"], "Sources": ["CHV", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NLMSubSyn", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["postoperative"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0205558", "CandidateMatched": "False Negative", "CandidatePreferred": "False Negative", "SemTypes": ["lbtr"], "Sources": ["CHV", "MTH", "NCI", "NCI_CDISC-GLOSS", "NCI_NCI-GLOSS", "NLMSubSyn", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["false", "negative"]}]

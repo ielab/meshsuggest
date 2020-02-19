@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0086715", "CandidateMatched": "Value, Reference", "CandidatePreferred": "Normal Range", "SemTypes": ["qnco"], "Sources": ["CHV", "HL7V2.5", "MSH", "MTH", "NCI", "NCI_CareLex", "NCI_NCI-GLOSS", "NLMSubSyn", "SNOMEDCT_US"], "MatchedWords": ["reference", "value"]}]

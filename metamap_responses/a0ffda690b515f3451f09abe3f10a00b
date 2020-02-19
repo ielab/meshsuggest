@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0151526", "CandidateMatched": "Pre-Term", "CandidatePreferred": "Premature Birth", "SemTypes": ["patf"], "Sources": ["AOD", "CCS", "CHV", "CST", "DXP", "HPO", "ICD9CM", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_CTCAE", "NCI_NICHD", "NDFRT", "NLMSubSyn", "OMIM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["pre", "term"]}]

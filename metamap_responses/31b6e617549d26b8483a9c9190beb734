@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0046056", "CandidateMatched": "(18F)-FDG", "CandidatePreferred": "Fluorodeoxyglucose F18", "SemTypes": ["irda", "orch"], "Sources": ["CHV", "CSP", "DRUGBANK", "LNC", "MSH", "MTH", "MTHSPL", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "NDFRT", "NLMSubSyn", "PDQ", "RXNORM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["18f", "fdg"]}]

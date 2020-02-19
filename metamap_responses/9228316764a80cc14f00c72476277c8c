@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0040425", "CandidateMatched": "TONSILLITIS", "CandidatePreferred": "Tonsillitis", "SemTypes": ["dsyn"], "Sources": ["CHV", "COSTAR", "CST", "DXP", "HPO", "LCH", "LCH_NW", "MEDLINEPLUS", "MSH", "MTH", "MTHICD9", "NCI", "NCI_NICHD", "NDFRT", "SNM", "SNMI", "SNOMEDCT_US", "SNOMEDCT_VET"], "MatchedWords": ["tonsillitis"]}]

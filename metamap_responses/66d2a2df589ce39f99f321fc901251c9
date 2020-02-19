@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0005821", "CandidateMatched": "PLATELET", "CandidatePreferred": "Blood Platelets", "SemTypes": ["cell"], "Sources": ["AOD", "ATC", "CHV", "CSP", "FMA", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["platelet"]}]

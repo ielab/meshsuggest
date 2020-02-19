@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0054836", "CandidateMatched": "CARVEDILOL", "CandidatePreferred": "carvedilol", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "CSP", "DRUGBANK", "LNC", "MSH", "MTHSPL", "NCI", "NCI_DCP", "NCI_FDA", "NDFRT", "RXNORM", "SNOMEDCT_US", "USP", "USPMG", "VANDF"], "MatchedWords": ["carvedilol"]}]

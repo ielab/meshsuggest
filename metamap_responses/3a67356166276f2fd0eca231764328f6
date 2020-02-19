@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0349459", "CandidateMatched": "CIN II", "CandidatePreferred": "Cervical intraepithelial neoplasia grade 2", "SemTypes": ["neop"], "Sources": ["CHV", "ICD9CM", "MTH", "NCI", "NCI_NCI-GLOSS", "NLMSubSyn", "PDQ", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["cin", "ii"]}]

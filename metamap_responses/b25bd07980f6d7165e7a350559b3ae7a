@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0118168", "CandidateMatched": "FOSINOPRIL", "CandidatePreferred": "Fosinopril", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "DRUGBANK", "LNC", "MSH", "MTHSPL", "NCI", "NCI_FDA", "NDFRT", "RXNORM", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["fosinopril"]}]

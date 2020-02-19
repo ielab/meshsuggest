@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0257343", "CandidateMatched": "TAMSULOSIN", "CandidatePreferred": "tamsulosin", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "DRUGBANK", "LNC", "MSH", "MTHSPL", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "NDFRT", "RXNORM", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["tamsulosin"]}]

@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0014025", "CandidateMatched": "ENALAPRIL", "CandidatePreferred": "Enalapril", "SemTypes": ["aapp", "phsu"], "Sources": ["ATC", "CHV", "CSP", "DRUGBANK", "LNC", "MSH", "MTHSPL", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "NDFRT", "RXNORM", "SNMI", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["enalapril"]}]

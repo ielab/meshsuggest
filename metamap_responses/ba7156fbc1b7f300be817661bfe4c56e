@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0220870", "CandidateMatched": "Lightheaded", "CandidatePreferred": "Lightheadedness", "SemTypes": ["sosy"], "Sources": ["AOD", "CHV", "COSTAR", "CST", "DXP", "ICD10CM", "MSH", "MTH", "MTHICD9", "NCI", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["lightheaded"]}]

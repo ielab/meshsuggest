@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0030415", "CandidateMatched": "PARAFFIN", "CandidatePreferred": "Paraffin", "SemTypes": ["bodm", "orch"], "Sources": ["CHV", "LCH", "LCH_NW", "MSH", "MTH", "MTHSPL", "NCI", "NCI_FDA", "NDFRT", "RXNORM", "SNM", "SNMI", "SNOMEDCT_US", "USP", "VANDF"], "MatchedWords": ["paraffin"]}]

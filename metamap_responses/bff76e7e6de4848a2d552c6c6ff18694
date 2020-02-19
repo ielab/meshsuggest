@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0005558", "CandidateMatched": "Biopsies", "CandidatePreferred": "Biopsy", "SemTypes": ["diap"], "Sources": ["AOD", "CHV", "CSP", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "MTHMST", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "PDQ", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["biopsies"]}]

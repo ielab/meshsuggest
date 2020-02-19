@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0216784", "CandidateMatched": "VALSARTAN", "CandidatePreferred": "valsartan", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "DRUGBANK", "LNC", "MSH", "MTH", "MTHSPL", "NCI", "NCI_DCP", "NCI_FDA", "NDFRT", "PDQ", "RXNORM", "SNOMEDCT_US", "USP", "USPMG", "VANDF"], "MatchedWords": ["valsartan"]}]

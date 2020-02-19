@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0086140", "CandidateMatched": "DEXTRAN", "CandidatePreferred": "Dextran", "SemTypes": ["orch", "phsu"], "Sources": ["ATC", "CHV", "CSP", "DRUGBANK", "LCH", "LCH_NW", "MSH", "MTHSPL", "NDFRT", "RXNORM", "SNM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["dextran"]}]

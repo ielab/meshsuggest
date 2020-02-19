@@ -1,0 +1,1 @@
+[{"CandidateScore": "-1000", "CandidateCUI": "C0040462", "CandidateMatched": "Toothpaste", "CandidatePreferred": "Toothpaste", "SemTypes": ["bodm"], "Sources": ["CHV", "CSP", "HL7V3.0", "LCH_NW", "MSH", "MTH", "NCI", "NCI_NCPDP", "NDFRT", "RXNORM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["toothpaste"]}]
