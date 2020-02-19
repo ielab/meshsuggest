@@ -63,7 +63,7 @@ def parseUMLSResponse(response, seen, num):
     generatedMeshs = []
     resContent = json.loads(response)
     if resContent is not None:
-        if num == "0":
+        if num == "100":
             hits = resContent["hits"]["hits"]
             for hit in hits:
                 thesaurus = hit["_source"]["thesaurus"]
@@ -76,13 +76,13 @@ def parseUMLSResponse(response, seen, num):
             scores = []
             hits = resContent["hits"]["hits"]
             for hit in hits:
-                scores.append(hit["_score"])
+                scores.append(float(hit["_score"]))
             scores = list(dict.fromkeys(scores))
             scores.sort(reverse=True)
             if len(scores) > 0:
                 selectedScores = scores[0]
                 for hit in hits:
-                    score = hit["_score"]
+                    score = float(hit["_score"])
                     if score == selectedScores:
                         thesaurus = hit["_source"]["thesaurus"]
                         for each in thesaurus:

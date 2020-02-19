@@ -64,7 +64,7 @@ def parseMetaResponse(response, seen, num):
     generatedMeshs = []
     res = json.loads(response)
     if res is not None:
-        if num == "0":
+        if num == "100":
             for item in res:
                 sources = item["Sources"]
                 if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
@@ -72,13 +72,13 @@ def parseMetaResponse(response, seen, num):
         elif num == "1":
             scores = []
             for item in res:
-                scores.append(int(item["CandidateScore"]))
+                scores.append(float(item["CandidateScore"]))
             if len(scores) > 0:
                 scores = list(dict.fromkeys(scores))
                 scores.sort()
                 selectedScores = scores[0]
                 for item in res:
-                    score = int(item["CandidateScore"])
+                    score = float(item["CandidateScore"])
                     if score == selectedScores:
                         sources = item["Sources"]
                         if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
@@ -93,7 +93,7 @@ def parseMetaResponse(response, seen, num):
                 scores = list(dict.fromkeys(scores))
                 totalScore = sum(scores)
                 number = float(num)
-                percentage = float(number / 100.00)
+                percentage = number / 100.00
                 for item in res:
                     score = float(item["CandidateScore"])
                     p = float(score / totalScore)

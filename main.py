@@ -141,7 +141,7 @@ def main():
     elif option is "2":
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%): ")
-        print("(0: Use All; 1: Use Top 1)")
+        print("(100: Use All; 1: Use Top 1)")
         num = input("Input: ")
         for path in selectedPath:
             lineSeperator("=")
@@ -207,7 +207,7 @@ def main():
     elif option is "3":
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%): ")
-        print("(0: Use All; 1: Use Top 1)")
+        print("(100: Use All; 1: Use Top 1)")
         num = input("Input: ")
         for path in selectedPath:
             lineSeperator("=")
@@ -307,11 +307,11 @@ def main():
     elif option is "7":
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%) In UMLS: ")
-        print("(0: Used All; 1: Top 1)")
+        print("(100: Used All; 1: Top 1)")
         num = input("Input: ")
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%) In MetaMap : ")
-        print("(0: Used All; 1: Top 1)")
+        print("(100: Used All; 1: Top 1)")
         metaNum = input("Input: ")
         meta = os.listdir("metamap_responses")
         umls = os.listdir("umls_responses")
