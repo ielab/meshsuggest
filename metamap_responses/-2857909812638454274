@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0034896", "CandidateMatched": "RECTUM", "CandidatePreferred": "Rectum", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "MTHMST", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["rectum"]}]

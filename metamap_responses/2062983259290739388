@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C1140618", "CandidateMatched": "LIMB, UPPER", "CandidatePreferred": "Upper Extremity", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CST", "FMA", "ICF", "ICF-CY", "LCH", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["upper", "limb"]}]

@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0036396", "CandidateMatched": "ischias", "CandidatePreferred": "Sciatica", "SemTypes": ["sosy"], "Sources": ["AOD", "CCS", "CHV", "COSTAR", "CSP", "DXP", "HPO", "ICD10CM", "ICD9CM", "LCH", "LCH_NW", "MEDLINEPLUS", "MSH", "MTH", "MTHICD9", "NDFRT", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["ischias"]}]

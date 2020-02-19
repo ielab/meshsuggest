@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C1699633", "CandidateMatched": "PET-CT", "CandidatePreferred": "PET/CT scan", "SemTypes": ["diap"], "Sources": ["MSH", "MTH", "NCI", "NCI_CDISC", "SNOMEDCT_US"], "MatchedWords": ["pet", "ct"]}]

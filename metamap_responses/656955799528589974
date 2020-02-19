@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0030705", "CandidateMatched": "Patients", "CandidatePreferred": "Patients", "SemTypes": ["podg"], "Sources": ["AOD", "CHV", "HL7V3.0", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC-GLOSS", "NCI_DICOM", "NCI_FDA", "SNOMEDCT_US"], "MatchedWords": ["patients"]}]

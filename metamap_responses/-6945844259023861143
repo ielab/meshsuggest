@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0221244", "CandidateMatched": "Pityriasis capitis", "CandidatePreferred": "Seborrheic dermatitis of scalp", "SemTypes": ["dsyn"], "Sources": ["CHV", "COSTAR", "DXP", "ICD10CM", "ICD9CM", "MSH", "MTH", "NDFRT", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "SNOMEDCT_VET"], "MatchedWords": ["pityriasis", "capitis"]}]

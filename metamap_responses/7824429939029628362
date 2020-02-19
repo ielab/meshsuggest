@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0231218", "CandidateMatched": "Ill", "CandidatePreferred": "Malaise", "SemTypes": ["sosy"], "Sources": ["AIR", "AOD", "CHV", "COSTAR", "CST", "DXP", "ICD10CM", "MTH", "NCI", "NCI_CTCAE", "NCI_FDA", "NCI_NICHD", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["ill"]}]

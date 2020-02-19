@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0206526", "CandidateMatched": "MDR-TB", "CandidatePreferred": "Tuberculosis, Multidrug-Resistant", "SemTypes": ["dsyn"], "Sources": ["CHV", "LCH_NW", "MSH", "NCI", "NCI_NICHD", "NDFRT", "NLMSubSyn", "SNOMEDCT_US"], "MatchedWords": ["mdr", "tb"]}]

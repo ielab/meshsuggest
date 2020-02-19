@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0024031", "CandidateMatched": "LUMBAGO", "CandidatePreferred": "Low Back Pain", "SemTypes": ["sosy"], "Sources": ["AOD", "AOT", "CCS", "CHV", "COSTAR", "CST", "DXP", "HPO", "ICD10CM", "ICD9CM", "MEDLINEPLUS", "MSH", "MTH", "MTHICD9", "NCI", "NDFRT", "NLMSubSyn", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["lumbago"]}]

@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0023516", "CandidateMatched": "White Cell", "CandidatePreferred": "Leukocytes", "SemTypes": ["cell"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_NCI-GLOSS", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["white", "cell"]}]

@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0004454", "CandidateMatched": "AXILLA", "CandidatePreferred": "Axilla", "SemTypes": ["blor"], "Sources": ["CHV", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["axilla"]}]

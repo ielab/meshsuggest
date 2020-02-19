@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0002600", "CandidateMatched": "Amitriptylin", "CandidatePreferred": "Amitriptyline", "SemTypes": ["orch", "phsu"], "Sources": ["AOD", "ATC", "CHV", "CSP", "DRUGBANK", "LNC", "MSH", "MTH", "MTHSPL", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "NDFRT", "RXNORM", "SNM", "SNMI", "SNOMEDCT_US", "USPMG", "VANDF"], "MatchedWords": ["amitriptylin"]}]

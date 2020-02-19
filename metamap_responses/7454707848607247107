@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0023267", "CandidateMatched": "Fibroid", "CandidatePreferred": "Fibroid Tumor", "SemTypes": ["neop"], "Sources": ["AOD", "CHV", "COSTAR", "CSP", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NDFRT", "NLMSubSyn", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["fibroid"]}]

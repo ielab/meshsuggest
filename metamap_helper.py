@@ -1,4 +1,5 @@
 from atm_helper import *
+import hashlib
 
 
 def getMetaMeshTerms(path, keywordsF, meshF, num):
@@ -45,8 +46,9 @@ def requestMetaMeshs(keywords, num):
     objs = []
     seen = set()
     for k in keywords:
-        hashK = hash(k)
-        responseF = open("metamap_responses/" + str(hashK))
+        hashK = hashlib.md5(k.encode())
+        hashKRes = hashK.hexdigest()
+        responseF = open("metamap_responses/" + hashKRes, "r")
         response = responseF.read()
         generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
@@ -68,33 +70,39 @@ def parseMetaResponse(response, seen, num):
                 if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                     generatedMeshs.append(item["CandidatePreferred"])
         elif num == "1":
-            scores = [float]
+            scores = []
             for item in res:
-                scores.append(float(item["CandidateScore"]))
-            scores = list(dict.fromkeys(scores))
-            scores.sort()
-            selectedScores = scores[0]
-            for item in res:
-                score = item["CandidateScore"]
-                if score in selectedScores:
-                    sources = item["Sources"]
-                    if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
-                        generatedMeshs.append(item["CandidatePreferred"])
+                scores.append(int(item["CandidateScore"]))
+            if len(scores) > 0:
+                scores = list(dict.fromkeys(scores))
+                scores.sort()
+                selectedScores = scores[0]
+                for item in res:
+                    score = int(item["CandidateScore"])
+                    if score == selectedScores:
+                        sources = item["Sources"]
+                        if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                            generatedMeshs.append(item["CandidatePreferred"])
+            else:
+                generatedMeshs = []
         else:
-            scores = [float]
+            scores = []
             for item in res:
                 scores.append(float(item["CandidateScore"]))
-            scores = list(dict.fromkeys(scores))
-            totalScore = sum(scores)
-            number = float(num)
-            percentage = float(number / 100.00)
-            for item in res:
-                score = float(item["CandidateScore"])
-                p = float(score / totalScore)
-                if p > percentage:
-                    sources = item["Sources"]
-                    if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
-                        generatedMeshs.append(item["CandidatePreferred"])
+            if len(scores) > 0:
+                scores = list(dict.fromkeys(scores))
+                totalScore = sum(scores)
+                number = float(num)
+                percentage = float(number / 100.00)
+                for item in res:
+                    score = float(item["CandidateScore"])
+                    p = float(score / totalScore)
+                    if p > percentage:
+                        sources = item["Sources"]
+                        if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
+                            generatedMeshs.append(item["CandidatePreferred"])
+            else:
+                generatedMeshs = []
         if len(generatedMeshs) > 0:
             ret = []
             objRet = []

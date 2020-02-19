@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0085590", "CandidateMatched": "CATHETER", "CandidatePreferred": "catheter device", "SemTypes": ["medd"], "Sources": ["CHV", "LCH_NW", "LNC", "MSH", "MTH", "MTHHH", "NCI", "NCI_FDA", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "VANDF"], "MatchedWords": ["catheter"]}]

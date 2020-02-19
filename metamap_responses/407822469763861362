@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0150646", "CandidateMatched": "Interpreter", "CandidatePreferred": "Interpreter", "SemTypes": ["prog"], "Sources": ["CHV", "HL7V3.0", "NCI", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["interpreter"]}]

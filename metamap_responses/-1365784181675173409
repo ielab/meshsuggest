@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0035273", "CandidateMatched": "Resuscitation", "CandidatePreferred": "Resuscitation procedure", "SemTypes": ["topp"], "Sources": ["AOD", "CHV", "CSP", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NLMSubSyn", "SNOMEDCT_US"], "MatchedWords": ["resuscitation"]}]

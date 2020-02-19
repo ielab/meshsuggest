@@ -1,7 +1,8 @@
 import requests
-import os
 import time
+import os
 import json
+import hashlib
 from atm_helper import CONFIG
 
 
@@ -9,10 +10,10 @@ def writeUMLSAndMetaResponse(keywordsF):
     keywordsContent = keywordsF.read()
     keywords = keywordsContent.split("\n")
     for keyword in keywords:
-        metaDir = os.listdir("metamap_responses")
-        print(metaDir)
-        metaHashKey = hash(keyword)
-        if str(metaHashKey) not in metaDir:
+        metaDirs = os.listdir("metamap_responses")
+        metaHashKey = hashlib.md5(keyword.encode())
+        metaHashRes = metaHashKey.hexdigest()
+        if metaHashRes not in metaDirs:
             k = MetaMapProcessK(keyword)
             response = requests.post(CONFIG["metamap_url"], data=k)
             print("MetaMap: " + keyword + " " + str(response.status_code))
@@ -20,13 +21,13 @@ def writeUMLSAndMetaResponse(keywordsF):
                 time.sleep(0.2)
                 response = requests.post(CONFIG["metamap_url"], data=k)
                 print("MetaMap: " + keyword + " " + str(response.status_code))
-            with open("metamap_responses/" + str(hash(keyword)), "w+") as f:
+            with open("metamap_responses/" + metaHashRes, "w+") as f:
                 json.dump(json.loads(response.content), f)
     for key in keywords:
-        umlsHashKey = hash(key)
-        umlsDir = os.listdir("umls_responses")
-        print(umlsDir)
-        if str(umlsHashKey) not in umlsDir:
+        umlsDirs = os.listdir("umls_responses")
+        umlsHashKey = hashlib.md5(key.encode())
+        umlsHashRes = umlsHashKey.hexdigest()
+        if umlsHashRes not in umlsDirs:
             umlsk = UMLSProcessK(key)
             param = {
                 "q": umlsk
@@ -37,7 +38,7 @@ def writeUMLSAndMetaResponse(keywordsF):
                 time.sleep(0.2)
                 umlsresponse = requests.get(CONFIG["umls_url"], params=param, auth=(CONFIG["username"], CONFIG["secret"]))
                 print("UMLS: " + key + " " + str(umlsresponse.status_code))
-            with open("umls_responses/" + str(hash(key)), "w+") as f:
+            with open("umls_responses/" + umlsHashRes, "w+") as f:
                 json.dump(json.loads(umlsresponse.content), f)
 
 

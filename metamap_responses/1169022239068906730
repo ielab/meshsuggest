@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0006104", "CandidateMatched": "BRAIN", "CandidatePreferred": "Brain", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["brain"]}]

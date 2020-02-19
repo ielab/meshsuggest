@@ -45,8 +45,9 @@ def requestUMLSMeshs(keywords, num):
     objs = []
     seen = set()
     for k in keywords:
-        hashK = hash(k)
-        responseF = open("umls_responses/" + str(hashK))
+        hashK = hashlib.md5(k.encode())
+        hashKRes = hashK.hexdigest()
+        responseF = open("umls_responses/" + hashKRes, "r")
         response = responseF.read()
         generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
         if len(generatedMeshs) is not 0:
@@ -78,36 +79,42 @@ def parseUMLSResponse(response, seen, num):
                 scores.append(hit["_score"])
             scores = list(dict.fromkeys(scores))
             scores.sort(reverse=True)
-            selectedScores = scores[0]
-            for hit in hits:
-                score = hit["_score"]
-                if score in selectedScores:
-                    thesaurus = hit["_source"]["thesaurus"]
-                    for each in thesaurus:
-                        if each["MRCONSO_LAT"] == "ENG":
-                            if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
-                                if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
-                                    generatedMeshs.append(each["MRCONSO_STR"])
+            if len(scores) > 0:
+                selectedScores = scores[0]
+                for hit in hits:
+                    score = hit["_score"]
+                    if score == selectedScores:
+                        thesaurus = hit["_source"]["thesaurus"]
+                        for each in thesaurus:
+                            if each["MRCONSO_LAT"] == "ENG":
+                                if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                                    if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                        generatedMeshs.append(each["MRCONSO_STR"])
+            else:
+                generatedMeshs = []
         else:
-            scores = [float]
+            scores = []
             hits = resContent["hits"]["hits"]
             for hit in hits:
                 scores.append(float(hit["_score"]))
-            scores = list(dict.fromkeys(scores))
-            scores.sort(reverse=True)
-            totalScore = sum(scores)
-            number = float(num)
-            percentage = float(number / 100.00)
-            for hit in hits:
-                score = float(hit["_score"])
-                p = float(score / totalScore)
-                if p > percentage:
-                    thesaurus = hit["_source"]["thesaurus"]
-                    for each in thesaurus:
-                        if each["MRCONSO_LAT"] == "ENG":
-                            if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
-                                if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
-                                    generatedMeshs.append(each["MRCONSO_STR"])
+            if len(scores) > 0:
+                scores = list(dict.fromkeys(scores))
+                scores.sort(reverse=True)
+                totalScore = sum(scores)
+                number = float(num)
+                percentage = float(number / 100.00)
+                for hit in hits:
+                    score = float(hit["_score"])
+                    p = float(score / totalScore)
+                    if p > percentage:
+                        thesaurus = hit["_source"]["thesaurus"]
+                        for each in thesaurus:
+                            if each["MRCONSO_LAT"] == "ENG":
+                                if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
+                                    if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
+                                        generatedMeshs.append(each["MRCONSO_STR"])
+            else:
+                generatedMeshs = []
         if len(generatedMeshs) > 0:
             ret = []
             objRet = []

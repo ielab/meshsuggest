@@ -173,7 +173,7 @@ def main():
                                       "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
                             writeFile(path, "meta_progress_" + num,
                                       "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
-                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords")
+                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords", "r")
                             meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
                             generatedMeshs, cleanedOriMeshs = getMetaMeshTerms(path, keywordF, meshF, num)
                             createMetaResFile(path, d, dd, generatedMeshs, num)
@@ -239,7 +239,7 @@ def main():
                                       "Original MeSH Path: " + path + "/" + d + "/" + dd + "/" + "mesh" + "\n")
                             writeFile(path, "umls_progress_" + num,
                                       "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
-                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords")
+                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords", "r")
                             meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
                             generatedMeshs, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF, num)
                             createUMLSResFile(path, d, dd, generatedMeshs, num)
@@ -285,7 +285,7 @@ def main():
                         if os.path.isdir(path + "/" + d + "/" + dd):
                             print("-----------------------------------------------------")
                             print(d + "/" + dd)
-                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords")
+                            keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords", "r")
                             writeUMLSAndMetaResponse(keywordF)
     elif option is "6":
         for path in selectedPath:

@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0010709", "CandidateMatched": "CYST", "CandidatePreferred": "Cyst", "SemTypes": ["dsyn"], "Sources": ["AOD", "CHV", "COSTAR", "CST", "LCH", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NCI_NICHD", "NDFRT", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["cyst"]}]

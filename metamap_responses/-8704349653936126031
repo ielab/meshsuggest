@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0014441", "CandidateMatched": "ELISA", "CandidatePreferred": "Enzyme-Linked Immunosorbent Assay", "SemTypes": ["lbpr"], "Sources": ["AOD", "CHV", "CSP", "HL7V3.0", "LCH", "LCH_NW", "MSH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NLMSubSyn", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["elisa"]}]

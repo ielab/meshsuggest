@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0024090", "CandidateMatched": "Lumbar", "CandidatePreferred": "Lumbar Region", "SemTypes": ["blor"], "Sources": ["CHV", "FMA", "HL7V2.5", "MSH", "MTH", "NCI", "NCI_CDISC", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["lumbar"]}]

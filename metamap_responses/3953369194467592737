@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0037993", "CandidateMatched": "Splenic", "CandidatePreferred": "Spleen", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "ICF", "ICF-CY", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "OMIM", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["splenic"]}]

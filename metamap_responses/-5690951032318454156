@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0016976", "CandidateMatched": "Gall Bladder", "CandidatePreferred": "Gallbladder", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "MTHMST", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "NLMSubSyn", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["gall", "bladder"]}]

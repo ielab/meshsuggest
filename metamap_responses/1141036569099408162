@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0015230", "CandidateMatched": "RASH", "CandidatePreferred": "Exanthema", "SemTypes": ["sosy"], "Sources": ["AOD", "CHV", "COSTAR", "CST", "HPO", "ICD10CM", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "MTHICD9", "NCI", "NCI_FDA", "NCI_NICHD", "NDFRT", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["rash"]}]

@@ -1,1 +1,0 @@
-[{"CandidateScore": "-964", "CandidateCUI": "C0024204", "CandidateMatched": "LYMPH NODES", "CandidatePreferred": "lymph nodes", "SemTypes": ["bpoc"], "Sources": ["AOD", "CHV", "CSP", "FMA", "HL7V2.5", "LCH", "LCH_NW", "LNC", "MEDLINEPLUS", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_NCI-GLOSS", "SNM", "SNMI", "SNOMEDCT_US", "UWDA"], "MatchedWords": ["lymph", "nodes"]}]

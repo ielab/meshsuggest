@@ -1,1 +1,0 @@
-[{"CandidateScore": "-1000", "CandidateCUI": "C0001418", "CandidateMatched": "ADENOCARCINOMA", "CandidatePreferred": "Adenocarcinoma", "SemTypes": ["neop"], "Sources": ["AOD", "CHV", "COSTAR", "CSP", "CST", "LCH", "LCH_NW", "LNC", "MSH", "MTH", "NCI", "NCI_CDISC", "NCI_CTEP-SDC", "NCI_NCI-GLOSS", "NDFRT", "OMIM", "SNM", "SNMI", "SNOMEDCT_US"], "MatchedWords": ["adenocarcinoma"]}]
