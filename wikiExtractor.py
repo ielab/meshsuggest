@@ -1,7 +1,6 @@
 from bs4 import BeautifulSoup
 import requests
 import os
-import hashlib
 import json
 
 NOT_FOUND = "Wikipedia does not have an article with this exact name."
@@ -10,9 +9,7 @@ NOT_FOUND = "Wikipedia does not have an article with this exact name."
 def extractWikiContent(meshJSON):
     for mesh in meshJSON:
         meshDir = os.listdir("wiki_content")
-        meshHashUID = hashlib.md5(mesh["uid"].encode())
-        meshHashRes = meshHashUID.hexdigest()
-        if meshHashRes not in meshDir:
+        if mesh["uid"] not in meshDir:
             term = mesh["term"]
             response = requests.get("https://en.wikipedia.org/wiki/" + term)
             soup = BeautifulSoup(response.content, 'html.parser')
@@ -23,6 +20,11 @@ def extractWikiContent(meshJSON):
                     textInB.append(b.text)
             if NOT_FOUND in textInB:
                 continue
+                # text = {
+                #     "text": ""
+                # }
+                # with open('wiki_content/' + mesh["uid"], 'w+') as f:
+                #     json.dump(text, f)
             else:
                 for script in soup('script'):
                     script.decompose()
@@ -58,5 +60,5 @@ def extractWikiContent(meshJSON):
                 # text = {
                 #     "text": soup.get_text(' ', strip=True)
                 # }
-                # with open('wiki_content/' + meshHashRes, 'w+') as f:
+                # with open('wiki_content/' + mesh["uid"], 'w+') as f:
                 #     json.dump(text, f)

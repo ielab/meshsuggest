@@ -1,0 +1,1 @@
+(transient elastograph*[All Fields] OR fibroscan[All Fields]) AND (liver[mesh] OR liver biops*[All Fields]) AND (fibrosis[mesh] OR hepatic artery[mesh] OR liver[mesh] OR liver cirrhosis[mesh] OR genetic diseases, inborn[mesh] OR (hepatic[All Fields] OR liver[All Fields]) AND (fibrosis[All Fields] OR cirrhosis[All Fields]))

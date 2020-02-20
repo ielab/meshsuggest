@@ -1,0 +1,2097 @@
+=========================================================
+data/clef_tar_processed/2019/training/Intervention
+---------------------------------------------------------
+Topic: CD011571
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011571/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011571/1/keywords
+---------------------------------------------------------
+Keywords: 
+streptococc
+tonsillectomy
+antibiotic
+---------------------------------------------------------
+Original Mesh Terms: 
+D014068 - tonsillectomy
+D000900 - anti-bacterial agents
+D013290 - streptococcal infections
+D013291 - streptococcus
+D022541 - streptococcal vaccines
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000900 - anti-bacterial agents
+D014068 - tonsillectomy
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011571
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011571/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011571/2/keywords
+---------------------------------------------------------
+Keywords: 
+controlled clinical trial
+randomized
+placebo
+randomly
+trial
+randomized controlled trial
+---------------------------------------------------------
+Original Mesh Terms: 
+D002986 - clinical trials as topic
+---------------------------------------------------------
+Generated MeSH Terms: 
+D010919 - placebos
+D011897 - random allocation
+D016032 - randomized controlled trials as topic
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011380
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011380/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011380/1/keywords
+---------------------------------------------------------
+Keywords: 
+scalp eczema
+seborrh
+seborrhea
+scalp dermatoscopy
+pityriasis capitis
+scalp dermatitis
+---------------------------------------------------------
+Original Mesh Terms: 
+D012628 - dermatitis, seborrheic
+D012536 - scalp dermatoses
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003872 - dermatitis
+D004485 - eczema
+D012628 - dermatitis, seborrheic
+D046169 - dermoscopy
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011380
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011380/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011380/2/keywords
+---------------------------------------------------------
+Keywords: 
+neonat
+child
+infant
+---------------------------------------------------------
+Original Mesh Terms: 
+D007223 - infant
+D002675 - child, preschool
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002648 - child
+D007223 - infant
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012930
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012930/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012930/1/keywords
+---------------------------------------------------------
+Keywords: 
+COAD
+emphysema
+COPD
+COBD
+AECB
+chronic
+bronchiti
+obstruct
+pulmonary
+lung
+airway
+airflow
+bronch
+respirat
+---------------------------------------------------------
+Original Mesh Terms: 
+D008173 - lung diseases, obstructive
+D029424 - pulmonary disease, chronic obstructive
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008168 - lung
+D029424 - pulmonary disease, chronic obstructive
+D011656 - pulmonary emphysema
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012930
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012930/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012930/2/keywords
+---------------------------------------------------------
+Keywords: 
+randomly
+trial
+groups
+placebo
+randomised
+randomized
+---------------------------------------------------------
+Original Mesh Terms: 
+D002986 - clinical trials as topic
+---------------------------------------------------------
+Generated MeSH Terms: 
+D010919 - placebos
+D011897 - random allocation
+D044382 - population groups
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD005253
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD005253/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD005253/1/keywords
+---------------------------------------------------------
+Keywords: 
+Iodine
+Iodide
+hormone
+thyroid
+dextrothyroxine
+diiodotyrosine
+monoiodotyrosine
+usp
+thyronine
+thyroxine
+L thyroxine therapy
+hypothyroxinaemia
+triiodothyronine
+---------------------------------------------------------
+Original Mesh Terms: 
+D007455 - iodine
+D007454 - iodides
+D011193 - potassium iodide
+D013963 - thyroid hormones
+D003918 - dextrothyroxine
+D004105 - diiodotyrosine
+D007470 - monoiodotyrosine
+D013962 - thyroid (usp)
+D013970 - thyronines
+D013974 - thyroxine
+D014284 - triiodothyronine
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007454 - iodides
+D003918 - dextrothyroxine
+D004105 - diiodotyrosine
+D006728 - hormones
+D007455 - iodine
+D007470 - monoiodotyrosine
+D013961 - thyroid gland
+---------------------------------------------------------
+Number of Original MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD005253
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD005253/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD005253/2/keywords
+---------------------------------------------------------
+Keywords: 
+neonat
+neo nataale
+newborn
+new born
+newly born
+preterm
+preterms
+pre term
+pre terms
+preemie
+premie
+premies
+prematur
+birth
+born
+deliver
+low
+birthweight
+birth weight
+lbw
+vlbw
+elbw
+infan
+baby
+babies
+---------------------------------------------------------
+Original Mesh Terms: 
+D007231 - infant, newborn
+D047928 - premature birth
+---------------------------------------------------------
+Generated MeSH Terms: 
+D036801 - parturition
+D047928 - premature birth
+D001724 - birth weight
+D007223 - infant
+D007231 - infant, newborn
+D019102 - infant, very low birth weight
+D052577 - infant, extremely low birth weight
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD005139
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD005139/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD005139/1/keywords
+---------------------------------------------------------
+Keywords: 
+maculopathia
+macul
+retina
+choroid
+degener
+neovasc
+macula
+lutea
+AMD
+ARMD
+CNV
+---------------------------------------------------------
+Original Mesh Terms: 
+D008268 - macular degeneration
+D012162 - retinal degeneration
+D015861 - retinal neovascularization
+D020256 - choroidal neovascularization
+D008266 - macula lutea
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002829 - choroid
+D008268 - macular degeneration
+D008750 - methyldopa
+D012160 - retina
+D056915 - dna copy number variations
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD005139
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD005139/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD005139/2/keywords
+---------------------------------------------------------
+Keywords: 
+VEGF TRAP
+anti
+angiogen
+macugen
+pegaptanib
+lucentis
+rhufab
+ranibizumab
+bevacizumab
+avastin
+aflibercept
+conbercept
+VEGF
+endothelial
+growth
+factor
+---------------------------------------------------------
+Original Mesh Terms: 
+D020533 - angiogenesis inhibitors
+D043925 - angiogenesis inducing agents
+D016228 - endothelial growth factors
+D042442 - vascular endothelial growth factors
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011993 - recombinant fusion proteins
+D000068258 - bevacizumab
+D000069579 - ranibizumab
+D040262 - receptors, vascular endothelial growth factor
+D052157 - aptamers, nucleotide
+D001241 - aspirin
+D004338 - drug combinations
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012521
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012521/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012521/1/keywords
+---------------------------------------------------------
+Keywords: 
+Intrauterine contraception
+Contracept
+Condom
+Family planning
+Emergency contraception
+Barrier contraception
+Contraceptive agent
+Postcoital contraception
+---------------------------------------------------------
+Original Mesh Terms: 
+D003267 - contraception
+D003270 - contraceptive agents
+D003268 - contraception behavior
+D003273 - contraceptive devices
+D005193 - family planning services
+---------------------------------------------------------
+Generated MeSH Terms: 
+D044363 - contraception, postcoital
+D005193 - family planning services
+D042121 - contraception, barrier
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012521
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012521/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012521/2/keywords
+---------------------------------------------------------
+Keywords: 
+Social Media
+Social network
+Facebook
+Twitter
+Snapchat
+Instagram
+Myspace
+---------------------------------------------------------
+Original Mesh Terms: 
+D060756 - social networking
+D061108 - social media
+---------------------------------------------------------
+Generated MeSH Terms: 
+D060756 - social networking
+D061108 - social media
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010019
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010019/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010019/1/keywords
+---------------------------------------------------------
+Keywords: 
+thromb
+vein
+ven
+blood
+clot
+PE
+DVT
+VTE
+thrombus
+thrombotic
+thrombolic
+thromboemboli
+thrombos
+embol
+---------------------------------------------------------
+Original Mesh Terms: 
+D013927 - thrombosis
+D013923 - thromboembolism
+D054556 - venous thromboembolism
+D020246 - venous thrombosis
+D011655 - pulmonary embolism
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013927 - thrombosis
+D001769 - blood
+D003022 - clotrimazole
+D004983 - ethanolamines
+D014680 - veins
+D014687 - venezuela
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010019
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010019/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010019/2/keywords
+---------------------------------------------------------
+Keywords: 
+inpatient
+bed ridden
+out patient
+bed ridden
+in patient
+outpatient
+domicil
+in patient
+Inpatient
+ambulatory
+---------------------------------------------------------
+Original Mesh Terms: 
+D010045 - outpatients
+D005791 - patient care
+D000553 - ambulatory care
+D006701 - home nursing
+D010044 - outpatient clinics, hospital
+D007297 - inpatients
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007297 - inpatients
+D010045 - outpatients
+D010361 - patients
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012120
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012120/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012120/1/keywords
+---------------------------------------------------------
+Keywords: 
+spinal muscular atroph
+Kugelberg
+Welander
+---------------------------------------------------------
+Original Mesh Terms: 
+D009134 - muscular atrophy, spinal
+D020966 - muscular disorders, atrophic
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012120
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012120/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012120/2/keywords
+---------------------------------------------------------
+Keywords: 
+resistance training
+whole body vibration
+home
+therapeutic
+exercise
+program
+programme
+strengthen
+therap
+aerobic
+endurance
+physical
+strength
+strengthening
+training
+therapy
+aquatic
+functional
+kinesio
+muscle
+resistance
+resistive
+cycle ergometer
+cycling
+exercising
+hydrotherapy
+running
+sports
+swimming
+treadmill
+cardio
+excessive
+power
+weight
+lifting
+conditioning
+anaerobic
+strength training
+isokinetic
+isometric
+---------------------------------------------------------
+Original Mesh Terms: 
+D015444 - exercise
+D026741 - physical therapy modalities
+---------------------------------------------------------
+Generated MeSH Terms: 
+D015444 - exercise
+D055070 - resistance training
+D004493 - education
+D006321 - heart
+D006875 - hydrotherapy
+D009132 - muscles
+D010808 - physical examination
+D013177 - sports
+D013550 - swimming
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007868
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD007868/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD007868/1/keywords
+---------------------------------------------------------
+Keywords: 
+Dental Caries
+carie
+DMF
+toothpaste
+paste
+dentrifice
+---------------------------------------------------------
+Original Mesh Terms: 
+D003731 - dental caries
+D003732 - dental caries activity tests
+D003733 - dental caries susceptibility
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000069462 - dimethyl fumarate
+D003731 - dental caries
+D014100 - toothpastes
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD007868
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD007868/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD007868/2/keywords
+---------------------------------------------------------
+Keywords: 
+FLUOR
+AMF
+AMINE F
+SNF2
+STANNOUS F
+NAF
+SODIUM F
+SMFP
+MFP
+monofluor
+---------------------------------------------------------
+Original Mesh Terms: 
+D005459 - fluorides
+D005460 - fluorides, topical
+D002327 - cariostatic agents
+D003802 - dentifrices
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005459 - fluorides
+D012969 - sodium fluoride
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012347
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012347/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012347/1/keywords
+---------------------------------------------------------
+Keywords: 
+eating disorder
+anorexia nervosamental
+bulimi
+binge eat
+suicide
+suicidalmental
+parasuicid
+mood disorder
+affective disorder
+bipolar imental
+bipolar iimental
+maniamental
+manicmental
+cyclothymic
+depressionmental
+depressivemental
+dysthymi
+neuroticmental
+neurosismental
+adjustment disorder
+antidepress
+anxiety disorder
+agoraphobiamental
+obsess
+compulsief
+panicmental
+phobi
+ptsdmental
+posttrauma
+post trauma
+combatmental
+somatoformmental
+somati
+medical
+body dysmorphia
+conversion disordermental
+hypochondria
+neurasthenia
+hysteriamental
+munchausenmental
+chronic fatigue
+gamblingmental
+trichotillomaniamental
+vaginismusmental
+anhedoni
+affective symptomsmental
+mental disorder
+mental healthmental
+selfmental
+injur
+mutilat
+bipolarmental
+affectivemental
+disorder
+---------------------------------------------------------
+Original Mesh Terms: 
+D001068 - feeding and eating disorders
+D000856 - anorexia nervosa
+D056912 - binge-eating disorder
+D052018 - bulimia nervosa
+D053716 - female athlete triad syndrome
+D010842 - pica
+D006963 - hyperphagia
+D002032 - bulimia
+D016728 - self-injurious behavior
+D012652 - self mutilation
+D013405 - suicide
+D059020 - suicidal ideation
+D013406 - suicide, attempted
+D019964 - mood disorders
+D000341 - affective disorders, psychotic
+D001714 - bipolar disorder
+D003527 - cyclothymic disorder
+D003866 - depressive disorder
+D019052 - depression, postpartum
+D003865 - depressive disorder, major
+D061218 - depressive disorder, treatment-resistant
+D019263 - dysthymic disorder
+D016574 - seasonal affective disorder
+D009497 - neurotic disorders
+D003863 - depression
+D000275 - adjustment disorders
+D000928 - antidepressive agents
+D001008 - anxiety disorders
+D000379 - agoraphobia
+D009449 - neurocirculatory asthenia
+D009771 - obsessive-compulsive disorder
+D000067836 - hoarding disorder
+D016584 - panic disorder
+D010698 - phobic disorders
+D040921 - stress disorders, traumatic
+D003130 - combat disorders
+D013313 - stress disorders, post-traumatic
+D040701 - stress disorders, traumatic, acute
+D001007 - anxiety
+D001009 - anxiety, castration
+D016911 - koro
+D001010 - anxiety, separation
+D010200 - panic
+D014151 - anti-anxiety agents
+D013001 - somatoform disorders
+D057215 - body dysmorphic disorders
+D003291 - conversion disorder
+D006998 - hypochondriasis
+D009440 - neurasthenia
+D007046 - hysteria
+D016735 - munchausen syndrome by proxy
+D009110 - munchausen syndrome
+D015673 - fatigue syndrome, chronic
+D009770 - obsessive behavior
+D003192 - compulsive behavior
+D016739 - behavior, addictive
+D007174 - disruptive, impulse control, and conduct disorders
+D005391 - firesetting behavior
+D005715 - gambling
+D014256 - trichotillomania
+D013315 - stress, psychological
+D002055 - burnout, professional
+D020018 - sexual dysfunctions, psychological
+D052065 - vaginismus
+D059445 - anhedonia
+D000342 - affective symptoms
+D001523 - mental disorders
+---------------------------------------------------------
+Generated MeSH Terms: 
+D019964 - mood disorders
+D000275 - adjustment disorders
+D000855 - anorexia
+D001008 - anxiety disorders
+D001068 - feeding and eating disorders
+D004435 - eating
+D013405 - suicide
+D014947 - wounds and injuries
+D018594 - human body
+---------------------------------------------------------
+Number of Original MeSH Terms: 67
+Number of MetaMap Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012164
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012164/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012164/1/keywords
+---------------------------------------------------------
+Keywords: 
+ulcus cruris
+ulcer cruris
+varicose
+ulcer
+venous
+leg
+foot
+stasis
+lower
+extremit
+crural
+---------------------------------------------------------
+Original Mesh Terms: 
+D007871 - leg ulcer
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014456 - ulcer
+D007866 - leg
+D035002 - lower extremity
+D014680 - veins
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012164
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012164/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012164/2/keywords
+---------------------------------------------------------
+Keywords: 
+SEPS
+endoscop
+surger
+surgic
+ligation
+ligatur
+ablation
+perforat
+subfascial
+---------------------------------------------------------
+Original Mesh Terms: 
+D019060 - minimally invasive surgical procedures
+D057510 - endovascular procedures
+D004724 - endoscopy
+D017546 - angioscopy
+D014656 - vascular surgical procedures
+D012501 - saphenous vein
+D014680 - veins
+D007866 - leg
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008026 - ligation
+---------------------------------------------------------
+Number of Original MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008201
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008201/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008201/1/keywords
+---------------------------------------------------------
+Keywords: 
+thrombosis
+thrombotic
+thrombus
+thrombi
+thromboembol
+emboli
+embolus
+clot
+DVT
+VTE
+PE
+---------------------------------------------------------
+Original Mesh Terms: 
+D013927 - thrombosis
+D004617 - embolism
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013927 - thrombosis
+D004617 - embolism
+D003022 - clotrimazole
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008201
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008201/4/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008201/4/keywords
+---------------------------------------------------------
+Keywords: 
+inpatient
+in
+hospitali
+admitted
+hospital
+patient
+high risk
+at risk
+---------------------------------------------------------
+Original Mesh Terms: 
+D007297 - inpatients
+D006760 - hospitalization
+D006761 - hospitals
+D000298 - adolescent, hospitalized
+D002673 - child, hospitalized
+---------------------------------------------------------
+Generated MeSH Terms: 
+D006761 - hospitals
+D007297 - inpatients
+D010361 - patients
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008201
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008201/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008201/3/keywords
+---------------------------------------------------------
+Keywords: 
+computeric physician 
+system
+order entry
+CPOE
+computeric
+automat
+medicat
+electronic
+alert
+reminder
+sticker
+prescription aid
+decision support
+CDS
+e iatrogenesis
+alert fatigue
+electronic tool
+protocol
+guideline
+adhere
+comply
+compliance
+---------------------------------------------------------
+Original Mesh Terms: 
+D050316 - medical order entry systems
+D017010 - reminder systems
+D004360 - drug therapy, computer-assisted
+D020000 - decision support systems, clinical
+D016431 - guideline
+D017408 - guidelines as topic
+D019983 - guideline adherence
+D002985 - clinical protocols
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000078325 - clinical trial protocol
+D005221 - fatigue
+D008052 - lipid metabolism, inborn errors
+D009135 - muscular diseases
+D010820 - physicians
+D016113 - ichthyosiform erythroderma, congenital
+D016250 - compact disks
+D050316 - medical order entry systems
+---------------------------------------------------------
+Number of Original MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 8
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008201
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008201/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008201/2/keywords
+---------------------------------------------------------
+Keywords: 
+anticoagulant
+hydroxycoumarins
+acenocoumarol
+acenocoumaria
+minisintrom
+nicoumalone
+s
+sintrom
+ancrod
+ancrod
+arvin
+venacil
+agkistrodon
+arwinor
+blood
+coagulata
+inhibit
+citric acid
+uralyt
+dalteparin
+tedelparin
+fr 860
+fr860
+dalteparin
+kabi2165
+kabi 2165
+fragmin
+dermatan sulfate
+chondroitin
+dextran
+dextrans
+hemodex
+promit
+macrodex
+saviosol
+rheodextran
+polyglucin
+hyskon
+rheomacrodex
+infukoll
+rheopolyglucin
+rheoisodex
+rondex
+dic
+dicoumarin
+bishydroxycoumarin
+edetic
+tetracemate
+calcitetracemate
+edta
+ethylenedinitrilotetraacetic
+edetate
+calcium
+tetacine
+versenate
+coprin
+edathamil
+versene
+dinitrilotetraacetate
+chelaton 3
+enoxaparin
+pk10169
+pk 10169
+emt 967
+emt96
+clexane
+lovenox
+emt 966
+ethyl
+biscoumacetate
+ethyldicoumarol
+pelentan
+tromexan
+carbethoxydicoumarol
+foy
+gabexate
+heparin
+at
+liquaemin
+nadroparin
+fraxiparin
+cy 216
+cy216
+pentosan sulfuric polyester
+pentosan sulphuric polyester
+polysulfate
+polysulphate
+sodium
+pentosan
+sulfuric
+sulphuric
+polyester
+fibrocid
+hoe
+bay
+hoe bay
+946
+polypentose
+xylan
+sulphate
+sulfate
+sp54
+sp 54
+polysulfate
+polysulphate
+pz68
+pz 68
+elmiron
+hemoclar
+phenindione
+pindione
+phenyline
+fenilin
+phenylindanedione
+dindevan
+phenprocoumon
+falithrom
+phenprogramma
+phenprocoumalol
+marcumar
+phenylpropylhydroxycumarinum
+phenprocoumarol
+liquamar
+marcoumar
+protein c
+protein s
+warfarin marevan
+coumadin
+warfant
+aldocumar
+tedicumar
+beta 2 glycoprotein i
+apo h
+anticardiolipin
+apoliprotein h
+ec vmfa
+endothelial cell viability maintaining factor
+beta(2)gpi
+compression
+thromboembolism deterrent
+anti embolism
+TED
+stocking
+hose
+hosiery
+device
+prophylaxis
+prophylactic
+prevent
+reduce
+reduction
+diminish
+decrease
+inhibit
+---------------------------------------------------------
+Original Mesh Terms: 
+D000925 - anticoagulants
+D053828 - stockings, compression
+D048228 - intermittent pneumatic compression devices
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003911 - dextrans
+D010426 - pentosan sulfuric polyester
+D010644 - phenprocoumon
+D017985 - dalteparin
+D004492 - edetic acid
+D017984 - enoxaparin
+D010630 - phenindione
+D014859 - warfarin
+D053482 - beta 2-glycoprotein i
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 9
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/9/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/9/keywords
+---------------------------------------------------------
+Keywords: 
+hypertens
+high
+elevat
+rais
+blood pressure
+---------------------------------------------------------
+Original Mesh Terms: 
+D006973 - hypertension
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001794 - blood pressure
+D006843 - hydrocarbons, chlorinated
+D059446 - heterotaxy syndrome
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 7
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/7/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/7/keywords
+---------------------------------------------------------
+Keywords: 
+alfuzosin
+bunazosin
+doxazosin
+metazosin
+neldazosin
+prazosin
+silodosin
+tamsulosin
+terazosin
+tiodazosin
+trimazosin
+adrenergic
+alpha
+receptor
+block
+adrenergic
+alpha
+antagonist
+---------------------------------------------------------
+Original Mesh Terms: 
+D000317 - adrenergic alpha-antagonists
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011224 - prazosin
+D011799 - quinazolines
+D007211 - indoles
+D017292 - doxazosin
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 6
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/6/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/6/keywords
+---------------------------------------------------------
+Keywords: 
+acebutolol
+adimolol
+afurolol
+alprenolol
+amosulalol
+arotinolol
+atenolol
+befunolol
+betaxolol
+bevantolol
+bisoprolol
+bopindolol
+bornaprolol
+brefonalol
+bucindolol
+bucumolol
+bufetolol
+bufuralol
+bunitrolol
+bunolol
+bupranolol
+butofilolol
+butoxamine
+carazolol
+carteolol
+carvedilol
+celiprolol
+cetamolol
+chlortalidone cloranolol
+cyanoiodopindolol
+cyanopindolol
+deacetylmetipranolol
+diacetolol
+dihydroalprenolol
+dilevalol
+epanolol
+esmolol
+exaprolol
+falintolol
+flestolol
+flusoxolol
+hydroxybenzylpinodolol
+hydroxycarteolol
+hydroxymetoprolol
+indenolol
+iodocyanopindolol
+iodopindolol
+iprocrolol
+isoxaprolol
+labetalol
+landiolol
+levobunolol
+levomoprolol
+medroxalol
+mepindolol
+methylthiopropranolol
+metipranolol
+metoprolol
+moprolol
+nadolol
+oxprenolol
+penbutolol
+nebivolol
+nifenalol
+nipradilol
+pafenolol
+pamatolol
+pindolol
+practolol
+primidolol
+prizidilol
+procinolol
+pronetalol
+propranolol
+proxodolol
+ridazolol
+salcardolol
+soquinolol
+sotalol
+spirendolol
+talinolol
+tertatolol
+tienoxolol
+tilisolol
+timolol
+tolamolol
+toliprolol
+tribendilol
+xibenolol
+beta
+adrenergic
+antagonist
+block
+receptor
+---------------------------------------------------------
+Original Mesh Terms: 
+D000319 - adrenergic beta-antagonists
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011412 - propanolamines
+D004983 - ethanolamines
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/1/keywords
+---------------------------------------------------------
+Keywords: 
+angiotensin
+dipeptidyl
+kininase ii
+convert
+enzyme
+inhibit
+recept
+block
+ace
+acei
+alacepril
+altiopril
+ancovenin
+benazepril
+captopril
+ceranapril
+ceronapril
+cilazapril
+deacetylalacepril
+delapril
+derapril
+enalapril
+enalaprilat
+epicaptopril
+fasidotril
+fosinopril
+foroxymithine
+gemopatrilat
+idapril
+imidapril
+indolapril
+libenzapril
+lisinopril
+moexipril
+moveltipril
+omapatrilat
+pentopril
+perindopril
+pivopril
+quinapril
+ramipril
+rentiapril
+saralasin
+s nitrosocaptopril
+spirapril
+temocapril
+teprotide
+trandolapril
+utibapril
+zabicipril
+zofenopril
+Aceon
+Accupril
+Altace
+Capoten
+Lotensin
+Mavik
+Monopril
+Prinivil
+Univas
+Vasotec
+Zestril
+---------------------------------------------------------
+Original Mesh Terms: 
+D000806 - angiotensin-converting enzyme inhibitors
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002216 - captopril
+D007211 - indoles
+D001552 - benzazepines
+D017706 - lisinopril
+D004656 - enalapril
+D007189 - indans
+D007703 - peptidyl-dipeptidase a
+D009943 - organophosphorus compounds
+D011392 - proline
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 10
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/10/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/10/keywords
+---------------------------------------------------------
+Keywords: 
+pregnancy induced
+ocular hypertension
+preeclampsia
+pre eclampsia
+---------------------------------------------------------
+Original Mesh Terms: 
+D011247 - pregnancy
+D046110 - hypertension, pregnancy-induced
+D011249 - pregnancy complications, cardiovascular
+D009798 - ocular hypertension
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011225 - pre-eclampsia
+D009798 - ocular hypertension
+D011247 - pregnancy
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 8
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/8/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/8/keywords
+---------------------------------------------------------
+Keywords: 
+loop
+ceiling
+diuretic
+amiloride
+benzothiadiazine
+bendroflumethiazide
+bumetanide
+chlorothiazide
+cyclopenthiazide
+furosemide
+hydrochlorothiazide
+hydroflumethiazide
+methyclothiazide
+metolazone
+polythiazide
+trichlormethiazide
+veratide
+thiazide
+chlorthalidone
+chlortalidone
+phthalamudine
+chlorphthalidolone
+oxodoline
+thalitone
+hygroton
+indapamide
+metindamide
+---------------------------------------------------------
+Original Mesh Terms: 
+D049971 - thiazides
+D049994 - sodium potassium chloride symporter inhibitors
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002752 - chlorthalidone
+D007190 - indapamide
+D004232 - diuretics
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/4/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/4/keywords
+---------------------------------------------------------
+Keywords: 
+amlodipine
+aranidipine
+barnidipine
+bencyclane
+benidipine
+bepridil
+cilnidipine
+cinnarizine
+clentiazem
+darodipine
+diltiazem
+efonidipine
+elgodipine
+etafenone
+fantofarone
+felodipine
+fendiline
+flunarizine
+gallopamil
+isradipine
+lacidipine
+lercanidipine
+lidoflazine
+lomerizine
+manidipine
+mibefradil
+nicardipine
+nifedipine
+niguldipine
+nilvadipine
+nimodipine
+nisoldipine
+nitrendipine
+perhexiline
+prenylamine
+semotiadil
+terodiline
+tiapamil
+verapamil
+Cardizem CD
+Dilacor XR
+Tiazac
+Cardizem Calan
+Isoptin
+Calan SR
+Isoptin SR Coer
+Covera HS
+Verelan PM
+calcium
+antagonist
+block
+inhibit
+---------------------------------------------------------
+Original Mesh Terms: 
+D002121 - calcium channel blockers
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004095 - dihydropyridines
+D004110 - diltiazem
+D009543 - nifedipine
+D014700 - verapamil
+D017311 - amlodipine
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/3/keywords
+---------------------------------------------------------
+Keywords: 
+aliskiren
+ciprokiren
+ditekiren
+enalkiren
+remikiren
+rasilez
+tekturna
+terlakiren
+zankiren
+RAS
+renin
+inhibit
+---------------------------------------------------------
+Original Mesh Terms: 
+D012083 - renin
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000577 - amides
+D005650 - fumarates
+D004151 - dipeptides
+D007093 - imidazoles
+D009025 - morpholines
+D009842 - oligopeptides
+D011905 - genes, ras
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/2/keywords
+---------------------------------------------------------
+Keywords: 
+angiotensin
+receptor antagonising
+receptor block
+arb
+arbs
+abitesartan
+azilsartan
+candesartan
+elisartan
+embusartan
+eprosartan
+forasartan
+irbesartan
+KT3 671
+losartan
+milfasartan
+olmesartan
+saprisartan
+tasosartan
+telmisartan
+valsartan
+zolasartan
+---------------------------------------------------------
+Original Mesh Terms: 
+D057911 - angiotensin receptor antagonists
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013777 - tetrazoles
+D007093 - imidazoles
+D001562 - benzimidazoles
+D013876 - thiophenes
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008170
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008170/5/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008170/5/keywords
+---------------------------------------------------------
+Keywords: 
+methyldopa
+alphamethyldopa
+amodopa
+dopamet
+dopegyt
+dopegit
+dopegite
+emdopa
+hyperpax
+hyperpaxa
+methylpropionic acid
+dopergit
+meldopa
+methyldopate
+medopa
+medomet
+sembrina
+aldomet
+aldometil
+aldomin
+hydopa
+methyldihydroxyphenylalanine
+methyl dopa
+mulfasin
+presinol
+presolisin
+sedometil
+sembrina
+taquinil
+dihydroxyphenylalanine
+methylphenylalanine
+methylalanine
+alpha methyl dopa
+reserpine
+serpentina
+rauwolfia
+serpasil
+clonidine
+adesipress
+arkamin
+caprysin
+catapres
+catasan
+chlofazolin
+chlophazolin
+clinidine
+clofelin
+clofenil
+clomidine
+clondine
+clonistada
+clonnirit
+clophelin
+dichlorophenylaminoimidazoline
+dixarit
+duraclon
+gemiton
+haemiton
+hemiton
+imidazoline
+isoglaucon
+klofelin
+klofenil
+m 5041t
+normopresan
+paracefan
+st 155
+st 155
+tesno timelets
+dihydralazine
+hydralazin
+hydrallazin
+hydralizine
+hydrazinophtalazine
+hydrazinophthalazine
+hydrazinophtalizine
+dralzine
+hydralacin
+hydrolazine
+hypophthalin
+hypoftalin
+hydrazinophthalazine
+idralazina
+1 hydrazinophthalazine
+apressin
+nepresol
+apressoline
+apresoline
+apresolin
+alphapress
+alazine
+idralazina
+lopress
+plethorit
+praeparat
+---------------------------------------------------------
+Original Mesh Terms: 
+D006830 - hydralazine
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003000 - clonidine
+D008750 - methyldopa
+D006830 - hydralazine
+D012110 - reserpine
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012223
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012223/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012223/1/keywords
+---------------------------------------------------------
+Keywords: 
+glaucom
+IOP
+intra
+ocular
+hypertension
+tension
+pressur
+---------------------------------------------------------
+Original Mesh Terms: 
+D005901 - glaucoma
+D007429 - intraocular pressure
+D009798 - ocular hypertension
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005123 - eye
+D014785 - vision, ocular
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012223
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012223/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012223/3/keywords
+---------------------------------------------------------
+Keywords: 
+cyclophotocoagulation
+cyclodestruction
+cycloablation
+endocyclophotocoagulation
+cryotherapeutic
+ciliary
+destruct
+ablat
+diatherm
+ultrasonic
+electrolysate
+beta irradiate
+photocoagulate
+cyclocoagulation
+coagulata
+argon
+diode
+ND
+Neodymium
+YAG
+ND
+YAG
+---------------------------------------------------------
+Original Mesh Terms: 
+D003972 - diathermy
+D004572 - electrolysis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001128 - argon
+D009354 - neodymium
+D014465 - ultrasonics
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012223
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD012223/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD012223/2/keywords
+---------------------------------------------------------
+Keywords: 
+laser
+---------------------------------------------------------
+Original Mesh Terms: 
+D017075 - laser coagulation
+D008028 - light coagulation
+D007834 - lasers
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007834 - lasers
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010526
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010526/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010526/1/keywords
+---------------------------------------------------------
+Keywords: 
+dental
+cavit
+liner
+lining
+cavity lining varnish
+cavity varnish
+base
+zinc oxide eugenol
+zinc phosphate
+polycarboxylate
+glass ionomer
+glassionomer
+glass ionomer
+calcium hydroxide
+---------------------------------------------------------
+Original Mesh Terms: 
+D003736 - dental cavity lining
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003736 - dental cavity lining
+D000180 - acrylic resins
+D012822 - silicon dioxide
+D002133 - calcium sulfate
+D003738 - dental cements
+D003752 - dental health services
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011436
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011436/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011436/1/keywords
+---------------------------------------------------------
+Keywords: 
+ultrasound
+ultrasonog
+guid
+assess
+assist
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D006379 - helping behavior
+D014463 - ultrasonography
+D014465 - ultrasonics
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011436
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011436/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011436/3/keywords
+---------------------------------------------------------
+Keywords: 
+child
+neonat
+preschool
+adolescen
+infant
+p
+---------------------------------------------------------
+Original Mesh Terms: 
+D002648 - child
+D007223 - infant
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002648 - child
+D002675 - child, preschool
+D007223 - infant
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011436
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD011436/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD011436/2/keywords
+---------------------------------------------------------
+Keywords: 
+nerv
+block
+regional
+an
+techniq
+---------------------------------------------------------
+Original Mesh Terms: 
+D009407 - nerve block
+D000772 - anesthesia, local
+D000775 - anesthesia, spinal
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010778
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010778/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010778/1/keywords
+---------------------------------------------------------
+Keywords: 
+chondrosarcoma
+enchondroma
+chondroma
+---------------------------------------------------------
+Original Mesh Terms: 
+D002813 - chondrosarcoma
+D002812 - chondroma
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002812 - chondroma
+D002813 - chondrosarcoma
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010778
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010778/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010778/3/keywords
+---------------------------------------------------------
+Keywords: 
+resect
+surgery
+amputata
+---------------------------------------------------------
+Original Mesh Terms: 
+D000671 - amputation
+D013502 - general surgery
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013514 - surgical procedures, operative
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010778
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010778/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010778/2/keywords
+---------------------------------------------------------
+Keywords: 
+curettage
+cryotherapy
+intra lesion
+intralesion
+phenol
+ethanol
+bone cement
+---------------------------------------------------------
+Original Mesh Terms: 
+D003475 - curettage
+D017679 - cryotherapy
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000431 - ethanol
+D001843 - bone cements
+D010636 - phenols
+D017679 - cryotherapy
+D019800 - phenol
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010355
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010355/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010355/1/keywords
+---------------------------------------------------------
+Keywords: 
+noninvasive ventilatory support
+non invasive ventilatory support
+NIVS
+NPPV
+NIPSV
+positive pressure ventilation
+pressure support ventilation
+---------------------------------------------------------
+Original Mesh Terms: 
+D011175 - positive-pressure respiration
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007385 - intermittent positive-pressure ventilation
+D011175 - positive-pressure respiration
+D012119 - respiration
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010355
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD010355/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD010355/2/keywords
+---------------------------------------------------------
+Keywords: 
+lung resection
+lobectomia
+pneumonectom
+---------------------------------------------------------
+Original Mesh Terms: 
+D011013 - pneumonectomy
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008018
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008018/1/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008018/1/keywords
+---------------------------------------------------------
+Keywords: 
+ovar
+failure
+function
+damage
+fertility
+---------------------------------------------------------
+Original Mesh Terms: 
+D005298 - fertility
+D016649 - primary ovarian insufficiency
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005298 - fertility
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008018
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008018/3/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008018/3/keywords
+---------------------------------------------------------
+Keywords: 
+GnRH
+gonadotropin releasing hormone
+LHRH
+luteinizing hormone releasing hormone
+---------------------------------------------------------
+Original Mesh Terms: 
+D007987 - gonadotropin-releasing hormone
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007987 - gonadotropin-releasing hormone
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008018
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/training/Intervention/CD008018/2/mesh
+Keyword Path: data/clef_tar_processed/2019/training/Intervention/CD008018/2/keywords
+---------------------------------------------------------
+Keywords: 
+chemotherap
+gonadal toxicity
+gonadotoxic
+---------------------------------------------------------
+Original Mesh Terms: 
+D000971 - antineoplastic combined chemotherapy protocols
+D000970 - antineoplastic agents
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Total Sub-Clauses: 50
+Total Original MeSH Terms: 200
+Total Generated MeSH Terms: 184
+=========================================================

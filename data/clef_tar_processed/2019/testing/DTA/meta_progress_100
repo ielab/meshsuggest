@@ -1,0 +1,813 @@
+=========================================================
+data/clef_tar_processed/2019/testing/DTA
+---------------------------------------------------------
+Topic: CD012567
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012567/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012567/1/keywords
+---------------------------------------------------------
+Keywords: 
+ovar
+fallopian
+peritone
+cancer
+neoplasm
+carcin
+cystadenocarcinoma
+malign
+tumo
+---------------------------------------------------------
+Original Mesh Terms: 
+D010051 - ovarian neoplasms
+D005185 - fallopian tube neoplasms
+D010534 - peritoneal neoplasms
+---------------------------------------------------------
+Generated MeSH Terms: 
+D009369 - neoplasms
+D003536 - cystadenocarcinoma
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012567
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012567/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012567/2/keywords
+---------------------------------------------------------
+Keywords: 
+tomodensitometry
+Diffusion weighted
+MRI
+MRi
+NMRI
+NMRi
+positride
+tomogr
+ct
+mdct
+CT
+cine
+scan
+x ray
+xray
+tomography
+electron beam
+comput
+axial
+magn
+MTC
+MT
+NMR
+spin
+chemical shift
+diffus
+imag
+scan
+resonance
+tomogra
+pet ct
+petct
+fdg pet
+pet
+scan
+---------------------------------------------------------
+Original Mesh Terms: 
+D008279 - magnetic resonance imaging
+D049268 - positron-emission tomography
+D014057 - tomography, x-ray computed
+D011859 - radiography
+D011877 - radionuclide imaging
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008279 - magnetic resonance imaging
+D011877 - radionuclide imaging
+D002488 - central african republic
+D014057 - tomography, x-ray computed
+D014965 - x-rays
+D004058 - diffusion
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012669
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012669/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012669/1/keywords
+---------------------------------------------------------
+Keywords: 
+pneumothora
+h
+chest
+torso
+injur
+trauma
+free fluid
+abdom
+thorax
+thoracic
+thoracoabdomen
+thoraco abdom
+polytrauma
+poly trauma
+multiple trauma
+mass casualties
+retroperitoneal
+retro peritoneal
+intraperitoneal
+intra peritoneal
+mediastinum
+pericardium
+ruptur
+bleed
+lacerat
+tear
+contusion
+spleen
+splenic
+hepatic
+visceral
+liver
+kidney
+pancrea
+renal
+lungs
+heart
+blunt
+non penetrated
+nonpenetrated
+stomach
+gastric
+---------------------------------------------------------
+Original Mesh Terms: 
+D000007 - abdominal injuries
+D013898 - thoracic injuries
+D011030 - pneumothorax
+D006468 - hemopneumothorax
+D006491 - hemothorax
+D014947 - wounds and injuries
+D014949 - wounds, nonpenetrating
+D012421 - rupture
+D013161 - splenic rupture
+D013275 - stomach rupture
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007668 - kidney
+D009104 - multiple trauma
+D013154 - spleen
+D013270 - stomach
+D013909 - thorax
+D014947 - wounds and injuries
+D003288 - contusions
+D006321 - heart
+D006470 - hemorrhage
+D008099 - liver
+D008168 - lung
+D008482 - mediastinum
+D010537 - peritoneum
+D011061 - poly a
+D011522 - protons
+D012187 - retroperitoneal space
+D012421 - rupture
+D022125 - lacerations
+D054527 - mass casualty incidents
+---------------------------------------------------------
+Number of Original MeSH Terms: 10
+Number of MetaMap Generated MeSH Terms: 19
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012669
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012669/4/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012669/4/keywords
+---------------------------------------------------------
+Keywords: 
+CT scan
+cat scan
+xrayct
+xray
+ct
+compute
+tomograph
+MDCT
+pan scan
+panscan
+laparotomaa
+laparoscop
+thoracotomi
+sternotome
+thoracoscop
+autops
+---------------------------------------------------------
+Original Mesh Terms: 
+D014057 - tomography, x-ray computed
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014057 - tomography, x-ray computed
+D002488 - central african republic
+D014054 - tomography
+D014965 - x-rays
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012669
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012669/3/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012669/3/keywords
+---------------------------------------------------------
+Keywords: 
+point of care
+bedside
+POCUS
+POC US
+POC USG
+extended FAST
+focused
+assessment
+sonografens
+trauma
+FAST
+ultrasonography
+ultrasound
+portable
+hand held
+handheld
+mobile
+emergency
+ultraso
+---------------------------------------------------------
+Original Mesh Terms: 
+D019095 - point-of-care systems
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005215 - fasting
+D014463 - ultrasonography
+D004268 - dna-binding proteins
+D006225 - hand
+D014157 - transcription factors
+D014465 - ultrasonics
+D014947 - wounds and injuries
+D019095 - point-of-care systems
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012669
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012669/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012669/2/keywords
+---------------------------------------------------------
+Keywords: 
+diagnos
+screen
+scan
+image
+advanced trauma life support
+atls
+ultraso
+sonografens
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+D003952 - diagnostic imaging
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011877 - radionuclide imaging
+D061906 - advanced trauma life support care
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012669
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012669/5/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012669/5/keywords
+---------------------------------------------------------
+Keywords: 
+likelihood ratio
+receiver operating characteristic
+ROC
+analy
+curve
+curves
+reliability
+re test
+retest
+test retest
+test re test
+---------------------------------------------------------
+Original Mesh Terms: 
+D012680 - sensitivity and specificity
+D057230 - limit of detection
+D012372 - roc curve
+D059629 - signal-to-noise ratio
+D011237 - predictive value of tests
+D015203 - reproducibility of results
+---------------------------------------------------------
+Generated MeSH Terms: 
+D012372 - roc curve
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012233
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012233/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012233/1/keywords
+---------------------------------------------------------
+Keywords: 
+Gallbladder
+Biliary
+Billiary
+Gall bladder
+---------------------------------------------------------
+Original Mesh Terms: 
+D005704 - gallbladder
+D005706 - gallbladder neoplasms
+D005705 - gallbladder diseases
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005704 - gallbladder
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012233
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012233/3/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012233/3/keywords
+---------------------------------------------------------
+Keywords: 
+Ultrasonogra
+Ultra sonografia
+Ultrasonic
+sonografens
+EUS
+Ultra sound
+Ultra sonic
+Echo
+Doppler
+Ultrasound
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014465 - ultrasonics
+D000971 - antineoplastic combined chemotherapy protocols
+D003520 - cyclophosphamide
+D004317 - doxorubicin
+D005047 - etoposide
+D014750 - vincristine
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012233
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012233/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012233/2/keywords
+---------------------------------------------------------
+Keywords: 
+Polypectome
+Polyps
+Polyp
+Polypos
+polypoid
+---------------------------------------------------------
+Original Mesh Terms: 
+D011127 - polyps
+D018256 - adenomatous polyps
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011127 - polyps
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008874
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD008874/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD008874/1/keywords
+---------------------------------------------------------
+Keywords: 
+airway management
+difficult
+airway
+face mask
+ventilation
+laryngoscopy
+intubation
+tracheal
+intubata
+fiberoptic
+stylet
+retrograde
+failed
+blade
+laryngoscope
+Macintosh
+laryngeal mask
+airway access
+tube
+styletted
+unstyletted
+---------------------------------------------------------
+Original Mesh Terms: 
+D007828 - laryngoscopy
+D007442 - intubation, intratracheal
+D001999 - bronchoscopy
+D017214 - laryngeal masks
+D000758 - anesthesia
+D020704 - laryngoscopes
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005336 - fiber optic technology
+D007440 - intubation
+D007828 - laryngoscopy
+D012119 - respiration
+D014132 - trachea
+D017214 - laryngeal masks
+D020704 - laryngoscopes
+D058109 - airway management
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 8
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012768
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012768/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012768/1/keywords
+---------------------------------------------------------
+Keywords: 
+Tuberculosis
+MDR TB
+XDR TB
+Multidrug Resistant Tuberculosis
+Extensively Drug Resistant Tuberculosis
+tuberculous
+---------------------------------------------------------
+Original Mesh Terms: 
+D009169 - mycobacterium tuberculosis
+D014376 - tuberculosis
+D018088 - tuberculosis, multidrug-resistant
+D054908 - extensively drug-resistant tuberculosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014376 - tuberculosis
+D018088 - tuberculosis, multidrug-resistant
+D054908 - extensively drug-resistant tuberculosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012080
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012080/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012080/1/keywords
+---------------------------------------------------------
+Keywords: 
+HP
+Campylobacter
+Helicobacter
+pylori
+pyloridis
+---------------------------------------------------------
+Original Mesh Terms: 
+D016480 - helicobacter pylori
+D016998 - helicobacter
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002167 - campylobacter
+D011708 - pylorus
+D016998 - helicobacter
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012080
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD012080/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD012080/2/keywords
+---------------------------------------------------------
+Keywords: 
+latex agglutination test
+latex fixation test
+LAT
+breath
+test
+Enzyme Linked Immunosorbent Assay
+ELISA
+Western
+blot
+blotting
+immunoblot
+immunoblotting
+test
+stool
+stool antigen
+feces
+faeces
+fecal
+faecal
+---------------------------------------------------------
+Original Mesh Terms: 
+D001944 - breath tests
+D004797 - enzyme-linked immunosorbent assay
+D015153 - blotting, western
+D007841 - latex fixation tests
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005243 - feces
+D004797 - enzyme-linked immunosorbent assay
+D007841 - latex fixation tests
+D015151 - immunoblotting
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD011686/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD011686/1/keywords
+---------------------------------------------------------
+Keywords: 
+National Emergency X Radiography
+Clinical
+critical
+treatment
+pathway
+protocol
+triage
+Canadian c spine
+Canadian cervical spine
+algorithm
+guideline
+decision
+tree
+rule
+tool
+NEXUS
+CCR
+---------------------------------------------------------
+Original Mesh Terms: 
+D016431 - guideline
+D019983 - guideline adherence
+D017408 - guidelines as topic
+D000465 - algorithms
+D002985 - clinical protocols
+D003663 - decision trees
+D003661 - decision support techniques
+D019091 - critical pathways
+D014218 - triage
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000078325 - clinical trial protocol
+D000465 - algorithms
+D013131 - spine
+D014218 - triage
+D017629 - gap junctions
+D054388 - receptors, ccr
+---------------------------------------------------------
+Number of Original MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD011686/4/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD011686/4/keywords
+---------------------------------------------------------
+Keywords: 
+neonate
+newborn
+new born
+Pediatric
+paediatric
+peadiatric
+Child
+infant
+baby
+babies
+toddler
+adolescen
+juvenile
+youth
+teen
+preteen
+---------------------------------------------------------
+Original Mesh Terms: 
+D010372 - pediatrics
+D002648 - child
+D007223 - infant
+D000293 - adolescent
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007223 - infant
+D007231 - infant, newborn
+D000293 - adolescent
+D010372 - pediatrics
+D002648 - child
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD011686/3/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD011686/3/keywords
+---------------------------------------------------------
+Keywords: 
+clear
+Cervical spine
+c spine
+cervical
+trauma
+injur
+fracture
+sublux
+dislocata
+avuls
+instab
+Spinal cord injury without radiographic abnormality
+SCIWORA
+---------------------------------------------------------
+Original Mesh Terms: 
+D002574 - cervical vertebrae
+D019838 - neck injuries
+D013124 - spinal injuries
+D013119 - spinal cord injuries
+D016103 - spinal fractures
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000072662 - margins of excision
+D009333 - neck
+D013119 - spinal cord injuries
+D014947 - wounds and injuries
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD011686/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD011686/2/keywords
+---------------------------------------------------------
+Keywords: 
+Imaging
+MRI
+X ray
+x ray
+xray
+radiogra
+roentgenografia
+CT
+Computed Tomography
+CAT scan
+neurolog
+physical
+clinical
+exam
+assess
+sign
+---------------------------------------------------------
+Original Mesh Terms: 
+D010808 - physical examination
+D009460 - neurologic examination
+D015599 - trauma severity indices
+D012720 - severity of illness index
+D014965 - x-rays
+D014054 - tomography
+D014055 - tomography, emission-computed
+D014056 - tomography, x-ray
+D008279 - magnetic resonance imaging
+D011859 - radiography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014965 - x-rays
+D014057 - tomography, x-ray computed
+D002488 - central african republic
+D003952 - diagnostic imaging
+D008279 - magnetic resonance imaging
+D010808 - physical examination
+---------------------------------------------------------
+Number of Original MeSH Terms: 10
+Number of MetaMap Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009044
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD009044/1/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD009044/1/keywords
+---------------------------------------------------------
+Keywords: 
+autis
+asperger
+kanner
+childhood schizophrenia
+Rett
+pervasive development
+PDD
+PDDs
+ASD
+ASDs
+---------------------------------------------------------
+Original Mesh Terms: 
+D002659 - child development disorders, pervasive
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000067877 - autism spectrum disorder
+D006344 - heart septal defects, atrial
+D002945 - cisplatin
+D003966 - camurati-engelmann syndrome
+D012561 - schizophrenia, childhood
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009044
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2019/testing/DTA/CD009044/2/mesh
+Keyword Path: data/clef_tar_processed/2019/testing/DTA/CD009044/2/keywords
+---------------------------------------------------------
+Keywords: 
+GARS
+autis
+3di
+DISCO
+ADI R
+child
+CARS
+ADOS
+rating scale
+diagnos
+screen
+algorithm
+assess
+interview
+instrument
+observation
+questionnaire
+schedule
+test
+tool
+communic
+development
+dimension
+parent
+carer
+caregiver
+report
+gilliam
+---------------------------------------------------------
+Original Mesh Terms: 
+D011569 - psychiatric status rating scales
+D011594 - psychometrics
+D009483 - neuropsychological tests
+D011581 - psychological tests
+D007406 - interview, psychological
+D007407 - interviews as topic
+D010552 - personality assessment
+D019370 - observation
+D011795 - surveys and questionnaires
+---------------------------------------------------------
+Generated MeSH Terms: 
+D017028 - caregivers
+D000241 - adenosine
+D000465 - algorithms
+D001336 - automobiles
+D002338 - carotenoids
+D002648 - child
+D002977 - clergy
+D010105 - oxygenases
+D010290 - parents
+D011795 - surveys and questionnaires
+D017203 - interview
+D019731 - carbon-nitrogen ligases
+D051026 - phosphoribosylglycinamide formyltransferase
+---------------------------------------------------------
+Number of Original MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 13
+---------------------------------------------------------
+---------------------------------------------------------
+Total Sub-Clauses: 20
+Total Original MeSH Terms: 88
+Total Generated MeSH Terms: 108
+=========================================================

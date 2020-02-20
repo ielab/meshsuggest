@@ -1,0 +1,3308 @@
+=========================================================
+data/clef_tar_processed/2018/testing
+---------------------------------------------------------
+Topic: CD009175
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD009175/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD009175/1/keywords
+---------------------------------------------------------
+Keywords: 
+m. pneumoniae
+mycoplasma pneumoniae
+community acquired pneumonia
+---------------------------------------------------------
+Original Mesh Terms: 
+D011014 - pneumonia
+D018410 - pneumonia, bacterial
+D011019 - pneumonia, mycoplasma
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000077299 - healthcare-associated pneumonia
+D001618 - beta-lactamases
+D009177 - mycoplasma pneumoniae
+D011019 - pneumonia, mycoplasma
+D011971 - receptors, immunologic
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009175
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD009175/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD009175/3/keywords
+---------------------------------------------------------
+Keywords: 
+child
+schoolchild
+school age
+preschool
+kid
+kids
+toddler
+minor
+pubert
+pubescen
+pediatric
+paediatric
+infant
+infancy
+newborn
+baby
+babies
+neonat
+preterm
+prematur
+nursery school
+kindergarden
+primary school
+secondary school
+elementary school
+high school
+highschool
+adoles
+teen
+boy
+girl
+---------------------------------------------------------
+Original Mesh Terms: 
+D007223 - infant
+D002648 - child
+D000293 - adolescent
+D033242 - minors
+D011627 - puberty
+D010372 - pediatrics
+D012574 - schools
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007223 - infant
+D012574 - schools
+D002648 - child
+D003638 - deafness
+D005359 - fibrous dysplasia, polyostotic
+D007057 - ichthyosis
+D007231 - infant, newborn
+D007634 - keratitis
+D010372 - pediatrics
+D011153 - population
+D013978 - tibial fractures
+D033242 - minors
+---------------------------------------------------------
+Number of Original MeSH Terms: 7
+Number of UMLS Generated MeSH Terms: 12
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD009175
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD009175/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD009175/2/keywords
+---------------------------------------------------------
+Keywords: 
+shortness of breath
+clinical feature
+wheez
+chest pain
+headache
+myalgia
+coryza
+fever
+clinical assessment
+cough
+sore throat
+crepitation
+symptom
+sign
+characteristic
+manifestation
+diarrhoea
+diarrhea
+rash
+rashes
+---------------------------------------------------------
+Original Mesh Terms: 
+D003371 - cough
+D005334 - fever
+D005076 - exanthema
+D003967 - diarrhea
+D006261 - headache
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003967 - diarrhea
+D005076 - exanthema
+D000067251 - symptom flare up
+D003139 - common cold
+D003371 - cough
+D005334 - fever
+D006261 - headache
+D012135 - respiratory sounds
+D017436 - kallmann syndrome
+D019066 - facies
+D019465 - craniofacial abnormalities
+D063806 - myalgia
+D012136 - respiratory syncytial viruses
+D012229 - rhinovirus
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 14
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010864
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010864/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010864/1/keywords
+---------------------------------------------------------
+Keywords: 
+pulmonary
+embol
+thrombo
+lung
+PE
+PTE
+---------------------------------------------------------
+Original Mesh Terms: 
+D011655 - pulmonary embolism
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008168 - lung
+D000971 - antineoplastic combined chemotherapy protocols
+D002945 - cisplatin
+D004983 - ethanolamines
+D005047 - etoposide
+D010568 - peru
+D010714 - phosphatidylethanolamines
+D011624 - pteroylpolyglutamic acids
+D011655 - pulmonary embolism
+D011727 - pyridinolcarbamate
+D015251 - epirubicin
+D010767 - phosphorylcholine
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 12
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010864
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010864/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010864/2/keywords
+---------------------------------------------------------
+Keywords: 
+elfa
+NycoCard
+Instant I.A
+Enzygnost
+stratus
+turbidimetr
+Minutex
+Asserachrom
+dimeri
+SimpliRed
+LIATEST
+HemosIL
+blood agglutination
+TriniLIZE
+Dimertest
+Vidas
+Fibrinostika
+elisa
+BC DD
+biopool
+FDP
+d dimer
+Turbiquant
+Innovance DD
+enzyme linked
+latex agglutination
+immunoturbidimetric
+TintElize
+fibrin
+d
+Tinaquant
+Tina quant
+LPIA
+EIA
+latex
+assay
+IL test
+IL DD
+---------------------------------------------------------
+Original Mesh Terms: 
+D005338 - fibrin fibrinogen degradation products
+D015415 - biomarkers
+D004797 - enzyme-linked immunosorbent assay
+D009391 - nephelometry and turbidimetry
+---------------------------------------------------------
+Generated MeSH Terms: 
+D019832 - n-methylscopolamine
+D005338 - fibrin fibrinogen degradation products
+D000644 - quaternary ammonium compounds
+D000804 - angiotensin ii
+D000074024 - immunoturbidimetry
+D000371 - agglutination
+D004355 - drug stability
+D005573 - formycins
+D007841 - latex fixation tests
+D011740 - pyrimidine dimers
+D012265 - ribonucleotides
+D052999 - quinazolinones
+D058501 - enzyme-linked immunospot assay
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 13
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008892
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008892/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008892/1/keywords
+---------------------------------------------------------
+Keywords: 
+typhoid fever
+paratyphoid fever
+enteric fever
+typhi
+paratyphi
+salmonella enterica
+---------------------------------------------------------
+Original Mesh Terms: 
+D014435 - typhoid fever
+D019779 - salmonella enterica
+D010284 - paratyphoid fever
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014435 - typhoid fever
+D010284 - paratyphoid fever
+D012286 - rickettsia typhi
+D012477 - salmonella enteritidis
+D012482 - salmonella paratyphi a
+D019779 - salmonella enterica
+D012485 - salmonella typhi
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008892
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008892/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008892/2/keywords
+---------------------------------------------------------
+Keywords: 
+immunochromatographic lateral flow assay
+serodiagnostic test
+rapid diagnostic test
+RDT
+typhirapid
+latex agglutination
+test it typhoid
+enterocheck
+SD bioline
+dip s tick
+panbio
+mega salmonella
+naats
+nucleid acid amplication test
+blood culture
+bone marrow culture
+Widal
+DOT enzyme immunoassay
+typhiDOT
+TUBEX
+solid phase
+DOT blot
+antigen detection
+antibody detection
+---------------------------------------------------------
+Original Mesh Terms: 
+D012698 - serologic tests
+D015151 - immunoblotting
+D011933 - reagent kits, diagnostic
+D012698 - serologic tests
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000071997 - blood culture
+D000743 - anemia, hemolytic
+D003894 - deamino arginine vasopressin
+D007118 - immunoassay
+D007124 - immunoenzyme techniques
+D007841 - latex fixation tests
+D011386 - projective techniques
+D014436 - typhoid-paratyphoid vaccines
+D015151 - immunoblotting
+D018335 - rhabdoid tumor
+D060327 - solid-phase synthesis techniques
+D008999 - monocrotophos
+D010949 - plasma
+D011135 - polysaccharides, bacterial
+D044367 - phase transition
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 15
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011926
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011926/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011926/1/keywords
+---------------------------------------------------------
+Keywords: 
+neonatal sepsis
+neonatal bacteremia
+neonatal infections
+---------------------------------------------------------
+Original Mesh Terms: 
+D018805 - sepsis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000070197 - streptococcus gallolyticus subspecies gallolyticus
+D000071074 - neonatal sepsis
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010296
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010296/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010296/1/keywords
+---------------------------------------------------------
+Keywords: 
+AAA
+EVAR
+TEVAR
+EVRAR
+abdom
+aneurysm
+aort
+morphol
+---------------------------------------------------------
+Original Mesh Terms: 
+D001014 - aortic aneurysm
+D001012 - aorta, abdominal
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000074182 - aaa domain
+D000783 - aneurysm
+D008228 - lymphoma, non-hodgkin
+D000074183 - atpases associated with diverse cellular activities
+D000074582 - aaa proteins
+D001014 - aortic aneurysm
+D016564 - amyloid beta-protein precursor
+D017544 - aortic aneurysm, abdominal
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 8
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010296
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010296/4/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010296/4/keywords
+---------------------------------------------------------
+Keywords: 
+ultrasonic imaging
+sonograph
+ultrasound
+echograph
+sonogram
+ultrasonogra
+USS
+DUS
+CDUS
+CEUS
+doppler
+duplex
+contrast
+US
+---------------------------------------------------------
+Original Mesh Terms: 
+D014465 - ultrasonics
+D014463 - ultrasonography
+D018608 - ultrasonography, doppler
+D018615 - ultrasonography, doppler, color
+D018616 - ultrasonography, doppler, duplex
+D018617 - ultrasonography, doppler, pulsed
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014463 - ultrasonography
+D011697 - purpura, thrombotic thrombocytopenic
+D014465 - ultrasonics
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010296
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010296/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010296/3/keywords
+---------------------------------------------------------
+Keywords: 
+surveillance
+postoperative
+outcome
+evaluat
+perigraft leak
+follow up
+effecti
+perigraft flow
+endoleak
+endotension
+---------------------------------------------------------
+Original Mesh Terms: 
+D011183 - postoperative complications
+D057868 - anastomotic leak
+D011475 - prosthesis failure
+---------------------------------------------------------
+Generated MeSH Terms: 
+D057867 - endoleak
+D000359 - aftercare
+D011184 - postoperative period
+D017063 - outcome assessment, health care
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010296
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010296/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010296/2/keywords
+---------------------------------------------------------
+Keywords: 
+stent
+graft
+endograft
+endovascular
+endoluminal
+endoprostheis
+prosthe
+---------------------------------------------------------
+Original Mesh Terms: 
+D001807 - blood vessel prosthesis
+D019917 - blood vessel prosthesis implantation
+D057510 - endovascular procedures
+D015607 - stents
+---------------------------------------------------------
+Generated MeSH Terms: 
+D015607 - stents
+D017130 - angioplasty
+D019737 - transplants
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 6
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/6/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/6/keywords
+---------------------------------------------------------
+Keywords: 
+endoscop
+---------------------------------------------------------
+Original Mesh Terms: 
+D004724 - endoscopy
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/1/keywords
+---------------------------------------------------------
+Keywords: 
+ampulla vateri
+ampullovateric
+papilla vateri
+vater papilla
+vater ampulla
+periampulla
+peri ampulla
+choledoch
+alcholedoch
+bile duct
+biliary
+cholangio
+gall duct
+duoden
+small bowel
+small intestin
+enter
+pancrea
+---------------------------------------------------------
+Original Mesh Terms: 
+D014670 - ampulla of vater
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014670 - ampulla of vater
+D001659 - biliary tract
+D003137 - common bile duct diseases
+D018281 - cholangiocarcinoma
+D057873 - peri-implantitis
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/4/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/4/keywords
+---------------------------------------------------------
+Keywords: 
+PET
+MRI
+NMRI
+zeugmatogram
+emission
+positron
+magneti
+MR
+NMR
+proton
+acoustic
+ARFI
+tomogra
+scan
+scans
+imaging
+---------------------------------------------------------
+Original Mesh Terms: 
+D049268 - positron-emission tomography
+D008279 - magnetic resonance imaging
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008279 - magnetic resonance imaging
+D004583 - electrons
+D008435 - mauritania
+D009682 - magnetic resonance spectroscopy
+D014055 - tomography, emission-computed
+D018161 - receptors, mineralocorticoid
+D019906 - nuclear magnetic resonance, biomolecular
+D049268 - positron-emission tomography
+D059346 - magnets
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/3/keywords
+---------------------------------------------------------
+Keywords: 
+pancreatecto
+pancreaticojejunostmy
+pancreaticogastrostomia
+pancreaticoduodenectom
+duodenopancreatectomaa
+pancreato biliary
+---------------------------------------------------------
+Original Mesh Terms: 
+D010180 - pancreatectomy
+D016577 - pancreaticoduodenectomy
+D010193 - pancreaticojejunostomy
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001659 - biliary tract
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/2/keywords
+---------------------------------------------------------
+Keywords: 
+surger
+surgical
+operat
+resection
+preoperative
+---------------------------------------------------------
+Original Mesh Terms: 
+D013514 - surgical procedures, operative
+D013502 - general surgery
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002763 - cholecystectomy
+D011300 - preoperative care
+D014081 - tooth extraction
+D000071062 - sutureless surgical procedures
+D013530 - surgical wound infection
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011515
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011515/5/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011515/5/keywords
+---------------------------------------------------------
+Keywords: 
+echogra
+ultrason
+ultrasound
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014463 - ultrasonography
+D014465 - ultrasonics
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012216
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012216/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012216/1/keywords
+---------------------------------------------------------
+Keywords: 
+radioligand
+---------------------------------------------------------
+Original Mesh Terms: 
+D005462 - fluorine radioisotopes
+D000814 - aniline compounds
+D005026 - ethylene glycols
+D013267 - stilbenes
+D011869 - radioligand assay
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011863 - radioimmunoassay
+D011869 - radioligand assay
+D008139 - loperamide
+D010880 - piperidines
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012083
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012083/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012083/1/keywords
+---------------------------------------------------------
+Keywords: 
+ultrason
+ultrasound
+echotomograph
+echo tomographic
+echograph
+sonograph
+ultra sound
+acoustic
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000162 - acoustics
+D013016 - sound
+D014463 - ultrasonography
+D014465 - ultrasonics
+D019220 - high-energy shock waves
+D065821 - pontine tegmentum
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012083
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012083/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012083/2/keywords
+---------------------------------------------------------
+Keywords: 
+stomach
+gastric
+gastro
+nasogastric
+feeding
+fine bore
+Ryles
+tube
+intubat
+---------------------------------------------------------
+Original Mesh Terms: 
+D007441 - intubation, gastrointestinal
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013270 - stomach
+D000464 - alginates
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008587
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008587/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008587/1/keywords
+---------------------------------------------------------
+Keywords: 
+cervix
+cervical
+cervico
+cancer
+carcinoma
+adenocarcinoma
+neoplas
+dysplas
+dyskaryose
+squamous
+CIN
+CINII
+CIN2
+CINIII
+CIN3
+SIL
+HSIL
+H SIL
+LSIL
+L SIL
+ASCUS
+AS CUS
+---------------------------------------------------------
+Original Mesh Terms: 
+D002583 - uterine cervical neoplasms
+D002578 - uterine cervical dysplasia
+D018290 - cervical intraepithelial neoplasia
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000081483 - squamous intraepithelial lesions
+D000077385 - silybin
+D018290 - cervical intraepithelial neoplasia
+D000230 - adenocarcinoma
+D002277 - carcinoma
+D002584 - cervix uteri
+D003274 - contraceptive devices, female
+D004847 - epithelial cells
+D009369 - neoplasms
+D020968 - brachial plexus neuritis
+D058951 - gp100 melanoma antigen
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 11
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008587
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008587/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008587/3/keywords
+---------------------------------------------------------
+Keywords: 
+pap
+papanicolaou
+vagina
+cervical
+cervix
+cervico
+cytolog
+smear
+test
+tests
+testing
+tested
+swab
+scrap
+---------------------------------------------------------
+Original Mesh Terms: 
+D014626 - vaginal smears
+D003581 - cytodiagnosis
+D002472 - cell transformation, viral
+D003588 - cytopathogenic effect, viral
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002584 - cervix uteri
+D003274 - contraceptive devices, female
+D009581 - nitrofurans
+D011386 - projective techniques
+D014621 - vagina
+D014623 - vaginal diseases
+D020968 - brachial plexus neuritis
+D059027 - recycling
+D065006 - papanicolaou test
+D006562 - herpes zoster
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 10
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008587
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008587/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008587/2/keywords
+---------------------------------------------------------
+Keywords: 
+HPV
+human papillomavirus
+papillomaviridae
+PCR
+hybrid capture
+HC2
+HCII
+HC 2
+HC II
+---------------------------------------------------------
+Original Mesh Terms: 
+D027383 - papillomaviridae
+D052685 - alphapapillomavirus
+D004279 - dna, viral
+D030361 - papillomavirus infections
+D014412 - tumor virus infections
+D002584 - cervix uteri
+---------------------------------------------------------
+Generated MeSH Terms: 
+D027383 - papillomaviridae
+D053918 - papillomavirus vaccines
+D004187 - disaccharides
+D012826 - silicone elastomers
+D016133 - polymerase chain reaction
+D030361 - papillomavirus infections
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of UMLS Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012281
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012281/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012281/1/keywords
+---------------------------------------------------------
+Keywords: 
+Laboratory Test
+urinary VDBP corrected for creatinine expression
+MMP
+proteomic
+cytokeratin 19
+Total complement level
+Autoantibodies
+estrogen receptor
+Anti thyroid
+Anti LDL
+MTMMP
+urinary peptide
+cyr61
+microRNA
+cytokine
+serum marker
+Integrin
+Anti endometrial
+inflammatory marker
+progesterone receptor
+serum placental protein
+sICAM
+Immune cells alteration
+interleukin
+Selectin
+genomic
+urinary marker
+Osteopontin
+Proteolytic enzyme
+soluble intercellular adhesion
+cell adhesion molecule
+sVCAM
+matrix metalloproteinase
+TIMP
+Anti laminin 1
+Follistatin
+Aromatase P450
+growth factor
+hepatocyte growth factor
+Endometrial marker
+CAMs
+Anti Thomsen Friedenreich antigen
+microarray
+VDBP Cr
+scatter factor
+Soluble adhesion molecule
+Anti transferrin
+Fas ligand
+cell surface marker
+leptin
+Antiphospholipid
+Cadherin
+cysteine rich heparin binding protein
+neural marker
+EGF
+epidermal growth factor
+MCP I
+monocyte chemoattractant protein I
+Annexin 1
+Annexin1
+FGF
+fibroblast growth factor
+HLA
+human leucocyte antigen
+endometri
+biops
+EGFR
+epidermal growth factor receptor
+VEGF
+vascular endothelial growth factor
+Ca 19 9
+Ca19 9
+cancer antigen 19 9
+ANXA 1
+ANXA1
+Luteinizing Hormone
+LH
+Ca 125
+Ca125
+cancer antigen 125
+biomarker
+marker
+PDGF
+platelet derived growth factor
+MIF
+migration inhibitory factor
+VDBP
+vitamin D binding protein
+sEselectin
+soluble E selectin
+Anti 2HSG
+Heremans Schmidt glycoprotein
+TGF b
+transforming growth factor beta
+TGFb
+TNF a
+tumour necrosis factor
+IGF I
+insulin like growth factor
+IGF1
+T helper
+T supressor
+T helper
+TGF a
+transforming growth factor alfa
+TGFa
+PP 14
+PP14
+sEcadherin
+soluble E cadherin
+PGP 9
+PGP9
+protein gene product
+---------------------------------------------------------
+Original Mesh Terms: 
+D007986 - luteinizing hormone
+D011374 - progesterone
+D020781 - matrix metalloproteinase 1
+D020778 - matrix metalloproteinase 2
+D019278 - matrix metalloproteinase 3
+D020780 - matrix metalloproteinase 9
+D019715 - tissue inhibitor of metalloproteinase-1
+D019716 - tissue inhibitor of metalloproteinase-2
+D006023 - glycoproteins
+D038681 - follistatin
+D018799 - intercellular adhesion molecule-1
+D019087 - selectins
+D013601 - t-lymphocytes
+D055611 - natural killer t-cells
+D006680 - hla antigens
+D015788 - hla-a1 antigen
+D015789 - hla-a2 antigen
+D016023 - integrins
+D055515 - cysteine-rich protein 61
+D042461 - vascular endothelial growth factor a
+D014809 - vitamin d-binding protein
+D016207 - cytokines
+D007378 - interleukins
+D007375 - interleukin-1
+D015850 - interleukin-6
+D016209 - interleukin-8
+D018664 - interleukin-12
+D018793 - interleukin-13
+D004815 - epidermal growth factor
+D005346 - fibroblast growth factors
+D010982 - platelet-derived growth factor
+D053539 - keratin-19
+D019411 - clinical laboratory techniques
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D015415 - biomarkers
+D018394 - ca-125 antigen
+D015820 - cadherins
+D005346 - fibroblast growth factors
+D005819 - genetic markers
+D006377 - t-lymphocytes, helper-inducer
+D007334 - insulin-like growth factor i
+D010982 - platelet-derived growth factor
+D014809 - vitamin d-binding protein
+D015815 - cell adhesion molecules
+D017305 - annexin a1
+D018395 - ca-19-9 antigen
+D018719 - receptor, erbb-2
+D053779 - latent tgf-beta binding proteins
+D053782 - transforming growth factor beta3
+D055515 - cysteine-rich protein 61
+D011993 - recombinant fusion proteins
+D010446 - peptide fragments
+D006020 - glycopeptides
+D061067 - antibodies, monoclonal, humanized
+D053505 - matrix metalloproteinases, secreted
+D016211 - transforming growth factor alpha
+D000906 - antibodies
+D000949 - histocompatibility antigens class ii
+D001141 - aromatase
+D001323 - autoantibodies
+D004815 - epidermal growth factor
+D006023 - glycoproteins
+D006680 - hla antigens
+D007026 - hypothalamic area, lateral
+D007378 - interleukins
+D007797 - laminin
+D007986 - luteinizing hormone
+D008077 - lipoproteins, ldl
+D008565 - membrane proteins
+D010447 - peptide hydrolases
+D010455 - peptides
+D011257 - pregnancy proteins
+D011980 - receptors, progesterone
+D012697 - serine endopeptidases
+D013737 - testis
+D015234 - hla-a antigens
+D015941 - complement hemolytic activity assay
+D016023 - integrins
+D016207 - cytokines
+D016228 - endothelial growth factors
+D016736 - antiphospholipid syndrome
+D018945 - monocyte chemoattractant proteins
+D018997 - chorionic gonadotropin, beta subunit, human
+D019087 - selectins
+D019714 - tissue inhibitor of metalloproteinases
+D020738 - leptin
+D020782 - matrix metalloproteinases
+D020794 - receptor protein-tyrosine kinases
+D023281 - genomics
+D035683 - micrornas
+D036341 - intercellular signaling peptides and proteins
+D038681 - follistatin
+D040901 - proteomics
+D042442 - vascular endothelial growth factors
+D042461 - vascular endothelial growth factor a
+D046888 - tissue array analysis
+D047628 - estrogen receptor alpha
+D053222 - fas ligand protein
+D053495 - osteopontin
+D053539 - keratin-19
+D057127 - single-chain antibodies
+D058490 - disorder of sex development, 46,xy
+D066246 - erbb receptors
+---------------------------------------------------------
+Number of Original MeSH Terms: 34
+Number of UMLS Generated MeSH Terms: 69
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012281
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012281/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012281/2/keywords
+---------------------------------------------------------
+Keywords: 
+Endometrio
+---------------------------------------------------------
+Original Mesh Terms: 
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004717 - endometrium
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012009
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012009/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012009/1/keywords
+---------------------------------------------------------
+Keywords: 
+ampulla vateri
+ampullovateric
+papilla vateri
+vater papilla
+vater ampulla
+periampulla
+peri ampulla
+choledoch
+alcholedoch
+bile duct
+biliary
+cholangio
+gall duct
+duoden
+small bowel
+small intestin
+enter
+pancrea
+---------------------------------------------------------
+Original Mesh Terms: 
+D014670 - ampulla of vater
+D010179 - pancreas
+D001652 - bile ducts
+D004386 - duodenum
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014670 - ampulla of vater
+D001659 - biliary tract
+D003137 - common bile duct diseases
+D018281 - cholangiocarcinoma
+D057873 - peri-implantitis
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012009
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012009/4/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012009/4/keywords
+---------------------------------------------------------
+Keywords: 
+drain
+leak
+fistula
+---------------------------------------------------------
+Original Mesh Terms: 
+D004322 - drainage
+D057868 - anastomotic leak
+D010185 - pancreatic fistula
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004322 - drainage
+D005402 - fistula
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012009
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012009/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012009/3/keywords
+---------------------------------------------------------
+Keywords: 
+amylase
+amylases
+---------------------------------------------------------
+Original Mesh Terms: 
+D000681 - amylases
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000681 - amylases
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012009
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012009/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012009/2/keywords
+---------------------------------------------------------
+Keywords: 
+pancreatecto
+pancreaticojejunostmy
+pancreaticogastrostomia
+pancreaticoduodenect
+duodenopancreatectomaa
+---------------------------------------------------------
+Original Mesh Terms: 
+D010180 - pancreatectomy
+D010193 - pancreaticojejunostomy
+D016577 - pancreaticoduodenectomy
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011420
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011420/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011420/1/keywords
+---------------------------------------------------------
+Keywords: 
+tuberculosis
+TB
+---------------------------------------------------------
+Original Mesh Terms: 
+D014376 - tuberculosis
+D009169 - mycobacterium tuberculosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014376 - tuberculosis
+D014280 - triglycerides
+D006763 - hospitals, chronic disease
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 6
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/6/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/6/keywords
+---------------------------------------------------------
+Keywords: 
+elastografi
+sonoelastografi
+acoustographic
+---------------------------------------------------------
+Original Mesh Terms: 
+D054459 - elasticity imaging techniques
+---------------------------------------------------------
+Generated MeSH Terms: 
+D054459 - elasticity imaging techniques
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/1/keywords
+---------------------------------------------------------
+Keywords: 
+pancreas
+pancreati
+---------------------------------------------------------
+Original Mesh Terms: 
+D010179 - pancreas
+D010190 - pancreatic neoplasms
+D050500 - pancreatitis, chronic
+D010181 - pancreatic cyst
+---------------------------------------------------------
+Generated MeSH Terms: 
+D010179 - pancreas
+D000013 - congenital abnormalities
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/4/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/4/keywords
+---------------------------------------------------------
+Keywords: 
+echogra
+ultrason
+ultrasound
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014463 - ultrasonography
+D014465 - ultrasonics
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/3/keywords
+---------------------------------------------------------
+Keywords: 
+endosonografia
+EUS
+---------------------------------------------------------
+Original Mesh Terms: 
+D019160 - endosonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D019160 - endosonography
+D009334 - neck muscles
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/2/keywords
+---------------------------------------------------------
+Keywords: 
+CT
+tomodensitometry
+PET
+MRI
+NMRI
+zeugmatogram
+computed
+computerised
+computerized
+emission
+positron
+magneti
+MR
+NMR
+proton
+acoustic
+ARFI
+tomogra
+scan
+scans
+imaging
+---------------------------------------------------------
+Original Mesh Terms: 
+D014057 - tomography, x-ray computed
+D049268 - positron-emission tomography
+D008279 - magnetic resonance imaging
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008279 - magnetic resonance imaging
+D014057 - tomography, x-ray computed
+D003237 - connecticut
+D004583 - electrons
+D008435 - mauritania
+D009682 - magnetic resonance spectroscopy
+D014055 - tomography, emission-computed
+D015928 - cognitive behavioral therapy
+D018161 - receptors, mineralocorticoid
+D049268 - positron-emission tomography
+D057286 - electronic health records
+D059346 - magnets
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 12
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010213
+Sub-Clause: 5
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010213/5/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010213/5/keywords
+---------------------------------------------------------
+Keywords: 
+endoscop
+---------------------------------------------------------
+Original Mesh Terms: 
+D016099 - endoscopy, gastrointestinal
+---------------------------------------------------------
+Generated MeSH Terms: 
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 0
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012165
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012165/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012165/1/keywords
+---------------------------------------------------------
+Keywords: 
+sICAM
+Anti Thomsen Friedenreich antigen
+Endometrial marker
+cell adhesion molecule
+cysteine rich heparin binding protein
+hepatocyte growth factor
+serum placental protein
+urinary VDBP corrected for creatinine expression
+Anti endometrial
+cytokeratin 19
+Anti thyroid
+Selectin
+progesterone receptor
+MTMMP
+TIMP
+Immune cells alteration
+soluble intercellular adhesion
+MMP
+Osteopontin
+VDBP Cr
+urinary marker
+sVCAM
+Antiphospholipid
+Soluble adhesion molecule
+microRNA
+Fas ligand
+estrogen receptor
+Anti LDL
+microarray
+neural marker
+cyr61
+genomic
+urinary peptide
+scatter factor
+cell surface marker
+interleukin
+leptin
+Integrin
+proteomic
+Laboratory Test
+CAMs
+cytokine
+matrix metalloproteinase
+serum marker
+Total complement level
+Follistatin
+growth factor
+Proteolytic enzyme
+Anti transferrin
+Anti laminin 1
+Autoantibodies
+Cadherin
+Aromatase P450
+inflammatory marker
+endometri
+biops
+sEcadherin
+soluble E cadherin
+TNF a
+tumour necrosis factor
+FGF
+fibroblast growth factor
+PDGF
+platelet derived growth factor
+biomarker
+marker
+EGFR
+epidermal growth factor receptor
+TGF b
+transforming growth factor beta
+TGFb
+PP 14
+PP14
+VEGF
+vascular endothelial growth factor
+VDBP
+vitamin D binding protein
+MIF
+migration inhibitory factor
+IGF I
+insulin like growth factor
+IGF1
+T helper
+T supressor
+T helper
+MCP I
+monocyte chemoattractant protein I
+Anti 2HSG
+Heremans Schmidt glycoprotein
+ANXA 1
+ANXA1
+Annexin 1
+Annexin1
+EGF
+epidermal growth factor
+Luteinizing Hormone
+LH
+sEselectin
+soluble E selectin
+PGP 9
+PGP9
+protein gene product
+TGF a
+transforming growth factor alfa
+TGFa
+Ca 125
+Ca125
+cancer antigen 125
+HLA
+human leucocyte antigen
+Ca 19 9
+Ca19 9
+cancer antigen 19 9
+---------------------------------------------------------
+Original Mesh Terms: 
+D007986 - luteinizing hormone
+D011374 - progesterone
+D020781 - matrix metalloproteinase 1
+D020778 - matrix metalloproteinase 2
+D019278 - matrix metalloproteinase 3
+D020780 - matrix metalloproteinase 9
+D019715 - tissue inhibitor of metalloproteinase-1
+D019716 - tissue inhibitor of metalloproteinase-2
+D006023 - glycoproteins
+D038681 - follistatin
+D018799 - intercellular adhesion molecule-1
+D019087 - selectins
+D013601 - t-lymphocytes
+D055611 - natural killer t-cells
+D017152 - antibodies, antiphospholipid
+D006680 - hla antigens
+D015788 - hla-a1 antigen
+D015789 - hla-a2 antigen
+D016023 - integrins
+D055515 - cysteine-rich protein 61
+D042461 - vascular endothelial growth factor a
+D014809 - vitamin d-binding protein
+D016207 - cytokines
+D007378 - interleukins
+D007375 - interleukin-1
+D015850 - interleukin-6
+D016209 - interleukin-8
+D018664 - interleukin-12
+D018793 - interleukin-13
+D004815 - epidermal growth factor
+D005346 - fibroblast growth factors
+D010982 - platelet-derived growth factor
+D053539 - keratin-19
+D019411 - clinical laboratory techniques
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D015415 - biomarkers
+D018394 - ca-125 antigen
+D015820 - cadherins
+D005346 - fibroblast growth factors
+D005819 - genetic markers
+D006377 - t-lymphocytes, helper-inducer
+D007334 - insulin-like growth factor i
+D010982 - platelet-derived growth factor
+D014809 - vitamin d-binding protein
+D015815 - cell adhesion molecules
+D017305 - annexin a1
+D018395 - ca-19-9 antigen
+D018719 - receptor, erbb-2
+D053779 - latent tgf-beta binding proteins
+D053782 - transforming growth factor beta3
+D055515 - cysteine-rich protein 61
+D011993 - recombinant fusion proteins
+D010446 - peptide fragments
+D006020 - glycopeptides
+D061067 - antibodies, monoclonal, humanized
+D053505 - matrix metalloproteinases, secreted
+D016211 - transforming growth factor alpha
+D000071816 - glycodelin
+D000079424 - tumor necrosis factor inhibitors
+D000906 - antibodies
+D001141 - aromatase
+D001323 - autoantibodies
+D006017 - glycolipids
+D006023 - glycoproteins
+D007335 - insulin-like growth factor ii
+D007378 - interleukins
+D007797 - laminin
+D008077 - lipoproteins, ldl
+D008565 - membrane proteins
+D010447 - peptide hydrolases
+D010455 - peptides
+D011257 - pregnancy proteins
+D011971 - receptors, immunologic
+D011980 - receptors, progesterone
+D012097 - repressor proteins
+D012697 - serine endopeptidases
+D014280 - triglycerides
+D015941 - complement hemolytic activity assay
+D016023 - integrins
+D016207 - cytokines
+D016736 - antiphospholipid syndrome
+D018398 - homeodomain proteins
+D018945 - monocyte chemoattractant proteins
+D018997 - chorionic gonadotropin, beta subunit, human
+D019087 - selectins
+D019714 - tissue inhibitor of metalloproteinases
+D020738 - leptin
+D020782 - matrix metalloproteinases
+D020794 - receptor protein-tyrosine kinases
+D023281 - genomics
+D035683 - micrornas
+D036341 - intercellular signaling peptides and proteins
+D038681 - follistatin
+D040901 - proteomics
+D042442 - vascular endothelial growth factors
+D042461 - vascular endothelial growth factor a
+D046888 - tissue array analysis
+D047628 - estrogen receptor alpha
+D050378 - t-lymphocytes, regulatory
+D053222 - fas ligand protein
+D053495 - osteopontin
+D053539 - keratin-19
+D057127 - single-chain antibodies
+D066246 - erbb receptors
+---------------------------------------------------------
+Number of Original MeSH Terms: 35
+Number of UMLS Generated MeSH Terms: 69
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012165
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012165/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012165/2/keywords
+---------------------------------------------------------
+Keywords: 
+Endometrio
+---------------------------------------------------------
+Original Mesh Terms: 
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004717 - endometrium
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010657
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010657/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010657/1/keywords
+---------------------------------------------------------
+Keywords: 
+DMSA
+dimercaptosuccinamide
+dimercapto succinate
+scintigra
+ultrasound
+ultrasonogra
+echogr
+sonogr
+---------------------------------------------------------
+Original Mesh Terms: 
+D004113 - succimer
+D015609 - organotechnetium compounds
+D009942 - organometallic compounds
+D013667 - technetium
+D011877 - radionuclide imaging
+D014463 - ultrasonography
+D018608 - ultrasonography, doppler
+D018084 - ultrasonography, interventional
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014463 - ultrasonography
+D004113 - succimer
+D013018 - sound spectrography
+D013830 - thiadiazoles
+D014465 - ultrasonics
+D015122 - mercaptopurine
+D019220 - high-energy shock waves
+D009942 - organometallic compounds
+D002396 - catechols
+---------------------------------------------------------
+Number of Original MeSH Terms: 8
+Number of UMLS Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010657
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010657/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010657/3/keywords
+---------------------------------------------------------
+Keywords: 
+infant
+infancy
+newborn
+baby
+babies
+neonat
+preterm
+prematur
+postmatura
+child
+schoolchild
+school age
+preschool
+kid
+kids
+toddler
+adolesc
+teen
+boy
+girl
+minor
+minors
+pubert
+pubescen
+prepubescence
+paediatric
+pediatric
+nursery school
+kindergarden
+primary school
+secondary school
+elementary school
+high school
+highschool
+---------------------------------------------------------
+Original Mesh Terms: 
+D007223 - infant
+D002648 - child
+D000293 - adolescent
+D011627 - puberty
+D010372 - pediatrics
+D012574 - schools
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007223 - infant
+D012574 - schools
+D033242 - minors
+D000293 - adolescent
+D002648 - child
+D003638 - deafness
+D007057 - ichthyosis
+D007231 - infant, newborn
+D007634 - keratitis
+D008571 - men
+D011153 - population
+D013978 - tibial fractures
+D061213 - mortality, premature
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of UMLS Generated MeSH Terms: 13
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010657
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010657/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010657/2/keywords
+---------------------------------------------------------
+Keywords: 
+vesicoureteral reflux
+vesico ureteral reflux
+VUR
+---------------------------------------------------------
+Original Mesh Terms: 
+D014718 - vesico-ureteral reflux
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014718 - vesico-ureteral reflux
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011912
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011912/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011912/1/keywords
+---------------------------------------------------------
+Keywords: 
+neonate
+infant
+newborn
+---------------------------------------------------------
+Original Mesh Terms: 
+D007231 - infant, newborn
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007231 - infant, newborn
+D007223 - infant
+D009724 - nurseries, infant
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011912
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011912/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011912/3/keywords
+---------------------------------------------------------
+Keywords: 
+oximetry
+pulse oximetric
+oxygen saturation
+O2 saturation
+---------------------------------------------------------
+Original Mesh Terms: 
+D010092 - oximetry
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001794 - blood pressure
+D010092 - oximetry
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011912
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011912/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011912/2/keywords
+---------------------------------------------------------
+Keywords: 
+tetralogy fallot
+cyanotic heart
+congenital heart
+congenital cardiac
+aortic coarctation
+valve diseases
+hypoplastic syndrome
+pulmonary atresia
+interruption of the aortic arch
+valve stenosis
+pulmonary atresia
+---------------------------------------------------------
+Original Mesh Terms: 
+D006330 - heart defects, congenital
+D006349 - heart valve diseases
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000015 - abnormalities, multiple
+D000741 - anemia, aplastic
+D001013 - aorta, thoracic
+D003103 - coloboma
+D005158 - facial paralysis
+D006327 - heart block
+D008607 - intellectual disability
+D013771 - tetralogy of fallot
+D005901 - glaucoma
+D018636 - hypoplastic left heart syndrome
+D001176 - arthrogryposis
+D004677 - encephalocele
+D006228 - hand deformities, congenital
+D006972 - hypertelorism
+D009095 - mullerian ducts
+D013933 - thumb
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 16
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012599
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012599/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012599/1/keywords
+---------------------------------------------------------
+Keywords: 
+papp a
+human chorionic gonadotropin
+inhibin a
+diagnos
+accura
+AUC
+ultrasound
+marker
+tricuspid regurgitation
+specific
+reproducibility of results
+predict
+sensitiv
+reference standard
+afp
+screen
+detect
+reference value
+pregnancy associated plasma protein a
+ue3
+chorion vill sampling
+ROC
+nuchal translucency
+ductus venosus
+likelihood ratio
+alphafetoprotein
+alpha fetoprotein
+nasal bone
+b hcg
+bhcg
+unconjugated estriol
+unconjugated oestriol
+false positive
+false negative
+---------------------------------------------------------
+Original Mesh Terms: 
+D011296 - prenatal diagnosis
+D011266 - pregnancy-associated plasma protein-a
+D018997 - chorionic gonadotropin, beta subunit, human
+D000509 - alpha-fetoproteins
+D007265 - inhibins
+D000649 - amniocentesis
+D015193 - chorionic villi sampling
+D012372 - roc curve
+D019540 - area under curve
+D005188 - false negative reactions
+D005189 - false positive reactions
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004964 - estriol
+D000080888 - specific language disorder
+D003933 - diagnosis
+D006063 - chorionic gonadotropin
+D007265 - inhibins
+D011266 - pregnancy-associated plasma protein-a
+D011464 - epoprostenol
+D012015 - reference standards
+D014262 - tricuspid valve insufficiency
+D014463 - ultrasonography
+D014465 - ultrasonics
+D015203 - reproducibility of results
+D015415 - biomarkers
+D019220 - high-energy shock waves
+D019540 - area under curve
+D059036 - photograph
+---------------------------------------------------------
+Number of Original MeSH Terms: 11
+Number of UMLS Generated MeSH Terms: 16
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012599
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012599/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012599/2/keywords
+---------------------------------------------------------
+Keywords: 
+down syndrome
+trisomy 21
+aneuploidy
+mosaicism
+downs syndrome
+---------------------------------------------------------
+Original Mesh Terms: 
+D004314 - down syndrome
+D000782 - aneuploidy
+D009030 - mosaicism
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000782 - aneuploidy
+D004314 - down syndrome
+D009030 - mosaicism
+D009196 - myeloproliferative disorders
+D007947 - leukemia, megakaryoblastic, acute
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011126
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011126/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011126/1/keywords
+---------------------------------------------------------
+Keywords: 
+infertil
+endometri
+heavy menstrual bleeding
+arcuate uteri
+subfertil
+Adenomyo
+fibroma
+abnormal vagina
+uter
+DUB
+fibromyoma
+polyp
+myoma
+intracava
+intracavity abnormal
+adenomyosis
+fibroid
+dysfunctional uteri
+metrorrhagi
+abnormal uteri
+adnexal mass
+endometrial cavity
+menorrhagi
+endometrio
+leiomyoma
+patholog
+ovar
+cyst
+postmenopaus
+bleed
+uterus
+disease
+uterine
+neoplasm
+mass
+intrauter
+anomal
+lesion
+septate
+malignan
+cancer
+volume
+contour
+abnormal
+tumour
+tumo
+volume
+adhesion
+bicornuate
+tumor
+disorder
+gynecolog
+gynaecolog
+intrauterine
+perimenopausa
+thick
+malformation
+sept
+Endometri
+Hyperplasia
+---------------------------------------------------------
+Original Mesh Terms: 
+D014591 - uterine diseases
+D010049 - ovarian diseases
+D007889 - leiomyoma
+D004715 - endometriosis
+D006176 - gynecology
+D004714 - endometrial hyperplasia
+D018194 - adenomyoma
+D014592 - uterine hemorrhage
+D011127 - polyps
+D009214 - myoma
+D007246 - infertility
+---------------------------------------------------------
+Generated MeSH Terms: 
+D009369 - neoplasms
+D007889 - leiomyoma
+D001810 - blood volume
+D004194 - disease
+D014599 - uterus
+D000072017 - deubiquitinating enzymes
+D001918 - brachytherapy
+D005350 - fibroma
+D008595 - menorrhagia
+D009214 - myoma
+D011127 - polyps
+D012607 - scotoma
+D029963 - quercus
+D062788 - adenomyosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 11
+Number of UMLS Generated MeSH Terms: 14
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011126
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011126/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011126/2/keywords
+---------------------------------------------------------
+Keywords: 
+3D US
+3dus
+three dimension
+Three Dimensional
+ultraso
+3D
+3 D
+image
+3d
+multiplanar
+three dimensional
+3 d
+sonografens
+3 dimension
+multiplanar
+---------------------------------------------------------
+Original Mesh Terms: 
+D021621 - imaging, three-dimensional
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008190 - lyases
+D021621 - imaging, three-dimensional
+D050765 - qa-snare proteins
+D021281 - quantitative structure-activity relationship
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011602
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011602/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011602/1/keywords
+---------------------------------------------------------
+Keywords: 
+ultrason
+ultrasound
+echograph
+echotomograph
+doppler
+B mode
+B scan
+grey
+---------------------------------------------------------
+Original Mesh Terms: 
+D014463 - ultrasonography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D006455 - hemoglobins, abnormal
+D014463 - ultrasonography
+D014465 - ultrasonics
+D018608 - ultrasonography, doppler
+D019220 - high-energy shock waves
+D015150 - echocardiography, doppler
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011602
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011602/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011602/2/keywords
+---------------------------------------------------------
+Keywords: 
+hepatic
+liver
+fibrosis
+cirrhosis
+---------------------------------------------------------
+Original Mesh Terms: 
+D008103 - liver cirrhosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D005355 - fibrosis
+D006499 - hepatic artery
+D008099 - liver
+D008103 - liver cirrhosis
+D030342 - genetic diseases, inborn
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011053
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011053/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011053/1/keywords
+---------------------------------------------------------
+Keywords: 
+PE
+thromboemboli
+microthrombus
+thrombus
+thrombo
+thrombilic
+thrombotic
+DVT
+VTE
+pulmonary
+embol
+---------------------------------------------------------
+Original Mesh Terms: 
+D011655 - pulmonary embolism
+D013923 - thromboembolism
+D054556 - venous thromboembolism
+D013927 - thrombosis
+D020246 - venous thrombosis
+D056824 - upper extremity deep vein thrombosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000971 - antineoplastic combined chemotherapy protocols
+D002945 - cisplatin
+D004983 - ethanolamines
+D005047 - etoposide
+D008168 - lung
+D010568 - peru
+D010714 - phosphatidylethanolamines
+D011655 - pulmonary embolism
+D011697 - purpura, thrombotic thrombocytopenic
+D011727 - pyridinolcarbamate
+D012821 - silanes
+D013927 - thrombosis
+D015251 - epirubicin
+D016306 - vena cava filters
+D020246 - venous thrombosis
+D012851 - sinus thrombosis, intracranial
+D020767 - intracranial thrombosis
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of UMLS Generated MeSH Terms: 17
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011053
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011053/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011053/3/keywords
+---------------------------------------------------------
+Keywords: 
+ultrasonic
+SPECT
+scintigraph
+MRA
+tomodensitometry
+sonogram
+sonograph
+3d cta
+echograph
+multislice
+multi slice
+ultrasonogra
+perfusion
+three dimensional ct
+ultrasound
+doppler
+duplex
+CT
+CAT
+arteriografia
+tomograph
+pulmonary
+angiografaa
+comput
+tomogra
+cat
+scan
+ct
+contrast
+US
+VQ
+V
+CTA
+CTPA
+MDCT
+MSCT
+single slice
+singleslice
+USS
+DUS
+CDUS
+CEUS
+lung
+multi row
+multirow
+magnetic resonance
+MR
+MRI
+NMR
+---------------------------------------------------------
+Original Mesh Terms: 
+D008168 - lung
+D008279 - magnetic resonance imaging
+D014056 - tomography, x-ray
+D015898 - tomography scanners, x-ray computed
+D055420 - perfusion imaging
+D003952 - diagnostic imaging
+D011651 - pulmonary artery
+D038524 - diffusion magnetic resonance imaging
+D010690 - phlebography
+D014054 - tomography
+D014463 - ultrasonography
+D014692 - ventilation-perfusion ratio
+D016216 - ultrasonography, prenatal
+D014465 - ultrasonics
+D011877 - radionuclide imaging
+D000792 - angiography
+D018810 - magnetic resonance angiography
+D018608 - ultrasonography, doppler
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014463 - ultrasonography
+D014057 - tomography, x-ray computed
+D061330 - multidetector computed tomography
+D002415 - cats
+D008168 - lung
+D008279 - magnetic resonance imaging
+D009682 - magnetic resonance spectroscopy
+D015609 - organotechnetium compounds
+D000792 - angiography
+D003237 - connecticut
+D010477 - perfusion
+D014465 - ultrasonics
+D015899 - tomography, emission-computed, single-photon
+D015928 - cognitive behavioral therapy
+D018608 - ultrasonography, doppler
+D018810 - magnetic resonance angiography
+D019220 - high-energy shock waves
+D021621 - imaging, three-dimensional
+D050765 - qa-snare proteins
+D061067 - antibodies, monoclonal, humanized
+---------------------------------------------------------
+Number of Original MeSH Terms: 18
+Number of UMLS Generated MeSH Terms: 20
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011053
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011053/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011053/2/keywords
+---------------------------------------------------------
+Keywords: 
+prepartum
+antepartum
+prenatal
+antenatal
+trimester
+pregnan
+---------------------------------------------------------
+Original Mesh Terms: 
+D011247 - pregnancy
+D011264 - pregnancy trimesters
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011264 - pregnancy trimesters
+D011280 - pregnanolone
+D011296 - prenatal diagnosis
+D013386 - succinates
+D011279 - pregnanetriol
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011431
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011431/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011431/1/keywords
+---------------------------------------------------------
+Keywords: 
+Malaria
+---------------------------------------------------------
+Original Mesh Terms: 
+D008288 - malaria
+D010961 - plasmodium
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008288 - malaria
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011431
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011431/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011431/2/keywords
+---------------------------------------------------------
+Keywords: 
+rapid diagnos test
+RDT
+Dipstick
+Rapid diagnos device
+MRDD
+OptiMal
+Binax NOW
+ParaSight
+immunochromatographic
+Antigen detection method
+Rapid malaria antigen test
+Combo card test
+Rapid test
+Card test
+Rapid
+detection
+diagnos
+---------------------------------------------------------
+Original Mesh Terms: 
+D004797 - enzyme-linked immunosorbent assay
+D011933 - reagent kits, diagnostic
+D007118 - immunoassay
+D002845 - chromatography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000073218 - wisconsin card sorting test
+D003933 - diagnosis
+D007118 - immunoassay
+D018335 - rhabdoid tumor
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008122
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008122/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008122/1/keywords
+---------------------------------------------------------
+Keywords: 
+Malaria
+---------------------------------------------------------
+Original Mesh Terms: 
+D008288 - malaria
+D010961 - plasmodium
+---------------------------------------------------------
+Generated MeSH Terms: 
+D008288 - malaria
+---------------------------------------------------------
+Number of Original MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008122
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008122/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008122/2/keywords
+---------------------------------------------------------
+Keywords: 
+rapid diagnos test
+RDT
+Dipstick
+Rapid diagnos device
+MRDD
+OptiMal
+Binax NOW
+ParaSight
+immunochromatographic
+Antigen detection method
+Rapid malaria antigen test
+Combo card test
+Rapid test
+Card test
+Rapid
+detection
+diagnos
+---------------------------------------------------------
+Original Mesh Terms: 
+D004797 - enzyme-linked immunosorbent assay
+D011933 - reagent kits, diagnostic
+D007118 - immunoassay
+D002845 - chromatography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000073218 - wisconsin card sorting test
+D003933 - diagnosis
+D007118 - immunoassay
+D018335 - rhabdoid tumor
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 4
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012010
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012010/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012010/1/keywords
+---------------------------------------------------------
+Keywords: 
+acute
+pancrea
+necro
+inflam
+interstitial
+edema
+oedema
+---------------------------------------------------------
+Original Mesh Terms: 
+D019283 - pancreatitis, acute necrotizing
+D010195 - pancreatitis
+D010179 - pancreas
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004487 - edema
+D011169 - portal vein
+D019283 - pancreatitis, acute necrotizing
+D020521 - stroke
+D054990 - idiopathic pulmonary fibrosis
+D010182 - pancreatic diseases
+---------------------------------------------------------
+Number of Original MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012010
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012010/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012010/2/keywords
+---------------------------------------------------------
+Keywords: 
+procalcitonin
+c reactive protein
+c reactive protein
+CRP
+amylase
+lipase
+trypsinogen
+hyperamylasaemia
+hyperamylasemia
+lactate dehydrogenase
+LDH
+---------------------------------------------------------
+Original Mesh Terms: 
+D000681 - amylases
+D008049 - lipase
+D014362 - trypsinogen
+D002097 - c-reactive protein
+D007770 - l-lactate dehydrogenase
+---------------------------------------------------------
+Generated MeSH Terms: 
+D002097 - c-reactive protein
+D034321 - hyperamylasemia
+D000077740 - procalcitonin
+D000681 - amylases
+D008049 - lipase
+D014362 - trypsinogen
+D045022 - lactate dehydrogenases
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011686/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011686/1/keywords
+---------------------------------------------------------
+Keywords: 
+National Emergency X Radiography
+Clinical
+critical
+treatment
+pathway
+protocol
+triage
+Canadian c spine
+Canadian cervical spine
+algorithm
+guideline
+decision
+tree
+rule
+tool
+NEXUS
+CCR
+---------------------------------------------------------
+Original Mesh Terms: 
+D016431 - guideline
+D019983 - guideline adherence
+D017408 - guidelines as topic
+D000465 - algorithms
+D002985 - clinical protocols
+D003663 - decision trees
+D003661 - decision support techniques
+D019091 - critical pathways
+D014218 - triage
+---------------------------------------------------------
+Generated MeSH Terms: 
+D000078325 - clinical trial protocol
+D000465 - algorithms
+D003661 - decision support techniques
+D007888 - leigh disease
+D012236 - rhodanine
+D013812 - therapeutics
+D014197 - trees
+D014218 - triage
+D018673 - nutrition policy
+D019279 - resin cements
+D019300 - medical errors
+D019468 - disease management
+D030401 - cytochrome-c oxidase deficiency
+D054388 - receptors, ccr
+D054390 - receptors, ccr2
+D000081415 - clinical decision rules
+D010940 - plant proteins
+D013647 - task performance and analysis
+D016431 - guideline
+D017629 - gap junctions
+---------------------------------------------------------
+Number of Original MeSH Terms: 9
+Number of UMLS Generated MeSH Terms: 20
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 4
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011686/4/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011686/4/keywords
+---------------------------------------------------------
+Keywords: 
+neonate
+newborn
+new born
+Pediatric
+paediatric
+peadiatric
+Child
+infant
+baby
+babies
+toddler
+adolescen
+juvenile
+youth
+teen
+preteen
+---------------------------------------------------------
+Original Mesh Terms: 
+D010372 - pediatrics
+D002648 - child
+D007223 - infant
+D000293 - adolescent
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007223 - infant
+D000293 - adolescent
+D007231 - infant, newborn
+D000080362 - stargardt disease
+D002648 - child
+D010372 - pediatrics
+D011253 - pregnancy in adolescence
+D013978 - tibial fractures
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 8
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 3
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011686/3/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011686/3/keywords
+---------------------------------------------------------
+Keywords: 
+clear
+Cervical spine
+c spine
+cervical
+trauma
+injur
+fracture
+sublux
+dislocata
+avuls
+instab
+Spinal cord injury without radiographic abnormality
+SCIWORA
+---------------------------------------------------------
+Original Mesh Terms: 
+D002574 - cervical vertebrae
+D019838 - neck injuries
+D013124 - spinal injuries
+D013119 - spinal cord injuries
+D016103 - spinal fractures
+---------------------------------------------------------
+Generated MeSH Terms: 
+D003274 - contraceptive devices, female
+D014047 - tolnaftate
+D014947 - wounds and injuries
+D050723 - fractures, bone
+D014082 - tooth fractures
+D001860 - bone plates
+D009278 - naphazoline
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD011686
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD011686/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD011686/2/keywords
+---------------------------------------------------------
+Keywords: 
+Imaging
+MRI
+X ray
+x ray
+xray
+radiogra
+roentgenografia
+CT
+Computed Tomography
+CAT scan
+neurolog
+physical
+clinical
+exam
+assess
+sign
+---------------------------------------------------------
+Original Mesh Terms: 
+D010808 - physical examination
+D009460 - neurologic examination
+D015599 - trauma severity indices
+D012720 - severity of illness index
+D014965 - x-rays
+D014054 - tomography
+D014055 - tomography, emission-computed
+D014056 - tomography, x-ray
+D008279 - magnetic resonance imaging
+D011859 - radiography
+---------------------------------------------------------
+Generated MeSH Terms: 
+D014965 - x-rays
+D003237 - connecticut
+D003952 - diagnostic imaging
+D008279 - magnetic resonance imaging
+D011859 - radiography
+D015928 - cognitive behavioral therapy
+---------------------------------------------------------
+Number of Original MeSH Terms: 10
+Number of UMLS Generated MeSH Terms: 6
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008759
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008759/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008759/1/keywords
+---------------------------------------------------------
+Keywords: 
+PLT
+PDW
+MPV
+platelet
+thrombocyt
+count
+distribution
+volume
+---------------------------------------------------------
+Original Mesh Terms: 
+D010976 - platelet count
+---------------------------------------------------------
+Generated MeSH Terms: 
+D007093 - imidazoles
+D001792 - blood platelets
+D001810 - blood volume
+D009943 - organophosphorus compounds
+D065227 - transfusion reaction
+D020926 - medetomidine
+D020927 - dexmedetomidine
+D007192 - indenes
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 8
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD008759
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD008759/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD008759/2/keywords
+---------------------------------------------------------
+Keywords: 
+splenomegal
+splenic
+spleen
+enlarg
+hypertroph
+length
+palpable
+size
+diamet
+index
+examin
+---------------------------------------------------------
+Original Mesh Terms: 
+D013163 - splenomegaly
+---------------------------------------------------------
+Generated MeSH Terms: 
+D013154 - spleen
+D000043 - abstracting and indexing
+D003996 - dicamba
+D008260 - macroglossia
+D008456 - 2-methyl-4-chlorophenoxyacetic acid
+D013163 - splenomegaly
+D016239 - medline
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 7
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010502
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010502/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010502/1/keywords
+---------------------------------------------------------
+Keywords: 
+tonsillitis
+sore throat
+pharyngitis
+lancefield group a
+gabhs
+group a
+streptococc
+tonsillopharyngitis
+pharyngotonsillitis
+strep
+throat
+pharyn
+tonsil
+beta hemolyse
+beta haemolysin
+infect
+inflam
+streptococcus pyogenes
+s. pyogenes
+s.pyogenes
+---------------------------------------------------------
+Original Mesh Terms: 
+D014069 - tonsillitis
+D010612 - pharyngitis
+D010614 - pharynx
+D013290 - streptococcal infections
+D013297 - streptococcus pyogenes
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001426 - bacterial proteins
+D003850 - deoxyribonuclease i
+D003851 - deoxyribonucleases
+D006026 - glycoside hydrolases
+D006461 - hemolysis
+D010612 - pharyngitis
+D010614 - pharynx
+D011135 - polysaccharides, bacterial
+D012214 - rheumatic heart disease
+D014066 - palatine tonsil
+D014069 - tonsillitis
+D037361 - adenylate cyclase toxin
+D013297 - streptococcus pyogenes
+---------------------------------------------------------
+Number of Original MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 13
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010502
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010502/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010502/2/keywords
+---------------------------------------------------------
+Keywords: 
+icon strep a
+link 2 strep a rapid test
+quickvue strep a
+immunochromatographic
+test pack strep a
+osom strep a
+acceava strep a
+poly stat strep a
+radt
+radts
+rdt
+rdts
+antigen
+detect
+enzyme
+immunoassay
+immuno assay
+immunosorbent
+rapid
+point of care
+near patient
+poc
+poct
+bedside
+test
+tests
+testing
+detect
+diagnos
+screen
+kit
+kits
+assay
+elisa
+elisas
+eia
+eias
+sandwich
+assay
+lateral flow
+assay
+optical
+oia
+oias
+---------------------------------------------------------
+Original Mesh Terms: 
+D002846 - chromatography, affinity
+D000942 - antigens, bacterial
+D004797 - enzyme-linked immunosorbent assay
+D011933 - reagent kits, diagnostic
+D007118 - immunoassay
+D007124 - immunoenzyme techniques
+D007163 - immunosorbent techniques
+D019095 - point-of-care systems
+---------------------------------------------------------
+Generated MeSH Terms: 
+D011135 - polysaccharides, bacterial
+D007118 - immunoassay
+D019095 - point-of-care systems
+D000971 - antineoplastic combined chemotherapy protocols
+D000644 - quaternary ammonium compounds
+D000941 - antigens
+D004798 - enzymes
+D011109 - polymethacrylic acids
+D018335 - rhabdoid tumor
+---------------------------------------------------------
+Number of Original MeSH Terms: 8
+Number of UMLS Generated MeSH Terms: 9
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010680
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010680/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010680/1/keywords
+---------------------------------------------------------
+Keywords: 
+AAI
+oscillometre
+ABPI
+ABI
+doppler
+ultrasound
+flow
+method
+device
+BP
+ankle
+four
+limbs
+pressure
+arm
+brachial
+index
+systolic
+ratio
+---------------------------------------------------------
+Original Mesh Terms: 
+D055109 - ankle brachial index
+D009991 - oscillometry
+D001795 - blood pressure determination
+D017078 - laser-doppler flowmetry
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001794 - blood pressure
+D000068196 - albumin-bound paclitaxel
+D000971 - antineoplastic combined chemotherapy protocols
+D001761 - bleomycin
+D001795 - blood pressure determination
+D002945 - cisplatin
+D004864 - equipment and supplies
+D008722 - methods
+D014463 - ultrasonography
+D014465 - ultrasonics
+D018608 - ultrasonography, doppler
+D019220 - high-energy shock waves
+---------------------------------------------------------
+Number of Original MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 12
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD010680
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD010680/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD010680/2/keywords
+---------------------------------------------------------
+Keywords: 
+CLI
+dysvascular
+arteriopathic
+atherosclero
+arteriosclerocirrhosis
+PVD
+PAOD
+PAD
+veno
+occlus
+steno
+obstruct
+lesio
+block
+oblitera
+arter
+leg
+limb
+vein
+peripher
+peripheral
+dis
+claudic
+hinken
+IC
+vascular
+lower
+extrem
+---------------------------------------------------------
+Original Mesh Terms: 
+D016491 - peripheral vascular diseases
+D001157 - arterial occlusive diseases
+D001161 - arteriosclerosis
+D050197 - atherosclerosis
+D058729 - peripheral arterial disease
+D007383 - intermittent claudication
+---------------------------------------------------------
+Generated MeSH Terms: 
+D001808 - blood vessels
+D002232 - carbocyanines
+D004289 - dolphins
+D005121 - extremities
+D007245 - inferior colliculi
+D007320 - inspiratory capacity
+D007866 - leg
+D009842 - oligopeptides
+D011668 - pulmonary veno-occlusive disease
+D011807 - quinolizines
+D012607 - scotoma
+D013845 - thienamycins
+D014680 - veins
+D016909 - tibial arteries
+D017202 - myocardial ischemia
+D018832 - molecular chaperones
+D018856 - cystitis, interstitial
+D020670 - islands of calleja
+D029968 - escherichia coli proteins
+D056727 - endangered species
+D058729 - peripheral arterial disease
+D013449 - sulfonamides
+D061350 - sympatry
+D020255 - vitreous detachment
+D006654 - histology, comparative
+D016332 - fetal tissue transplantation
+D013350 - subclavian vein
+D000563 - amebicides
+D000079763 - intermittent renal replacement therapy
+D008642 - mesenteric veins
+D009145 - mushroom poisoning
+D016491 - peripheral vascular diseases
+D018987 - salivary ducts
+D051152 - clusterin
+---------------------------------------------------------
+Number of Original MeSH Terms: 6
+Number of UMLS Generated MeSH Terms: 34
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012179
+Sub-Clause: 1
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012179/1/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012179/1/keywords
+---------------------------------------------------------
+Keywords: 
+Laboratory Test
+urinary VDBP corrected for creatinine expression
+MMP
+proteomic
+cytokeratin 19
+Total complement level
+Autoantibodies
+estrogen receptor
+Anti thyroid
+Anti LDL
+MTMMP
+urinary peptide
+cyr61
+microRNA
+cytokine
+serum marker
+Integrin
+Anti endometrial
+inflammatory marker
+progesterone receptor
+serum placental protein
+sICAM
+Immune cells alteration
+interleukin
+Selectin
+genomic
+urinary marker
+Osteopontin
+Proteolytic enzyme
+soluble intercellular adhesion
+cell adhesion molecule
+sVCAM
+matrix metalloproteinase
+TIMP
+Anti laminin 1
+Follistatin
+Aromatase P450
+growth factor
+hepatocyte growth factor
+Endometrial marker
+CAMs
+Anti Thomsen Friedenreich antigen
+microarray
+VDBP Cr
+scatter factor
+Soluble adhesion molecule
+Anti transferrin
+Fas ligand
+cell surface marker
+leptin
+Antiphospholipid
+Cadherin
+cysteine rich heparin binding protein
+neural marker
+EGF
+epidermal growth factor
+MCP I
+monocyte chemoattractant protein I
+Annexin 1
+Annexin1
+FGF
+fibroblast growth factor
+HLA
+human leucocyte antigen
+endometri
+biops
+EGFR
+epidermal growth factor receptor
+VEGF
+vascular endothelial growth factor
+Ca 19 9
+Ca19 9
+cancer antigen 19 9
+ANXA 1
+ANXA1
+Luteinizing Hormone
+LH
+Ca 125
+Ca125
+cancer antigen 125
+biomarker
+marker
+PDGF
+platelet derived growth factor
+MIF
+migration inhibitory factor
+VDBP
+vitamin D binding protein
+sEselectin
+soluble E selectin
+Anti 2HSG
+Heremans Schmidt glycoprotein
+TGF b
+transforming growth factor beta
+TGFb
+TNF a
+tumour necrosis factor
+IGF I
+insulin like growth factor
+IGF1
+T helper
+T supressor
+T helper
+TGF a
+transforming growth factor alfa
+TGFa
+PP 14
+PP14
+sEcadherin
+soluble E cadherin
+PGP 9
+PGP9
+protein gene product
+---------------------------------------------------------
+Original Mesh Terms: 
+D007986 - luteinizing hormone
+D011374 - progesterone
+D020781 - matrix metalloproteinase 1
+D020778 - matrix metalloproteinase 2
+D019278 - matrix metalloproteinase 3
+D020780 - matrix metalloproteinase 9
+D019715 - tissue inhibitor of metalloproteinase-1
+D019716 - tissue inhibitor of metalloproteinase-2
+D006023 - glycoproteins
+D038681 - follistatin
+D018799 - intercellular adhesion molecule-1
+D019087 - selectins
+D013601 - t-lymphocytes
+D055611 - natural killer t-cells
+D006680 - hla antigens
+D015788 - hla-a1 antigen
+D015789 - hla-a2 antigen
+D016023 - integrins
+D055515 - cysteine-rich protein 61
+D042461 - vascular endothelial growth factor a
+D014809 - vitamin d-binding protein
+D016207 - cytokines
+D007378 - interleukins
+D007375 - interleukin-1
+D015850 - interleukin-6
+D016209 - interleukin-8
+D018664 - interleukin-12
+D018793 - interleukin-13
+D004815 - epidermal growth factor
+D005346 - fibroblast growth factors
+D010982 - platelet-derived growth factor
+D053539 - keratin-19
+D019411 - clinical laboratory techniques
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D015415 - biomarkers
+D018394 - ca-125 antigen
+D015820 - cadherins
+D005346 - fibroblast growth factors
+D005819 - genetic markers
+D006377 - t-lymphocytes, helper-inducer
+D007334 - insulin-like growth factor i
+D010982 - platelet-derived growth factor
+D014809 - vitamin d-binding protein
+D015815 - cell adhesion molecules
+D017305 - annexin a1
+D018395 - ca-19-9 antigen
+D018719 - receptor, erbb-2
+D053779 - latent tgf-beta binding proteins
+D053782 - transforming growth factor beta3
+D055515 - cysteine-rich protein 61
+D011993 - recombinant fusion proteins
+D010446 - peptide fragments
+D006020 - glycopeptides
+D061067 - antibodies, monoclonal, humanized
+D053505 - matrix metalloproteinases, secreted
+D016211 - transforming growth factor alpha
+D000906 - antibodies
+D000949 - histocompatibility antigens class ii
+D001141 - aromatase
+D001323 - autoantibodies
+D004815 - epidermal growth factor
+D006023 - glycoproteins
+D006680 - hla antigens
+D007026 - hypothalamic area, lateral
+D007378 - interleukins
+D007797 - laminin
+D007986 - luteinizing hormone
+D008077 - lipoproteins, ldl
+D008565 - membrane proteins
+D010447 - peptide hydrolases
+D010455 - peptides
+D011257 - pregnancy proteins
+D011980 - receptors, progesterone
+D012697 - serine endopeptidases
+D013737 - testis
+D015234 - hla-a antigens
+D015941 - complement hemolytic activity assay
+D016023 - integrins
+D016207 - cytokines
+D016228 - endothelial growth factors
+D016736 - antiphospholipid syndrome
+D018945 - monocyte chemoattractant proteins
+D018997 - chorionic gonadotropin, beta subunit, human
+D019087 - selectins
+D019714 - tissue inhibitor of metalloproteinases
+D020738 - leptin
+D020782 - matrix metalloproteinases
+D020794 - receptor protein-tyrosine kinases
+D023281 - genomics
+D035683 - micrornas
+D036341 - intercellular signaling peptides and proteins
+D038681 - follistatin
+D040901 - proteomics
+D042442 - vascular endothelial growth factors
+D042461 - vascular endothelial growth factor a
+D046888 - tissue array analysis
+D047628 - estrogen receptor alpha
+D053222 - fas ligand protein
+D053495 - osteopontin
+D053539 - keratin-19
+D057127 - single-chain antibodies
+D058490 - disorder of sex development, 46,xy
+D066246 - erbb receptors
+---------------------------------------------------------
+Number of Original MeSH Terms: 34
+Number of UMLS Generated MeSH Terms: 69
+---------------------------------------------------------
+---------------------------------------------------------
+Topic: CD012179
+Sub-Clause: 2
+Original MeSH Path: data/clef_tar_processed/2018/testing/CD012179/2/mesh
+Keyword Path: data/clef_tar_processed/2018/testing/CD012179/2/keywords
+---------------------------------------------------------
+Keywords: 
+Endometrio
+---------------------------------------------------------
+Original Mesh Terms: 
+D004715 - endometriosis
+---------------------------------------------------------
+Generated MeSH Terms: 
+D004717 - endometrium
+---------------------------------------------------------
+Number of Original MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 1
+---------------------------------------------------------
+---------------------------------------------------------
+Total Sub-Clauses: 72
+Total Original MeSH Terms: 349
+Total Generated MeSH Terms: 685
+=========================================================
