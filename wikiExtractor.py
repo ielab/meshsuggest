@@ -23,5 +23,13 @@ def extractWikiContent(meshJSON):
             if NOT_FOUND in textInB:
                 continue
             else:
-                bodyContent = soup.find('div', 'mw-body')
-                print(bodyContent)
+                for script in soup('script'):
+                    script.decompose()
+                for style in soup('style'):
+                    style.decompose()
+                for link in soup('link'):
+                    link.decompose()
+                for meta in soup('meta'):
+                    meta.decompose()
+
+                print(soup.get_text(" ", strip=True))
