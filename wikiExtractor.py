@@ -46,6 +46,8 @@ def extractWikiContent(meshJSON):
                     nav.decompose()
                 for h in soup('div', 'body'):
                     h.decompose()
+                for ref in soup('div', 'reflist'):
+                    ref.decompose()
                 print(soup.get_text(" ", strip=True))
                 # text = {
                 #     "text": soup.get_text(' ', strip=True)

@@ -176,8 +176,8 @@ def main():
                                       "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
                             keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords", "r")
                             meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
-                            generatedMeshs, cleanedOriMeshs = getMetaMeshTerms(path, keywordF, meshF, num)
-                            createMetaResFile(path, d, dd, generatedMeshs, num)
+                            generatedMeshs, objRet, cleanedOriMeshs = getMetaMeshTerms(path, keywordF, meshF, num)
+                            createMetaResFile(path, d, dd, objRet, num)
                             newQuery = generateNewMetaQuery(path + "/" + d + "/" + dd, generatedMeshs)
                             if fullNewMetaQuery is "":
                                 fullNewMetaQuery = newQuery
@@ -241,8 +241,8 @@ def main():
                                       "Keyword Path: " + path + "/" + d + "/" + dd + "/" + "keywords" + "\n")
                             keywordF = open(path + "/" + d + "/" + dd + "/" + "keywords", "r")
                             meshF = open(path + "/" + d + "/" + dd + "/" + "mesh", "r")
-                            generatedMeshs, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF, num)
-                            createUMLSResFile(path, d, dd, generatedMeshs, num)
+                            generatedMeshs, objRet, cleanedOriMeshs = getUMLSMeshTerms(path, keywordF, meshF, num)
+                            createUMLSResFile(path, d, dd, objRet, num)
                             newQuery = generateNewUMLSQuery(path + "/" + d + "/" + dd, generatedMeshs)
                             if fullNewUMLSQuery is "":
                                 fullNewUMLSQuery = newQuery

@@ -38,7 +38,7 @@ def getMetaMeshTerms(path, keywordsF, meshF, num):
     for i in objRet:
         writeFile(path, "meta_progress_" + num, i["uid"] + " - " + i["term"] + "\n")
     writeFile(path, "meta_progress_" + num, LINEBREAK)
-    return generatedMeshs, res
+    return generatedMeshs, objRet, res
 
 
 def requestMetaMeshs(keywords, num):
@@ -153,6 +153,7 @@ def processCutoffMeshs(keywords, num):
             tempTotal += float(z["score"])
             if tempTotal <= cutoffScore:
                 cutoffList.append(z)
+        cutoffList.sort(key=lambda x: x["score"], reverse=False)
         for each in cutoffList:
             mh.append(each["term"])
         return mh, cutoffList
@@ -291,9 +292,9 @@ def createMetaResFile(path, d, dd, generatedMesh, num):
     resFile = open(path + "/" + "meta_" + num + ".res", "a+")
     count = 1
     for mesh in generatedMesh:
-        obj = next((x for x in MESHINFO if x["term"] == mesh or mesh in x["entry_list"]), None)
+        obj = next((x for x in MESHINFO if x["term"] == mesh["term"] or mesh["term"] in x["entry_list"]), None)
         line = d + "_" + dd + "    " + "0" + "    " + obj["uid"] + "    " + str(
-            count) + "    " + "0.00" + "    " + path + "\n"
+            count) + "    " + str(mesh["score"]) + "    " + path + "\n"
         resFile.write(line)
         count += 1
 
