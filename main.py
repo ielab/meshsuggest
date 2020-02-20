@@ -1,5 +1,6 @@
 from umls_helper import *
 from generator import *
+from wikiExtractor import *
 import os
 
 # 2017 DATASET
@@ -54,7 +55,7 @@ def main():
     print("1. Run ATM Method And Generate Res Files")
     print("2. Run MetaMap Method And Generate Res Files")
     print("3. Run UMLS Method And Generate Res Files")
-    print("4. Run Entity Retrieval Method And Generate Res Files")
+    print("4. Run Wiki Extractor")
     print("5. Get MetaMap And UMLS Responses File")
     print("6. Generate Qrels Files")
     print("7. Clean All Generated Files (Be Careful to Use This)")
@@ -271,7 +272,10 @@ def main():
             writeFile(path, "umls_result_" + num, ENDBLOCK)
             lineSeperator("=")
     elif option is "4":
-        print("Method Not Implemented Yet!")
+        meshDatabaseFile = open("mesh.json", "r")
+        meshDatabaseContent = meshDatabaseFile.read()
+        meshDatabaseJSON = json.loads(meshDatabaseContent)
+        extractWikiContent(meshDatabaseJSON)
     elif option is "5":
         for path in selectedPath:
             dirs = os.listdir(path)
