@@ -20,9 +20,11 @@ D022541 - streptococcal vaccines
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D014068 - tonsillectomy
+D000900 - anti-bacterial agents
+D000081164 - drug collateral sensitivity
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011571
@@ -42,11 +44,16 @@ Original Mesh Terms:
 D002986 - clinical trials as topic
 ---------------------------------------------------------
 Generated MeSH Terms: 
-D000081262 - randomized controlled trial, veterinary
 D016032 - randomized controlled trials as topic
+D018848 - controlled clinical trial
+D000081262 - randomized controlled trial, veterinary
+D010919 - placebos
+D032621 - dna shuffling
+D011897 - random allocation
+D065228 - non-randomized controlled trials as topic
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -69,9 +76,12 @@ D012536 - scalp dermatoses
 Generated MeSH Terms: 
 D063807 - dandruff
 D007617 - kaposi varicelliform eruption
+D012628 - dermatitis, seborrheic
+D012535 - scalp
+D010915 - pityriasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -90,9 +100,11 @@ D002675 - child, preschool
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D002648 - child
+D007223 - infant
+D009724 - nurseries, infant
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012930
@@ -122,9 +134,13 @@ D029424 - pulmonary disease, chronic obstructive
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D029424 - pulmonary disease, chronic obstructive
+D008168 - lung
+D004646 - emphysema
+D011656 - pulmonary emphysema
+D016657 - cerebral amyloid angiopathy
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012930
@@ -146,9 +162,12 @@ D002986 - clinical trials as topic
 Generated MeSH Terms: 
 D032621 - dna shuffling
 D010919 - placebos
+D016032 - randomized controlled trials as topic
+D011897 - random allocation
+D057194 - intention to treat analysis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005253
@@ -190,9 +209,15 @@ D004105 - diiodotyrosine
 D014284 - triiodothyronine
 D011988 - receptors, thyroid hormone
 D007455 - iodine
+D007454 - iodides
+D006728 - hormones
+D013961 - thyroid gland
+D013962 - thyroid (usp)
+D003918 - dextrothyroxine
+D007470 - monoiodotyrosine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of UMLS Generated MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005253
@@ -234,11 +259,17 @@ D047928 - premature birth
 Generated MeSH Terms: 
 D019102 - infant, very low birth weight
 D007223 - infant
+D001539 - bendroflumethiazide
+D007231 - infant, newborn
+D061213 - mortality, premature
+D036801 - parturition
 D001724 - birth weight
 D007230 - infant, low birth weight
+D046768 - nesidioblastosis
+D040343 - behavioral risk factor surveillance system
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -274,9 +305,13 @@ D012164 - retinal diseases
 D002829 - choroid
 D018919 - neovascularization, physiologic
 D008266 - macula lutea
+D006573 - heterocyclic compounds, 1-ring
+D000971 - antineoplastic combined chemotherapy protocols
+D003520 - cyclophosphamide
+D008942 - mitoxantrone
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 7
+Number of UMLS Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -312,9 +347,16 @@ Generated MeSH Terms:
 D011993 - recombinant fusion proteins
 D000069579 - ranibizumab
 D040262 - receptors, vascular endothelial growth factor
+D052157 - aptamers, nucleotide
+D000068258 - bevacizumab
+D001241 - aspirin
+D004338 - drug combinations
+D019802 - succinic acid
+D042461 - vascular endothelial growth factor a
+D042442 - vascular endothelial growth factors
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of UMLS Generated MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -342,9 +384,12 @@ D005193 - family planning services
 Generated MeSH Terms: 
 D044363 - contraception, postcoital
 D017280 - condoms
+D005193 - family planning services
+D042121 - contraception, barrier
+D011091 - polyesters
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -366,9 +411,11 @@ D060756 - social networking
 D061108 - social media
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D061108 - social media
+D060756 - social networking
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010019
@@ -410,9 +457,18 @@ D005047 - etoposide
 D010568 - peru
 D011655 - pulmonary embolism
 D010714 - phosphatidylethanolamines
+D015251 - epirubicin
+D020246 - venous thrombosis
+D012821 - silanes
+D013927 - thrombosis
+D011697 - purpura, thrombotic thrombocytopenic
+D016306 - vena cava filters
+D013350 - subclavian vein
+D008642 - mesenteric veins
+D020767 - intracranial thrombosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 10
+Number of UMLS Generated MeSH Terms: 19
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010019
@@ -441,9 +497,11 @@ D010044 - outpatient clinics, hospital
 D007297 - inpatients
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007297 - inpatients
+D010045 - outpatients
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012120
@@ -461,9 +519,11 @@ D009134 - muscular atrophy, spinal
 D020966 - muscular disorders, atrophic
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D014897 - spinal muscular atrophies of childhood
+D049310 - distal myopathies
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012120
@@ -554,9 +614,16 @@ D003733 - dental caries susceptibility
 D004245 - dmf index
 D014100 - toothpastes
 D009824 - ointments
+D003731 - dental caries
+D017213 - root caries
+D003732 - dental caries activity tests
+D000069462 - dimethyl fumarate
+D000971 - antineoplastic combined chemotherapy protocols
+D004317 - doxorubicin
+D005472 - fluorouracil
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007868
@@ -583,19 +650,37 @@ D002327 - cariostatic agents
 D003802 - dentifrices
 ---------------------------------------------------------
 Generated MeSH Terms: 
-D000971 - antineoplastic combined chemotherapy protocols
-D005472 - fluorouracil
 D005461 - fluorine
 D005956 - glucose-6-phosphate isomerase
 D000249 - adenosine monophosphate
+D000971 - antineoplastic combined chemotherapy protocols
+D005472 - fluorouracil
 D000634 - aminoquinolines
 D013844 - thiazoles
 D002868 - chromosomal proteins, non-histone
 D029681 - arabidopsis proteins
 D013644 - tartrates
+D001388 - aziridines
+D009256 - nafoxidine
+D008558 - melphalan
+D017258 - medroxyprogesterone acetate
+D005469 - fluorometholone
+D017971 - tin compounds
+D000588 - amines
+D009284 - naphthols
+D011725 - pyridines
+D011810 - quinoxalines
+D004338 - drug combinations
+D005460 - fluorides, topical
+D011140 - polyurethanes
+D012821 - silanes
+D019793 - fluorescein
+D004317 - doxorubicin
+D008727 - methotrexate
+D002839 - chromans
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of UMLS Generated MeSH Terms: 10
+Number of UMLS Generated MeSH Terms: 28
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012347
@@ -730,7 +815,6 @@ D001523 - mental disorders
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D001714 - bipolar disorder
-D015673 - fatigue syndrome, chronic
 D001068 - feeding and eating disorders
 D000855 - anorexia
 D002032 - bulimia
@@ -742,9 +826,14 @@ D000275 - adjustment disorders
 D001008 - anxiety disorders
 D019280 - branchio-oto-renal syndrome
 D009155 - mutism
+D006998 - hypochondriasis
+D009440 - neurasthenia
+D015673 - fatigue syndrome, chronic
+D059445 - anhedonia
+D001523 - mental disorders
 ---------------------------------------------------------
 Number of Original MeSH Terms: 67
-Number of UMLS Generated MeSH Terms: 13
+Number of UMLS Generated MeSH Terms: 17
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012164
@@ -771,9 +860,12 @@ D007871 - leg ulcer
 Generated MeSH Terms: 
 D016523 - foot ulcer
 D014647 - varicose ulcer
+D014456 - ulcer
+D007866 - leg
+D005528 - foot
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012164
@@ -803,9 +895,11 @@ D014680 - veins
 D007866 - leg
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008026 - ligation
+D017115 - catheter ablation
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -867,9 +961,12 @@ Generated MeSH Terms:
 D007297 - inpatients
 D007204 - indium
 D006761 - hospitals
+D010361 - patients
+D012307 - risk factors
+D010360 - patient transfer
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -923,9 +1020,12 @@ D013284 - stomatognathic system
 D004064 - digestive system
 D016731 - erythema infectiosum
 D019966 - substance-related disorders
+D020000 - decision support systems, clinical
+D008052 - lipid metabolism, inborn errors
+D009135 - muscular diseases
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of UMLS Generated MeSH Terms: 11
+Number of UMLS Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -1098,9 +1198,17 @@ Generated MeSH Terms:
 D010426 - pentosan sulfuric polyester
 D003911 - dextrans
 D004492 - edetic acid
+D010644 - phenprocoumon
+D017985 - dalteparin
+D017984 - enoxaparin
+D010630 - phenindione
+D014859 - warfarin
+D005017 - ethyl biscoumacetate
+D000074 - acenocoumarol
+D000721 - ancrod
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1120,9 +1228,10 @@ D006973 - hypertension
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D006843 - hydrocarbons, chlorinated
+D001794 - blood pressure
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1157,9 +1266,14 @@ Generated MeSH Terms:
 D011799 - quinazolines
 D011224 - prazosin
 D014404 - tubulin
+D000621 - aminoisobutyric acids
+D049030 - dystroglycans
+D017292 - doxazosin
+D007211 - indoles
+D000077409 - tamsulosin
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1267,9 +1381,12 @@ Original Mesh Terms:
 D000319 - adrenergic beta-antagonists
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D011412 - propanolamines
+D004983 - ethanolamines
+D010869 - pindolol
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1354,9 +1471,13 @@ D009943 - organophosphorus compounds
 D007189 - indans
 D004656 - enalapril
 D015773 - enalaprilat
+D017328 - fosinopril
+D013841 - thiazepines
+D000077583 - quinapril
+D017257 - ramipril
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 9
+Number of UMLS Generated MeSH Terms: 13
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1378,9 +1499,10 @@ D009798 - ocular hypertension
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D009798 - ocular hypertension
+D011225 - pre-eclampsia
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1423,9 +1545,12 @@ D049994 - sodium potassium chloride symporter inhibitors
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D002752 - chlorthalidone
+D007190 - indapamide
+D049994 - sodium potassium chloride symporter inhibitors
+D000074182 - aaa domain
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1493,9 +1618,13 @@ D002121 - calcium channel blockers
 Generated MeSH Terms: 
 D004095 - dihydropyridines
 D004110 - diltiazem
+D014700 - verapamil
+D009543 - nifedipine
+D017311 - amlodipine
+D001537 - bencyclane
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1524,9 +1653,14 @@ Generated MeSH Terms:
 D000577 - amides
 D005650 - fumarates
 D007093 - imidazoles
+D004151 - dipeptides
+D009842 - oligopeptides
+D009025 - morpholines
+D010879 - piperazines
+D013844 - thiazoles
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 3
+Number of UMLS Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1563,9 +1697,13 @@ D057911 - angiotensin receptor antagonists
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D013777 - tetrazoles
+D007093 - imidazoles
+D001562 - benzimidazoles
+D013876 - thiophenes
+D000809 - angiotensins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1675,9 +1813,13 @@ D006830 - hydralazine
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D003000 - clonidine
+D008750 - methyldopa
+D006830 - hydralazine
+D004295 - dihydroxyphenylalanine
+D012110 - reserpine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -1704,9 +1846,13 @@ D007480 - iopanoic acid
 D059807 - s phase cell cycle checkpoints
 D005123 - eye
 D006973 - hypertension
+D011030 - pneumothorax
+D002560 - cerebrovascular circulation
+D000067074 - peer influence
+D010618 - phenanthrolines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -1750,9 +1896,25 @@ D009422 - nervous system diseases
 D012162 - retinal degeneration
 D013036 - spasms, infantile
 D040181 - genetic diseases, x-linked
+D053844 - lasers, solid-state
+D010087 - oxides
+D005726 - ganglia, parasympathetic
+D014463 - ultrasonography
+D002118 - calcium
+D002119 - calcium carbonate
+D012429 - ruthenium radioisotopes
+D001128 - argon
+D054023 - lasers, semiconductor
+D009354 - neodymium
+D053802 - tryptases
+D002396 - catechols
+D009942 - organometallic compounds
+D008727 - methotrexate
+D000071557 - beta-arrestins
+D017646 - organosilicon compounds
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 7
+Number of UMLS Generated MeSH Terms: 23
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -1769,9 +1931,10 @@ D008028 - light coagulation
 D007834 - lasers
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007834 - lasers
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010526
@@ -1803,10 +1966,15 @@ D003736 - dental cavity lining
 D015034 - zinc oxide
 D000180 - acrylic resins
 D012822 - silicon dioxide
+D002133 - calcium sulfate
 D003738 - dental cements
+D003742 - dental devices, home care
+D011145 - polyvinyls
+D019279 - resin cements
+D005899 - glass ionomer cements
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -1827,9 +1995,11 @@ D014463 - ultrasonography
 Generated MeSH Terms: 
 D014463 - ultrasonography
 D019220 - high-energy shock waves
+D014465 - ultrasonics
+D006379 - helping behavior
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -1852,9 +2022,13 @@ D007223 - infant
 Generated MeSH Terms: 
 D002648 - child
 D007223 - infant
+D043262 - ribonuclease p
+D013373 - substance p
+D000814 - aniline compounds
+D009724 - nurseries, infant
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -1876,9 +2050,11 @@ D000775 - anesthesia, spinal
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D060525 - pudendal nerve
+D002087 - butyrates
+D014321 - trochlear nerve
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -1896,9 +2072,11 @@ D002813 - chondrosarcoma
 D002812 - chondroma
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D002812 - chondroma
+D002813 - chondrosarcoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -1917,9 +2095,10 @@ D013502 - general surgery
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D013514 - surgical procedures, operative
+D013502 - general surgery
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 1
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -1946,9 +2125,17 @@ D017679 - cryotherapy
 D059807 - s phase cell cycle checkpoints
 D019800 - phenol
 D010636 - phenols
+D000431 - ethanol
+D020366 - methylmethacrylate
+D019904 - polymethyl methacrylate
+D005899 - glass ionomer cements
+D004338 - drug combinations
+D005290 - ferric compounds
+D017967 - zinc compounds
+D002368 - castor oil
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 13
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010355
@@ -1969,9 +2156,10 @@ Original Mesh Terms:
 D011175 - positive-pressure respiration
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007385 - intermittent positive-pressure ventilation
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010355
@@ -2012,9 +2200,12 @@ D016649 - primary ovarian insufficiency
 Generated MeSH Terms: 
 D010062 - ovulation induction
 D006863 - hydrogen-ion concentration
+D010827 - physiology
+D005298 - fertility
+D001723 - birth rate
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 2
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -2032,9 +2223,10 @@ Original Mesh Terms:
 D007987 - gonadotropin-releasing hormone
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007987 - gonadotropin-releasing hormone
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -2052,12 +2244,13 @@ D000971 - antineoplastic combined chemotherapy protocols
 D000970 - antineoplastic agents
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D006059 - gonadal dysgenesis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 0
+Number of UMLS Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Total Sub-Clauses: 342
 Total Original MeSH Terms: 200
-Total Generated MeSH Terms: 150
+Total Generated MeSH Terms: 343
 =========================================================

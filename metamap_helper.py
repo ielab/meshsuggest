@@ -126,25 +126,41 @@ def processCutoffMeshs(keywords, num):
                 noDupObjs.append(t)
         if len(noDupObjs) > 0:
             runList.append(noDupObjs)
-    fusedList = performCombMNZ(runList)
-    totalScore = 0
-    for t in fusedList:
-        totalScore += float(t["score"])
-    cutoffList = []
-    mh = []
-    cutoff = float(num) / 100.00
-    cutoffScore = totalScore * cutoff
-    tempTotal = 0
-    for z in fusedList:
-        tempTotal += z["score"]
-        if tempTotal <= cutoffScore:
-            cutoffList.append(z)
-    for each in cutoffList:
-        mh.append(each["term"])
-    return mh, cutoffList
+    if len(runList) > 0:
+        fusedList = performCombSUM(runList)
+        totalScore = 0
+        fuseScoreList = []
+        for s in fusedList:
+            fuseScoreList.append(s["score"])
+        maxFusedScore = max(fuseScoreList)
+        invertedList = []
+        for fused in fusedList:
+            temp = {
+                "term": fused["term"],
+                "uid": fused["uid"],
+                "score": maxFusedScore - float(fused["score"])
+            }
+            invertedList.append(temp)
+        invertedList.sort(key=lambda x: x["score"], reverse=False)
+        for t in fusedList:
+            totalScore += float(t["score"])
+        cutoffList = []
+        mh = []
+        cutoff = float(num) / 100.00
+        cutoffScore = totalScore * cutoff
+        tempTotal = 0.00
+        for z in invertedList:
+            tempTotal += float(z["score"])
+            if tempTotal <= cutoffScore:
+                cutoffList.append(z)
+        for each in cutoffList:
+            mh.append(each["term"])
+        return mh, cutoffList
+    else:
+        return [], []
 
 
-def performCombMNZ(runList):
+def performCombSUM(runList):
     if len(runList) == 1:
         return runList[0]
     elif len(runList) > 1:
@@ -168,10 +184,10 @@ def performCombMNZ(runList):
             if len(each) == 1:
                 finalRes.append(each[0])
             else:
-                score = 0
+                score = 0.00
                 for e in each:
                     score += float(e["score"])
-                score = score * len(each)
+                # score = score * len(each)
                 line = {
                     "term": str(each[0]["term"]),
                     "uid": str(each[0]["uid"]),

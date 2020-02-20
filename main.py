@@ -2,6 +2,7 @@ from umls_helper import *
 from generator import *
 from wikiExtractor import *
 import os
+from threading import Thread
 
 # 2017 DATASET
 TEST_FOLDER_2017 = "data/clef_tar_processed/2017/testing"
@@ -161,9 +162,8 @@ def main():
                 if os.path.isdir(path + "/" + d):
                     innerD = os.listdir(path + "/" + d)
                     for x in innerD:
-                        if not os.path.isdir(path + "/" + d + "/" + x):
-                            innerD.remove(x)
-                    count += len(innerD)
+                        if os.path.isdir(path + "/" + d + "/" + x):
+                            count += 1
                     fullNewMetaQuery = ""
                     for dd in innerD:
                         if os.path.isdir(path + "/" + d + "/" + dd):
@@ -227,9 +227,8 @@ def main():
                 if os.path.isdir(path + "/" + d):
                     innerD = os.listdir(path + "/" + d)
                     for x in innerD:
-                        if not os.path.isdir(path + "/" + d + "/" + x):
-                            innerD.remove(x)
-                    count += len(innerD)
+                        if os.path.isdir(path + "/" + d + "/" + x):
+                            count += 1
                     fullNewUMLSQuery = ""
                     for dd in innerD:
                         if os.path.isdir(path + "/" + d + "/" + dd):
@@ -275,6 +274,13 @@ def main():
         meshDatabaseFile = open("mesh.json", "r")
         meshDatabaseContent = meshDatabaseFile.read()
         meshDatabaseJSON = json.loads(meshDatabaseContent)
+        # threads = []
+        # for i in range(len(meshDatabaseJSON)):
+        #     process = Thread(target=extractWikiContent, args=[meshDatabaseJSON])
+        #     process.start()
+        #     threads.append(process)
+        # for process in threads:
+        #     process.join()
         extractWikiContent(meshDatabaseJSON)
     elif option is "5":
         for path in selectedPath:
@@ -317,43 +323,59 @@ def main():
         print("Percentage (10 Means 10%) In MetaMap : ")
         print("(all: Used All; one: Top 1)")
         metaNum = input("Input: ")
-        meta = os.listdir("metamap_responses")
-        umls = os.listdir("umls_responses")
-        for each in meta:
-            os.remove("metamap_responses/" + each)
-        for u in umls:
-            os.remove("umls_responses/" + u)
+        # meta = os.listdir("metamap_responses")
+        # umls = os.listdir("umls_responses")
+        # for each in meta:
+        #     os.remove("metamap_responses/" + each)
+        # for u in umls:
+        #     os.remove("umls_responses/" + u)
         for path in selectedPath:
             dirs = os.listdir(path)
-            if os.path.isfile(path + "/" + "data.qrels"):
-                os.remove(path + "/" + "data.qrels")
-            if os.path.isfile(path + "/" + "atm.res"):
-                os.remove(path + "/" + "atm.res")
-            if os.path.isfile(path + "/" + "atm_progress"):
-                os.remove(path + "/" + "atm_progress")
-            if os.path.isfile(path + "/" + "atm_result"):
-                os.remove(path + "/" + "atm_result")
+            # if os.path.isfile(path + "/" + "data.qrels"):
+            #     os.remove(path + "/" + "data.qrels")
+            # if os.path.isfile(path + "/" + "atm.res"):
+            #     os.remove(path + "/" + "atm.res")
+            # if os.path.isfile(path + "/" + "atm_progress"):
+            #     os.remove(path + "/" + "atm_progress")
+            # if os.path.isfile(path + "/" + "atm_result"):
+            #     os.remove(path + "/" + "atm_result")
             if os.path.isfile(path + "/" + "meta_" + metaNum + ".res"):
                 os.remove(path + "/" + "meta_" + metaNum + ".res")
+            if os.path.isfile(path + "/" + "meta_topK" + ".res"):
+                os.remove(path + "/" + "meta_topK" + ".res")
             if os.path.isfile(path + "/" + "meta_progress_" + metaNum):
                 os.remove(path + "/" + "meta_progress_" + metaNum)
+            if os.path.isfile(path + "/" + "meta_progress_topK"):
+                os.remove(path + "/" + "meta_progress_topK")
             if os.path.isfile(path + "/" + "meta_result_" + metaNum):
                 os.remove(path + "/" + "meta_result_" + metaNum)
+            if os.path.isfile(path + "/" + "meta_result_topK"):
+                os.remove(path + "/" + "meta_result_topK")
             if os.path.isfile(path + "/" + "umls_" + num + ".res"):
                 os.remove(path + "/" + "umls_" + num + ".res")
+            if os.path.isfile(path + "/" + "umls_topK" + ".res"):
+                os.remove(path + "/" + "umls_topk" + ".res")
             if os.path.isfile(path + "/" + "umls_result_" + num):
                 os.remove(path + "/" + "umls_result_" + num)
+            if os.path.isfile(path + "/" + "umls_result_topK"):
+                os.remove(path + "/" + "umls_result_topK")
             if os.path.isfile(path + "/" + "umls_progress_" + num):
                 os.remove(path + "/" + "umls_progress_" + num)
+            if os.path.isfile(path + "/" + "umls_progress_topK"):
+                os.remove(path + "/" + "umls_progress_topK")
             for d in dirs:
-                if os.path.isfile(path + "/" + d + "/" + "atm_result_query"):
-                    os.remove(path + "/" + d + "/" + "atm_result_query")
-                if os.path.isfile(path + "/" + d + "/" + "original_full_query"):
-                    os.remove(path + "/" + d + "/" + "original_full_query")
+                # if os.path.isfile(path + "/" + d + "/" + "atm_result_query"):
+                #     os.remove(path + "/" + d + "/" + "atm_result_query")
+                # if os.path.isfile(path + "/" + d + "/" + "original_full_query"):
+                #     os.remove(path + "/" + d + "/" + "original_full_query")
                 if os.path.isfile(path + "/" + d + "/" + "meta_result_query_" + metaNum):
                     os.remove(path + "/" + d + "/" + "meta_result_query_" + metaNum)
                 if os.path.isfile(path + "/" + d + "/" + "umls_result_query_" + num):
                     os.remove(path + "/" + d + "/" + "umls_result_query_" + num)
+                if os.path.isfile(path + "/" + d + "/" + "meta_result_query_topK"):
+                    os.remove(path + "/" + d + "/" + "meta_result_query_topK")
+                if os.path.isfile(path + "/" + d + "/" + "umls_result_query_topK"):
+                    os.remove(path + "/" + d + "/" + "umls_result_query_topK")
         print("Done")
     else:
         print("Invalid Selection.")

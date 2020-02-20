@@ -1,1 +1,1 @@
-(tuberculosis[Text Word] OR TB[Text Word])
+(tuberculosis[mesh] OR tuberculosis[Text Word] OR TB[Text Word])

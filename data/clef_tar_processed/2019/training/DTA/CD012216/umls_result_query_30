@@ -1,1 +1,1 @@
-(radioligand*[Title/Abstract])
+(radioimmunoassay[mesh] OR radioligand assay[mesh] OR radioligand*[Title/Abstract])

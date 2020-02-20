@@ -1,1 +1,0 @@
-(streptococc*[Title/Abstract] OR tonsillectomy[Title/Abstract] OR antibiotic*[Title/Abstract]) AND (controlled clinical trial[Publication Type] OR randomized[Title/Abstract] OR placebo[Title/Abstract] OR randomly[Title/Abstract] OR trial[Title] OR randomized controlled trial[Publication Type])

@@ -33,15 +33,16 @@ D003933 - diagnosis
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D013514 - surgical procedures, operative
-D012559 - schizophrenia
 D018942 - macrolides
 D003229 - conjunctival diseases
 D003316 - corneal diseases
 D003884 - dermoid cyst
 D010865 - pilot projects
+D012559 - schizophrenia
+D007174 - disruptive, impulse control, and conduct disorders
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010653
@@ -77,9 +78,10 @@ D002769 - cholelithiasis
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D042883 - choledocholithiasis
+D002769 - cholelithiasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011549
@@ -116,9 +118,10 @@ D014463 - ultrasonography
 D019220 - high-energy shock waves
 D014465 - ultrasonics
 D002760 - cholangiopancreatography, endoscopic retrograde
+D049448 - cholangiopancreatography, magnetic resonance
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009925
@@ -189,9 +192,11 @@ D015415 - biomarkers
 D014262 - tricuspid valve insufficiency
 D015203 - reproducibility of results
 D012016 - reference values
+D002823 - chorion
+D048208 - nuchal translucency measurement
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009925
@@ -214,9 +219,10 @@ D009030 - mosaicism
 Generated MeSH Terms: 
 D004314 - down syndrome
 D000782 - aneuploidy
+D009030 - mosaicism
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008803
@@ -269,9 +275,10 @@ D012165 - retinal ganglion cells
 D006843 - hydrocarbons, chlorinated
 D014785 - vision, ocular
 D012160 - retina
+D006257 - head
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 12
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008803
@@ -314,9 +321,10 @@ D020249 - hormone replacement therapy
 D014785 - vision, ocular
 D012160 - retina
 D011877 - radionuclide imaging
+D007834 - lasers
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011571
@@ -338,9 +346,10 @@ D022541 - streptococcal vaccines
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D014068 - tonsillectomy
+D000900 - anti-bacterial agents
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011571
@@ -362,9 +371,10 @@ D002986 - clinical trials as topic
 Generated MeSH Terms: 
 D011897 - random allocation
 D010919 - placebos
+D016032 - randomized controlled trials as topic
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009175
@@ -383,9 +393,10 @@ D018410 - pneumonia, bacterial
 D011019 - pneumonia, mycoplasma
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D009177 - mycoplasma pneumoniae
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009175
@@ -445,9 +456,10 @@ D007231 - infant, newborn
 D047928 - premature birth
 D012578 - schools, nursery
 D000293 - adolescent
+D008571 - men
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009175
@@ -494,9 +506,10 @@ D063806 - myalgia
 D003139 - common cold
 D005334 - fever
 D010612 - pharyngitis
+D012135 - respiratory sounds
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010864
@@ -517,9 +530,10 @@ D011655 - pulmonary embolism
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D008168 - lung
+D004983 - ethanolamines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010864
@@ -587,9 +601,11 @@ D005337 - fibrin
 D008694 - methamphetamine
 D004859 - equine infectious anemia
 D007124 - immunoenzyme techniques
+D007840 - latex
+D001681 - biological assay
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -613,9 +629,10 @@ Generated MeSH Terms:
 D004485 - eczema
 D012628 - dermatitis, seborrheic
 D046169 - dermoscopy
+D003872 - dermatitis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -634,9 +651,10 @@ D002675 - child, preschool
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D002648 - child
+D007223 - infant
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008054
@@ -691,9 +709,10 @@ D010284 - paratyphoid fever
 Generated MeSH Terms: 
 D014435 - typhoid fever
 D010284 - paratyphoid fever
+D019779 - salmonella enterica
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008892
@@ -747,9 +766,11 @@ D021141 - nucleic acid amplification techniques
 D000143 - acids
 D000071997 - blood culture
 D007124 - immunoenzyme techniques
+D015151 - immunoblotting
+D003933 - diagnosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012930
@@ -780,9 +801,10 @@ D029424 - pulmonary disease, chronic obstructive
 Generated MeSH Terms: 
 D029424 - pulmonary disease, chronic obstructive
 D008168 - lung
+D011656 - pulmonary emphysema
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012930
@@ -804,9 +826,10 @@ D002986 - clinical trials as topic
 Generated MeSH Terms: 
 D044382 - population groups
 D010919 - placebos
+D011897 - random allocation
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011548
@@ -825,9 +848,10 @@ D002769 - cholelithiasis
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D042883 - choledocholithiasis
+D002769 - cholelithiasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011548
@@ -864,9 +888,10 @@ D014463 - ultrasonography
 D019220 - high-energy shock waves
 D014465 - ultrasonics
 D002760 - cholangiopancreatography, endoscopic retrograde
+D049448 - cholangiopancreatography, magnetic resonance
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011926
@@ -883,7 +908,7 @@ Original Mesh Terms:
 D018805 - sepsis
 ---------------------------------------------------------
 Generated MeSH Terms: 
-D007231 - infant, newborn
+D016470 - bacteremia
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
 Number of MetaMap Generated MeSH Terms: 1
@@ -927,9 +952,10 @@ Generated MeSH Terms:
 D004386 - duodenum
 D010179 - pancreas
 D014670 - ampulla of vater
+D007421 - intestine, small
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009323
@@ -991,9 +1017,10 @@ D013514 - surgical procedures, operative
 D013502 - general surgery
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D013514 - surgical procedures, operative
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009519
@@ -1029,10 +1056,9 @@ D008168 - lung
 D002277 - carcinoma
 D000230 - adenocarcinoma
 D006394 - hemangiosarcoma
-D012509 - sarcoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009519
@@ -1074,9 +1100,10 @@ D018901 - peroxisomal disorders
 D015899 - tomography, emission-computed, single-photon
 D036341 - intercellular signaling peptides and proteins
 D013004 - somatostatin
+D015609 - organotechnetium compounds
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010296
@@ -1099,9 +1126,10 @@ D001014 - aortic aneurysm
 D001012 - aorta, abdominal
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D000783 - aneurysm
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010296
@@ -1137,10 +1165,9 @@ Generated MeSH Terms:
 D014463 - ultrasonography
 D019220 - high-energy shock waves
 D014465 - ultrasonics
-D011697 - purpura, thrombotic thrombocytopenic
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010296
@@ -1167,9 +1194,10 @@ D011475 - prosthesis failure
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D057867 - endoleak
+D011184 - postoperative period
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010296
@@ -1266,9 +1294,11 @@ D015415 - biomarkers
 D014262 - tricuspid valve insufficiency
 D015203 - reproducibility of results
 D012016 - reference values
+D002823 - chorion
+D048208 - nuchal translucency measurement
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011975
@@ -1291,9 +1321,10 @@ D009030 - mosaicism
 Generated MeSH Terms: 
 D004314 - down syndrome
 D000782 - aneuploidy
+D009030 - mosaicism
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011515
@@ -1343,9 +1374,10 @@ D014670 - ampulla of vater
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D014670 - ampulla of vater
+D007421 - intestine, small
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011515
@@ -1381,10 +1413,9 @@ D011877 - radionuclide imaging
 D004583 - electrons
 D018161 - receptors, mineralocorticoid
 D009682 - magnetic resonance spectroscopy
-D011522 - protons
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011515
@@ -1428,9 +1459,10 @@ D013514 - surgical procedures, operative
 D013502 - general surgery
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D013514 - surgical procedures, operative
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011515
@@ -1449,9 +1481,10 @@ D014463 - ultrasonography
 Generated MeSH Terms: 
 D014463 - ultrasonography
 D019220 - high-energy shock waves
+D014465 - ultrasonics
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008782
@@ -1527,9 +1560,11 @@ D016564 - amyloid beta-protein precursor
 D058227 - amyloidogenic proteins
 D009443 - neuritis
 D016501 - neurites
+D019581 - neuropil
+D009454 - neurofibrils
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 17
+Number of MetaMap Generated MeSH Terms: 19
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008782
@@ -1551,9 +1586,10 @@ D001812 - blood-brain barrier
 Generated MeSH Terms: 
 D002555 - cerebrospinal fluid
 D001769 - blood
+D010949 - plasma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008782
@@ -1587,9 +1623,10 @@ D000682 - amyloid
 D000686 - amyloidosis
 D058227 - amyloidogenic proteins
 D010455 - peptides
+D011506 - proteins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012216
@@ -1636,12 +1673,9 @@ D014463 - ultrasonography
 D019220 - high-energy shock waves
 D014465 - ultrasonics
 D000971 - antineoplastic combined chemotherapy protocols
-D003520 - cyclophosphamide
-D004317 - doxorubicin
-D005047 - etoposide
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012083
@@ -1664,9 +1698,10 @@ Original Mesh Terms:
 D007441 - intubation, gastrointestinal
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D013270 - stomach
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010386
@@ -1697,9 +1732,14 @@ D000814 - aniline compounds
 D013844 - thiazoles
 D008024 - ligands
 D049268 - positron-emission tomography
+D011877 - radionuclide imaging
+D000682 - amyloid
+D000686 - amyloidosis
+D016564 - amyloid beta-protein precursor
+D058227 - amyloidogenic proteins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 9
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010386
@@ -1765,9 +1805,10 @@ D008568 - memory
 D004194 - disease
 D000544 - alzheimer disease
 D020961 - lewy body disease
+D020192 - lafora disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008587
@@ -1812,9 +1853,10 @@ D002277 - carcinoma
 D000230 - adenocarcinoma
 D000081483 - squamous intraepithelial lesions
 D011522 - protons
+D003300 - copper
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008587
@@ -1850,9 +1892,10 @@ D005341 - fibrinolysin
 D000135 - acid phosphatase
 D014621 - vagina
 D009333 - neck
+D002584 - cervix uteri
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008587
@@ -1932,9 +1975,10 @@ D004105 - diiodotyrosine
 D007470 - monoiodotyrosine
 D013970 - thyronines
 D013974 - thyroxine
+D014284 - triiodothyronine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005253
@@ -1979,9 +2023,11 @@ D047928 - premature birth
 D007231 - infant, newborn
 D001724 - birth weight
 D007223 - infant
+D019102 - infant, very low birth weight
+D052577 - infant, extremely low birth weight
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012281
@@ -2157,52 +2203,9 @@ D014409 - tumor necrosis factor-alpha
 D007334 - insulin-like growth factor i
 D011994 - recombinant proteins
 D016211 - transforming growth factor alpha
-D003404 - creatinine
-D040901 - proteomics
-D053539 - keratin-19
-D003165 - complement system proteins
-D001323 - autoantibodies
-D011960 - receptors, estrogen
-D047628 - estrogen receptor alpha
-D013961 - thyroid gland
-D010455 - peptides
-D035683 - micrornas
-D016023 - integrins
-D011980 - receptors, progesterone
-D001798 - blood proteins
-D007378 - interleukins
-D019087 - selectins
-D016678 - genome
-D023281 - genomics
-D053495 - osteopontin
-D010447 - peptide hydrolases
-D000267 - tissue adhesions
-D007797 - laminin
-D038681 - follistatin
-D003577 - cytochrome p-450 enzyme system
-D065702 - cytochrome p-450 cyp2b6
-D000075927 - krit1 protein
-D015295 - antigens, tumor-associated, carbohydrate
-D064032 - calbindin 2
-D014168 - transferrin
-D053222 - fas ligand protein
-D020738 - leptin
-D002352 - carrier proteins
-D060588 - lim domain proteins
-D004815 - epidermal growth factor
-D007454 - iodides
-D018932 - chemokine ccl2
-D015395 - histocompatibility antigens class i
-D000949 - histocompatibility antigens class ii
-D006680 - hla antigens
-D007986 - luteinizing hormone
-D008097 - lithuania
-D008263 - macrophage migration-inhibitory factors
-D019746 - intramolecular oxidoreductases
-D014809 - vitamin d-binding protein
 ---------------------------------------------------------
 Number of Original MeSH Terms: 34
-Number of MetaMap Generated MeSH Terms: 59
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012281
@@ -2255,9 +2258,10 @@ D004386 - duodenum
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D014670 - ampulla of vater
+D007421 - intestine, small
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012009
@@ -2294,9 +2298,10 @@ Original Mesh Terms:
 D000681 - amylases
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D000681 - amylases
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012009
@@ -2336,9 +2341,10 @@ D014376 - tuberculosis
 D009169 - mycobacterium tuberculosis
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D014376 - tuberculosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010705
@@ -2360,9 +2366,10 @@ D009169 - mycobacterium tuberculosis
 Generated MeSH Terms: 
 D014376 - tuberculosis
 D018088 - tuberculosis, multidrug-resistant
+D054908 - extensively drug-resistant tuberculosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -2395,9 +2402,10 @@ D012160 - retina
 D002829 - choroid
 D008750 - methyldopa
 D008268 - macular degeneration
+D056915 - dna copy number variations
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -2439,9 +2447,11 @@ D001241 - aspirin
 D004338 - drug combinations
 D019802 - succinic acid
 D042442 - vascular endothelial growth factors
+D004727 - endothelium
+D006128 - growth
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010276
@@ -2487,12 +2497,9 @@ D004919 - erythroplasia
 D002277 - carcinoma
 D002273 - carcinogens
 D014456 - ulcer
-D008010 - lichen planus
-D007971 - leukoplakia
-D002177 - candidiasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010276
@@ -2604,11 +2611,9 @@ D014456 - ulcer
 D019342 - acetic acid
 D000085 - acetates
 D009055 - mouth
-D002434 - cefadroxil
-D000813 - anilides
 ---------------------------------------------------------
 Number of Original MeSH Terms: 18
-Number of MetaMap Generated MeSH Terms: 16
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010276
@@ -2676,12 +2681,9 @@ D014059 - tongue
 D009092 - mucous membrane
 D002277 - carcinoma
 D002273 - carcinogens
-D014456 - ulcer
-D008010 - lichen planus
-D007971 - leukoplakia
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -2710,9 +2712,10 @@ Generated MeSH Terms:
 D044363 - contraception, postcoital
 D005193 - family planning services
 D042121 - contraception, barrier
+D003270 - contraceptive agents
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -2735,9 +2738,10 @@ D061108 - social media
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D061108 - social media
+D060756 - social networking
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010019
@@ -2777,9 +2781,10 @@ D003022 - clotrimazole
 D004983 - ethanolamines
 D020246 - venous thrombosis
 D012821 - silanes
+D013923 - thromboembolism
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 9
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010019
@@ -2810,9 +2815,10 @@ D007297 - inpatients
 Generated MeSH Terms: 
 D007297 - inpatients
 D010045 - outpatients
+D010361 - patients
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012120
@@ -2898,9 +2904,10 @@ D013550 - swimming
 D006321 - heart
 D011209 - power, psychological
 D001835 - body weight
+D017770 - lifting
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 12
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010213
@@ -2938,9 +2945,10 @@ D050500 - pancreatitis, chronic
 D010181 - pancreatic cyst
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D010179 - pancreas
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010213
@@ -2959,9 +2967,10 @@ D014463 - ultrasonography
 Generated MeSH Terms: 
 D014463 - ultrasonography
 D019220 - high-energy shock waves
+D014465 - ultrasonics
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010213
@@ -3021,12 +3030,9 @@ D011877 - radionuclide imaging
 D002488 - central african republic
 D014057 - tomography, x-ray computed
 D004583 - electrons
-D018161 - receptors, mineralocorticoid
-D009682 - magnetic resonance spectroscopy
-D011522 - protons
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010213
@@ -3070,9 +3076,10 @@ D000058 - accidental falls
 Generated MeSH Terms: 
 D006664 - history
 D010808 - physical examination
+D014947 - wounds and injuries
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008643
@@ -3111,9 +3118,10 @@ Generated MeSH Terms:
 D001415 - back
 D008161 - lumbosacral region
 D012585 - sciatica
+D013131 - spine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008643
@@ -3169,9 +3177,10 @@ Generated MeSH Terms:
 D001416 - back pain
 D010146 - pain
 D017116 - low back pain
+D012585 - sciatica
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007868
@@ -3195,9 +3204,10 @@ D003733 - dental caries susceptibility
 Generated MeSH Terms: 
 D003731 - dental caries
 D000069462 - dimethyl fumarate
+D014100 - toothpastes
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007868
@@ -3225,9 +3235,10 @@ D003802 - dentifrices
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D005459 - fluorides
+D012969 - sodium fluoride
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008686
@@ -3249,9 +3260,10 @@ D010808 - physical examination
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D006664 - history
+D010808 - physical examination
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008686
@@ -3279,10 +3291,9 @@ Generated MeSH Terms:
 D009369 - neoplasms
 D002277 - carcinoma
 D012509 - sarcoma
-D000230 - adenocarcinoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008686
@@ -3321,9 +3332,10 @@ Generated MeSH Terms:
 D001415 - back
 D008161 - lumbosacral region
 D012585 - sciatica
+D013131 - spine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008686
@@ -3355,9 +3367,10 @@ Generated MeSH Terms:
 D001416 - back pain
 D010146 - pain
 D017116 - low back pain
+D012585 - sciatica
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012347
@@ -3504,9 +3517,10 @@ D006998 - hypochondriasis
 D009440 - neurasthenia
 D001523 - mental disorders
 D011618 - psychotic disorders
+D004194 - disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 67
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009593
@@ -3525,9 +3539,10 @@ D018088 - tuberculosis, multidrug-resistant
 D014376 - tuberculosis
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D014376 - tuberculosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009551
@@ -3554,9 +3569,10 @@ Generated MeSH Terms:
 D001228 - aspergillosis
 D001230 - aspergillus
 D001232 - aspergillus fumigatus
+D009548 - niger
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009551
@@ -3572,9 +3588,10 @@ Original Mesh Terms:
 D021141 - nucleic acid amplification techniques
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D016133 - polymerase chain reaction
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009135
@@ -3594,9 +3611,10 @@ D018314 - leishmania infantum
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D018314 - leishmania infantum
+D007898 - leishmaniasis, visceral
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009135
@@ -3631,10 +3649,9 @@ D000941 - antigens
 D012698 - serologic tests
 D004797 - enzyme-linked immunosorbent assay
 D018335 - rhabdoid tumor
-D003955 - diagnostic tests, routine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010438
@@ -3680,9 +3697,10 @@ Original Mesh Terms:
 D002097 - c-reactive protein
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D002097 - c-reactive protein
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009185
@@ -3703,9 +3721,10 @@ D011704 - pyelonephritis
 Generated MeSH Terms: 
 D014552 - urinary tract infections
 D011704 - pyelonephritis
+D006023 - glycoproteins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009185
@@ -3725,9 +3744,10 @@ D004113 - succimer
 D007668 - kidney
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D004113 - succimer
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009185
@@ -3744,9 +3764,10 @@ Original Mesh Terms:
 D001799 - blood sedimentation
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D001799 - blood sedimentation
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010632
@@ -3800,9 +3821,10 @@ D000071480 - apobec-3g deaminase
 D002066 - busulfan
 D007334 - insulin-like growth factor i
 D008568 - memory
+D004194 - disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010632
@@ -3820,9 +3842,10 @@ Original Mesh Terms:
 D003704 - dementia
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D000544 - alzheimer disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010632
@@ -3846,9 +3869,10 @@ D019788 - fluorodeoxyglucose f18
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D019788 - fluorodeoxyglucose f18
+D049268 - positron-emission tomography
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012165
@@ -4025,52 +4049,9 @@ D042442 - vascular endothelial growth factors
 D007334 - insulin-like growth factor i
 D011994 - recombinant proteins
 D016211 - transforming growth factor alpha
-D015295 - antigens, tumor-associated, carbohydrate
-D002352 - carrier proteins
-D060588 - lim domain proteins
-D001798 - blood proteins
-D003404 - creatinine
-D053539 - keratin-19
-D013961 - thyroid gland
-D019087 - selectins
-D011980 - receptors, progesterone
-D000267 - tissue adhesions
-D053495 - osteopontin
-D064032 - calbindin 2
-D035683 - micrornas
-D053222 - fas ligand protein
-D011960 - receptors, estrogen
-D047628 - estrogen receptor alpha
-D016678 - genome
-D023281 - genomics
-D010455 - peptides
-D007378 - interleukins
-D020738 - leptin
-D016023 - integrins
-D040901 - proteomics
-D000075927 - krit1 protein
-D003165 - complement system proteins
-D038681 - follistatin
-D010447 - peptide hydrolases
-D014168 - transferrin
-D007797 - laminin
-D001323 - autoantibodies
-D003577 - cytochrome p-450 enzyme system
-D065702 - cytochrome p-450 cyp2b6
-D048069 - tumor necrosis factors
-D010219 - papua new guinea
-D010191 - pancreatic polypeptide
-D011498 - protein precursors
-D014809 - vitamin d-binding protein
-D008263 - macrophage migration-inhibitory factors
-D019746 - intramolecular oxidoreductases
-D013002 - somatomedins
-D007454 - iodides
-D018932 - chemokine ccl2
-D006023 - glycoproteins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 35
-Number of MetaMap Generated MeSH Terms: 59
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012165
@@ -4155,9 +4136,10 @@ D016013 - likelihood functions
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D012680 - sensitivity and specificity
+D011336 - probability
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009372
@@ -4182,9 +4164,10 @@ D000792 - angiography
 D013382 - subtraction technique
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D001921 - brain
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009372
@@ -4227,9 +4210,10 @@ D001921 - brain
 D001479 - basal ganglia
 D020521 - stroke
 D011522 - protons
+D006470 - hemorrhage
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010409
@@ -4256,9 +4240,10 @@ D002294 - carcinoma, squamous cell
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D001808 - blood vessels
+D008196 - lymph
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010409
@@ -4359,9 +4344,11 @@ D008751 - methylene blue
 D012394 - rosaniline dyes
 D045423 - microbubbles
 D005720 - gamma rays
+D007150 - immunohistochemistry
+D011877 - radionuclide imaging
 ---------------------------------------------------------
 Number of Original MeSH Terms: 12
-Number of MetaMap Generated MeSH Terms: 15
+Number of MetaMap Generated MeSH Terms: 17
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010409
@@ -4417,9 +4404,10 @@ D014844 - vulva
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D002987 - clitoris
+D014844 - vulva
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009944
@@ -4444,9 +4432,10 @@ D018450 - disease progression
 Generated MeSH Terms: 
 D013270 - stomach
 D008196 - lymph
+D009362 - neoplasm metastasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009944
@@ -4472,9 +4461,10 @@ D019160 - endosonography
 Generated MeSH Terms: 
 D014463 - ultrasonography
 D014465 - ultrasonics
+D019220 - high-energy shock waves
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011984
@@ -4545,9 +4535,11 @@ D015415 - biomarkers
 D014262 - tricuspid valve insufficiency
 D015203 - reproducibility of results
 D012016 - reference values
+D002823 - chorion
+D048208 - nuchal translucency measurement
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011984
@@ -4570,9 +4562,10 @@ D009030 - mosaicism
 Generated MeSH Terms: 
 D004314 - down syndrome
 D000782 - aneuploidy
+D009030 - mosaicism
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010657
@@ -4606,9 +4599,10 @@ D013386 - succinates
 D019802 - succinic acid
 D014463 - ultrasonography
 D019220 - high-energy shock waves
+D014465 - ultrasonics
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010657
@@ -4670,9 +4664,10 @@ D002648 - child
 D002675 - child, preschool
 D000293 - adolescent
 D008571 - men
+D014930 - women
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010657
@@ -4689,9 +4684,10 @@ Original Mesh Terms:
 D014718 - vesico-ureteral reflux
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D014718 - vesico-ureteral reflux
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009579
@@ -4748,9 +4744,10 @@ D012548 - schistosoma haematobium
 D016482 - urinalysis
 D012550 - schistosoma mansoni
 D007202 - indicators and reagents
+D000941 - antigens
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009579
@@ -4769,9 +4766,10 @@ D012555 - schistosomiasis mansoni
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D012552 - schistosomiasis
+D012547 - schistosoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011912
@@ -4789,9 +4787,10 @@ D007231 - infant, newborn
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D007231 - infant, newborn
+D007223 - infant
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011912
@@ -4809,9 +4808,10 @@ Original Mesh Terms:
 D010092 - oximetry
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D006339 - heart rate
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011912
@@ -4913,9 +4913,11 @@ D015415 - biomarkers
 D014262 - tricuspid valve insufficiency
 D015203 - reproducibility of results
 D012016 - reference values
+D002823 - chorion
+D048208 - nuchal translucency measurement
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012599
@@ -4938,9 +4940,10 @@ D009030 - mosaicism
 Generated MeSH Terms: 
 D004314 - down syndrome
 D000782 - aneuploidy
+D009030 - mosaicism
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010633
@@ -4962,9 +4965,10 @@ D020961 - lewy body disease
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D020961 - lewy body disease
+D020192 - lafora disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010633
@@ -5004,9 +5008,10 @@ D059290 - dopaminergic neurons
 Generated MeSH Terms: 
 D003042 - cocaine
 D015899 - tomography, emission-computed, single-photon
+D014326 - tropanes
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012164
@@ -5035,9 +5040,10 @@ D014456 - ulcer
 D035002 - lower extremity
 D007866 - leg
 D014680 - veins
+D005528 - foot
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012164
@@ -5067,9 +5073,10 @@ D014680 - veins
 D007866 - leg
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008026 - ligation
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009786
@@ -5105,11 +5112,9 @@ D005187 - fallopian tubes
 D000230 - adenocarcinoma
 D003536 - cystadenocarcinoma
 D002822 - choriocarcinoma
-D055501 - macrophage activation syndrome
-D013798 - thecoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009786
@@ -5176,10 +5181,9 @@ D007668 - kidney
 D006435 - renal dialysis
 D010179 - pancreas
 D014180 - transplantation
-D010531 - peritoneal dialysis, continuous ambulatory
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008691
@@ -5276,27 +5280,16 @@ D014750 - vincristine
 D014054 - tomography
 D011877 - radionuclide imaging
 D004176 - dipyridamole
-D012306 - risk
 D013334 - students
 D005080 - exercise test
 D015899 - tomography, emission-computed, single-photon
 D008279 - magnetic resonance imaging
 D015444 - exercise
+D012306 - risk
 D055420 - perfusion imaging
-D018810 - magnetic resonance angiography
-D061067 - antibodies, monoclonal, humanized
-D009682 - magnetic resonance spectroscopy
-D000465 - algorithms
-D006624 - hippocampus
-D002762 - cholecalciferol
-D013793 - thallium
-D005471 - fluoroscopy
-D003146 - communications media
-D017540 - tunica media
-D017539 - tunica intima
 ---------------------------------------------------------
 Number of Original MeSH Terms: 29
-Number of MetaMap Generated MeSH Terms: 27
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008691
@@ -5325,9 +5318,10 @@ D006321 - heart
 D023921 - coronary stenosis
 D000075223 - poly-adp-ribose binding proteins
 D003851 - deoxyribonucleases
+D004194 - disease
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -5387,9 +5381,10 @@ D002673 - child, hospitalized
 Generated MeSH Terms: 
 D007297 - inpatients
 D006761 - hospitals
+D010361 - patients
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -5439,9 +5434,10 @@ D008052 - lipid metabolism, inborn errors
 D009135 - muscular diseases
 D016113 - ichthyosiform erythroderma, congenital
 D005221 - fatigue
+D000078325 - clinical trial protocol
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -5721,12 +5717,9 @@ D014621 - vagina
 D011127 - polyps
 D009214 - myoma
 D014564 - urogenital abnormalities
-D003560 - cysts
-D006470 - hemorrhage
-D055501 - macrophage activation syndrome
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011126
@@ -5804,9 +5797,10 @@ D008103 - liver cirrhosis
 Generated MeSH Terms: 
 D005355 - fibrosis
 D008099 - liver
+D008103 - liver cirrhosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011053
@@ -5841,9 +5835,10 @@ D004983 - ethanolamines
 D013923 - thromboembolism
 D020246 - venous thrombosis
 D012821 - silanes
+D008168 - lung
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011053
@@ -5939,12 +5934,9 @@ D061067 - antibodies, monoclonal, humanized
 D019220 - high-energy shock waves
 D014054 - tomography
 D003287 - contrast media
-D014767 - united states virgin islands
-D001565 - benzoates
-D006571 - heterocyclic compounds
 ---------------------------------------------------------
 Number of Original MeSH Terms: 18
-Number of MetaMap Generated MeSH Terms: 19
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011053
@@ -5965,9 +5957,10 @@ D011247 - pregnancy
 D011264 - pregnancy trimesters
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D011264 - pregnancy trimesters
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -5988,9 +5981,10 @@ D006973 - hypertension
 Generated MeSH Terms: 
 D006843 - hydrocarbons, chlorinated
 D059446 - heterotaxy syndrome
+D001794 - blood pressure
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6026,9 +6020,11 @@ D011799 - quinazolines
 D011224 - prazosin
 D017292 - doxazosin
 D007211 - indoles
+D000077409 - tamsulosin
+D010879 - piperazines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6140,10 +6136,9 @@ D011412 - propanolamines
 D004983 - ethanolamines
 D010869 - pindolol
 D050198 - phenoxypropanolamines
-D000070 - acebutolol
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6233,21 +6228,9 @@ D017328 - fosinopril
 D013841 - thiazepines
 D000077583 - quinapril
 D017257 - ramipril
-D000809 - angiotensins
-D004798 - enzymes
-D006323 - heart arrest
-D001430 - bacteriocins
-D010456 - peptides, cyclic
-D017315 - cilazapril
-D000409 - alanine
-D010455 - peptides
-D001381 - azepines
-D048289 - imidazolidines
-D044005 - tetrahydroisoquinolines
-D011725 - pyridines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 26
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6270,9 +6253,10 @@ D009798 - ocular hypertension
 Generated MeSH Terms: 
 D011225 - pre-eclampsia
 D011247 - pregnancy
+D009798 - ocular hypertension
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6318,17 +6302,9 @@ D002752 - chlorthalidone
 D007190 - indapamide
 D004232 - diuretics
 D000584 - amiloride
-D001539 - bendroflumethiazide
-D002034 - bumetanide
-D002740 - chlorothiazide
-D003518 - cyclopenthiazide
-D005665 - furosemide
-D006852 - hydrochlorothiazide
-D006857 - hydroflumethiazide
-D008736 - methyclothiazide
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 12
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6395,34 +6371,15 @@ D002121 - calcium channel blockers
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D004095 - dihydropyridines
-D004110 - diltiazem
 D009543 - nifedipine
+D004110 - diltiazem
 D014700 - verapamil
 D017311 - amlodipine
 D001537 - bencyclane
 D015764 - bepridil
-D002936 - cinnarizine
-D009596 - nitrophenols
-D009943 - organophosphorus compounds
-D011405 - propafenone
-D007212 - indolizines
-D010627 - phenethylamines
-D015736 - felodipine
-D005275 - fendiline
-D005444 - flunarizine
-D005711 - gallopamil
-D017275 - isradipine
-D008013 - lidoflazine
-D010879 - piperazines
-D020748 - mibefradil
-D009529 - nicardipine
-D009553 - nimodipine
-D015737 - nisoldipine
-D009568 - nitrendipine
-D010480 - perhexiline
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 26
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6457,9 +6414,11 @@ D009025 - morpholines
 D011905 - genes, ras
 D007189 - indans
 D012083 - renin
+D012085 - chymosin
+D006323 - heart arrest
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6501,13 +6460,9 @@ D001562 - benzimidazoles
 D013876 - thiophenes
 D000809 - angiotensins
 D010069 - oxadiazoles
-D004095 - dihydropyridines
-D000179 - acrylates
-D011725 - pyridines
-D000077405 - irbesartan
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 10
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -6618,9 +6573,13 @@ D006830 - hydralazine
 Generated MeSH Terms: 
 D008750 - methyldopa
 D003000 - clonidine
+D006830 - hydralazine
+D012110 - reserpine
+D000143 - acids
+D004295 - dihydroxyphenylalanine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -6644,9 +6603,10 @@ D009798 - ocular hypertension
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D005123 - eye
+D014785 - vision, ocular
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -6685,9 +6645,10 @@ D004572 - electrolysis
 Generated MeSH Terms: 
 D014465 - ultrasonics
 D001128 - argon
+D009354 - neodymium
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -6704,9 +6665,10 @@ D008028 - light coagulation
 D007834 - lasers
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007834 - lasers
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010542
@@ -6740,9 +6702,10 @@ D001707 - biopsy, needle
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D008099 - liver
+D001706 - biopsy
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010542
@@ -6762,9 +6725,10 @@ D008103 - liver cirrhosis
 Generated MeSH Terms: 
 D005355 - fibrosis
 D008099 - liver
+D008103 - liver cirrhosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010526
@@ -6802,10 +6766,9 @@ D011145 - polyvinyls
 D015034 - zinc oxide
 D000468 - alkalies
 D015035 - zinc oxide-eugenol cement
-D010710 - phosphates
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -6827,9 +6790,10 @@ Generated MeSH Terms:
 D014463 - ultrasonography
 D019220 - high-energy shock waves
 D014465 - ultrasonics
+D006379 - helping behavior
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -6852,9 +6816,10 @@ D007223 - infant
 Generated MeSH Terms: 
 D002648 - child
 D002675 - child, preschool
+D007223 - infant
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -6893,9 +6858,10 @@ D008288 - malaria
 D010961 - plasmodium
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008288 - malaria
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011431
@@ -6934,9 +6900,10 @@ D018335 - rhabdoid tumor
 D004864 - equipment and supplies
 D002846 - chromatography, affinity
 D008722 - methods
+D008288 - malaria
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010173
@@ -6982,12 +6949,9 @@ D004919 - erythroplasia
 D002277 - carcinoma
 D002273 - carcinogens
 D014456 - ulcer
-D008010 - lichen planus
-D007971 - leukoplakia
-D002177 - candidiasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010173
@@ -7099,11 +7063,9 @@ D014456 - ulcer
 D019342 - acetic acid
 D000085 - acetates
 D009055 - mouth
-D002434 - cefadroxil
-D000813 - anilides
 ---------------------------------------------------------
 Number of Original MeSH Terms: 18
-Number of MetaMap Generated MeSH Terms: 16
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010173
@@ -7171,12 +7133,9 @@ D014059 - tongue
 D009092 - mucous membrane
 D002277 - carcinoma
 D002273 - carcinogens
-D014456 - ulcer
-D008010 - lichen planus
-D007971 - leukoplakia
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 11
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012019
@@ -7351,52 +7310,9 @@ D014409 - tumor necrosis factor-alpha
 D010982 - platelet-derived growth factor
 D066246 - erbb receptors
 D016211 - transforming growth factor alpha
-D010455 - peptides
-D001798 - blood proteins
-D053222 - fas ligand protein
-D011960 - receptors, estrogen
-D047628 - estrogen receptor alpha
-D000267 - tissue adhesions
-D020738 - leptin
-D007378 - interleukins
-D003165 - complement system proteins
-D038681 - follistatin
-D040901 - proteomics
-D002352 - carrier proteins
-D060588 - lim domain proteins
-D016678 - genome
-D023281 - genomics
-D007797 - laminin
-D019087 - selectins
-D015295 - antigens, tumor-associated, carbohydrate
-D035683 - micrornas
-D014168 - transferrin
-D000075927 - krit1 protein
-D053495 - osteopontin
-D011980 - receptors, progesterone
-D013961 - thyroid gland
-D053539 - keratin-19
-D010447 - peptide hydrolases
-D003577 - cytochrome p-450 enzyme system
-D065702 - cytochrome p-450 cyp2b6
-D064032 - calbindin 2
-D003404 - creatinine
-D001323 - autoantibodies
-D016023 - integrins
-D010219 - papua new guinea
-D010191 - pancreatic polypeptide
-D011498 - protein precursors
-D006023 - glycoproteins
-D014809 - vitamin d-binding protein
-D007454 - iodides
-D018932 - chemokine ccl2
-D015395 - histocompatibility antigens class i
-D000949 - histocompatibility antigens class ii
-D006680 - hla antigens
-D004815 - epidermal growth factor
 ---------------------------------------------------------
 Number of Original MeSH Terms: 34
-Number of MetaMap Generated MeSH Terms: 59
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012019
@@ -7429,9 +7345,10 @@ D008288 - malaria
 D010961 - plasmodium
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008288 - malaria
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008122
@@ -7470,9 +7387,10 @@ D018335 - rhabdoid tumor
 D004864 - equipment and supplies
 D002846 - chromatography, affinity
 D008722 - methods
+D008288 - malaria
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -7491,9 +7409,10 @@ D002812 - chondroma
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D002812 - chondroma
+D002813 - chondrosarcoma
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -7511,9 +7430,10 @@ D000671 - amputation
 D013502 - general surgery
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D013514 - surgical procedures, operative
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010778
@@ -7539,9 +7459,10 @@ D017679 - cryotherapy
 D010636 - phenols
 D019800 - phenol
 D000431 - ethanol
+D001843 - bone cements
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007394
@@ -7562,9 +7483,10 @@ D055732 - pulmonary aspergillosis
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D009181 - mycoses
+D005658 - fungi
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007394
@@ -7580,9 +7502,10 @@ Original Mesh Terms:
 D008351 - mannans
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008351 - mannans
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007394
@@ -7609,9 +7532,10 @@ D004797 - enzyme-linked immunosorbent assay
 D004859 - equine infectious anemia
 D007124 - immunoenzyme techniques
 D001681 - biological assay
+D007164 - immunosorbents
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007394
@@ -7628,9 +7552,10 @@ Original Mesh Terms:
 D012699 - serology
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D012698 - serologic tests
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012010
@@ -7653,9 +7578,10 @@ D010195 - pancreatitis
 D010179 - pancreas
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D004487 - edema
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012010
@@ -7690,9 +7616,10 @@ D007770 - l-lactate dehydrogenase
 D000077740 - procalcitonin
 D000681 - amylases
 D008049 - lipase
+D014362 - trypsinogen
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010339
@@ -7711,9 +7638,10 @@ D002769 - cholelithiasis
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D042883 - choledocholithiasis
+D002769 - cholelithiasis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010339
@@ -7768,14 +7696,9 @@ D002488 - central african republic
 D014057 - tomography, x-ray computed
 D014463 - ultrasonography
 D019220 - high-energy shock waves
-D014465 - ultrasonics
-D002760 - cholangiopancreatography, endoscopic retrograde
-D049448 - cholangiopancreatography, magnetic resonance
-D018161 - receptors, mineralocorticoid
-D009682 - magnetic resonance spectroscopy
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 12
+Number of MetaMap Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011686
@@ -7819,9 +7742,10 @@ D014218 - triage
 D013131 - spine
 D000465 - algorithms
 D017629 - gap junctions
+D054388 - receptors, ccr
 ---------------------------------------------------------
 Number of Original MeSH Terms: 9
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011686
@@ -7857,9 +7781,11 @@ Generated MeSH Terms:
 D007231 - infant, newborn
 D007223 - infant
 D010372 - pediatrics
+D000293 - adolescent
+D002648 - child
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011686
@@ -7893,9 +7819,10 @@ Generated MeSH Terms:
 D000072662 - margins of excision
 D009333 - neck
 D014947 - wounds and injuries
+D013119 - spinal cord injuries
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011686
@@ -7980,9 +7907,10 @@ D004932 - esophageal and gastric varices
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D013270 - stomach
+D004932 - esophageal and gastric varices
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010355
@@ -8005,9 +7933,10 @@ D011175 - positive-pressure respiration
 Generated MeSH Terms: 
 D007385 - intermittent positive-pressure ventilation
 D011175 - positive-pressure respiration
+D012119 - respiration
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010355
@@ -8048,9 +7977,10 @@ Original Mesh Terms:
 D010976 - platelet count
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D001792 - blood platelets
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008759
@@ -8076,9 +8006,10 @@ D013163 - splenomegaly
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D013154 - spleen
+D020481 - index
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8171,9 +8102,11 @@ D001835 - body weight
 D015992 - body mass index
 D004817 - epidermis
 D022722 - thermogenesis
+D013546 - sweating
+D017097 - electric impedance
 ---------------------------------------------------------
 Number of Original MeSH Terms: 13
-Number of MetaMap Generated MeSH Terms: 16
+Number of MetaMap Generated MeSH Terms: 18
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8209,9 +8142,10 @@ D009735 - nursing homes
 D027923 - sambucus
 D005853 - geriatrics
 D010361 - patients
+D014930 - women
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8227,9 +8161,10 @@ Original Mesh Terms:
 D005123 - eye
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D005123 - eye
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8259,9 +8194,10 @@ Generated MeSH Terms:
 D009092 - mucous membrane
 D001365 - axilla
 D014059 - tongue
+D012867 - skin
 ---------------------------------------------------------
 Number of Original MeSH Terms: 7
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8311,9 +8247,10 @@ D060766 - drinking water
 D018594 - human body
 D003593 - cytoplasm
 D010949 - plasma
+D006955 - hypernatremia
 ---------------------------------------------------------
 Number of Original MeSH Terms: 9
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009647
@@ -8353,9 +8290,10 @@ D006339 - heart rate
 D006321 - heart
 D005215 - fasting
 D013599 - systole
+D003971 - diastole
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009020
@@ -8374,9 +8312,10 @@ D014463 - ultrasonography
 Generated MeSH Terms: 
 D014463 - ultrasonography
 D019220 - high-energy shock waves
+D014465 - ultrasonics
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009020
@@ -8397,9 +8336,10 @@ D012421 - rupture
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D022125 - lacerations
+D012421 - rupture
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009020
@@ -8419,9 +8359,10 @@ Original Mesh Terms:
 D017006 - rotator cuff
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D017006 - rotator cuff
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009020
@@ -8440,9 +8381,10 @@ D008279 - magnetic resonance imaging
 Generated MeSH Terms: 
 D008279 - magnetic resonance imaging
 D018161 - receptors, mineralocorticoid
+D009682 - magnetic resonance spectroscopy
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010502
@@ -8484,9 +8426,10 @@ D013297 - streptococcus pyogenes
 D010612 - pharyngitis
 D014069 - tonsillitis
 D013290 - streptococcal infections
+D014066 - palatine tonsil
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010502
@@ -8556,12 +8499,9 @@ D001681 - biological assay
 D018335 - rhabdoid tumor
 D004797 - enzyme-linked immunosorbent assay
 D004859 - equine infectious anemia
-D007124 - immunoenzyme techniques
-D002846 - chromatography, affinity
-D000941 - antigens
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010680
@@ -8606,9 +8546,10 @@ D008542 - melanesia
 D000842 - ankle
 D001132 - arm
 D020481 - index
+D013599 - systole
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 9
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010680
@@ -8665,9 +8606,10 @@ D002884 - chromosomes, human, pair 15
 D006319 - hearing loss, sensorineural
 D007248 - infertility, male
 D007055 - iceland
+D001808 - blood vessels
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 10
+Number of MetaMap Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -8687,9 +8629,10 @@ D005298 - fertility
 D016649 - primary ovarian insufficiency
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D005298 - fertility
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -8707,9 +8650,10 @@ Original Mesh Terms:
 D007987 - gonadotropin-releasing hormone
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D007987 - gonadotropin-releasing hormone
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -8751,9 +8695,10 @@ D021621 - imaging, three-dimensional
 D011859 - radiography
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D008279 - magnetic resonance imaging
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD009591
@@ -8946,52 +8891,9 @@ D014409 - tumor necrosis factor-alpha
 D007334 - insulin-like growth factor i
 D011994 - recombinant proteins
 D016211 - transforming growth factor alpha
-D003404 - creatinine
-D040901 - proteomics
-D053539 - keratin-19
-D003165 - complement system proteins
-D001323 - autoantibodies
-D011960 - receptors, estrogen
-D047628 - estrogen receptor alpha
-D013961 - thyroid gland
-D010455 - peptides
-D035683 - micrornas
-D016023 - integrins
-D011980 - receptors, progesterone
-D001798 - blood proteins
-D007378 - interleukins
-D019087 - selectins
-D016678 - genome
-D023281 - genomics
-D053495 - osteopontin
-D010447 - peptide hydrolases
-D000267 - tissue adhesions
-D007797 - laminin
-D038681 - follistatin
-D003577 - cytochrome p-450 enzyme system
-D065702 - cytochrome p-450 cyp2b6
-D000075927 - krit1 protein
-D015295 - antigens, tumor-associated, carbohydrate
-D064032 - calbindin 2
-D014168 - transferrin
-D053222 - fas ligand protein
-D020738 - leptin
-D002352 - carrier proteins
-D060588 - lim domain proteins
-D004815 - epidermal growth factor
-D007454 - iodides
-D018932 - chemokine ccl2
-D015395 - histocompatibility antigens class i
-D000949 - histocompatibility antigens class ii
-D006680 - hla antigens
-D007986 - luteinizing hormone
-D008097 - lithuania
-D008263 - macrophage migration-inhibitory factors
-D019746 - intramolecular oxidoreductases
-D014809 - vitamin d-binding protein
 ---------------------------------------------------------
 Number of Original MeSH Terms: 34
-Number of MetaMap Generated MeSH Terms: 59
+Number of MetaMap Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012179
@@ -9084,9 +8986,10 @@ D011182 - postoperative care
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D008991 - monitoring, physiologic
+D013514 - surgical procedures, operative
 ---------------------------------------------------------
 Number of Original MeSH Terms: 6
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011134
@@ -9106,9 +9009,10 @@ D002272 - carcinoembryonic antigen
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D004628 - embryonic structures
+D000941 - antigens
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 1
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010023
@@ -9139,11 +9043,9 @@ D001835 - body weight
 D009682 - magnetic resonance spectroscopy
 D004058 - diffusion
 D000066448 - driving under the influence
-D018161 - receptors, mineralocorticoid
-D014054 - tomography
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010023
@@ -9162,9 +9064,10 @@ Original Mesh Terms:
 D011877 - radionuclide imaging
 ---------------------------------------------------------
 Generated MeSH Terms: 
+D011877 - radionuclide imaging
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 0
+Number of MetaMap Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010023
@@ -9186,9 +9089,10 @@ Generated MeSH Terms:
 D014057 - tomography, x-ray computed
 D014054 - tomography
 D002488 - central african republic
+D002415 - cats
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 3
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008081
@@ -9210,9 +9114,10 @@ D009887 - ophthalmoscopy
 Generated MeSH Terms: 
 D014785 - vision, ocular
 D014054 - tomography
+D014057 - tomography, x-ray computed
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 2
+Number of MetaMap Generated MeSH Terms: 3
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008081
@@ -9260,12 +9165,13 @@ D004487 - edema
 D010019 - osteomyelitis
 D008738 - methyl ethers
 D007093 - imidazoles
+D017646 - organosilicon compounds
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Total Sub-Clauses: 1019
 Total Original MeSH Terms: 992
-Total Generated MeSH Terms: 1139
+Total Generated MeSH Terms: 1045
 =========================================================

@@ -89,10 +89,9 @@ D015844 - heparin cofactor ii
 D027383 - papillomaviridae
 D002678 - chimera
 D006854 - hydrocortisone
-D004247 - dna
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 5
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011548
@@ -550,11 +549,9 @@ D009369 - neoplasms
 D002277 - carcinoma
 D012509 - sarcoma
 D000230 - adenocarcinoma
-D009362 - neoplasm metastasis
-D011127 - polyps
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008686
@@ -959,10 +956,9 @@ D014844 - vulva
 D002277 - carcinoma
 D002273 - carcinogens
 D000230 - adenocarcinoma
-D006128 - growth
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 7
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010409
@@ -1189,13 +1185,9 @@ D007668 - kidney
 D006435 - renal dialysis
 D010179 - pancreas
 D014180 - transplantation
-D010531 - peritoneal dialysis, continuous ambulatory
-D000077268 - pamidronate
-D007676 - kidney failure, chronic
-D051437 - renal insufficiency
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of MetaMap Generated MeSH Terms: 8
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008691
@@ -1292,32 +1284,17 @@ D014750 - vincristine
 D014054 - tomography
 D011877 - radionuclide imaging
 D004176 - dipyridamole
-D012306 - risk
 D013334 - students
 D005080 - exercise test
 D015899 - tomography, emission-computed, single-photon
 D008279 - magnetic resonance imaging
 D015444 - exercise
+D012306 - risk
 D055420 - perfusion imaging
 D018810 - magnetic resonance angiography
-D061067 - antibodies, monoclonal, humanized
-D009682 - magnetic resonance spectroscopy
-D000465 - algorithms
-D006624 - hippocampus
-D002762 - cholecalciferol
-D013793 - thallium
-D005471 - fluoroscopy
-D003146 - communications media
-D017540 - tunica media
-D017539 - tunica intima
-D014463 - ultrasonography
-D019220 - high-energy shock waves
-D014465 - ultrasonics
-D017256 - technetium tc 99m sestamibi
-D000401 - aircraft
 ---------------------------------------------------------
 Number of Original MeSH Terms: 29
-Number of MetaMap Generated MeSH Terms: 32
+Number of MetaMap Generated MeSH Terms: 17
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008691
@@ -1683,5 +1660,5 @@ Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 Total Sub-Clauses: 213
 Total Original MeSH Terms: 192
-Total Generated MeSH Terms: 209
+Total Generated MeSH Terms: 186
 =========================================================

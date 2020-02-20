@@ -616,11 +616,9 @@ D003802 - dentifrices
 Generated MeSH Terms: 
 D005459 - fluorides
 D012969 - sodium fluoride
-D000588 - amines
-D012964 - sodium
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of MetaMap Generated MeSH Terms: 4
+Number of MetaMap Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012347
@@ -866,11 +864,9 @@ D013927 - thrombosis
 D004617 - embolism
 D003022 - clotrimazole
 D020246 - venous thrombosis
-D012821 - silanes
-D004983 - ethanolamines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 6
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -1138,31 +1134,9 @@ D000721 - ancrod
 D005017 - ethyl biscoumacetate
 D017762 - nadroparin
 D006323 - heart arrest
-D001728 - dicumarol
-D016670 - gabexate
-D006493 - heparin
-D013455 - sulfur
-D013431 - sulfates
-D000925 - anticoagulants
-D017836 - agkistrodon
-D001769 - blood
-D019343 - citric acid
-D003871 - dermatan sulfate
-D002807 - chondroitin
-D002118 - calcium
-D002136 - calcium, dietary
-D012964 - sodium
-D011091 - polyesters
-D011486 - protein c
-D017293 - protein s
-D011522 - protons
-D044962 - data compression
-D013923 - thromboembolism
-D004617 - embolism
-D004864 - equipment and supplies
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of MetaMap Generated MeSH Terms: 36
+Number of MetaMap Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1338,47 +1312,9 @@ D011412 - propanolamines
 D004983 - ethanolamines
 D010869 - pindolol
 D050198 - phenoxypropanolamines
-D000070 - acebutolol
-D014290 - metipranolol
-D007741 - labetalol
-D011724 - pyridazines
-D000526 - alprenolol
-D001262 - atenolol
-D015784 - betaxolol
-D017298 - bisoprolol
-D064805 - bunolol
-D002046 - bupranolol
-D002078 - butoxamine
-D002354 - carteolol
-D000077261 - carvedilol
-D017272 - celiprolol
-D000081 - acetamides
-D004082 - dihydroalprenolol
-D044482 - benzeneacetamides
-D005464 - fluorobenzenes
-D007192 - indenes
-D020120 - iodocyanopindolol
-D009025 - morpholines
-D014508 - urea
-D002040 - levobunolol
-D008790 - metoprolol
-D009248 - nadolol
-D010096 - oxprenolol
-D010394 - penbutolol
-D000068577 - nebivolol
-D011217 - practolol
-D011433 - propranolol
-D010069 - oxadiazoles
-D044005 - tetrahydroisoquinolines
-D013015 - sotalol
-D013141 - spiro compounds
-D013876 - thiophenes
-D007546 - isoquinolines
-D013999 - timolol
-D002752 - chlorthalidone
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 42
+Number of MetaMap Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1469,27 +1405,9 @@ D013841 - thiazepines
 D000077583 - quinapril
 D017257 - ramipril
 D000809 - angiotensins
-D004798 - enzymes
-D006323 - heart arrest
-D001430 - bacteriocins
-D010456 - peptides, cyclic
-D017315 - cilazapril
-D000409 - alanine
-D010455 - peptides
-D001381 - azepines
-D048289 - imidazolidines
-D044005 - tetrahydroisoquinolines
-D011725 - pyridines
-D020913 - perindopril
-D015097 - 3-mercaptopropionic acid
-D053778 - thiazolidines
-D012504 - saralasin
-D013722 - teprotide
-D013830 - thiadiazoles
-D019086 - bridged bicyclo compounds, heterocyclic
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 33
+Number of MetaMap Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1562,20 +1480,9 @@ D007190 - indapamide
 D004232 - diuretics
 D000584 - amiloride
 D001539 - bendroflumethiazide
-D002034 - bumetanide
-D002740 - chlorothiazide
-D003518 - cyclopenthiazide
-D005665 - furosemide
-D006852 - hydrochlorothiazide
-D006857 - hydroflumethiazide
-D008736 - methyclothiazide
-D008788 - metolazone
-D011139 - polythiazide
-D014237 - trichlormethiazide
-D049971 - thiazides
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of MetaMap Generated MeSH Terms: 16
+Number of MetaMap Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1642,42 +1549,16 @@ D002121 - calcium channel blockers
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D004095 - dihydropyridines
-D004110 - diltiazem
 D009543 - nifedipine
+D004110 - diltiazem
 D014700 - verapamil
 D017311 - amlodipine
 D001537 - bencyclane
 D015764 - bepridil
 D002936 - cinnarizine
-D009596 - nitrophenols
-D009943 - organophosphorus compounds
-D011405 - propafenone
-D007212 - indolizines
-D010627 - phenethylamines
-D015736 - felodipine
-D005275 - fendiline
-D005444 - flunarizine
-D005711 - gallopamil
-D017275 - isradipine
-D008013 - lidoflazine
-D010879 - piperazines
-D020748 - mibefradil
-D009529 - nicardipine
-D009553 - nimodipine
-D015737 - nisoldipine
-D009568 - nitrendipine
-D010480 - perhexiline
-D011299 - prenylamine
-D013844 - thiazoles
-D002082 - butylamines
-D013976 - tiapamil hydrochloride
-D010176 - panama
-D002118 - calcium
-D002136 - calcium, dietary
-D006323 - heart arrest
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 34
+Number of MetaMap Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1758,17 +1639,9 @@ D001562 - benzimidazoles
 D013876 - thiophenes
 D000809 - angiotensins
 D010069 - oxadiazoles
-D004095 - dihydropyridines
-D000179 - acrylates
-D011725 - pyridines
-D000077405 - irbesartan
-D019808 - losartan
-D011743 - pyrimidines
-D000077333 - telmisartan
-D000068756 - valsartan
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 14
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1883,13 +1756,9 @@ D006830 - hydralazine
 D012110 - reserpine
 D000143 - acids
 D004295 - dihydroxyphenylalanine
-D010649 - phenylalanine
-D011926 - rauwolfia
-D048288 - imidazolines
-D004078 - dihydralazine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 10
+Number of MetaMap Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -2016,12 +1885,9 @@ D011145 - polyvinyls
 D015034 - zinc oxide
 D000468 - alkalies
 D015035 - zinc oxide-eugenol cement
-D010710 - phosphates
-D017967 - zinc compounds
-D002126 - calcium hydroxide
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of MetaMap Generated MeSH Terms: 13
+Number of MetaMap Generated MeSH Terms: 10
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -2281,5 +2147,5 @@ Number of MetaMap Generated MeSH Terms: 0
 ---------------------------------------------------------
 Total Sub-Clauses: 222
 Total Original MeSH Terms: 200
-Total Generated MeSH Terms: 372
+Total Generated MeSH Terms: 238
 =========================================================

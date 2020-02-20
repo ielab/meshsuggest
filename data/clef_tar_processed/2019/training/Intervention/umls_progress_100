@@ -44,19 +44,18 @@ Original Mesh Terms:
 D002986 - clinical trials as topic
 ---------------------------------------------------------
 Generated MeSH Terms: 
-D000081262 - randomized controlled trial, veterinary
 D016032 - randomized controlled trials as topic
 D018848 - controlled clinical trial
+D000081262 - randomized controlled trial, veterinary
 D010919 - placebos
 D032621 - dna shuffling
 D011897 - random allocation
 D065228 - non-randomized controlled trials as topic
 D057194 - intention to treat analysis
 D015990 - placebo effect
-D017078 - laser-doppler flowmetry
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 10
+Number of UMLS Generated MeSH Terms: 9
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -83,11 +82,9 @@ D012628 - dermatitis, seborrheic
 D012535 - scalp
 D010915 - pityriasis
 D003876 - dermatitis, atopic
-D003872 - dermatitis
-D017515 - pityriasis rosea
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 8
+Number of UMLS Generated MeSH Terms: 6
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011380
@@ -174,10 +171,9 @@ D011897 - random allocation
 D057194 - intention to treat analysis
 D017078 - laser-doppler flowmetry
 D015990 - placebo effect
-D000081262 - randomized controlled trial, veterinary
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 8
+Number of UMLS Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005253
@@ -227,19 +223,11 @@ D003918 - dextrothyroxine
 D007470 - monoiodotyrosine
 D013970 - thyronines
 D000521 - alpha-msh
-D007453 - iodide peroxidase
 D004151 - dipeptides
 D001324 - autoantigens
-D033862 - iron-binding proteins
-D004456 - echothiophate iodide
-D017669 - mercury compounds
-D014403 - tubocurarine
-D000644 - quaternary ammonium compounds
-D007328 - insulin
-D004104 - diiodothyronines
 ---------------------------------------------------------
 Number of Original MeSH Terms: 11
-Number of UMLS Generated MeSH Terms: 23
+Number of UMLS Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005253
@@ -281,34 +269,20 @@ D047928 - premature birth
 Generated MeSH Terms: 
 D019102 - infant, very low birth weight
 D007223 - infant
-D001724 - birth weight
-D007230 - infant, low birth weight
 D001539 - bendroflumethiazide
 D007231 - infant, newborn
 D061213 - mortality, premature
 D036801 - parturition
+D001724 - birth weight
+D007230 - infant, low birth weight
 D046768 - nesidioblastosis
 D040343 - behavioral risk factor surveillance system
 D004831 - epilepsies, myoclonic
 D008771 - nordefrin
 D002231 - carbimazole
-D015417 - hereditary sensory and motor neuropathy
-D017600 - neuroectodermal tumor, melanotic
-D016649 - primary ovarian insufficiency
-D007234 - infant, premature
-D019588 - aging, premature
-D047928 - premature birth
-D002724 - chlorobutanol
-D004338 - drug combinations
-D008775 - methylprednisolone
-D009355 - neomycin
-D007229 - infant welfare
-D001997 - bronchopulmonary dysplasia
-D056587 - cryopyrin-associated periodic syndromes
-D005307 - fertilization in vitro
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 27
+Number of UMLS Generated MeSH Terms: 13
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -353,16 +327,9 @@ D006571 - heterocyclic compounds
 D003265 - contingent negative variation
 D056915 - dna copy number variations
 D005047 - etoposide
-D003857 - deoxyuridine
-D011725 - pyridines
-D006009 - glycogen storage disease type ii
-D008750 - methyldopa
-D009389 - neovascularization, pathologic
-D009944 - organoplatinum compounds
-D017864 - tombusvirus
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 23
+Number of UMLS Generated MeSH Terms: 16
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD005139
@@ -409,15 +376,9 @@ D042783 - endothelial cells
 D006128 - growth
 D005163 - factor analysis, statistical
 D017978 - receptors, growth factor
-D012217 - rheumatoid factor
-D014764 - viral proteins
-D011868 - radioisotopes
-D015040 - zirconium
-D036341 - intercellular signaling peptides and proteins
-D010445 - peptide elongation factors
 ---------------------------------------------------------
 Number of Original MeSH Terms: 4
-Number of UMLS Generated MeSH Terms: 20
+Number of UMLS Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -450,12 +411,9 @@ D042121 - contraception, barrier
 D011091 - polyesters
 D011137 - polystyrenes
 D003270 - contraceptive agents
-D012736 - sex education
-D000080282 - hormonal contraception
-D003276 - contraceptives, oral
 ---------------------------------------------------------
 Number of Original MeSH Terms: 5
-Number of UMLS Generated MeSH Terms: 10
+Number of UMLS Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012521
@@ -588,12 +546,9 @@ D020966 - muscular disorders, atrophic
 Generated MeSH Terms: 
 D014897 - spinal muscular atrophies of childhood
 D049310 - distal myopathies
-D006225 - hand
-D009134 - muscular atrophy, spinal
-D000074019 - t-cell intracellular antigen-1
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 5
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012120
@@ -660,19 +615,9 @@ D009132 - muscles
 D006875 - hydrotherapy
 D012420 - running
 D013177 - sports
-D013550 - swimming
-D007208 - indocyanine green
-D011209 - power, psychological
-D014894 - weights and measures
-D001835 - body weight
-D017770 - lifting
-D003213 - conditioning, psychological
-D014732 - vibration
-D004493 - education
-D007537 - isometric contraction
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 22
+Number of UMLS Generated MeSH Terms: 12
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007868
@@ -708,11 +653,9 @@ D005472 - fluorouracil
 D016685 - mitomycin
 D003786 - dental pulp cavity
 D004126 - dimethylformamide
-D047309 - flavones
-D012824 - silicic acid
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 16
+Number of UMLS Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD007868
@@ -739,11 +682,11 @@ D002327 - cariostatic agents
 D003802 - dentifrices
 ---------------------------------------------------------
 Generated MeSH Terms: 
-D000971 - antineoplastic combined chemotherapy protocols
-D005472 - fluorouracil
 D005461 - fluorine
 D005956 - glucose-6-phosphate isomerase
 D000249 - adenosine monophosphate
+D000971 - antineoplastic combined chemotherapy protocols
+D005472 - fluorouracil
 D000634 - aminoquinolines
 D013844 - thiazoles
 D002868 - chromosomal proteins, non-histone
@@ -908,7 +851,6 @@ D001523 - mental disorders
 ---------------------------------------------------------
 Generated MeSH Terms: 
 D001714 - bipolar disorder
-D015673 - fatigue syndrome, chronic
 D001068 - feeding and eating disorders
 D000855 - anorexia
 D002032 - bulimia
@@ -922,6 +864,7 @@ D019280 - branchio-oto-renal syndrome
 D009155 - mutism
 D006998 - hypochondriasis
 D009440 - neurasthenia
+D015673 - fatigue syndrome, chronic
 D059445 - anhedonia
 D001523 - mental disorders
 D011618 - psychotic disorders
@@ -932,17 +875,9 @@ D006319 - hearing loss, sensorineural
 D007645 - keratoderma, palmoplantar
 D004194 - disease
 D000856 - anorexia nervosa
-D063425 - binge drinking
-D020920 - dyssomnias
-D001145 - arrhythmias, cardiac
-D005877 - gigantism
-D006330 - heart defects, congenital
-D008607 - intellectual disability
-D040181 - genetic diseases, x-linked
-D003291 - conversion disorder
 ---------------------------------------------------------
 Number of Original MeSH Terms: 67
-Number of UMLS Generated MeSH Terms: 33
+Number of UMLS Generated MeSH Terms: 25
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012164
@@ -1044,15 +979,9 @@ D012821 - silanes
 D004983 - ethanolamines
 D000971 - antineoplastic combined chemotherapy protocols
 D002945 - cisplatin
-D005047 - etoposide
-D010568 - peru
-D011655 - pulmonary embolism
-D010714 - phosphatidylethanolamines
-D015251 - epirubicin
-D020767 - intracranial thrombosis
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 14
+Number of UMLS Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -1149,13 +1078,9 @@ D000078325 - clinical trial protocol
 D018673 - nutrition policy
 D010349 - patient compliance
 D004095 - dihydropyridines
-D004958 - estradiol
-D013764 - tetrahydronaphthalenes
-D013876 - thiophenes
-D016431 - guideline
 ---------------------------------------------------------
 Number of Original MeSH Terms: 8
-Number of UMLS Generated MeSH Terms: 24
+Number of UMLS Generated MeSH Terms: 20
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008201
@@ -1338,143 +1263,11 @@ D000074 - acenocoumarol
 D000721 - ancrod
 D017762 - nadroparin
 D006025 - glycosaminoglycans
-D004338 - drug combinations
 D053482 - beta 2-glycoprotein i
-D010656 - phenylephrine
-D013849 - thimerosal
-D019343 - citric acid
-D001728 - dicumarol
-D016670 - gabexate
-D006493 - heparin
-D013464 - sulfuric acids
-D011091 - polyesters
-D002064 - buserelin
-D011687 - purines
-D009842 - oligopeptides
-D011725 - pyridines
-D000069036 - insulin glargine
-D000077768 - ciclopirox
-D000925 - anticoagulants
-D015110 - 4-hydroxycoumarins
-D017836 - agkistrodon
-D001769 - blood
-D003871 - dermatan sulfate
-D011508 - chondroitin sulfate proteoglycans
-D002807 - chondroitin
-D016650 - fluorescein-5-isothiocyanate
-D007294 - inositol
-D002118 - calcium
-D000085 - acetates
-D012964 - sodium
-D000077157 - sorafenib
-D013431 - sulfates
-D011486 - protein c
-D017293 - protein s
-D001056 - apolipoproteins c
-D001261 - pulmonary atelectasis
-D011700 - putrescine
-D004864 - equipment and supplies
-D000077266 - moxifloxacin
-D014633 - valine
-D009829 - oleic acids
-D002355 - carticaine
-D058976 - folate receptor 2
-D013450 - sulfones
-D001547 - benzaldehydes
-D010952 - plasma substitutes
-D010649 - phenylalanine
-D011743 - pyrimidines
-D009942 - organometallic compounds
-D007505 - iron-dextran complex
-D001498 - 3-pyridinecarboxylic acid, 1,4-dihydro-2,6-dimethyl-5-nitro-4-(2-(trifluoromethyl)phenyl)-, methyl ester
-D012633 - secretin
-D013730 - terphenyl compounds
-D012833 - siloxanes
-D007783 - lactones
-D002135 - calcium-binding proteins
-D007555 - isoxazoles
-D015238 - sulfotransferases
-D000525 - alprazolam
-D011760 - pyrrolidinones
-D011971 - receptors, immunologic
-D013229 - stearic acids
-D000077431 - oxaprozin
-D013467 - sulindac
-D011324 - primidone
-D011345 - fenofibrate
-D014148 - tranexamic acid
-D017610 - calcium compounds
-D017640 - silicates
-D002219 - carbamates
-D010648 - phenylacetates
-D013256 - steroids
-D014031 - tobramycin
-D000420 - albuterol
-D005964 - glucosyltransferases
-D010446 - peptide fragments
-D013744 - tetanus toxin
-D015119 - aminocaproic acid
-D014230 - triazoles
-D012439 - saccharin
-D009944 - organoplatinum compounds
-D005296 - ferrous compounds
-D002364 - caseins
-D029701 - saccharomyces cerevisiae proteins
-D056892 - mediator complex
-D005279 - fenoprofen
-D056827 - endosomal sorting complexes required for transport
-D014750 - vincristine
-D013447 - sulfites
-D014468 - umbelliferones
-D059347 - cardio-renal syndrome
-D010664 - phenylmethylsulfonyl fluoride
-D017693 - sodium bicarbonate
-D048289 - imidazolidines
-D009570 - nitriles
-D007192 - indenes
-D002809 - chondroitin sulfates
-D002810 - chondroitinases and chondroitin lyases
-D016264 - dextran sulfate
-D003374 - coumarins
-D000251 - adenosine triphosphatases
-D014508 - urea
-D004143 - dioctyl sulfosuccinic acid
-D012263 - ribonucleosides
-D007546 - isoquinolines
-D009566 - nitrates
-D006146 - guanidines
-D004087 - dihydroergotamine
-D006495 - heparin, low-molecular-weight
-D009844 - oligosaccharides
-D011100 - polyglycolic acid
-D005685 - galactans
-D006496 - heparinoids
-D002266 - carboxymethylcellulose sodium
-D002440 - cefoxitin
-D014971 - xanthinol niacinate
-D013429 - sulfatases
-D005449 - fluorenes
-D006827 - hydantoins
-D009930 - organic chemicals
-D001713 - biphenyl compounds
-D010654 - phenylbutyrates
-D000814 - aniline compounds
-D001643 - bridged bicyclo compounds
-D014990 - xylans
-D012967 - sodium dodecyl sulfate
-D001393 - azoles
-D016566 - organoselenium compounds
-D011720 - pyrazoles
-D010749 - phosphoprotein phosphatases
-D033921 - vesicular transport proteins
-D004351 - drug resistance
-D008661 - metabolism, inborn errors
-D000077430 - nabumetone
-D000077206 - gabapentin
-D012503 - saponins
+D004338 - drug combinations
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 147
+Number of UMLS Generated MeSH Terms: 15
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1534,27 +1327,15 @@ D011224 - prazosin
 D014404 - tubulin
 D000621 - aminoisobutyric acids
 D049030 - dystroglycans
-D000512 - alpha particles
 D017292 - doxazosin
 D007211 - indoles
 D000077409 - tamsulosin
 D007982 - levulinic acids
 D010879 - piperazines
 D011972 - receptor, insulin
-D013096 - spermine
-D009046 - motor neurons
-D011979 - receptors, pituitary hormone
-D024508 - tocotrienols
-D000527 - alprostadil
-D004338 - drug combinations
-D000317 - adrenergic alpha-antagonists
-D010455 - peptides
-D004186 - disaccharidases
-D011971 - receptors, immunologic
-D011982 - receptors, prostaglandin
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 23
+Number of UMLS Generated MeSH Terms: 11
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1666,74 +1447,9 @@ D011412 - propanolamines
 D004983 - ethanolamines
 D010869 - pindolol
 D050198 - phenoxypropanolamines
-D004338 - drug combinations
-D000070 - acebutolol
-D002354 - carteolol
-D014290 - metipranolol
-D007741 - labetalol
-D008790 - metoprolol
-D011433 - propranolol
-D011724 - pyridazines
-D001262 - atenolol
-D002040 - levobunolol
-D020120 - iodocyanopindolol
-D013876 - thiophenes
-D000526 - alprenolol
-D015784 - betaxolol
-D017298 - bisoprolol
-D064805 - bunolol
-D002046 - bupranolol
-D002078 - butoxamine
-D000077261 - carvedilol
-D017272 - celiprolol
-D000081 - acetamides
-D011943 - receptors, adrenergic, beta
-D044482 - benzeneacetamides
-D005464 - fluorobenzenes
-D007192 - indenes
-D003978 - diazomethane
-D009025 - morpholines
-D014508 - urea
-D009248 - nadolol
-D010096 - oxprenolol
-D010394 - penbutolol
-D000068577 - nebivolol
-D011217 - practolol
-D010069 - oxadiazoles
-D044005 - tetrahydroisoquinolines
-D013015 - sotalol
-D013141 - spiro compounds
-D007546 - isoquinolines
-D013999 - timolol
-D053802 - tryptases
-D011972 - receptor, insulin
-D011979 - receptors, pituitary hormone
-D008727 - methotrexate
-D001386 - azides
-D000071557 - beta-arrestins
-D003005 - clopamide
-D002752 - chlorthalidone
-D013148 - spironolactone
-D001610 - beta particles
-D044602 - cellulases
-D009543 - nifedipine
-D015096 - 3-hydroxysteroid dehydrogenases
-D006852 - hydrochlorothiazide
-D003577 - cytochrome p-450 enzyme system
-D000429 - alcohol oxidoreductases
-D007548 - isosorbide dinitrate
-D001581 - benzothiadiazines
-D014223 - triamterene
-D005965 - glucuronates
-D004082 - dihydroalprenolol
-D002265 - carboxylic ester hydrolases
-D013449 - sulfonamides
-D014404 - tubulin
-D011971 - receptors, immunologic
-D011982 - receptors, prostaglandin
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 69
+Number of UMLS Generated MeSH Terms: 4
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1822,55 +1538,14 @@ D017328 - fosinopril
 D013841 - thiazepines
 D000077583 - quinapril
 D017257 - ramipril
-D004338 - drug combinations
 D013722 - teprotide
 D000809 - angiotensins
 D004152 - dipeptidyl-peptidases and tripeptidyl-peptidases
 D010450 - endopeptidases
 D010447 - peptide hydrolases
-D001121 - lysine carboxypeptidase
-D004798 - enzymes
-D036081 - receptors, eph family
-D007141 - immunoglobulin fc fragments
-D011993 - recombinant fusion proteins
-D030301 - activin receptors, type ii
-D009404 - nephrotic syndrome
-D001430 - bacteriocins
-D010456 - peptides, cyclic
-D017315 - cilazapril
-D000409 - alanine
-D010455 - peptides
-D001381 - azepines
-D048289 - imidazolidines
-D044005 - tetrahydroisoquinolines
-D011725 - pyridines
-D017311 - amlodipine
-D020913 - perindopril
-D015097 - 3-mercaptopropionic acid
-D053778 - thiazolidines
-D012504 - saralasin
-D013830 - thiadiazoles
-D019086 - bridged bicyclo compounds, heterocyclic
-D011957 - receptors, opioid
-D016234 - kallikrein-kinin system
-D044346 - receptor, serotonin, 5-ht1d
-D018160 - receptors, cytoplasmic and nuclear
-D011949 - receptors, cholecystokinin
-D011991 - receptors, virus
-D011967 - receptors, gonadotropin
-D000804 - angiotensin ii
-D000803 - angiotensin i
-D010446 - peptide fragments
-D003546 - cysteine endopeptidases
-D002268 - carboxypeptidases
-D043244 - ribonuclease iii
-D011975 - receptors, mitogen
-D006852 - hydrochlorothiazide
-D007190 - indapamide
-D047228 - angiotensin ii type 1 receptor blockers
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 59
+Number of UMLS Generated MeSH Terms: 18
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -1940,34 +1615,11 @@ Generated MeSH Terms:
 D002752 - chlorthalidone
 D007190 - indapamide
 D049994 - sodium potassium chloride symporter inhibitors
-D000584 - amiloride
-D002034 - bumetanide
-D006857 - hydroflumethiazide
 D000074182 - aaa domain
 D004232 - diuretics
-D001581 - benzothiadiazines
-D001539 - bendroflumethiazide
-D002740 - chlorothiazide
-D003518 - cyclopenthiazide
-D005665 - furosemide
-D006852 - hydrochlorothiazide
-D008736 - methyclothiazide
-D008788 - metolazone
-D011139 - polythiazide
-D014237 - trichlormethiazide
-D011955 - receptors, drug
-D049992 - sodium chloride symporters
-D049971 - thiazides
-D004338 - drug combinations
-D017706 - lisinopril
-D000074582 - aaa proteins
-D010869 - pindolol
-D049993 - sodium chloride symporter inhibitors
-D001262 - atenolol
-D020913 - perindopril
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 28
+Number of UMLS Generated MeSH Terms: 5
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -2041,44 +1693,9 @@ D017311 - amlodipine
 D001537 - bencyclane
 D015764 - bepridil
 D002936 - cinnarizine
-D009596 - nitrophenols
-D009943 - organophosphorus compounds
-D011405 - propafenone
-D007212 - indolizines
-D010627 - phenethylamines
-D015736 - felodipine
-D005275 - fendiline
-D005444 - flunarizine
-D005711 - gallopamil
-D017275 - isradipine
-D008013 - lidoflazine
-D010879 - piperazines
-D020748 - mibefradil
-D009529 - nicardipine
-D009553 - nimodipine
-D015737 - nisoldipine
-D009568 - nitrendipine
-D010480 - perhexiline
-D007773 - lactates
-D011299 - prenylamine
-D013844 - thiazoles
-D002082 - butylamines
-D013976 - tiapamil hydrochloride
-D002118 - calcium
-D017610 - calcium compounds
-D017640 - silicates
-D013229 - stearic acids
-D012439 - saccharin
-D005279 - fenoprofen
-D004338 - drug combinations
-D020913 - perindopril
-D004111 - dimenhydrinate
-D000070 - acebutolol
-D011802 - quinidine
-D004143 - dioctyl sulfosuccinic acid
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 43
+Number of UMLS Generated MeSH Terms: 8
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -2116,10 +1733,9 @@ D012154 - reticular formation
 D011905 - genes, ras
 D007189 - indans
 D012083 - renin
-D018631 - ras proteins
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 13
+Number of UMLS Generated MeSH Terms: 12
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -2162,34 +1778,9 @@ D013876 - thiophenes
 D000809 - angiotensins
 D011972 - receptor, insulin
 D010069 - oxadiazoles
-D004095 - dihydropyridines
-D000179 - acrylates
-D011725 - pyridines
-D000077405 - irbesartan
-D019808 - losartan
-D001572 - benzofurans
-D011743 - pyrimidines
-D000077333 - telmisartan
-D000068756 - valsartan
-D004338 - drug combinations
-D006852 - hydrochlorothiazide
-D011979 - receptors, pituitary hormone
-D000804 - angiotensin ii
-D010879 - piperazines
-D013449 - sulfonamides
-D000803 - angiotensin i
-D035683 - micrornas
-D010446 - peptide fragments
-D011971 - receptors, immunologic
-D011982 - receptors, prostaglandin
-D001713 - biphenyl compounds
-D020746 - calcium channels, l-type
-D000068557 - olmesartan medoxomil
-D017311 - amlodipine
-D000613 - aminobutyrates
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 32
+Number of UMLS Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008170
@@ -2305,40 +1896,9 @@ D004295 - dihydroxyphenylalanine
 D012110 - reserpine
 D011926 - rauwolfia
 D007980 - levodopa
-D010671 - phenylurea compounds
-D010649 - phenylalanine
-D000594 - amino acid oxidoreductases
-D048288 - imidazolines
-D004078 - dihydralazine
-D007555 - isoxazoles
-D011422 - propionates
-D054755 - imidazoline receptors
-D013438 - sulfhydryl compounds
-D004338 - drug combinations
-D000409 - alanine
-D007093 - imidazoles
-D009943 - organophosphorus compounds
-D000075243 - apolipoproteins m
-D053683 - oncostatin m
-D006449 - hemoglobin m
-D053804 - granzymes
-D004151 - dipeptides
-D007191 - indazoles
-D004296 - dopa decarboxylase
-D010669 - phenylthiohydantoin
-D011108 - polymers
-D011725 - pyridines
-D008757 - methylglucosides
-D046948 - secologanin tryptamine alkaloids
-D007211 - indoles
-D016607 - aflatoxin m1
-D018942 - macrolides
-D013806 - theophylline
-D010880 - piperidines
-D006852 - hydrochlorothiazide
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 38
+Number of UMLS Generated MeSH Terms: 7
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -2436,15 +1996,9 @@ D054020 - lasers, gas
 D005459 - fluorides
 D001610 - beta particles
 D044602 - cellulases
-D010786 - photoreceptor cells
-D019220 - high-energy shock waves
-D014404 - tubulin
-D011868 - radioisotopes
-D009943 - organophosphorus compounds
-D007554 - isotopes
 ---------------------------------------------------------
 Number of Original MeSH Terms: 2
-Number of UMLS Generated MeSH Terms: 34
+Number of UMLS Generated MeSH Terms: 28
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD012223
@@ -2463,11 +2017,9 @@ D007834 - lasers
 Generated MeSH Terms: 
 D007834 - lasers
 D053685 - laser therapy
-D048988 - corneal surgery, laser
-D018613 - microscopy, confocal
 ---------------------------------------------------------
 Number of Original MeSH Terms: 3
-Number of UMLS Generated MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD010526
@@ -2499,37 +2051,19 @@ D003736 - dental cavity lining
 D015034 - zinc oxide
 D000180 - acrylic resins
 D012822 - silicon dioxide
-D003738 - dental cements
-D005899 - glass ionomer cements
 D002133 - calcium sulfate
-D005054 - eugenol
-D012823 - silicate cement
+D003738 - dental cements
 D003742 - dental devices, home care
 D011145 - polyvinyls
 D019279 - resin cements
+D005899 - glass ionomer cements
+D005054 - eugenol
 D000468 - alkalies
 D010710 - phosphates
 D017967 - zinc compounds
-D011076 - polycarboxylate cement
-D002126 - calcium hydroxide
-D003188 - composite resins
-D015035 - zinc oxide-eugenol cement
-D015036 - zinc phosphate cement
-D010150 - paint
-D012387 - root canal filling materials
-D014753 - vinyl compounds
-D004129 - dimethylpolysiloxanes
-D011109 - polymethacrylic acids
-D002124 - calcium fluoride
-D012969 - sodium fluoride
-D010755 - organophosphates
-D000536 - aluminum hydroxide
-D002119 - calcium carbonate
-D004338 - drug combinations
-D008276 - magnesium hydroxide
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 32
+Number of UMLS Generated MeSH Terms: 14
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD011436
@@ -2785,11 +2319,9 @@ D007987 - gonadotropin-releasing hormone
 Generated MeSH Terms: 
 D007987 - gonadotropin-releasing hormone
 D011966 - receptors, lhrh
-D013744 - tetanus toxin
-D012710 - serum albumin, bovine
 ---------------------------------------------------------
 Number of Original MeSH Terms: 1
-Number of UMLS Generated MeSH Terms: 4
+Number of UMLS Generated MeSH Terms: 2
 ---------------------------------------------------------
 ---------------------------------------------------------
 Topic: CD008018
@@ -2813,7 +2345,7 @@ Number of Original MeSH Terms: 2
 Number of UMLS Generated MeSH Terms: 1
 ---------------------------------------------------------
 ---------------------------------------------------------
-Total Sub-Clauses: 418
+Total Sub-Clauses: 395
 Total Original MeSH Terms: 200
-Total Generated MeSH Terms: 906
+Total Generated MeSH Terms: 438
 =========================================================
