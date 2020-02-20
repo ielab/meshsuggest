@@ -1,0 +1,10 @@
+CD009925_1    0    D011266    1    0.00    data/clef_tar_processed/2018/training
+CD011975_1    0    D011266    1    0.00    data/clef_tar_processed/2018/training
+CD008782_1    0    D003317    1    0.00    data/clef_tar_processed/2018/training
+CD010386_1    0    D000814    1    0.00    data/clef_tar_processed/2018/training
+CD009372_2    0    D006522    1    0.00    data/clef_tar_processed/2018/training
+CD010409_4    0    D008198    1    0.00    data/clef_tar_processed/2018/training
+CD011984_1    0    D011266    1    0.00    data/clef_tar_processed/2018/training
+CD009647_6    0    D001831    1    0.00    data/clef_tar_processed/2018/training
+CD009647_1    0    D009735    1    0.00    data/clef_tar_processed/2018/training
+CD009647_2    0    D011522    1    0.00    data/clef_tar_processed/2018/training

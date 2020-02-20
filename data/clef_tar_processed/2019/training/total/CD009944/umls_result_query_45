@@ -1,0 +1,1 @@
+(antigens, protozoan[mesh] OR t-stag*[Text Word] OR (gastric[Text Word] AND staging[Text Word]) OR (lymph[Text Word] AND node[Text Word] AND metastasis[Text Word])) AND (EUS[Title/Abstract] OR (endoscop*[Text Word] AND (ultrasound[Text Word] OR ultrasonograph*[Text Word] OR ultrasonic[Text Word])))
