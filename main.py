@@ -34,11 +34,9 @@ PATHS = [TEST_FOLDER_2017, TRAIN_FOLDER_2017, TOTAL_FOLDER_2017,
          TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019, TOTAL_TRAIN_FOLDER_2019,
          TOTAL_FOLDER_2019, TOTAL_DATASET]
 
-TRAIN_SETS = [TRAIN_FOLDER_2017, TRAIN_FOLDER_2018, TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019,
-              TOTAL_TRAIN_FOLDER_2019]
+TRAIN_SETS = [TRAIN_FOLDER_2017, TRAIN_FOLDER_2018, TRAIN_DTA_FOLDER_2019, TRAIN_INTERVENTION_FOLDER_2019]
 
-TEST_SETS = [TEST_FOLDER_2017, TEST_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019,
-             TOTAL_TEST_FOLDER_2019]
+TEST_SETS = [TEST_FOLDER_2017, TEST_FOLDER_2018, TEST_DTA_FOLDER_2019, TEST_INTERVENTION_FOLDER_2019]
 
 RESPONSE_GENERATOR = [TOTAL_DATASET]
 
@@ -143,7 +141,7 @@ def main():
     elif option is "2":
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%): ")
-        print("(all: Use All; one: Use Top 1)")
+        print("(one: Use Top 1)")
         num = input("Input: ")
         for path in selectedPath:
             lineSeperator("=")
@@ -208,7 +206,7 @@ def main():
     elif option is "3":
         print("-----------------------------------------------------")
         print("Percentage (10 Means 10%): ")
-        print("(all: Use All; one: Use Top 1)")
+        print("(one: Use Top 1)")
         num = input("Input: ")
         for path in selectedPath:
             lineSeperator("=")

@@ -48,6 +48,12 @@ def extractWikiContent(meshJSON):
                     h.decompose()
                 for ref in soup('div', 'reflist'):
                     ref.decompose()
+                for tb in soup('table', 'mbox-small plainlinks sistersitebox'):
+                    tb.decompose()
+                for nv in soup('div', 'navbox'):
+                    nv.decompose()
+                for f in soup('div', {'id': 'footer'}):
+                    f.decompose()
                 print(soup.get_text(" ", strip=True))
                 # text = {
                 #     "text": soup.get_text(' ', strip=True)
