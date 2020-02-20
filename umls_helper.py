@@ -135,9 +135,11 @@ def processCutoffMeshs(keywords, num):
     cutoffList = []
     mh = []
     cutoff = float(num) / 100.00
+    cutoffScore = totalScore * cutoff
+    tempTotal = 0
     for z in fusedList:
-        p = float(z["score"]) / totalScore
-        if p >= cutoff:
+        tempTotal += z["score"]
+        if tempTotal <= cutoffScore:
             cutoffList.append(z)
     for each in cutoffList:
         mh.append(each["term"])

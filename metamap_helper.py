@@ -133,9 +133,11 @@ def processCutoffMeshs(keywords, num):
     cutoffList = []
     mh = []
     cutoff = float(num) / 100.00
+    cutoffScore = totalScore * cutoff
+    tempTotal = 0
     for z in fusedList:
-        p = float(z["score"]) / totalScore
-        if p >= cutoff:
+        tempTotal += z["score"]
+        if tempTotal <= cutoffScore:
             cutoffList.append(z)
     for each in cutoffList:
         mh.append(each["term"])
@@ -173,10 +175,10 @@ def performCombMNZ(runList):
                 line = {
                     "term": str(each[0]["term"]),
                     "uid": str(each[0]["uid"]),
-                    "score": float(score)
+                    "score": float(score) * (-1.00)
                 }
                 finalRes.append(line)
-        finalRes.sort(key=lambda x: x["score"], reverse=False)
+        finalRes.sort(key=lambda x: x["score"], reverse=True)
         return finalRes
     else:
         return []
