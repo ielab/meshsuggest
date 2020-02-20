@@ -89,7 +89,7 @@ def processCutoffMeshs(keywords, num):
                     sources = item["Sources"]
                     if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
                         temp1 = {
-                            "score": float(score),
+                            "score": float(score) * (-1.00),
                             "term": item["CandidatePreferred"].lower()
                         }
                         generatedObj.append(temp1)
@@ -175,7 +175,7 @@ def performCombMNZ(runList):
                 line = {
                     "term": str(each[0]["term"]),
                     "uid": str(each[0]["uid"]),
-                    "score": float(score) * (-1.00)
+                    "score": float(score)
                 }
                 finalRes.append(line)
         finalRes.sort(key=lambda x: x["score"], reverse=True)
