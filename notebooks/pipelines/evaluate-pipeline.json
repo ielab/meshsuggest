@@ -1,0 +1,34 @@
+template queries $0
+template results $1
+template pubdate_file $2
+{
+  "query": {
+    "format": "pubmed",
+    "path": "%queries"
+  },
+  "statistic": {
+    "source": "entrez",
+    "options": {
+      "email": "h.scells@uq.edu.au",
+      "tool": "boogie",
+      "key": "eb8d49885d85feea8f7188e9c60d29e3d308",
+      "search": {
+        "size": 100000,
+        "run_name": "x"
+      }
+    }
+  },
+  "transformations": {
+    "operations": [
+      "date_restrictions"
+    ]
+  },
+  "preprocess_options": {
+    "date_restrictions.file": "%pubdate_file"
+  },
+  "output": {
+    "trec_results": {
+      "output": "%results"
+    }
+  }
+}
