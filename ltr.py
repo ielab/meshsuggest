@@ -25,18 +25,18 @@ def main():
             "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_UMLS_I_train_features.txt"
         ]
         trainFiles = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2017_ATM_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2018_ATM_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_ATM_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_ATM_I_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2017_Meta_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2018_Meta_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_Meta_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_Meta_I_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2017_UMLS_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2018_UMLS_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_UMLS_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_train/2019_UMLS_I_train.txt"
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_ATM_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_ATM_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_D_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_I_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_Meta_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_Meta_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_D_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_I_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_UMLS_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_UMLS_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_D_train.txt",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_I_train.txt"
         ]
         modelOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_models"
         trainSets = []
@@ -163,3 +163,7 @@ def main():
                              '--scores {scoreFileName}'.format(testFile=item["test"], metric=metric, modelInput=item["model"], scoreFileName=scoreFileName)
             subprocess.call(quickrank_path + queryTestParam, shell=True)
         print("Testing Done.")
+
+
+if __name__ == "__main__":
+    main()
