@@ -4,8 +4,6 @@ import os
 import time
 import json
 
-NOT_FOUND = "Wikipedia does not have an article with this exact name."
-
 
 def extractWikiContent(meshJSON):
     for mesh in meshJSON:
@@ -14,19 +12,12 @@ def extractWikiContent(meshJSON):
             term = mesh["term"]
             response = requests.get("https://en.wikipedia.org/wiki/" + term)
             print(mesh["uid"] + "   " + mesh["term"] + "    " + str(response.status_code))
-            while response.content is None or response.status_code is not 200:
-                time.sleep(0.1)
+            while response.content is None:
+                time.sleep(1)
                 response = requests.get("https://en.wikipedia.org/wiki/" + term)
                 print(mesh["uid"] + "   " + mesh["term"] + "    " + str(response.status_code))
-            soup = BeautifulSoup(response.content, 'html.parser')
-            allB = soup.find_all('b')
-            textInB = []
-            if len(allB) > 0:
-                for b in allB:
-                    textInB.append(b.text)
-            if NOT_FOUND in textInB:
-                continue
-            else:
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.content, 'html.parser')
                 for script in soup('script'):
                     script.decompose()
                 for style in soup('style'):
