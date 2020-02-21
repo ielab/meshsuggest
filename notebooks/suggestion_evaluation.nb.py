@@ -121,7 +121,7 @@ def wss(e: trectools.TrecEval, per_query=False):
         return pd.Series(dict([(t, (((N - ret.T[t]) / N) - (1.0 - r.T[t]))) for t in ret.index]))
     else:
         wss = ((N - ret) / N) - (1.0 - r)
-        if wss < 0: return 0
+        if wss < 0: return 0  # don't ask.
         return wss
 
 
