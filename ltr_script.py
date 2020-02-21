@@ -10,55 +10,38 @@ def main():
     if option == "1":
         algo = "LAMBDAMART"
         metric = "NDCG"
-        featuresFiles = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2017_ATM_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2018_ATM_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_ATM_D_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_ATM_I_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2017_Meta_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2018_Meta_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_Meta_D_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_Meta_I_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2017_UMLS_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2018_UMLS_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_UMLS_D_train_features.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_features/2019_UMLS_I_train_features.txt"
-        ]
-        trainFiles = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_ATM_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_ATM_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_I_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_Meta_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_Meta_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_I_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_UMLS_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_UMLS_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_D_train.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_I_train.txt"
+        trainFeatures = [
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_ATM_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_ATM_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_D_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_I_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_Meta_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_Meta_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_D_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_I_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_UMLS_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_UMLS_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_D_train_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_I_train_features.features"
         ]
         modelOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_models"
         trainSets = []
         for num in range(12):
             if num < 4:
                 oneSet = {
-                    "feature": featuresFiles[num],
-                    "train": trainFiles[num],
+                    "feature": trainFeatures[num],
                     "name": "ATM"
                 }
                 trainSets.append(oneSet)
             elif 8 > num >= 4:
                 oneSet = {
-                    "feature": featuresFiles[num],
-                    "train": trainFiles[num],
+                    "feature": trainFeatures[num],
                     "name": "Meta"
                 }
                 trainSets.append(oneSet)
             elif num >= 8:
                 oneSet = {
-                    "feature": featuresFiles[num],
-                    "train": trainFiles[num],
+                    "feature": trainFeatures[num],
                     "name": "UMLS"
                 }
                 trainSets.append(oneSet)
@@ -80,28 +63,28 @@ def main():
             else:
                 modelFileName = '{modelOutPath}/{year}_{metric}_{model}_model.xml'.format(modelOutPath=modelOutPath, year=year, metric=metric, model=item["name"])
             queryTrainParam = ' --algo {algo} ' \
-                              '--train {trainFile} ' \
-                              '--feature {featureFile} ' \
+                              '--features {featureFile} ' \
                               '--train-metric {metric} ' \
-                              '--model-out {modelOutPath}'.format(algo=algo, trainFile=item["train"], featureFile=item["feature"], metric=metric, modelOutPath=modelFileName)
+                              '--model-out {modelOutPath}'.format(algo=algo, featureFile=item["feature"], metric=metric, modelOutPath=modelFileName)
+            print(quickrank_path + queryTrainParam)
             subprocess.call(quickrank_path + queryTrainParam, shell=True)
         print("Training Done.")
     if option == "2":
         scoreOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_scores"
         metric = "NDCG"
-        testFiles = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_ATM_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_ATM_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_D_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_I_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_Meta_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_Meta_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_D_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_I_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_UMLS_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_UMLS_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_D_test.txt",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_I_test.txt"
+        testFeatureFiles = [
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_ATM_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_ATM_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_D_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_I_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_Meta_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_Meta_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_D_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_I_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_UMLS_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_UMLS_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_D_test_features.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_I_test_features.features"
         ]
         modelsPath = [
             "/Users/summerfrogman/ielab/meshsuggest/ltr_models/2017_NDCG_ATM_model.xml",
@@ -122,21 +105,21 @@ def main():
             if num < 4:
                 oneSet = {
                     "model": modelsPath[num],
-                    "test": testFiles[num],
+                    "featureFile": testFeatureFiles[num],
                     "name": "ATM"
                 }
                 testSets.append(oneSet)
             elif 8 > num >= 4:
                 oneSet = {
                     "model": modelsPath[num],
-                    "test": testFiles[num],
+                    "featureFile": testFeatureFiles[num],
                     "name": "Meta"
                 }
                 testSets.append(oneSet)
             elif num >= 8:
                 oneSet = {
                     "model": modelsPath[num],
-                    "test": testFiles[num],
+                    "featureFile": testFeatureFiles[num],
                     "name": "UMLS"
                 }
                 testSets.append(oneSet)
@@ -157,10 +140,10 @@ def main():
                 scoreFileName = '{scoreOutPath}/{year}_{metric}_{model}_{subset}_score.txt'.format(scoreOutPath=scoreOutPath, year=year, metric=metric, model=item["name"], subset=subset)
             else:
                 scoreFileName = '{scoreOutPath}/{year}_{metric}_{model}_score.txt'.format(scoreOutPath=scoreOutPath, year=year, metric=metric, model=item["name"])
-            queryTestParam = ' --test {testFile} ' \
+            queryTestParam = ' --features {featureFile} ' \
                              '--model-in {modelInput} ' \
                              '--test-metric {metric} ' \
-                             '--scores {scoreFileName}'.format(testFile=item["test"], metric=metric, modelInput=item["model"], scoreFileName=scoreFileName)
+                             '--scores {scoreFileName}'.format(featureFile=item["featureFile"], metric=metric, modelInput=item["model"], scoreFileName=scoreFileName)
             subprocess.call(quickrank_path + queryTestParam, shell=True)
         print("Testing Done.")
 
