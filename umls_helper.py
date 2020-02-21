@@ -43,38 +43,6 @@ def getUMLSMeshTerms(path, keywordf, meshf, num):
 def requestUMLSMeshs(keywords, num):
     meshs = []
     objs = []
-    newObjs = []
-    # seen = set()
-    # if num == "one":
-    #     for k in keywords:
-    #         hashK = hashlib.md5(k.encode())
-    #         hashKRes = hashK.hexdigest()
-    #         responseF = open("umls_responses/" + hashKRes, "r")
-    #         response = responseF.read()
-    #         generatedMeshs, objRet, seen = parseUMLSResponse(response, seen, num)
-    #         if len(generatedMeshs) is not 0:
-    #             for g in generatedMeshs:
-    #                 meshs.append(g)
-    #         if len(objRet) is not 0:
-    #             for i in objRet:
-    #                 objs.append(i)
-    #     if len(objs) > 0:
-    #         scores = []
-    #         for o in objs:
-    #             scores.append(o["score"])
-    #         maxScore = max(scores)
-    #         for each in objs:
-    #             temp = {
-    #                 "uid": each["uid"],
-    #                 "term": each["term"],
-    #                 "score": maxScore - float(each["score"])
-    #             }
-    #             newObjs.append(temp)
-    #         sortedList = sortList(newObjs)
-    #         return meshs, sortedList
-    #     else:
-    #         return [], []
-    # else:
     generatedMeshs, objRet = processCutoffMeshs(keywords, num)
     if len(generatedMeshs) is not 0:
         for g in generatedMeshs:
@@ -225,7 +193,6 @@ def performCombSUM(runList):
                 score = 0.00
                 for e in each:
                     score += float(e["score"])
-                # score = score * len(each)
                 line = {
                     "term": str(each[0]["term"]),
                     "uid": str(each[0]["uid"]),
@@ -259,77 +226,6 @@ def checkTermExistence(term):
                     }
                     found.append(temp2)
     return found
-
-
-# def parseUMLSResponse(response, seen, num):
-#     generatedMeshs = []
-#     generatedMeshObjs = []
-#     resContent = json.loads(response)
-#     if resContent is not None:
-#         if num == "one":
-#             scores = []
-#             hits = resContent["hits"]["hits"]
-#             for hit in hits:
-#                 scores.append(float(hit["_score"]))
-#             scores = list(dict.fromkeys(scores))
-#             scores.sort(reverse=True)
-#             if len(scores) > 0:
-#                 selectedScores = scores[0]
-#                 for hit in hits:
-#                     score = float(hit["_score"])
-#                     if score == selectedScores:
-#                         thesaurus = hit["_source"]["thesaurus"]
-#                         for each in thesaurus:
-#                             if each["MRCONSO_LAT"] == "ENG":
-#                                 if each["MRCONSO_SAB"] == "MSH" or each["MRDEF_SAB"] == "MSH":
-#                                     if each["MRCONSO_STR"] is not None and each["MRCONSO_STR"] != "":
-#                                         temp1 = {
-#                                             "term": each["MRCONSO_STR"].lower(),
-#                                             "score": float(score)
-#                                         }
-#                                         generatedMeshObjs.append(temp1)
-#                                         generatedMeshs.append(each["MRCONSO_STR"].lower())
-#             else:
-#                 generatedMeshs = []
-#         if len(generatedMeshs) > 0:
-#             ret = []
-#             objRet = []
-#             for mesh in generatedMeshObjs:
-#                 meshobj = next((x for x in MESHINFO if x["term"] == mesh["term"] or mesh["term"] in x["entry_list"]), None)
-#                 if meshobj is not None:
-#                     if meshobj["uid"] not in seen:
-#                         seen.add(meshobj["uid"])
-#                         temp1 = {
-#                             "uid": meshobj["uid"],
-#                             "term": meshobj["term"],
-#                             "score": mesh["score"]
-#                         }
-#                         objRet.append(temp1)
-#                         ret.append(meshobj["term"])
-#                 else:
-#                     suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
-#                     if suppobj is not None:
-#                         for i in suppobj["ids"]:
-#                             if i not in seen:
-#                                 seen.add(i)
-#                                 obj = next((x for x in MESHINFO if x["uid"] == i), None)
-#                                 if obj is not None:
-#                                     temp2 = {
-#                                         "score": mesh["score"],
-#                                         "uid": obj["uid"],
-#                                         "term": obj["term"]
-#                                     }
-#                                     objRet.append(temp2)
-#                                     ret.append(obj["term"])
-#
-#             if len(ret) > 0:
-#                 return cleanTerms(ret), objRet, seen
-#             else:
-#                 return [], [], seen
-#         else:
-#             return [], [], seen
-#     else:
-#         return [], [], seen
 
 
 def createUMLSResFile(path, d, dd, generatedMesh, num):

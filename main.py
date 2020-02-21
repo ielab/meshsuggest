@@ -2,7 +2,7 @@ from umls_helper import *
 from generator import *
 from wikiExtractor import *
 import os
-from threading import Thread
+import multiprocessing
 
 # 2017 DATASET
 TEST_FOLDER_2017 = "data/clef_tar_processed/2017/testing"
@@ -272,14 +272,23 @@ def main():
         meshDatabaseFile = open("mesh.json", "r")
         meshDatabaseContent = meshDatabaseFile.read()
         meshDatabaseJSON = json.loads(meshDatabaseContent)
-        # threads = []
-        # for i in range(len(meshDatabaseJSON)):
-        #     process = Thread(target=extractWikiContent, args=[meshDatabaseJSON])
-        #     process.start()
-        #     threads.append(process)
-        # for process in threads:
-        #     process.join()
-        extractWikiContent(meshDatabaseJSON)
+        cut = lambda lst, sz: [lst[k:k + sz] for k in range(0, len(lst), sz)]
+        meshDatabaseJSON.sort(key=lambda t: t["uid"])
+        splited = cut(meshDatabaseJSON, 3705)
+        # extractWikiContent(splited[0])
+        # extractWikiContent(splited[1])
+        # extractWikiContent(splited[2])
+        # extractWikiContent(splited[3])
+        # extractWikiContent(splited[4])
+        # extractWikiContent(splited[5])
+        # extractWikiContent(splited[6])
+        # extractWikiContent(splited[7])
+        lsts = [splited[0] + splited[1], splited[2] + splited[3]]
+        jobs = []
+        for meshList in lsts:
+            p = multiprocessing.Process(target=extractWikiContent, args=(meshList,))
+            jobs.append(p)
+            p.start()
     elif option is "5":
         for path in selectedPath:
             dirs = os.listdir(path)

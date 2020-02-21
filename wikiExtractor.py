@@ -6,16 +6,28 @@ import json
 
 
 def extractWikiContent(meshJSON):
-    for mesh in meshJSON:
+    for ind, mesh in enumerate(meshJSON):
+        time.sleep(0.2)
         meshDir = os.listdir("wiki_content")
         if mesh["uid"] not in meshDir:
             term = mesh["term"]
             response = requests.get("https://en.wikipedia.org/wiki/" + term)
-            print(mesh["uid"] + "   " + mesh["term"] + "    " + str(response.status_code))
+            if response.status_code == 404:
+                if ',' in term:
+                    commaCount = 0
+                    for char in term:
+                        if char is ',':
+                            commaCount += 1
+                    if commaCount == 1:
+                        terms = term.split(',')
+                        term = terms[1].strip() + ' ' + terms[0].strip()
+                        time.sleep(0.2)
+                        response = requests.get("https://en.wikipedia.org/wiki/" + term)
+            print(str(ind) + " - " + mesh["uid"] + "   " + term + "    " + str(response.status_code))
             while response.content is None:
-                time.sleep(1)
+                time.sleep(0.5)
                 response = requests.get("https://en.wikipedia.org/wiki/" + term)
-                print(mesh["uid"] + "   " + mesh["term"] + "    " + str(response.status_code))
+                print(str(ind) + " - " + mesh["uid"] + "   " + term + "    " + str(response.status_code))
             if response.status_code == 200:
                 soup = BeautifulSoup(response.content, 'html.parser')
                 for script in soup('script'):
@@ -54,7 +66,6 @@ def extractWikiContent(meshJSON):
                     nv.decompose()
                 for f in soup('div', {'id': 'footer'}):
                     f.decompose()
-                # print(soup.get_text(" ", strip=True))
                 text = {
                     "text": soup.get_text(' ', strip=True)
                 }

@@ -44,23 +44,6 @@ def getMetaMeshTerms(path, keywordsF, meshF, num):
 def requestMetaMeshs(keywords, num):
     meshs = []
     objs = []
-    # seen = set()
-    # if num == "one":
-    #     for k in keywords:
-    #         hashK = hashlib.md5(k.encode())
-    #         hashKRes = hashK.hexdigest()
-    #         responseF = open("metamap_responses/" + hashKRes, "r")
-    #         response = responseF.read()
-    #         generatedMeshs, objRet, seen = parseMetaResponse(response, seen, num)
-    #         if len(generatedMeshs) is not 0:
-    #             for g in generatedMeshs:
-    #                 meshs.append(g)
-    #         if len(objRet) is not 0:
-    #             for i in objRet:
-    #                 objs.append(i)
-    #     sortedList = sortList(objs)
-    #     return meshs, sortedList
-    # else:
     generatedMeshs, objRet = processCutoffMeshs(keywords, num)
     if len(generatedMeshs) is not 0:
         for g in generatedMeshs:
@@ -237,7 +220,6 @@ def performCombSUM(runList):
                 score = 0.00
                 for e in each:
                     score += float(e["score"])
-                # score = score * len(each)
                 line = {
                     "term": str(each[0]["term"]),
                     "uid": str(each[0]["uid"]),
@@ -271,72 +253,6 @@ def checkTermExistence(term):
                     }
                     found.append(temp2)
     return found
-
-
-# def parseMetaResponse(response, seen, num):
-#     generatedMeshs = []
-#     generatedMeshObjs = []
-#     res = json.loads(response)
-#     if res is not None:
-#         if num == "one":
-#             scores = []
-#             for item in res:
-#                 scores.append(float(item["CandidateScore"]))
-#             if len(scores) > 0:
-#                 scores = list(dict.fromkeys(scores))
-#                 scores.sort()
-#                 selectedScores = scores[0]
-#                 for item in res:
-#                     score = float(item["CandidateScore"])
-#                     if score == selectedScores:
-#                         sources = item["Sources"]
-#                         if "MSH" in sources and item["CandidatePreferred"] is not None and item["CandidatePreferred"] is not "":
-#                             generatedMeshs.append(item["CandidatePreferred"].lower())
-#                             temp1 = {
-#                                 "term": item["CandidatePreferred"].lower(),
-#                                 "score": 1000.00 - (float(score) * (-1.00))
-#                             }
-#                             generatedMeshObjs.append(temp1)
-#             else:
-#                 generatedMeshs = []
-#         if len(generatedMeshs) > 0:
-#             ret = []
-#             objRet = []
-#             for mesh in generatedMeshObjs:
-#                 meshobj = next((x for x in MESHINFO if x["term"] == mesh["term"] or mesh["term"] in x["entry_list"]), None)
-#                 if meshobj is not None:
-#                     if meshobj["uid"] not in seen:
-#                         seen.add(meshobj["uid"])
-#                         temp1 = {
-#                             "uid": meshobj["uid"],
-#                             "term": meshobj["term"],
-#                             "score": mesh["score"]
-#                         }
-#                         objRet.append(temp1)
-#                         ret.append(meshobj["term"])
-#                 else:
-#                     suppobj = next((x for x in SUPPINFO if mesh in x["names"]), None)
-#                     if suppobj is not None:
-#                         for i in suppobj["ids"]:
-#                             if i not in seen:
-#                                 seen.add(i)
-#                                 obj = next((x for x in MESHINFO if x["uid"] == i), None)
-#                                 if obj is not None:
-#                                     temp2 = {
-#                                         "score": mesh["score"],
-#                                         "uid": obj["uid"],
-#                                         "term": obj["term"]
-#                                     }
-#                                     objRet.append(temp2)
-#                                     ret.append(obj["term"])
-#             if len(ret) > 0:
-#                 return cleanTerms(ret), objRet, seen
-#             else:
-#                 return [], [], seen
-#         else:
-#             return [], [], seen
-#     else:
-#         return [], [], seen
 
 
 def createMetaResFile(path, d, dd, generatedMesh, num):
