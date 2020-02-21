@@ -133,29 +133,29 @@ def get_vals(runs, qrels):
     return vals
 
 
-vals = [[[]] * 4, [[]] * 4]
-vals[0][0] = get_vals(meta_2017, qrels_2017)
-vals[0][1] = get_vals(meta_2018, qrels_2018)
-vals[0][2] = get_vals(meta_2019_d, qrels_2019_d)
-vals[0][3] = get_vals(meta_2019_i, qrels_2019_i)
-vals[1][0] = get_vals(umls_2017, qrels_2017)
-vals[1][1] = get_vals(umls_2018, qrels_2018)
-vals[1][2] = get_vals(umls_2019_d, qrels_2019_d)
-vals[1][3] = get_vals(umls_2019_i, qrels_2019_i)
+vals = [[[]] * 4, [[]] * 4, [[]] * 4]
+vals[1][0] = get_vals(meta_2017, qrels_2017)
+vals[1][1] = get_vals(meta_2018, qrels_2018)
+vals[1][2] = get_vals(meta_2019_d, qrels_2019_d)
+vals[1][3] = get_vals(meta_2019_i, qrels_2019_i)
+vals[2][0] = get_vals(umls_2017, qrels_2017)
+vals[2][1] = get_vals(umls_2018, qrels_2018)
+vals[2][2] = get_vals(umls_2019_d, qrels_2019_d)
+vals[2][3] = get_vals(umls_2019_i, qrels_2019_i)
 # %%
 titles = [[""] * 4, [""] * 4, [""] * 4]
-titles[0][0] = "MetaMap 2017"
-titles[0][1] = "MetaMap 2018"
-titles[0][2] = "MetaMap 2019 (D)"
-titles[0][3] = "MetaMap 2019 (I)"
-titles[1][0] = "UMLS 2017"
-titles[1][1] = "UMLS 2018"
-titles[1][2] = "UMLS 2019 (D)"
-titles[1][3] = "UMLS 2019 (I)"
-titles[2][0] = "ERM 2017"
-titles[2][1] = "ERM 2018"
-titles[2][2] = "ERM 2019 (D)"
-titles[2][3] = "ERM 2019 (I)"
+titles[0][0] = "ERM 2017"
+titles[0][1] = "ERM 2018"
+titles[0][2] = "ERM 2019 (D)"
+titles[0][3] = "ERM 2019 (I)"
+titles[1][0] = "MetaMap 2017"
+titles[1][1] = "MetaMap 2018"
+titles[1][2] = "MetaMap 2019 (D)"
+titles[1][3] = "MetaMap 2019 (I)"
+titles[2][0] = "UMLS 2017"
+titles[2][1] = "UMLS 2018"
+titles[2][2] = "UMLS 2019 (D)"
+titles[2][3] = "UMLS 2019 (I)"
 # %%
 plt.style.use('grayscale')
 sns.set_style("whitegrid")

@@ -1,0 +1,1 @@
+(transient elastograph*[All Fields] OR fibroscan[All Fields]) AND (biopsy[MeSH Terms] OR liver[MeSH Terms] OR liver biops*[All Fields]) AND (fibrosis[MeSH Terms] OR liver[MeSH Terms] OR liver cirrhosis[MeSH Terms] OR (hepatic[All Fields] OR liver[All Fields]) AND (fibrosis[All Fields] OR cirrhosis[All Fields]))
