@@ -71,12 +71,12 @@ def main():
     for g in groupedAll:
         g.sort(key=lambda x: (x["score"], x["uid"]))
     for each in groupedAll:
-        normalisedInnerAllScores = []
+        innerAllScores = []
         for m in each:
-            normalisedInnerAllScores.append(float(m["score"]))
-        normalisedInnerMaxScore = max(normalisedInnerAllScores)
+            innerAllScores.append(float(m["score"]))
+        innerMaxScore = max(innerAllScores)
         for n in each:
-            n["score"] = normalisedInnerMaxScore - n["score"]
+            n["score"] = innerMaxScore - n["score"]
     for e in groupedAll:
         e.sort(key=lambda y: (y["score"], y["uid"]))
     cutoffGroupedAll = []
