@@ -4,8 +4,7 @@ from ltr_cutoff_res_files import *
 
 def main():
     nums = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
-    # nums = [50]
-    # nums = [1]
+    # nums = [1, 2, 3, 4, 5]
     for path in TRAIN_PATHS:
         with open(path[0], "r") as f:
             content = f.readlines()
@@ -57,6 +56,30 @@ def main():
         for e in groupedAll:
             e.sort(key=lambda y: (y["score"], y["uid"]))
         for num in nums:
+            # num = int(num)
+            # res = []
+            # for c in groupedAll:
+            #     if len(c) <= num:
+            #         res.append(c)
+            #     else:
+            #         tempList = []
+            #         count = 1
+            #         for ele in c:
+            #             if count <= num:
+            #                 tempList.append(ele)
+            #                 count += 1
+            #         res.append(tempList)
+            # for el in res:
+            #     for ind, innerEle in enumerate(el):
+            #         desc = "{d}_{n}".format(d=path[2], n=int(num))
+            #         line = "{topic} 0 {uid} {ind} {score} {desc}\n".format(topic=innerEle["topic"], uid=innerEle["uid"],
+            #                                                                ind=ind + 1,
+            #                                                                score=float(innerEle["score"]),
+            #                                                                desc=desc)
+            #         outPath = "{pathPrefix}_{num}.res".format(pathPrefix=path[1], num=int(num))
+            #         f = open(outPath, "a+")
+            #         f.write(line)
+            #         f.close()
             cutoffGroupedAll = []
             num = float(num)
             for c in groupedAll:
