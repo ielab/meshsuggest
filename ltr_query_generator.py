@@ -9,7 +9,7 @@ def main():
         filenames.remove(trash)
     for filename in filenames:
         grouped = readAndParseResFile(filename)
-    print(grouped)
+        print(grouped)
 
 
 def readAndParseResFile(filename):
@@ -22,8 +22,7 @@ def readAndParseResFile(filename):
         splitedLine = re.split(r' +', each)
         oneObj = {
             "topic": splitedLine[0],
-            "uid": splitedLine[2],
-            "score": float(splitedLine[4])
+            "uid": splitedLine[2]
         }
         allItems.append(oneObj)
     topics = []
@@ -42,7 +41,7 @@ def readAndParseResFile(filename):
         if len(grouped) > 0:
             groupedAll.append(grouped)
     for g in groupedAll:
-        g.sort(key=lambda x: (x["score"], x["uid"]))
+        g.sort(key=lambda x: x["uid"])
     return groupedAll
 
 
