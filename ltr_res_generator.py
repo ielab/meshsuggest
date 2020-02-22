@@ -2,10 +2,10 @@ import re
 
 
 def main():
-    lookupPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_lookup/2019_testing_Intervention.lookup"
-    scoreFilePath = "/Users/summerfrogman/ielab/meshsuggest/ltr_scores/2019_NDCG_UMLS_I_score.txt"
-    featureFilePath = "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_UMLS_I_test_norm.features"
-    resOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_res/2017/test/2019_UMLS_I_test.res"
+    lookupPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_lookup/2019_training_Intervention.lookup"
+    scoreFilePath = "/Users/summerfrogman/ielab/meshsuggest/ltr_scores/train/2019_NDCG_ATM_I_score.txt"
+    featureFilePath = "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_ATM_I_train_norm.features"
+    resOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_res/train/2019_ATM_I_train.res"
     scoreFile = open(scoreFilePath, "r")
     scoreFileContent = scoreFile.read()
     featureFile = open(featureFilePath, "r")
