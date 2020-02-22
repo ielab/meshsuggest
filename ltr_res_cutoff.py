@@ -5,6 +5,7 @@ from ltr_cutoff_res_files import *
 def main():
     nums = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
     # nums = [50]
+    # nums = [1]
     for path in TRAIN_PATHS:
         with open(path[0], "r") as f:
             content = f.readlines()
@@ -55,8 +56,8 @@ def main():
                 n["score"] = innerMaxScore - n["score"]
         for e in groupedAll:
             e.sort(key=lambda y: (y["score"], y["uid"]))
-        cutoffGroupedAll = []
         for num in nums:
+            cutoffGroupedAll = []
             num = float(num)
             for c in groupedAll:
                 eachCutoffTotalScore = 0.0
