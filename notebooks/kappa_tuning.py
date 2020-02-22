@@ -12,7 +12,7 @@ import random
 import os
 import trectools
 from trectools import fusion
-from rbo import RankingSimilarity
+# from rbo import RankingSimilarity
 from operator import itemgetter
 import itertools
 from sklearn.preprocessing import minmax_scale
@@ -37,7 +37,7 @@ mpl.rcParams['pdf.fonttype'] = 42
 mpl.rcParams['ps.fonttype'] = 42
 
 from matplotlib.colors import LogNorm
-from matplotlib.mlab import bivariate_normal
+# from matplotlib.mlab import bivariate_normal
 from matplotlib.legend_handler import HandlerLine2D
 import sys
 import importlib
@@ -52,29 +52,42 @@ qrels_2019_i = trectools.TrecQrel("data/clef_tar_processed/2019/training/Interve
 # %%
 
 incr = list(range(5, 100, 5))
+atm_2017 = []
 meta_2017 = []
 umls_2017 = []
+atm_2018 = []
 meta_2018 = []
 umls_2018 = []
+atm_2019_d = []
 meta_2019_d = []
 umls_2019_d = []
+atm_2019_i = []
 meta_2019_i = []
 umls_2019_i = []
 
+catgories = ["2017_train",
+             "2018_train",
+             "2019_train_DTA",
+             "2019_train_Intervention"]
+
 for inc in incr:
-    for year in ["2017/training", "2018/training", "2019/training/DTA", "2019/training/Intervention"]:
-        if year == "2017/training":
-            meta_2017.append(trectools.TrecRun("data/clef_tar_processed/{}/meta_{}.res".format(year, inc)))
-            umls_2017.append(trectools.TrecRun("data/clef_tar_processed/{}/umls_{}.res".format(year, inc)))
-        if year == "2018/training":
-            meta_2018.append(trectools.TrecRun("data/clef_tar_processed/{}/meta_{}.res".format(year, inc)))
-            umls_2018.append(trectools.TrecRun("data/clef_tar_processed/{}/umls_{}.res".format(year, inc)))
-        if year == "2019/training/DTA":
-            meta_2019_d.append(trectools.TrecRun("data/clef_tar_processed/{}/meta_{}.res".format(year, inc)))
-            umls_2019_d.append(trectools.TrecRun("data/clef_tar_processed/{}/umls_{}.res".format(year, inc)))
-        if year == "2019/training/Intervention":
-            meta_2019_i.append(trectools.TrecRun("data/clef_tar_processed/{}/meta_{}.res".format(year, inc)))
-            umls_2019_i.append(trectools.TrecRun("data/clef_tar_processed/{}/umls_{}.res".format(year, inc)))
+    for year in catgories:
+        if year == "2017_train":
+            atm_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_ATM_train_cutoff_{}.res".format(inc)))
+            meta_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_Meta_train_cutoff_{}.res".format(inc)))
+            umls_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_UMLS_train_cutoff_{}.res".format(inc)))
+        if year == "2018_train":
+            atm_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_ATM_train_cutoff_{}.res".format(inc)))
+            meta_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_Meta_train_cutoff_{}.res".format(inc)))
+            umls_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_UMLS_train_cutoff_{}.res".format(inc)))
+        if year == "2019_train_DTA":
+            atm_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_ATM_D_train_cutoff_{}.res".format(inc)))
+            meta_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_Meta_D_train_cutoff_{}.res".format(inc)))
+            umls_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_UMLS_D_train_cutoff_{}.res".format(inc)))
+        if year == "2019_train_Intervention":
+            atm_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_ATM_I_train_cutoff_{}.res".format(inc)))
+            meta_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_Meta_I_train_cutoff_{}.res".format(inc)))
+            umls_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_UMLS_I_train_cutoff_{}.res".format(inc)))
 
 
 # %%
@@ -134,6 +147,10 @@ def get_vals(runs, qrels):
 
 
 vals = [[[]] * 4, [[]] * 4, [[]] * 4]
+vals[0][0] = get_vals(atm_2017, qrels_2017)
+vals[0][1] = get_vals(atm_2018, qrels_2018)
+vals[0][2] = get_vals(atm_2019_d, qrels_2019_d)
+vals[0][3] = get_vals(atm_2019_i, qrels_2019_i)
 vals[1][0] = get_vals(meta_2017, qrels_2017)
 vals[1][1] = get_vals(meta_2018, qrels_2018)
 vals[1][2] = get_vals(meta_2019_d, qrels_2019_d)
@@ -142,12 +159,17 @@ vals[2][0] = get_vals(umls_2017, qrels_2017)
 vals[2][1] = get_vals(umls_2018, qrels_2018)
 vals[2][2] = get_vals(umls_2019_d, qrels_2019_d)
 vals[2][3] = get_vals(umls_2019_i, qrels_2019_i)
+
 # %%
 titles = [[""] * 4, [""] * 4, [""] * 4]
-titles[0][0] = "ERM 2017"
-titles[0][1] = "ERM 2018"
-titles[0][2] = "ERM 2019 (D)"
-titles[0][3] = "ERM 2019 (I)"
+# titles[0][0] = "ERM 2017"
+# titles[0][1] = "ERM 2018"
+# titles[0][2] = "ERM 2019 (D)"
+# titles[0][3] = "ERM 2019 (I)"
+titles[0][0] = "ATM 2017"
+titles[0][1] = "ATM 2018"
+titles[0][2] = "ATM 2019 (D)"
+titles[0][3] = "ATM 2019 (I)"
 titles[1][0] = "MetaMap 2017"
 titles[1][1] = "MetaMap 2018"
 titles[1][2] = "MetaMap 2019 (D)"
