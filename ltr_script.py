@@ -11,18 +11,18 @@ def main():
         algo = "LAMBDAMART"
         metric = "NDCG"
         trainFeatures = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_ATM_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_ATM_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_D_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_ATM_I_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_Meta_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_Meta_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_D_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_Meta_I_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2017_UMLS_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2018_UMLS_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_D_train_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/2019_UMLS_I_train_features.features"
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2017_ATM_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2018_ATM_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_ATM_D_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_ATM_I_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2017_Meta_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2018_Meta_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_Meta_D_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_Meta_I_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2017_UMLS_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2018_UMLS_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_UMLS_D_train_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_trains/norm/2019_UMLS_I_train_norm.features"
         ]
         modelOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_models"
         trainSets = []
@@ -63,7 +63,7 @@ def main():
             else:
                 modelFileName = '{modelOutPath}/{year}_{metric}_{model}_model.xml'.format(modelOutPath=modelOutPath, year=year, metric=metric, model=item["name"])
             queryTrainParam = ' --algo {algo} ' \
-                              '--features {featureFile} ' \
+                              '--train {featureFile} ' \
                               '--train-metric {metric} ' \
                               '--model-out {modelOutPath}'.format(algo=algo, featureFile=item["feature"], metric=metric, modelOutPath=modelFileName)
             print(quickrank_path + queryTrainParam)
@@ -73,18 +73,18 @@ def main():
         scoreOutPath = "/Users/summerfrogman/ielab/meshsuggest/ltr_scores"
         metric = "NDCG"
         testFeatureFiles = [
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_ATM_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_ATM_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_D_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_ATM_I_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_Meta_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_Meta_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_D_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_Meta_I_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2017_UMLS_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2018_UMLS_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_D_test_features.features",
-            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/2019_UMLS_I_test_features.features"
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2017_ATM_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2018_ATM_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_ATM_D_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_ATM_I_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2017_Meta_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2018_Meta_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_Meta_D_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_Meta_I_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2017_UMLS_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2018_UMLS_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_UMLS_D_test_norm.features",
+            "/Users/summerfrogman/ielab/meshsuggest/ltr_tests/norm/2019_UMLS_I_test_norm.features"
         ]
         modelsPath = [
             "/Users/summerfrogman/ielab/meshsuggest/ltr_models/2017_NDCG_ATM_model.xml",
@@ -140,7 +140,7 @@ def main():
                 scoreFileName = '{scoreOutPath}/{year}_{metric}_{model}_{subset}_score.txt'.format(scoreOutPath=scoreOutPath, year=year, metric=metric, model=item["name"], subset=subset)
             else:
                 scoreFileName = '{scoreOutPath}/{year}_{metric}_{model}_score.txt'.format(scoreOutPath=scoreOutPath, year=year, metric=metric, model=item["name"])
-            queryTestParam = ' --features {featureFile} ' \
+            queryTestParam = ' --test {featureFile} ' \
                              '--model-in {modelInput} ' \
                              '--test-metric {metric} ' \
                              '--scores {scoreFileName}'.format(featureFile=item["featureFile"], metric=metric, modelInput=item["model"], scoreFileName=scoreFileName)
