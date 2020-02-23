@@ -18,11 +18,19 @@ def main():
     for filename in filenames:
         grouped = readAndParseResFile(filename)
         print("Processing File: {}".format(filename))
+        originalDataPath = ""
         desc = grouped[0][0]["desc"]
         splitedDesc = desc.split("_")
         year = splitedDesc[0]
         method = splitedDesc[1].lower()
-        originalDataPath = "{}/{}/testing".format(PATH_PREFIX, year)
+        if year == "2019":
+            subCategory = splitedDesc[2]
+            if subCategory == "I":
+                originalDataPath = "{}/{}/testing/{}".format(PATH_PREFIX, year, "Intervention")
+            elif subCategory == "D":
+                originalDataPath = "{}/{}/testing/{}".format(PATH_PREFIX, year, "DTA")
+        else:
+            originalDataPath = "{}/{}/testing".format(PATH_PREFIX, year)
         completeTopics = getCompleteTopicList(originalDataPath)
         ltrTopicAndMesh = getLTRTopicsAndMeSH(grouped)
         ltrTopicAndMesh = compareAndAddMissingTopic(originalDataPath, completeTopics, ltrTopicAndMesh)
