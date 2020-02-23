@@ -15,19 +15,19 @@ def main():
     trash = ".DS_Store"
     if trash in filenames:
         filenames.remove(trash)
-    # for filename in filenames:
-    grouped = readAndParseResFile(filenames[0])
-    print(filenames[0])
-    desc = grouped[0][0]["desc"]
-    splitedDesc = desc.split("_")
-    year = splitedDesc[0]
-    method = splitedDesc[1].lower()
-    originalDataPath = "{}/{}/testing".format(PATH_PREFIX, year)
-    completeTopics = getCompleteTopicList(originalDataPath)
-    ltrTopicAndMesh = getLTRTopicsAndMeSH(grouped)
-    ltrTopicAndMesh = compareAndAddMissingTopic(originalDataPath, completeTopics, ltrTopicAndMesh)
-    ltrTopicAndMesh = compareAndAddMissingSub(originalDataPath, ltrTopicAndMesh)
-    produceLTRQuery(ltrTopicAndMesh, method, originalDataPath)
+    for filename in filenames:
+        grouped = readAndParseResFile(filename)
+        print(filename)
+        desc = grouped[0][0]["desc"]
+        splitedDesc = desc.split("_")
+        year = splitedDesc[0]
+        method = splitedDesc[1].lower()
+        originalDataPath = "{}/{}/testing".format(PATH_PREFIX, year)
+        completeTopics = getCompleteTopicList(originalDataPath)
+        ltrTopicAndMesh = getLTRTopicsAndMeSH(grouped)
+        ltrTopicAndMesh = compareAndAddMissingTopic(originalDataPath, completeTopics, ltrTopicAndMesh)
+        ltrTopicAndMesh = compareAndAddMissingSub(originalDataPath, ltrTopicAndMesh)
+        produceLTRQuery(ltrTopicAndMesh, method, originalDataPath)
 
 
 def produceLTRQuery(ltrTopics, method, path):
