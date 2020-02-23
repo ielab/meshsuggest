@@ -17,7 +17,7 @@ def main():
         filenames.remove(trash)
     for filename in filenames:
         grouped = readAndParseResFile(filename)
-        print(filename)
+        print("Processing File: {}".format(filename))
         desc = grouped[0][0]["desc"]
         splitedDesc = desc.split("_")
         year = splitedDesc[0]
@@ -33,6 +33,7 @@ def main():
 def produceLTRQuery(ltrTopics, method, path):
     topic = list(ltrTopics.keys())
     for t in topic:
+        print("Topic: {}".format(t))
         query = constructLTRQuery(t, ltrTopics, path)
         writeQueryFile(query, t, path, method)
 
@@ -73,12 +74,11 @@ def compareAndAddMissingSub(originalDataPath, ltrTopics):
             ltrSubs += item.keys()
         diff = list(set(subs) - set(ltrSubs))
         if len(diff) > 0:
-            temp = {}
             for sub in diff:
                 temp = {
                     sub: []
                 }
-            ltrTopics[each].append(temp)
+                ltrTopics[each].append(temp)
     for k in topics:
         ltrTopics[k].sort(key=getKey)
     return ltrTopics
