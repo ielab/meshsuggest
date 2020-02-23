@@ -15,35 +15,50 @@ res_atm_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/atm.res")
 res_atm_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/atm.res")
 res_atm_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/atm.res")
 
+res_ltr_atm_2017 = trectools.TrecRun("ltr_res/test/cutoffs/2017_ATM_test_cutoff_5.res")
+res_ltr_atm_2018 = trectools.TrecRun("ltr_res/test/cutoffs/2018_ATM_test_cutoff_5.res")
+res_ltr_atm_2019_d = trectools.TrecRun("ltr_res/test/cutoffs/2019_ATM_D_test_cutoff_5.res")
+res_ltr_atm_2019_i = trectools.TrecRun("ltr_res/test/cutoffs/2019_ATM_I_test_cutoff_5.res")
+
 res_meta_all_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/meta_100.res")
 res_meta_all_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/meta_100.res")
 res_meta_all_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/meta_100.res")
 res_meta_all_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/meta_100.res")
 
-res_meta_top1_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/meta_one.res")
-res_meta_top1_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/meta_one.res")
-res_meta_top1_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/meta_one.res")
-res_meta_top1_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/meta_one.res")
+res_ltr_meta_2017 = trectools.TrecRun("ltr_res/test/cutoffs/2017_Meta_test_cutoff_5.res")
+res_ltr_meta_2018 = trectools.TrecRun("ltr_res/test/cutoffs/2018_Meta_test_cutoff_5.res")
+res_ltr_meta_2019_d = trectools.TrecRun("ltr_res/test/cutoffs/2019_Meta_D_test_cutoff_5.res")
+res_ltr_meta_2019_i = trectools.TrecRun("ltr_res/test/cutoffs/2019_Meta_I_test_cutoff_5.res")
 
-res_meta_topk_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/meta_topK.res")
-res_meta_topk_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/meta_topK.res")
-res_meta_topk_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/meta_topK.res")
-res_meta_topk_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/meta_topK.res")
+# res_meta_top1_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/meta_one.res")
+# res_meta_top1_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/meta_one.res")
+# res_meta_top1_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/meta_one.res")
+# res_meta_top1_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/meta_one.res")
+#
+# res_meta_topk_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/meta_topK.res")
+# res_meta_topk_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/meta_topK.res")
+# res_meta_topk_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/meta_topK.res")
+# res_meta_topk_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/meta_topK.res")
 
 res_umls_all_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/umls_100.res")
 res_umls_all_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/umls_100.res")
 res_umls_all_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/umls_100.res")
 res_umls_all_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/umls_100.res")
 
-res_umls_top1_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/umls_one.res")
-res_umls_top1_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/umls_one.res")
-res_umls_top1_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/umls_one.res")
-res_umls_top1_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/umls_one.res")
+res_ltr_umls_2017 = trectools.TrecRun("ltr_res/test/cutoffs/2017_UMLS_test_cutoff_5.res")
+res_ltr_umls_2018 = trectools.TrecRun("ltr_res/test/cutoffs/2018_UMLS_test_cutoff_5.res")
+res_ltr_umls_2019_d = trectools.TrecRun("ltr_res/test/cutoffs/2019_UMLS_D_test_cutoff_5.res")
+res_ltr_umls_2019_i = trectools.TrecRun("ltr_res/test/cutoffs/2019_UMLS_I_test_cutoff_5.res")
 
-res_umls_topk_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/umls_topK.res")
-res_umls_topk_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/umls_topK.res")
-res_umls_topk_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/umls_topK.res")
-res_umls_topk_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/umls_topK.res")
+# res_umls_top1_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/umls_one.res")
+# res_umls_top1_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/umls_one.res")
+# res_umls_top1_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/umls_one.res")
+# res_umls_top1_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/umls_one.res")
+#
+# res_umls_topk_2017 = trectools.TrecRun("data/clef_tar_processed/2017/testing/umls_topK.res")
+# res_umls_topk_2018 = trectools.TrecRun("data/clef_tar_processed/2018/testing/umls_topK.res")
+# res_umls_topk_2019_d = trectools.TrecRun("data/clef_tar_processed/2019/testing/DTA/umls_topK.res")
+# res_umls_topk_2019_i = trectools.TrecRun("data/clef_tar_processed/2019/testing/Intervention/umls_topK.res")
 
 # %%
 
@@ -52,35 +67,50 @@ ev_2018_atm = trectools.TrecEval(res_atm_2018, qrels_2018)
 ev_2019_atm_d = trectools.TrecEval(res_atm_2019_d, qrels_2019_d)
 ev_2019_atm_i = trectools.TrecEval(res_atm_2019_i, qrels_2019_i)
 
+ev_2017_ltr_atm = trectools.TrecEval(res_ltr_atm_2017, qrels_2017)
+ev_2018_ltr_atm = trectools.TrecEval(res_ltr_atm_2018, qrels_2018)
+ev_2019_ltr_atm_d = trectools.TrecEval(res_ltr_atm_2019_d, qrels_2019_d)
+ev_2019_ltr_atm_i = trectools.TrecEval(res_ltr_atm_2019_i, qrels_2019_i)
+
 ev_2017_meta_all = trectools.TrecEval(res_meta_all_2017, qrels_2017)
 ev_2018_meta_all = trectools.TrecEval(res_meta_all_2018, qrels_2018)
 ev_2019_meta_all_d = trectools.TrecEval(res_meta_all_2019_d, qrels_2019_d)
 ev_2019_meta_all_i = trectools.TrecEval(res_meta_all_2019_i, qrels_2019_i)
 
-ev_2017_meta_top1 = trectools.TrecEval(res_meta_top1_2017, qrels_2017)
-ev_2018_meta_top1 = trectools.TrecEval(res_meta_top1_2018, qrels_2018)
-ev_2019_meta_top1_d = trectools.TrecEval(res_meta_top1_2019_d, qrels_2019_d)
-ev_2019_meta_top1_i = trectools.TrecEval(res_meta_top1_2019_i, qrels_2019_i)
+ev_2017_ltr_meta = trectools.TrecEval(res_ltr_meta_2017, qrels_2017)
+ev_2018_ltr_meta = trectools.TrecEval(res_ltr_meta_2018, qrels_2018)
+ev_2019_ltr_meta_d = trectools.TrecEval(res_ltr_meta_2019_d, qrels_2019_d)
+ev_2019_ltr_meta_i = trectools.TrecEval(res_ltr_meta_2019_i, qrels_2019_i)
 
-ev_2017_meta_topk = trectools.TrecEval(res_meta_topk_2017, qrels_2017)
-ev_2018_meta_topk = trectools.TrecEval(res_meta_topk_2018, qrels_2018)
-ev_2019_meta_topk_d = trectools.TrecEval(res_meta_topk_2019_d, qrels_2019_d)
-ev_2019_meta_topk_i = trectools.TrecEval(res_meta_topk_2019_i, qrels_2019_i)
+# ev_2017_meta_top1 = trectools.TrecEval(res_meta_top1_2017, qrels_2017)
+# ev_2018_meta_top1 = trectools.TrecEval(res_meta_top1_2018, qrels_2018)
+# ev_2019_meta_top1_d = trectools.TrecEval(res_meta_top1_2019_d, qrels_2019_d)
+# ev_2019_meta_top1_i = trectools.TrecEval(res_meta_top1_2019_i, qrels_2019_i)
+#
+# ev_2017_meta_topk = trectools.TrecEval(res_meta_topk_2017, qrels_2017)
+# ev_2018_meta_topk = trectools.TrecEval(res_meta_topk_2018, qrels_2018)
+# ev_2019_meta_topk_d = trectools.TrecEval(res_meta_topk_2019_d, qrels_2019_d)
+# ev_2019_meta_topk_i = trectools.TrecEval(res_meta_topk_2019_i, qrels_2019_i)
 
 ev_2017_umls_all = trectools.TrecEval(res_umls_all_2017, qrels_2017)
 ev_2018_umls_all = trectools.TrecEval(res_umls_all_2018, qrels_2018)
 ev_2019_umls_all_d = trectools.TrecEval(res_umls_all_2019_d, qrels_2019_d)
 ev_2019_umls_all_i = trectools.TrecEval(res_umls_all_2019_i, qrels_2019_i)
 
-ev_2017_umls_top1 = trectools.TrecEval(res_umls_top1_2017, qrels_2017)
-ev_2018_umls_top1 = trectools.TrecEval(res_umls_top1_2018, qrels_2018)
-ev_2019_umls_top1_d = trectools.TrecEval(res_umls_top1_2019_d, qrels_2019_d)
-ev_2019_umls_top1_i = trectools.TrecEval(res_umls_top1_2019_i, qrels_2019_i)
+ev_2017_ltr_umls = trectools.TrecEval(res_ltr_umls_2017, qrels_2017)
+ev_2018_ltr_umls = trectools.TrecEval(res_ltr_umls_2018, qrels_2018)
+ev_2019_ltr_umls_d = trectools.TrecEval(res_ltr_umls_2019_d, qrels_2019_d)
+ev_2019_ltr_umls_i = trectools.TrecEval(res_ltr_umls_2019_i, qrels_2019_i)
 
-ev_2017_umls_topk = trectools.TrecEval(res_umls_topk_2017, qrels_2017)
-ev_2018_umls_topk = trectools.TrecEval(res_umls_topk_2018, qrels_2018)
-ev_2019_umls_topk_d = trectools.TrecEval(res_umls_topk_2019_d, qrels_2019_d)
-ev_2019_umls_topk_i = trectools.TrecEval(res_umls_topk_2019_i, qrels_2019_i)
+# ev_2017_umls_top1 = trectools.TrecEval(res_umls_top1_2017, qrels_2017)
+# ev_2018_umls_top1 = trectools.TrecEval(res_umls_top1_2018, qrels_2018)
+# ev_2019_umls_top1_d = trectools.TrecEval(res_umls_top1_2019_d, qrels_2019_d)
+# ev_2019_umls_top1_i = trectools.TrecEval(res_umls_top1_2019_i, qrels_2019_i)
+#
+# ev_2017_umls_topk = trectools.TrecEval(res_umls_topk_2017, qrels_2017)
+# ev_2018_umls_topk = trectools.TrecEval(res_umls_topk_2018, qrels_2018)
+# ev_2019_umls_topk_d = trectools.TrecEval(res_umls_topk_2019_d, qrels_2019_d)
+# ev_2019_umls_topk_i = trectools.TrecEval(res_umls_topk_2019_i, qrels_2019_i)
 
 
 # %%
@@ -153,36 +183,47 @@ def join_series(x, y):
 
 def df_ev(per_query=True):
     return {
-        "2017 ATM": eval_set_df(ev_2017_atm, per_query=per_query),
-        "2017 M top-k": eval_set_df(ev_2017_meta_topk, per_query=per_query),
+        "2017 A": eval_set_df(ev_2017_atm, per_query=per_query),
+        "2017 A LTR": eval_set_df(ev_2017_ltr_atm, per_query=per_query),
+        # "2017 M top-k": eval_set_df(ev_2017_meta_topk, per_query=per_query),
         "2017 M all": eval_set_df(ev_2017_meta_all, per_query=per_query),
+        "2017 M LTR": eval_set_df(ev_2018_ltr_meta, per_query=per_query),
         # "2017 MetaMap top-1": eval_set_df(ev_2017_meta_top1, per_query=per_query),
-        "2017 U top-k": eval_set_df(ev_2017_umls_topk, per_query=per_query),
+        # "2017 U top-k": eval_set_df(ev_2017_umls_topk, per_query=per_query),
         "2017 U all": eval_set_df(ev_2017_umls_all, per_query=per_query),
+        "2017 U LTR": eval_set_df(ev_2017_ltr_umls, per_query=per_query),
         # "2017 UMLS top-1": eval_set_df(ev_2017_umls_top1, per_query=per_query),
 
-        "2018 ATM": eval_set_df(ev_2018_atm, per_query=per_query),
-        "2018 M top-k": eval_set_df(ev_2018_meta_topk, per_query=per_query),
+        "2018 A": eval_set_df(ev_2018_atm, per_query=per_query),
+        "2018 A LTR": eval_set_df(ev_2018_ltr_atm, per_query=per_query),
+        # "2018 M top-k": eval_set_df(ev_2018_meta_topk, per_query=per_query),
         "2018 M all": eval_set_df(ev_2018_meta_all, per_query=per_query),
-        #
-        "2018 U top-k": eval_set_df(ev_2018_umls_topk, per_query=per_query),
+        "2018 M LTR": eval_set_df(ev_2018_ltr_meta, per_query=per_query),
+        # "2018 U top-k": eval_set_df(ev_2018_umls_topk, per_query=per_query),
         "2018 U all": eval_set_df(ev_2018_umls_all, per_query=per_query),
+        "2018 U LTR": eval_set_df(ev_2018_ltr_umls, per_query=per_query),
         # "2018 UMLS top-1": eval_set_df(ev_2018_umls_top1, per_query=per_query),
 
-        "2019 D ATM": eval_set_df(ev_2019_atm_d, per_query=per_query),
-        "2019 D M top-k": eval_set_df(ev_2019_meta_topk_d, per_query=per_query),
+        "2019 D A": eval_set_df(ev_2019_atm_d, per_query=per_query),
+        "2019 D A LTR": eval_set_df(ev_2019_ltr_atm_d, per_query=per_query),
+        # "2019 D M top-k": eval_set_df(ev_2019_meta_topk_d, per_query=per_query),
         "2019 D M all": eval_set_df(ev_2019_meta_all_d, per_query=per_query),
+        "2019 D M LTR": eval_set_df(ev_2019_ltr_meta_d, per_query=per_query),
         # "2019 D MetaMap top-1": eval_set_df(ev_2019_meta_top1_d, per_query=per_query),
-        "2019 D U top-k": eval_set_df(ev_2019_umls_topk_d, per_query=per_query),
+        # "2019 D U top-k": eval_set_df(ev_2019_umls_topk_d, per_query=per_query),
         "2019 D U all": eval_set_df(ev_2019_umls_all_d, per_query=per_query),
+        "2019 D U LTR": eval_set_df(ev_2019_ltr_umls_d, per_query=per_query),
         # "2019 D UMLS top-1": eval_set_df(ev_2019_umls_top1_d, per_query=per_query),
 
-        "2019 I ATM": eval_set_df(ev_2019_atm_i, per_query=per_query),
-        "2019 I M tok-k": eval_set_df(ev_2019_meta_topk_i, per_query=per_query),
+        "2019 I A": eval_set_df(ev_2019_atm_i, per_query=per_query),
+        "2019 I A LTR": eval_set_df(ev_2019_ltr_atm_i, per_query=per_query),
+        # "2019 I M tok-k": eval_set_df(ev_2019_meta_topk_i, per_query=per_query),
         "2019 I M all": eval_set_df(ev_2019_meta_all_i, per_query=per_query),
+        "2019 I M LTR": eval_set_df(ev_2019_ltr_meta_i, per_query=per_query),
         # "2019 I MetaMap top-1": eval_set_df(ev_2019_meta_top1_i, per_query=per_query),
-        "2019 I U top-k": eval_set_df(ev_2019_umls_topk_i, per_query=per_query),
+        # "2019 I U top-k": eval_set_df(ev_2019_umls_topk_i, per_query=per_query),
         "2019 I U all": eval_set_df(ev_2019_umls_all_i, per_query=per_query),
+        "2019 I U LTR": eval_set_df(ev_2019_ltr_umls_i, per_query=per_query)
         # "2019 I UMLS top-1": eval_set_df(ev_2019_umls_top1_i, per_query=per_query),
     }
 
@@ -204,13 +245,13 @@ s = {}
 for x in df:
     for i in df[x].index:
         p = 1000
-        k = "2017 ATM"
+        k = "2017 A"
         if x.startswith("2018"):
-            k = "2018 ATM"
+            k = "2018 A"
         elif x.startswith("2019 D"):
-            k = "2019 D ATM"
+            k = "2019 D A"
         elif x.startswith("2019 I"):
-            k = "2019 I ATM"
+            k = "2019 I A"
         if len(df_eval[k][i]) == len(df_eval[x][i]) and k != x:
             a = list(df_eval[k][i].values)
             b = list(df_eval[x][i].values)
