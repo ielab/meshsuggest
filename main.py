@@ -65,6 +65,8 @@ def main():
         selectedPath = TRAIN_SETS
     elif dataset is "4":
         selectedPath = TEST_SETS
+    elif dataset is "5":
+        selectedPath = RESPONSE_GENERATOR
     else:
         selectedPath = TEST
     if option is "1":
