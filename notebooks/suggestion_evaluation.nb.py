@@ -183,8 +183,8 @@ def join_series(x, y):
 
 def df_ev(per_query=True):
     return {
-        "2017 A": eval_set_df(ev_2017_atm, per_query=per_query),
-        "2017 A LTR": eval_set_df(ev_2017_ltr_atm, per_query=per_query),
+        "2017 ATM": eval_set_df(ev_2017_atm, per_query=per_query),
+        "2017 ATM LTR": eval_set_df(ev_2017_ltr_atm, per_query=per_query),
         # "2017 M top-k": eval_set_df(ev_2017_meta_topk, per_query=per_query),
         "2017 M all": eval_set_df(ev_2017_meta_all, per_query=per_query),
         "2017 M LTR": eval_set_df(ev_2018_ltr_meta, per_query=per_query),
@@ -194,8 +194,8 @@ def df_ev(per_query=True):
         "2017 U LTR": eval_set_df(ev_2017_ltr_umls, per_query=per_query),
         # "2017 UMLS top-1": eval_set_df(ev_2017_umls_top1, per_query=per_query),
 
-        "2018 A": eval_set_df(ev_2018_atm, per_query=per_query),
-        "2018 A LTR": eval_set_df(ev_2018_ltr_atm, per_query=per_query),
+        "2018 ATM": eval_set_df(ev_2018_atm, per_query=per_query),
+        "2018 ATM LTR": eval_set_df(ev_2018_ltr_atm, per_query=per_query),
         # "2018 M top-k": eval_set_df(ev_2018_meta_topk, per_query=per_query),
         "2018 M all": eval_set_df(ev_2018_meta_all, per_query=per_query),
         "2018 M LTR": eval_set_df(ev_2018_ltr_meta, per_query=per_query),
@@ -204,8 +204,8 @@ def df_ev(per_query=True):
         "2018 U LTR": eval_set_df(ev_2018_ltr_umls, per_query=per_query),
         # "2018 UMLS top-1": eval_set_df(ev_2018_umls_top1, per_query=per_query),
 
-        "2019 D A": eval_set_df(ev_2019_atm_d, per_query=per_query),
-        "2019 D A LTR": eval_set_df(ev_2019_ltr_atm_d, per_query=per_query),
+        "2019 D ATM": eval_set_df(ev_2019_atm_d, per_query=per_query),
+        "2019 D ATM LTR": eval_set_df(ev_2019_ltr_atm_d, per_query=per_query),
         # "2019 D M top-k": eval_set_df(ev_2019_meta_topk_d, per_query=per_query),
         "2019 D M all": eval_set_df(ev_2019_meta_all_d, per_query=per_query),
         "2019 D M LTR": eval_set_df(ev_2019_ltr_meta_d, per_query=per_query),
@@ -215,8 +215,8 @@ def df_ev(per_query=True):
         "2019 D U LTR": eval_set_df(ev_2019_ltr_umls_d, per_query=per_query),
         # "2019 D UMLS top-1": eval_set_df(ev_2019_umls_top1_d, per_query=per_query),
 
-        "2019 I A": eval_set_df(ev_2019_atm_i, per_query=per_query),
-        "2019 I A LTR": eval_set_df(ev_2019_ltr_atm_i, per_query=per_query),
+        "2019 I ATM": eval_set_df(ev_2019_atm_i, per_query=per_query),
+        "2019 I ATM LTR": eval_set_df(ev_2019_ltr_atm_i, per_query=per_query),
         # "2019 I M tok-k": eval_set_df(ev_2019_meta_topk_i, per_query=per_query),
         "2019 I M all": eval_set_df(ev_2019_meta_all_i, per_query=per_query),
         "2019 I M LTR": eval_set_df(ev_2019_ltr_meta_i, per_query=per_query),
