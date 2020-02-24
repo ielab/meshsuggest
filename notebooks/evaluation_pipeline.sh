@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 RUNS=$(ls queries)
-
+echo $RUNS
 for query in ${RUNS}; do
   for collection in "2017/testing" "2018/testing" "2019/testing/DTA" "2019/testing/Intervention"; do
     echo queries/${query}/${collection}
