@@ -1,3 +1,4 @@
+import copy
 import subprocess
 
 import trectools
@@ -6,17 +7,31 @@ import os
 
 # %%
 
-qrels_2017 = "data/clef_tar_complete/2017/testing/qrels/2017_test_abs.qrels"
-qrels_2018 = "data/clef_tar_complete/2018/testing/qrels/2018_test_abs.qrels"
-qrels_2019_d = "data/clef_tar_complete/2019/testing/DTA/qrels/2019_test_dta_abs.qrels"
-qrels_2019_i = "data/clef_tar_complete/2019/testing/Intervention/qrels/2019_test_inter_abs.qrels"
+# qrels_2017 = "data/clef_tar_complete/2017/testing/qrels/2017_test_abs.qrels"
+# qrels_2018 = "data/clef_tar_complete/2018/testing/qrels/2018_test_abs.qrels"
+# qrels_2019_d = "data/clef_tar_complete/2019/testing/DTA/qrels/2019_test_dta_abs.qrels"
+# qrels_2019_i = "data/clef_tar_complete/2019/testing/Intervention/qrels/2019_test_inter_abs.qrels"
+
+qrels = "combined_search_eff/total_data.qrels"
 
 # %%
-years = ["2017/testing", "2018/testing", "2019/testing/DTA", "2019/testing/Intervention"]
-results = ["original_full_query",
-           "atm_result_query", "ltr_atm_result_query",
-           "meta_result_query_100", "ltr_meta_result_query",
-           "umls_result_query_100", "ltr_umls_result_query"]
+
+# years = ["2017/testing", "2018/testing", "2019/testing/DTA", "2019/testing/Intervention"]
+# results = ["original_full_query",
+#            "atm_result_query", "ltr_atm_result_query",
+#            "meta_result_query_100", "ltr_meta_result_query",
+#            "umls_result_query_100", "ltr_umls_result_query"]
+
+years = ["total"]
+results = [
+    "combined_search_eff/ATM_all_se.res",
+    "combined_search_eff/ATM_LTR_se.res",
+    "combined_search_eff/Meta_all_se.res",
+    "combined_search_eff/Meta_LTR_se.res",
+    "combined_search_eff/Original_se.res",
+    "combined_search_eff/UMLS_all_se.res",
+    "combined_search_eff/UMLS_LTR_se.res"
+]
 
 res_files = []
 does_not_exist = []
@@ -44,19 +59,8 @@ if len(does_not_exist) > 0:
 # %%
 
 ev_files = []
-for f in res_files:
-    if f[0].startswith("2017"):
-        q = qrels_2017
-    elif f[0].startswith("2018"):
-        q = qrels_2018
-    elif f[0].startswith("2019_d"):
-        q = qrels_2019_d
-    elif f[0].startswith("2019_i"):
-        q = qrels_2019_i
-    else:
-        raise Exception
-
-    ev_files.append((f[0], f[1], q))
+for f in results:
+    ev_files.append((f, qrels))
 
 # %%
 
@@ -163,7 +167,7 @@ def trec_eval(qrel_path: str, res_path: str, per_query=False):
 
 # df_ev = dict([(k, eval_set_df(v)) for k, v in ev_files])
 # df_ev = dict([(a, to_trec_df(b, c, args=args, per_query=False)) for a, b, c in ev_files])
-df_ev = dict([(a, trec_eval(c, b)) for a, b, c in ev_files])
+df_ev = dict([(a, trec_eval(b, a)) for a, b in ev_files])
 
 # %%
 

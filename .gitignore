@@ -135,3 +135,5 @@ dmypy.json
 # Config
 config.json
 wiki_content/
+results/
+combined_search_eff/
