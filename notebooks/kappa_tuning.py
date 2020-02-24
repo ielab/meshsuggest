@@ -1,3 +1,6 @@
+import copy
+import subprocess
+
 import trectools
 import pandas as pd
 import numpy as np
@@ -44,10 +47,10 @@ import importlib
 
 # %%
 
-qrels_2017 = trectools.TrecQrel("data/clef_tar_processed/2017/training/data.qrels")
-qrels_2018 = trectools.TrecQrel("data/clef_tar_processed/2018/training/data.qrels")
-qrels_2019_d = trectools.TrecQrel("data/clef_tar_processed/2019/training/DTA/data.qrels")
-qrels_2019_i = trectools.TrecQrel("data/clef_tar_processed/2019/training/Intervention/data.qrels")
+qrels_2017 = "data/clef_tar_processed/2017/training/data.qrels"
+qrels_2018 = "data/clef_tar_processed/2018/training/data.qrels"
+qrels_2019_d = "data/clef_tar_processed/2019/training/DTA/data.qrels"
+qrels_2019_i = "data/clef_tar_processed/2019/training/Intervention/data.qrels"
 
 # %%
 
@@ -73,21 +76,21 @@ catgories = ["2017_train",
 for inc in incr:
     for year in catgories:
         if year == "2017_train":
-            atm_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_ATM_train_cutoff_{}.res".format(inc)))
-            meta_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_Meta_train_cutoff_{}.res".format(inc)))
-            umls_2017.append(trectools.TrecRun("ltr_res/train/cutoffs/2017_UMLS_train_cutoff_{}.res".format(inc)))
+            atm_2017.append("ltr_res/train/cutoffs/2017_ATM_train_cutoff_{}.res".format(inc))
+            meta_2017.append("ltr_res/train/cutoffs/2017_Meta_train_cutoff_{}.res".format(inc))
+            umls_2017.append("ltr_res/train/cutoffs/2017_UMLS_train_cutoff_{}.res".format(inc))
         if year == "2018_train":
-            atm_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_ATM_train_cutoff_{}.res".format(inc)))
-            meta_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_Meta_train_cutoff_{}.res".format(inc)))
-            umls_2018.append(trectools.TrecRun("ltr_res/train/cutoffs/2018_UMLS_train_cutoff_{}.res".format(inc)))
+            atm_2018.append("ltr_res/train/cutoffs/2018_ATM_train_cutoff_{}.res".format(inc))
+            meta_2018.append("ltr_res/train/cutoffs/2018_Meta_train_cutoff_{}.res".format(inc))
+            umls_2018.append("ltr_res/train/cutoffs/2018_UMLS_train_cutoff_{}.res".format(inc))
         if year == "2019_train_DTA":
-            atm_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_ATM_D_train_cutoff_{}.res".format(inc)))
-            meta_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_Meta_D_train_cutoff_{}.res".format(inc)))
-            umls_2019_d.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_UMLS_D_train_cutoff_{}.res".format(inc)))
+            atm_2019_d.append("ltr_res/train/cutoffs/2019_ATM_D_train_cutoff_{}.res".format(inc))
+            meta_2019_d.append("ltr_res/train/cutoffs/2019_Meta_D_train_cutoff_{}.res".format(inc))
+            umls_2019_d.append("ltr_res/train/cutoffs/2019_UMLS_D_train_cutoff_{}.res".format(inc))
         if year == "2019_train_Intervention":
-            atm_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_ATM_I_train_cutoff_{}.res".format(inc)))
-            meta_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_Meta_I_train_cutoff_{}.res".format(inc)))
-            umls_2019_i.append(trectools.TrecRun("ltr_res/train/cutoffs/2019_UMLS_I_train_cutoff_{}.res".format(inc)))
+            atm_2019_i.append("ltr_res/train/cutoffs/2019_ATM_I_train_cutoff_{}.res".format(inc))
+            meta_2019_i.append("ltr_res/train/cutoffs/2019_Meta_I_train_cutoff_{}.res".format(inc))
+            umls_2019_i.append("ltr_res/train/cutoffs/2019_UMLS_I_train_cutoff_{}.res".format(inc))
 
 
 # %%
@@ -134,14 +137,49 @@ def eval_rank_df(e: trectools.TrecEval) -> pd.Series:
         "nDCG@20": e.get_ndcg(depth=20, per_query=False),
     })
 
+# %%
+
+
+
+def to_trec_df(qrel_path: str, res_path: str) -> float:
+    ALL_ARGS = ['trec_eval', '-q', '-m', 'set_F.1']
+
+    args = copy.copy(ALL_ARGS)
+    args += [qrel_path, res_path]
+    args[0] = "/Users/summerfrogman/Desktop/UQ/Courses/Semester_2_2019/INFS7410_IR/Softwares/trec_eval/trec_eval.9.0/trec_eval"
+    print(args)
+    res = subprocess.check_output(args)
+    results = {}
+    for line in res.decode('utf-8').split('\n'):
+        parts = line.split()
+        if len(parts) == 3:
+            if parts[1] != "all":
+                qry = parts[1]
+                if qry not in results:
+                    results[qry] = {}
+                results[qry][parts[0]] = float(parts[2])
+    df = pd.DataFrame.from_dict(results, orient='index')
+    return df.mean(axis=0)["set_F_1"]
+
+
+# def trec_eval(qrel_path: str, res_path: str, per_query=False):
+#     if not per_query:
+#         df = to_trec_df(qrel_path, res_path, ALL_ARGS, per_query=per_query)
+#         # df = df.append(to_trec_df(qrel_path, res_path, ALL_F1, per_query=per_query))
+#         # df = df.append(to_trec_df(qrel_path, res_path, ALL_F3, per_query=per_query))
+#         return df
+#     df = to_trec_df(qrel_path, res_path, ALL_ARGS, per_query=per_query)
+#     # df = df.join(to_trec_df(qrel_path, res_path, ALL_F1, per_query=per_query))
+#     # df = df.join(to_trec_df(qrel_path, res_path, ALL_F3, per_query=per_query))
+#     return df
 
 # %%
 
 def get_vals(runs, qrels):
     vals = []
     for i, run in enumerate(runs):
-        ev = trectools.TrecEval(run, qrels)
-        f1 = f_measure(ev, 1)
+        # ev = trectools.TrecEval(run, qrels)
+        f1 = to_trec_df(qrels, run)
         vals.append((incr[i], f1))
     return vals
 
