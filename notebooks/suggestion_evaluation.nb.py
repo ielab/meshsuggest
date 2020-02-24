@@ -13,30 +13,30 @@ qrels_2019_i = "data/clef_tar_processed/2019/testing/Intervention/data.qrels"
 
 # %%
 
-res_atm_2017 = "ltr_res/test/cutoffs/2017_ATM_test_cutoff_100.res"
-res_atm_2018 = "ltr_res/test/cutoffs/2018_ATM_test_cutoff_100.res"
-res_atm_2019_d = "ltr_res/test/cutoffs/2019_ATM_D_test_cutoff_100.res"
-res_atm_2019_i = "ltr_res/test/cutoffs/2019_ATM_I_test_cutoff_100.res"
+res_atm_2017 = "ltr_res/test/checked/2017_ATM_test_ckd.res"
+res_atm_2018 = "ltr_res/test/checked/2018_ATM_test_ckd.res"
+res_atm_2019_d = "ltr_res/test/checked/2019_ATM_D_test_ckd.res"
+res_atm_2019_i = "ltr_res/test/checked/2019_ATM_I_test_ckd.res"
 
 res_ltr_atm_2017 = "ltr_res/test/cutoffs/2017_ATM_test_cutoff_20.res"
 res_ltr_atm_2018 = "ltr_res/test/cutoffs/2018_ATM_test_cutoff_5.res"
 res_ltr_atm_2019_d = "ltr_res/test/cutoffs/2019_ATM_D_test_cutoff_20.res"
 res_ltr_atm_2019_i = "ltr_res/test/cutoffs/2019_ATM_I_test_cutoff_5.res"
 
-res_meta_all_2017 = "ltr_res/test/cutoffs/2017_Meta_test_cutoff_100.res"
-res_meta_all_2018 = "ltr_res/test/cutoffs/2018_Meta_test_cutoff_100.res"
-res_meta_all_2019_d = "ltr_res/test/cutoffs/2019_Meta_D_test_cutoff_100.res"
-res_meta_all_2019_i = "ltr_res/test/cutoffs/2019_Meta_I_test_cutoff_100.res"
+res_meta_all_2017 = "ltr_res/test/checked/2017_Meta_test_ckd.res"
+res_meta_all_2018 = "ltr_res/test/checked/2018_Meta_test_ckd.res"
+res_meta_all_2019_d = "ltr_res/test/checked/2019_Meta_D_test_ckd.res"
+res_meta_all_2019_i = "ltr_res/test/checked/2019_Meta_I_test_ckd.res"
 
 res_ltr_meta_2017 = "ltr_res/test/cutoffs/2017_Meta_test_cutoff_20.res"
 res_ltr_meta_2018 = "ltr_res/test/cutoffs/2018_Meta_test_cutoff_15.res"
 res_ltr_meta_2019_d = "ltr_res/test/cutoffs/2019_Meta_D_test_cutoff_25.res"
 res_ltr_meta_2019_i = "ltr_res/test/cutoffs/2019_Meta_I_test_cutoff_15.res"
 
-res_umls_all_2017 = "ltr_res/test/cutoffs/2017_UMLS_test_cutoff_100.res"
-res_umls_all_2018 = "ltr_res/test/cutoffs/2018_UMLS_test_cutoff_100.res"
-res_umls_all_2019_d = "ltr_res/test/cutoffs/2019_UMLS_D_test_cutoff_100.res"
-res_umls_all_2019_i = "ltr_res/test/cutoffs/2019_UMLS_I_test_cutoff_100.res"
+res_umls_all_2017 = "ltr_res/test/checked/2017_UMLS_test_ckd.res"
+res_umls_all_2018 = "ltr_res/test/checked/2018_UMLS_test_ckd.res"
+res_umls_all_2019_d = "ltr_res/test/checked/2019_UMLS_D_test_ckd.res"
+res_umls_all_2019_i = "ltr_res/test/checked/2019_UMLS_I_test_ckd.res"
 
 res_ltr_umls_2017 = "ltr_res/test/cutoffs/2017_UMLS_test_cutoff_5.res"
 res_ltr_umls_2018 = "ltr_res/test/cutoffs/2018_UMLS_test_cutoff_5.res"

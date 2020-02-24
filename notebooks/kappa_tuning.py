@@ -146,7 +146,7 @@ def to_trec_df(qrel_path: str, res_path: str) -> float:
 
     args = copy.copy(ALL_ARGS)
     args += [qrel_path, res_path]
-    args[0] = "/Users/summerfrogman/Desktop/UQ/Courses/Semester_2_2019/INFS7410_IR/Softwares/trec_eval/trec_eval.9.0/trec_eval"
+    args[0] = "trec_eval"
     print(args)
     res = subprocess.check_output(args)
     results = {}
