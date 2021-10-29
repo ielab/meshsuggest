@@ -1,1 +1,1 @@
-(typhoid fever[mesh] OR typhoid*[Title/Abstract] OR "typhoid fever"[Title/Abstract] OR salmonell*[Title/Abstract]) AND (typhoid fever[mesh] OR vaccination[mesh] OR typhoid*[Title/Abstract] OR "typhoid fever"[Title/Abstract] OR salmonell*[Title/Abstract])
+(typhoid fever[mesh] OR typhoid*[Title/Abstract] OR "typhoid fever"[Title/Abstract] OR salmonell*[Title/Abstract]) AND (vaccination[mesh] OR typhoid*[Title/Abstract] OR "typhoid fever"[Title/Abstract] OR salmonell*[Title/Abstract])
